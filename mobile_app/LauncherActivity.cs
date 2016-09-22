@@ -2,11 +2,11 @@ using System;
 using Android.App;
 using Android.Widget;
 using Android.OS;
-using JhpDataSystem.projects;
+using MobileCollector.projects;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
-    [Activity(Label = "Available Functionality", Icon = "@drawable/jhpiego_logo")]
+    [Activity(Label = "Available Functionality", Icon = "@drawable/DC")]
     public class LauncherActivity : Activity
     {
         protected override void OnSaveInstanceState(Bundle outState)
@@ -44,7 +44,7 @@ namespace JhpDataSystem
             {
                 var contextManager = new PpxContextManager(this.Assets, this);
                 AppInstance.Instance.SetProjectContext(contextManager);
-                StartActivity(typeof(JhpDataSystem.projects.ppx.PPXHomeActivity));
+                StartActivity(typeof(MobileCollector.projects.ppx.PPXHomeActivity));
             };
 
             var buttonVmmcHome = FindViewById<Button>(Resource.Id.buttonVmmcHome);
@@ -52,7 +52,7 @@ namespace JhpDataSystem
             {
                 var contextManager = new VmmcContextManager(this.Assets, this);
                 AppInstance.Instance.SetProjectContext(contextManager);
-                StartActivity(typeof(JhpDataSystem.projects.vmc.VmmcHomeActivity));
+                StartActivity(typeof(MobileCollector.projects.vmc.VmmcHomeActivity));
             };
             //fetchData
             var fetchData = FindViewById<Button>(Resource.Id.fetchData);
@@ -62,7 +62,7 @@ namespace JhpDataSystem
             var buttonSiteSession = FindViewById<Button>(Resource.Id.buttonSiteSession);
             buttonSiteSession.Click += (x, y) =>
             {
-                StartActivity(typeof(JhpDataSystem.projects.session.SessionHomeActivity));
+                StartActivity(typeof(MobileCollector.projects.session.SessionHomeActivity));
             };
             buttonSiteSession.Visibility = Android.Views.ViewStates.Invisible;
         }

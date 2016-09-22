@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using Android.App;
 using Android.Widget;
-using JhpDataSystem.modules;
+using MobileCollector.modules;
 
-namespace JhpDataSystem.projects.vmc.activity
+namespace MobileCollector.projects.vmc.activity
 {
     [Activity(Label = "Client Selector")]
     public class VmmcClientSelectionActivity : ClientSelectorBase<VmmcClientSummary>

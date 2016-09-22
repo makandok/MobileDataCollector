@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace JhpDataSystem.model
+namespace MobileCollector.model
 {
     public class GeneralEntityDataset : ISaveableEntity
     {

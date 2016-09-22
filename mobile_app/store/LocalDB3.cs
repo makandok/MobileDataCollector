@@ -1,6 +1,6 @@
 using System;
 
-namespace JhpDataSystem.store
+namespace MobileCollector.store
 {
     public class OutDb: LocalDB3
     {
@@ -14,7 +14,6 @@ namespace JhpDataSystem.store
     public class LocalDB3
     {
         public string defaultDatabaseName = "JhpDefaultDB3.db3";
-        //public string ConnectionString { get; set; }
         public LocalDB3()
         {
             var personalFolder = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);

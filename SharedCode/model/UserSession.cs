@@ -1,4 +1,4 @@
-namespace JhpDataSystem.model
+namespace MobileCollector.model
 {
     public class UserSession
     {

@@ -1,4 +1,4 @@
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class EncryptedText
     {

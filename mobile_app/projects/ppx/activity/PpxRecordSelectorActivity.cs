@@ -3,10 +3,10 @@ using System.Linq;
 using Android.App;
 using Android.OS;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.modules;
+using MobileCollector.model;
+using MobileCollector.modules;
 
-namespace JhpDataSystem.projects.ppx.activity
+namespace MobileCollector.projects.ppx.activity
 {
     [Activity(Label = "Select Record")]
     public class PpxRecordSelectorActivity : RecordSelectorBase, ListView.IOnItemClickListener

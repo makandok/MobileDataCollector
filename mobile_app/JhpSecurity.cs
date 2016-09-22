@@ -1,7 +1,7 @@
 using System.Text;
 using System.Security.Cryptography;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class JhpSecurity
     {

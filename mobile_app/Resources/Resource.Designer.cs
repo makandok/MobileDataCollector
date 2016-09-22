@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("JhpDataSystem.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("MobileCollector.Resource", IsApplication=true)]
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
 	
 	
@@ -26,10 +26,10 @@ namespace JhpDataSystem
 		
 		public static void UpdateIdValues()
 		{
-			global::PCLCrypto.Resource.String.ApplicationName = global::JhpDataSystem.Resource.String.ApplicationName;
-			global::PCLCrypto.Resource.String.Hello = global::JhpDataSystem.Resource.String.Hello;
-			global::PCLStorage.Resource.String.ApplicationName = global::JhpDataSystem.Resource.String.ApplicationName;
-			global::PCLStorage.Resource.String.Hello = global::JhpDataSystem.Resource.String.Hello;
+			global::PCLCrypto.Resource.String.ApplicationName = global::MobileCollector.Resource.String.ApplicationName;
+			global::PCLCrypto.Resource.String.Hello = global::MobileCollector.Resource.String.Hello;
+			global::PCLStorage.Resource.String.ApplicationName = global::MobileCollector.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::MobileCollector.Resource.String.Hello;
 		}
 		
 		public partial class Animation
@@ -1883,25 +1883,28 @@ namespace JhpDataSystem
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int design_fab_background = 2130837579;
+			public const int DataCollectorIcon = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int design_snackbar_background = 2130837580;
+			public const int DC = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int Icon = 2130837581;
+			public const int design_fab_background = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int jhpiego_logo = 2130837582;
-			
-			// aapt resource value: 0x7f020051
-			public const int notification_template_icon_bg = 2130837585;
+			public const int design_snackbar_background = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int spalshHelper = 2130837583;
+			public const int Icon = 2130837583;
+			
+			// aapt resource value: 0x7f020052
+			public const int notification_template_icon_bg = 2130837586;
 			
 			// aapt resource value: 0x7f020050
-			public const int vicfalls = 2130837584;
+			public const int spalshHelper = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int vicfalls = 2130837585;
 			
 			static Drawable()
 			{

@@ -4,7 +4,7 @@ using Android.OS;
 using Android.Widget;
 using Android.Util;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class DatePickerFragment : DialogFragment,
                                       DatePickerDialog.IOnDateSetListener

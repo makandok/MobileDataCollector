@@ -4,11 +4,11 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
+using MobileCollector.store;
 using Android.Content;
 
-namespace JhpDataSystem.modules
+namespace MobileCollector.modules
 {
     public class RecordSelectorBase : Activity, ListView.IOnItemClickListener
     {

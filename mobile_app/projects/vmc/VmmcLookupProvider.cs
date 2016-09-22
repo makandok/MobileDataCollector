@@ -1,4 +1,4 @@
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
     public class VmmcLookupProvider: ClientLookupProvider<VmmcClientSummary>
     {

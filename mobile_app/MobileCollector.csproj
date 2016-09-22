@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JhpDataSystem</RootNamespace>
-    <AssemblyName>JhpDataSystem</AssemblyName>
+    <RootNamespace>MobileCollector</RootNamespace>
+    <AssemblyName>Mobile Collector</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -67,7 +67,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto">
-      <HintPath>..\..\..\..\GitHub\google-api-dotnet-client\bccrypto-csharp-1.8.1-bin\BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>C:\Users\makando\Documents\GitHub\google-api-dotnet-client\bccrypto-csharp-1.8.1-bin\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Google.Apis, Version=1.13.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.1.13.1\lib\portable-net45+sl50+netcore45+wpa81+wp8\Google.Apis.dll</HintPath>
@@ -242,14 +242,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationSplashActivity.cs" />
     <Compile Include="ashared\Crypto.cs" />
     <Compile Include="DatePickerFragment.cs" />
     <Compile Include="db\DefaultCredentialProvider.cs" />
     <Compile Include="db\GoogleCredential.cs" />
     <AndroidAsset Include="Assets\vmmc_fields.json" />
-    <Compile Include="WebFileDownloader.cs" />
-    <None Include="Samples\GoogleDataStoreNotCompiled.cs" />
+    <AndroidAsset Include="Assets\dcoll.p12" />
     <Compile Include="EncryptionHelper.cs" />
     <Compile Include="Humongous.cs" />
     <AndroidResource Include="Resources\layout\prepexreg1.axml" />
@@ -284,11 +282,9 @@
     <Compile Include="projects\ppx\wfcontrollers\WorkflowControllers.cs" />
     <Compile Include="projects\session\activity\ProviderSummaryAdapter.cs" />
     <Compile Include="projects\session\SessionHomeActivity.cs" />
-    <Compile Include="projects\session\activity\SessionActivities.cs" />
     <Compile Include="projects\session\activity\SessionEditor.cs" />
     <Compile Include="projects\session\SiteSession.cs" />
     <Compile Include="projects\session\SessionSummaryAdapter.cs" />
-    <Compile Include="projects\session\SessionLookupProvider.cs" />
     <Compile Include="projects\session\activity\ProviderGridDisplayActivity.cs" />
     <Compile Include="projects\vmc\activity\VmmcClientSelectionActivity.cs" />
     <Compile Include="projects\vmc\activity\VmmcRecordSelectorActivity.cs" />
@@ -303,8 +299,6 @@
     <Compile Include="projects\vmc\wfcontrollers\VmmcPostOperationControl.cs" />
     <Compile Include="projects\vmc\wfcontrollers\VmmcRegAndProcControl.cs" />
     <Compile Include="projects\DefaultLookupProvider.cs" />
-    <Compile Include="SQLite.cs" />
-    <Compile Include="SQLiteAsync.cs" />
     <Compile Include="store\CloudDb.cs" />
     <Compile Include="store\LocalDB3.cs" />
     <Compile Include="SystemConfigActivity.cs" />
@@ -346,15 +340,11 @@
     <AndroidResource Include="Resources\layout\sessionditor.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <None Include="Samples\Archive.cs" />
     <Compile Include="LauncherActivity.cs" />
     <Compile Include="projects\ppx\PPXHomeActivity.cs" />
     <Compile Include="store\DbSaveableEntity.cs" />
     <Compile Include="db\ServiceAccountCredentiaal.cs" />
-    <Compile Include="Samples\SampleMain.cs" />
     <Compile Include="db\SHA256CryptoServiceProvider.cs" />
-    <Compile Include="Samples\StorageSample.cs" />
-    <Compile Include="Samples\WebDb.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="JhpSecurity.cs" />
     <Compile Include="MainActivity.cs" />
@@ -371,7 +361,6 @@
       <SubType>Designer</SubType>
     </None>
     <AndroidAsset Include="Assets\api_keys.json" />
-    <AndroidAsset Include="Assets\key.p12" />
     <AndroidResource Include="Resources\layout\PrepexHome.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
@@ -400,9 +389,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\jhpiego_logo.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SharedCode\SharedCode.csproj">
@@ -443,7 +429,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\DataCollectorIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\DC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Samples\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

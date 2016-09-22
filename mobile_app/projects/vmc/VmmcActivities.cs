@@ -1,9 +1,9 @@
 using Android.App;
 using Android.OS;
-using JhpDataSystem.model;
-using JhpDataSystem.projects.vmc.workflow;
+using MobileCollector.model;
+using MobileCollector.projects.vmc.workflow;
 
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
     [Activity(Label = "Post Operation - End")]
     public class VmmcPostOpEnd : VmmcFormsBase

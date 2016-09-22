@@ -1,7 +1,7 @@
 using Android.App;
 using Android.OS;
 
-namespace JhpDataSystem.modules
+namespace MobileCollector.modules
 {
     [Activity(Label = "SmsActivity")]
     public class SmsActivity : Activity

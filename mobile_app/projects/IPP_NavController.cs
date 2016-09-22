@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace JhpDataSystem.projects
+namespace MobileCollector.projects
 {
     public interface IPP_NavController
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Globalization;
 
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
     [SQLite.Table(Constants.KIND_DERIVED_VMMC_CLIENTSUMMARY)]
     public class VmmcClientSummary : ILocalDbEntity
@@ -38,7 +38,6 @@ namespace JhpDataSystem.projects.vmc
         public ISaveableEntity build()
         {
             Id = new KindKey(KindKey); EntityId = new KindKey(KindKey);
-            //CoreActivityDate = MCDate;
             return this;
         }
 

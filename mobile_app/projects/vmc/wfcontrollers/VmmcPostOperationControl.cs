@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JhpDataSystem.projects.vmc.workflow
+namespace MobileCollector.projects.vmc.workflow
 {
     public class VmmcPostOperationControl : BaseWorkflowController
     {

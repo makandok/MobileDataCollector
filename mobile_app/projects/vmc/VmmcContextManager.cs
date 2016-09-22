@@ -2,7 +2,7 @@
 using Android.App;
 using Android.Content.Res;
 
-namespace JhpDataSystem.projects
+namespace MobileCollector.projects
 {
     public class VmmcContextManager: BaseContextManager        
     {

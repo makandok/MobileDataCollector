@@ -5,12 +5,12 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
-using JhpDataSystem.Utilities;
+using MobileCollector.model;
+using MobileCollector.store;
+using MobileCollector.Utilities;
 using System.Threading.Tasks;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
     [Activity(Label = "Client List")]
     public class PpxFilteredGridDisplayActivity : Activity, ListView.IOnItemClickListener
@@ -56,20 +56,7 @@ namespace JhpDataSystem.projects.ppx
             buttonPerformAction.Click += performActionSpecified;
         }
 
-        //void startClientRecordEdit(object sender, EventArgs e)
-        //{
-        //    //get selected client
-        //    if (_selectedClient == null)
-        //    {
-        //        Toast.MakeText(this, Resource.String.ppx_noclientselected, Android.Widget.ToastLength.Long).Show();
-        //        return;
-        //    }
-        //    //get list of forms for this client
-        //    //allow user to pick the form to edit
-        //    //show editor
-        //}
-
-            void performActionSpecified(object sender, EventArgs e)
+        void performActionSpecified(object sender, EventArgs e)
         {
             var rgroup = FindViewById<RadioGroup>(Resource.Id.rgroupCSOptions);
             if (rgroup != null)

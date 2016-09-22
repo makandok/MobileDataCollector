@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Globalization;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
     [SQLite.Table(Constants.KIND_DERIVED_PPX_CLIENTSUMMARY)]
     public class PPClientSummary : ILocalDbEntity

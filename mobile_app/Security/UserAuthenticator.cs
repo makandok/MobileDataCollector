@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using JhpDataSystem.store;
-using JhpDataSystem.model;
+using MobileCollector.store;
+using MobileCollector.model;
 
-namespace JhpDataSystem.Security
+namespace MobileCollector.Security
 {
     public class UserAuthenticator
     {
@@ -33,7 +33,6 @@ namespace JhpDataSystem.Security
                 return null;
             }
 
-            //var keys = LocalEntityStore.Instance.GetKeys(authenticationStore);            
             var bolg = LoadCredentials().Where(t => t.UserId == name).FirstOrDefault();
             if (bolg == null)
                 return null;

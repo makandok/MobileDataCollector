@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Android.App;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.modules;
+using MobileCollector.model;
+using MobileCollector.modules;
 
-namespace JhpDataSystem.projects.vmc.activity
+namespace MobileCollector.projects.vmc.activity
 {
     [Activity(Label = "Select Record")]
     public class VmmcRecordSelectorActivity : RecordSelectorBase, ListView.IOnItemClickListener

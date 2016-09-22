@@ -6,9 +6,9 @@ using Android.Content;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
+using MobileCollector.model;
 
-namespace JhpDataSystem.modules
+namespace MobileCollector.modules
 {
     [Activity(Label = "Client Selector")]
     public class ClientSelectorBase<T> :  Activity, ListView.IOnItemClickListener where T : class, ILocalDbEntity, new()
@@ -39,9 +39,6 @@ namespace JhpDataSystem.modules
         protected virtual void setClientSummaryAdapter(ListView view, List<T> clientSumaries )
         {
             throw new Exception("method setClientSummaryAdapter not overidden");
-            //_allPrepexClients = new PpxLookupProvider().Get();
-            //_defaultAdapter = new PpxClientSummaryAdapter(this, listview, _allPrepexClients);
-            //listview.Adapter = _defaultAdapter;
         }
 
         protected override void OnCreate(Bundle savedInstanceState)

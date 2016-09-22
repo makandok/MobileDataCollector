@@ -8,11 +8,11 @@ using Google.Apis.Datastore.v1beta3.Data;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Net;
 using Android.Widget;
 
-namespace JhpDataSystem.store
+namespace MobileCollector.store
 {
     public class CloudDb
     {
@@ -22,38 +22,12 @@ namespace JhpDataSystem.store
             _assetManager = assetManager;
         }
 
-        public async void GetCloudEntities(Dictionary<string, string> assets)
-        {
-            var projectId = assets[Constants.ASSET_PROJECT_ID];
-
-            // Create the service.
-            var datastore = GetDatastoreService(GetDefaultCredential(assets, _assetManager), assets);
-
-            //Retrieve entities from the server
-            var res = datastore.Projects.RunQuery(
-                new RunQueryRequest()
-                {
-                    //Query = new Query(){Limit = 10,Kind = new List<KindExpression> { new KindExpression() {Name = "jhpsystems" }, }},
-                    GqlQuery = new GqlQuery() { QueryString = "select __key__, cardserial From jhpsystems" }
-                    ,
-                    ReadOptions = new ReadOptions() { }
-                }, projectId);
-
-            var response = await res.ExecuteAsync();// .Execute();
-
-            var y = (
-            from entityResult in response.Batch.EntityResults
-            let entity = entityResult.Entity
-            select new { entity.Key.Path, entity.Properties.Values }).ToList();
-
-            var batch = response.Batch.EntityResults;
-        }
-
         public async Task<Key> Save(DbSaveableEntity saveableEntity)
         {
             var assets = AppInstance.Instance.ApiAssets;
             var projectId = assets[Constants.ASSET_PROJECT_ID];
             var now = DateTime.Now;
+            var asBinary = now.ToBinary();
             var entity = new Entity()
             {
                 Key = new Key()
@@ -70,7 +44,7 @@ namespace JhpDataSystem.store
                     {"entityid", new Value() { StringValue = saveableEntity.EntityId.Value } },
                     //{"dateadded", new Value() { IntegerValue = now.toYMDInt() } },
                     {"editday", new Value() { IntegerValue = now.toYMDInt() } },
-                    {"editdate", new Value() { IntegerValue = now.ToBinary() } },
+                    {"editdate", new Value() { IntegerValue = asBinary} },
                     {"datablob", new Value() {ExcludeFromIndexes=true,
                         StringValue =saveableEntity
                     .getJson()
@@ -141,11 +115,6 @@ namespace JhpDataSystem.store
         {
             return new OutDb().DB.Table<OutEntity>().ToList();
         }
-
-        //public int GetRecordsToSyncCount()
-        //{
-        //    return new OutDb().DB.Table<OutEntity>().Count();
-        //}
 
         public async Task<bool> checkConnection()
         {

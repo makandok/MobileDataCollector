@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Android.App;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
+using MobileCollector.model;
 
-namespace JhpDataSystem.modules
+namespace MobileCollector.modules
 {
     public class RecordSummaryAdapter : BaseAdapter<VisitSummary>
     {

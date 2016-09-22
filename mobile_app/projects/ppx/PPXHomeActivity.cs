@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
+using MobileCollector.store;
 using Android.Content;
-using JhpDataSystem.Utilities;
+using MobileCollector.Utilities;
 using System.Linq;
 using System.Threading.Tasks;
-using JhpDataSystem.projects.ppx.activity;
-using JhpDataSystem.projects.ppx.wfcontrollers;
+using MobileCollector.projects.ppx.activity;
+using MobileCollector.projects.ppx.wfcontrollers;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
-    [Activity(Label = "@string/ppx_activitylabel", Icon = "@drawable/jhpiego_logo")]
+    [Activity(Label = "@string/ppx_activitylabel", Icon = "@drawable/DC")]
     public class PPXHomeActivity : BaseHomeActivity<PPClientSummary>
     {
         protected override void showDefaultHome()

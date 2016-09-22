@@ -4,7 +4,7 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 
-namespace JhpDataSystem.projects.session.activity
+namespace MobileCollector.projects.session.activity
 {
     [Activity(Label = "Provider List")]
     public class ProviderGridDisplayActivity : Activity, ListView.IOnItemClickListener

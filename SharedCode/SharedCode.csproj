@@ -47,13 +47,15 @@
     <Compile Include="model\KindMetaData.cs" />
     <Compile Include="model\OutEntity.cs" />
     <Compile Include="model\RecordSummary.cs" />
-    <Compile Include="model\SIteProvider.cs" />
     <Compile Include="model\UserSession.cs" />
     <Compile Include="PlainText.cs" />
     <Compile Include="ProjectContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>C:\Users\makando\Documents\GitHub\google-api-dotnet-client\bccrypto-csharp-1.8.1-bin\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Apis, Version=1.15.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.1.15.0\lib\portable-net45+sl50+netcore45+wpa81+wp8\Google.Apis.dll</HintPath>
       <Private>True</Private>
@@ -95,7 +97,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Mono.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v6.0\Mono.Android.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v6.0\Mono.Android.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>

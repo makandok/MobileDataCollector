@@ -1,7 +1,7 @@
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Collections.Generic;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class Constants
     {

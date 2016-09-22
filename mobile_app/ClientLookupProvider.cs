@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
+using MobileCollector.store;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class ClientLookupProvider<T> where T : class, ILocalDbEntity, new()
     {
@@ -15,7 +15,6 @@ namespace JhpDataSystem
 
         public virtual List<T> Get()
         {
-            //var count = GetCount();
             var all = new LocalDB3().DB
                 .Table<T>()
                 .ToList<T>()

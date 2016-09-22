@@ -1,12 +1,12 @@
 using Android.App;
 using Android.Content.Res;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
+using MobileCollector.store;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class AppInstance
     {
@@ -58,7 +58,6 @@ namespace JhpDataSystem
             
             CloudDbInstance = new CloudDb(_assetManager);
 
-            //Android.OS.Build.Serial
             var configuration = new LocalDB3().DB.Table<DeviceConfiguration>().FirstOrDefault();
             Configuration = configuration;
         }

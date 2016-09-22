@@ -1,7 +1,7 @@
 using System;
 using Mono.Data.Sqlite;
 
-namespace JhpDataSystem.store
+namespace MobileCollector.store
 {
     public class LocalDB
     {

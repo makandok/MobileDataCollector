@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Widget;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Linq;
-using JhpDataSystem.store;
+using MobileCollector.store;
 using Android.Content;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
     public class PPXFormsBase : DataFormsBase<PPClientSummary>
     {

@@ -9,9 +9,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
+using MobileCollector.model;
 
-namespace JhpDataSystem.projects
+namespace MobileCollector.projects
 {
     public class DataFormsBaseAttributes : Activity
     {

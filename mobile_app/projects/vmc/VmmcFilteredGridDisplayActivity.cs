@@ -5,12 +5,12 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
-using JhpDataSystem.Utilities;
+using MobileCollector.model;
+using MobileCollector.store;
+using MobileCollector.Utilities;
 using System.Threading.Tasks;
 
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
     [Activity(Label = "Client List")]
     public class VmmcFilteredGridDisplayActivity : Activity, ListView.IOnItemClickListener
@@ -47,7 +47,6 @@ namespace JhpDataSystem.projects.vmc
             //buttonPerformAction
             var buttonPerformAction = FindViewById<Button>(Resource.Id.buttonPerformAction);
             buttonPerformAction.Visibility = ViewStates.Gone;
-            //buttonPerformAction.Click += performActionSpecified;
         }
 
         void OnListItemClick(ListView l, View v, int position, long id)

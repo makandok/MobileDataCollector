@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Linq;
 
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
     public class VmmcFormsBase : DataFormsBase<VmmcClientSummary>
     {

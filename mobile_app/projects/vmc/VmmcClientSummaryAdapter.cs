@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Android.App;
 using Android.Views;
 using Android.Widget;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Globalization;
 
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
     public class VmmcClientSummaryAdapter : BaseAdapter<VmmcClientSummary>
     {

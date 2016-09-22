@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using Android.App;
 using Android.Widget;
-using JhpDataSystem.projects.vmc.activity;
-using JhpDataSystem.projects.vmc.workflow;
+using MobileCollector.projects.vmc.activity;
+using MobileCollector.projects.vmc.workflow;
 
-namespace JhpDataSystem.projects.vmc
+namespace MobileCollector.projects.vmc
 {
-    [Activity(Label = "@string/vmc_activitylabel", Icon = "@drawable/jhpiego_logo")]
+    [Activity(Label = "@string/vmc_activitylabel", Icon = "@drawable/DC")]
     public class VmmcHomeActivity : BaseHomeActivity<VmmcClientSummary>
     {
         protected override void showDefaultHome()
@@ -52,14 +52,10 @@ namespace JhpDataSystem.projects.vmc
 
             var buttonPostRemovalVisit = FindViewById<Button>(Resource.Id.buttonPostRemovalVisit);
             buttonPostRemovalVisit.Visibility = Android.Views.ViewStates.Gone;
-            //buttonPostRemovalVisit.Click += (sender, e) => {
-            //    StartActivity(typeof(PpxClientSelectionActivity), typeof(PP_PostRemovalVisit1));
-            //};
 
             //buttonViewList
             var buttonViewList = FindViewById<Button>(Resource.Id.buttonViewList);
             buttonViewList.Click += (sender, e) => {
-                //StartActivity(typeof(VmmcRecordSelectorActivity));
                 StartActivity(typeof(VmmcFilteredGridDisplayActivity));
             };
 

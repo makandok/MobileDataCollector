@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace JhpDataSystem.model
+namespace MobileCollector.model
 {
     public class KindMetaData
     {

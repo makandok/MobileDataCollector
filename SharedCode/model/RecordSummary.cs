@@ -1,6 +1,6 @@
 using System;
 
-namespace JhpDataSystem.model
+namespace MobileCollector.model
 {
     [SQLite.Table(Constants.SYS_KIND_DEVCONF)]
     public class DeviceConfiguration

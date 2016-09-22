@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JhpDataSystem.projects.ppx.wfcontrollers
+namespace MobileCollector.projects.ppx.wfcontrollers
 {
     public class PP_PostRemovalControl : BaseWorkflowController
     {

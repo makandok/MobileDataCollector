@@ -6,11 +6,11 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
+using MobileCollector.store;
 using Newtonsoft.Json;
 
-namespace JhpDataSystem.projects
+namespace MobileCollector.projects
 {
     public class DataFormsBase<T>: DataFormsBaseAttributes where T : class, ILocalDbEntity, new()
     {
@@ -56,22 +56,6 @@ namespace JhpDataSystem.projects
             }
             return null;
         }
-
-        //protected void addToIntent(Intent targetIntent, string bundleName, string bundleValue)
-        //{
-        //    targetIntent.PutExtra(bundleName, bundleValue);
-        //}
-
-        //protected string loadFromIntent(string bundleName)
-        //{
-        //    //load default data or client if is first
-        //    var intent = this.Intent;
-        //    if (intent.Extras != null && intent.Extras.ContainsKey(bundleName))
-        //    {
-        //        return intent.Extras.GetString(bundleName);
-        //    }
-        //    return string.Empty;
-        //}
 
         bool hasBundle(string bundleName)
         {

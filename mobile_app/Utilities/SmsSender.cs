@@ -8,11 +8,10 @@ using System.Json;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace JhpDataSystem.Utilities
+namespace MobileCollector.Utilities
 {
     public class BulkSmsSender
     {
-        //public List<ContactNumber> contactNumbers { get; set; }
         public List<projects.ppx.PPClientSummary> contactNumbers { get; set; }
 
         public string formattedText { get; set; }

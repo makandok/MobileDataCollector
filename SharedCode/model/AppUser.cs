@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace JhpDataSystem.model
+namespace MobileCollector.model
 {
     public class AppUser : ISaveableEntity
     {

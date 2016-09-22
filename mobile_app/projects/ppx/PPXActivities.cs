@@ -2,10 +2,10 @@ using System;
 using Android.App;
 using Android.OS;
 using System.Collections.Generic;
-using JhpDataSystem.model;
-using JhpDataSystem.projects.ppx.wfcontrollers;
+using MobileCollector.model;
+using MobileCollector.projects.ppx.wfcontrollers;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
     [Activity(Label = "A.4: Post-Removal Visit Assessment - End")]
     public class PP_PostRemovalVisitEnd : PPXFormsBase

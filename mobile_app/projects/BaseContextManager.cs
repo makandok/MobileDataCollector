@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Android.App;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using Android.Content.Res;
 
-namespace JhpDataSystem.projects
+namespace MobileCollector.projects
 {
     public class BaseContextManager
     {
@@ -71,29 +71,5 @@ namespace JhpDataSystem.projects
 
             return fields;
         }
-
-        //List<FieldItem> _vmmcFieldItems = null;
-        //public List<FieldItem> VmmcFieldItems
-        //{
-        //    get
-        //    {
-        //        if (_vmmcFieldItems == null)
-        //            _vmmcFieldItems =
-        //                readFields(Constants.FILE_VMMC_FIELDS, _assetManager, _mainContext);
-        //        return _vmmcFieldItems;
-        //    }
-        //}
-
-        //List<FieldItem> _ppxFieldItems = null;
-        //public List<FieldItem> PPXFieldItems
-        //{
-        //    get
-        //    {
-        //        if (_ppxFieldItems == null)
-        //            _ppxFieldItems =
-        //                readFields(Constants.FILE_PPX_FIELDS, _assetManager, _mainContext);
-        //        return _ppxFieldItems;
-        //    }
-        //}
     }
 }

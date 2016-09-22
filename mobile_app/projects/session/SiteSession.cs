@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using JhpDataSystem.model;
+using MobileCollector.model;
 
-namespace JhpDataSystem.projects.session
+namespace MobileCollector.projects.session
 {
     public class SiteSessionTable
     {
@@ -58,17 +58,6 @@ namespace JhpDataSystem.projects.session
             return Id == null ? -1L : Id.GetHashCode();
         }
     }
-
-    //public class ServiceProvider
-    //{
-    //    public KindKey Id { get; set; }
-    //    public string FirstName { get; set; }
-    //    public string SurName { get; set; }
-    //    public string MaidenName { get; set; }
-    //    public string NRC { get; set; }
-    //    public string ContactNumber { get; set; }
-    //    public string HomeFacility { get; set; }
-    //}
 
     public class SiteProvider : ILocalDbEntity
     {

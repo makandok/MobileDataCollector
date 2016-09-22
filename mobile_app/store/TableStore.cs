@@ -1,10 +1,10 @@
 using System;
 using Mono.Data.Sqlite;
 using System.Collections.Generic;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Threading.Tasks;
 
-namespace JhpDataSystem.store
+namespace MobileCollector.store
 {
     public class MultiTableStore
     {

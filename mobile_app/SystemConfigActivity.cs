@@ -3,13 +3,13 @@ using System.Linq;
 using Android.App;
 using Android.OS;
 using Android.Widget;
-using JhpDataSystem.store;
-using JhpDataSystem.model;
-using JhpDataSystem.Security;
+using MobileCollector.store;
+using MobileCollector.model;
+using MobileCollector.Security;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
-    [Activity(Label = "System Cofiguration", Icon = "@drawable/jhpiego_logo")]
+    [Activity(Label = "System Cofiguration", Icon = "@drawable/DC")]
     public class SystemConfigActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

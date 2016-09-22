@@ -2,16 +2,14 @@
 using Android.App;
 using Android.Widget;
 using Android.OS;
-using JhpDataSystem.Security;
+using MobileCollector.Security;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
-    [Activity(Label = "Jhpiego Zambia", MainLauncher = true, Icon = "@drawable/jhpiego_logo")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/DC")]
     public class MainActivity : Activity
     {
-        //Theme = "@android:style/Theme.DeviceDefault.Dialog.NoActionBar", 
-        string ProjectId = string.Empty;
-        string DataStoreApplicationKey = string.Empty;
+       string ProjectId = string.Empty;
         const string ALL_VALUES = "allValues";
         
         protected override void OnSaveInstanceState(Bundle outState)
@@ -31,13 +29,14 @@ namespace JhpDataSystem
 
             //we initialise the app key for our data store
             ProjectId = AppInstance.Instance.ApiAssets[Constants.ASSET_PROJECT_ID];
-            DataStoreApplicationKey = AppInstance.Instance.ApiAssets[Constants.ASSET_DATASTORE_APPKEY];
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.UserLoginLayout);
             var loginFormButton = FindViewById<Button>(Resource.Id.buttonLoginIn);
             loginFormButton.Click += doLoginIn_Click;
-            this.ActionBar.Title = "Jhpiego Zambia"+" v"+ AppInstance.Instance.AppVersion;
+            this.ActionBar.Title = 
+                Resources.GetString(Resource.String.ApplicationName)
+                 + " v" + AppInstance.Instance.AppVersion;
         }
 
         void showDialog(string title, string message)

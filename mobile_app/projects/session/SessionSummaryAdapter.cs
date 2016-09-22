@@ -4,7 +4,7 @@ using Android.App;
 using Android.Views;
 using Android.Widget;
 
-namespace JhpDataSystem.projects.session
+namespace MobileCollector.projects.session
 {
     public class SessionSummaryAdapter : BaseAdapter<SiteSession>
     {

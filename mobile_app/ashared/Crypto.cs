@@ -7,7 +7,7 @@ namespace System.Security.Cryptography
     static internal class Crypto
     {
         // Define the secret salt value for encrypting data
-        private static readonly byte[] salt = Encoding.ASCII.GetBytes(JhpDataSystem.Constants.EncryptionSALT);
+        private static readonly byte[] salt = Encoding.ASCII.GetBytes(MobileCollector.Constants.EncryptionSALT);
 
         /// <summary>
         /// Takes the given text string and encrypts it using the given password.

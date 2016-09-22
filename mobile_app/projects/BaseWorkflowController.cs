@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JhpDataSystem.projects
+namespace MobileCollector.projects
 {
     public class BaseWorkflowController : IPP_NavController
     {

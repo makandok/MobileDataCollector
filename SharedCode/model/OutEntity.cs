@@ -1,4 +1,4 @@
-namespace JhpDataSystem.model
+namespace MobileCollector.model
 {
     [SQLite.Table(Constants.KIND_OUTTRANSPORT)]
     public class OutEntity

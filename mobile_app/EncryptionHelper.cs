@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public static class EncryptionHelper
     {

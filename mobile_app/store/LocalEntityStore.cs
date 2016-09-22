@@ -1,10 +1,10 @@
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace JhpDataSystem.store
+namespace MobileCollector.store
 {
     public class LocalEntityStore
     {
@@ -13,13 +13,10 @@ namespace JhpDataSystem.store
         public LocalDB InstanceLocalDb { get { return _localDb; } }
         internal TableStore defaultTableStore { get; set; }
 
-        //public bool RebuildIndexes { get; set; }
-
         public LocalEntityStore()
         {
             _localDb = new LocalDB();
             defaultTableStore = new TableStore(Constants.KIND_DEFAULT);
-            //RebuildIndexes = false;
         }
 
         public static void RebuildRecordSummaryIndexes()

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
+using MobileCollector.store;
 using Newtonsoft.Json;
 
-namespace JhpDataSystem
+namespace MobileCollector
 {
     public class TablestoreLookupProvider<T> : ClientLookupProvider<T> where T : class, ILocalDbEntity, new()
     {

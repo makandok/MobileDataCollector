@@ -1,6 +1,6 @@
 using System;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
     public class PPDeviceSizes
     {

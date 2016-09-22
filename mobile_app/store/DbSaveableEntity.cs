@@ -1,8 +1,8 @@
-using JhpDataSystem.model;
+using MobileCollector.model;
 using Newtonsoft.Json;
 using System;
 
-namespace JhpDataSystem.store
+namespace MobileCollector.store
 {
     public class DbSaveableEntity
     {

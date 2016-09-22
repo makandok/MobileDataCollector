@@ -1,6 +1,6 @@
-using JhpDataSystem.model;
+using MobileCollector.model;
 
-namespace JhpDataSystem.projects.ppx
+namespace MobileCollector.projects.ppx
 {
     public class PpxLookupProvider: ClientLookupProvider<PPClientSummary>
     {

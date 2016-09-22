@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using Android.App;
 using Android.Widget;
 
-namespace JhpDataSystem.projects.session
+namespace MobileCollector.projects.session
 {
-    [Activity(Label = "Site Session Manager", Icon = "@drawable/jhpiego_logo")]
+    [Activity(Label = "Site Session Manager", Icon = "@drawable/DC")]
     public class SessionHomeActivity : BaseHomeActivity<SiteSession>
     {
         protected override void showDefaultHome()
