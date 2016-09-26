@@ -100,14 +100,61 @@ namespace ExcelToAndroidXML
             return builder.ToString();
         }
 
+        List<string> processViews(List<FieldDefinition> groupFields)
+        {
+            return new List<string>();
+        }
+
         string getData(List<FieldDefinition> viewFields)
         {
+            //adding this here to make sure we process all fields correctly in the loop below
+            var dummyField = new FieldDefinition() { ViewName = "dummy" };
+            viewFields.Add(dummyField);
+
             var builder = new StringBuilder();
+
+            var currentGroupName = string.Empty;
+            List<FieldDefinition> groupFields = null;
             foreach (var field in viewFields)
             {
+                if (!string.IsNullOrWhiteSpace(currentGroupName))
+                {
+                    if (currentGroupName == field.GroupName)
+                    {
+                        groupFields.Add(field);
+                        continue;
+                    }
+
+                    //we process for the existing as we have transitioned to a new group
+                    var defns = processViews(groupFields);
+                    foreach (var defn in defns)
+                        builder.AppendLine(defn);
+
+                    //we reset the group
+                    currentGroupName = string.Empty;
+                    groupFields = new List<FieldDefinition>();
+                }
+
                 var fieldXml = string.Empty;
+
+                if (field == dummyField)
+                {
+                    //we are at the end
+                    break;
+                }
+
                 switch (field.ViewType.ToLowerInvariant())
                 {
+                    case "simple table":
+                    case "unique dataset":
+                        {
+                            //we identify this is a unique dataset looking the first defn
+                            currentGroupName = field.GroupName;
+                            groupFields = new List<FieldDefinition>();
+
+                            groupFields.Add(field);
+                            break;
+                        }
                     case "int":
                     case "integer":
                     case "cell":
@@ -155,7 +202,6 @@ namespace ExcelToAndroidXML
                                 string.Join(Environment.NewLine, getXamlLabelDefForCheckBox(field)) + @"");
                             break;
                         }
-                        
                     case "singleselect":
                     case "single select":
                     case "radiogroup":
@@ -182,8 +228,11 @@ namespace ExcelToAndroidXML
                             throw new ArgumentNullException("Please addlogic for " + field.ViewType);
                         }
                 }
-                builder.AppendLine(fieldXml);
+                if (!string.IsNullOrWhiteSpace(fieldXml))
+                    builder.AppendLine(fieldXml);
             }
+
+            viewFields.Remove(dummyField);
             return builder.ToString();
         }
 

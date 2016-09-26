@@ -10,47 +10,47 @@ using System.Threading.Tasks;
 
 namespace MobileCollector.Utilities
 {
-    public class BulkSmsSender
-    {
-        public List<projects.ppx.PPClientSummary> contactNumbers { get; set; }
+    //public class BulkSmsSender
+    //{
+    //    public List<projects.ppx.PPClientSummary> contactNumbers { get; set; }
 
-        public string formattedText { get; set; }
+    //    public string formattedText { get; set; }
 
-        public Context CurrentContext { get; set; }
+    //    public Context CurrentContext { get; set; }
 
-        public async Task<bool> Send()
-        {
-            foreach (var client in contactNumbers)
-            {
-                //client.Telephone = "0964260027";
-                await Task.Run(() =>
-                {
-                    try
-                    {
-                        new SmsSender()
-                        {
-                            message = string.Format(formattedText, client.Names),
-                            phoneNumber = client.Telephone
-                        }.Send();
-                        client.Day6SmsReminderDate = DateTime.Now;
-                    }
-                    catch (Java.Lang.IllegalArgumentException argex)
-                    {
-                        //means the number is not valid
-                        //we prompt, log or fail silent
-                        AppInstance.Instance.LogActionItem(string.Format("Error sending SMS. Phone number {0} for {1} is invalid", client.Telephone, client.Names));
-                    }
-                    catch (Exception ex)
-                    {
+    //    public async Task<bool> Send()
+    //    {
+    //        foreach (var client in contactNumbers)
+    //        {
+    //            //client.Telephone = "0964260027";
+    //            await Task.Run(() =>
+    //            {
+    //                try
+    //                {
+    //                    new SmsSender()
+    //                    {
+    //                        message = string.Format(formattedText, client.Names),
+    //                        phoneNumber = client.Telephone
+    //                    }.Send();
+    //                    client.Day6SmsReminderDate = DateTime.Now;
+    //                }
+    //                catch (Java.Lang.IllegalArgumentException argex)
+    //                {
+    //                    //means the number is not valid
+    //                    //we prompt, log or fail silent
+    //                    AppInstance.Instance.LogActionItem(string.Format("Error sending SMS. Phone number {0} for {1} is invalid", client.Telephone, client.Names));
+    //                }
+    //                catch (Exception ex)
+    //                {
 
-                    }
-                });
+    //                }
+    //            });
 
-                await Task.Delay(TimeSpan.FromMilliseconds(2000));
-            }
-            return true;
-        }
-    }
+    //            await Task.Delay(TimeSpan.FromMilliseconds(2000));
+    //        }
+    //        return true;
+    //    }
+    //}
 
     //https://developer.xamarin.com/recipes/android/networking/
     internal class SmsSender

@@ -38,7 +38,20 @@ namespace MobileCollector
         public const string SYS_FIELD_FACILITYID = "sys_facilityid";
         public const string SYS_FIELD_SESSIONDATE = "sys_sessiondate";
         public const string SYS_FIELD_TODAY = "today";
-        
+
+        //ILSP
+        public const string FIELD_LSP_DATEOFVISIT = "ilsp_date_of_interview";
+        public const string FIELD_LSP_BENEFICIARY = "ilsp_name_of_beneficiary";
+        public const string FIELD_LSP_BENEFICIARYAGE = "ilsp_age_of_beneficiary";
+        public const string FIELD_LSP_GROUPNAME = "ilsp_name_of_group";
+        public const string FIELD_LSP_VILLAGE = "ilsp_name_of_village";
+        public const string FIELD_LSP_BENEFICIARY_SEX = "ilsp_beneficiary_sex";
+        public static List<string> LSP_IndexedFieldNames = new List<string>() {
+                FIELD_LSP_DATEOFVISIT,
+                FIELD_LSP_BENEFICIARY,FIELD_LSP_BENEFICIARYAGE,FIELD_LSP_GROUPNAME,
+                FIELD_LSP_VILLAGE,FIELD_LSP_BENEFICIARY_SEX
+            ,FIELD_PPX_CLIENTNAME
+                };
 
         //VMMC
         public const string FIELD_VMMC_DOB = "vm_date_of_birth";
@@ -105,12 +118,21 @@ namespace MobileCollector
         public const string KIND_DERIVED_PPX_CLIENTSUMMARY = "pp_clientsummary";         
 
         public const string KIND_DERIVED_VMMC_CLIENTSUMMARY = "vmmc_clientsummary";
+
+        public const string KIND_DERIVED_LSP_CLIENTSUMMARY = "lsp_clientsummary";
+
         public const string KIND_VMMC_POSTOP = "vmmc_postop";
         public const string KIND_VMMC_REGANDPROCEDURE = "vmmc_regandproc";
         public static Dictionary<string, string> VMMC_KIND_DISPLAYNAMES =
                 new Dictionary<string, string>() {
                     { KIND_VMMC_POSTOP,"Post Operation" },
                      { KIND_VMMC_REGANDPROCEDURE,"Registration and Procedure" }
+                };
+
+        public const string KIND_LSP_MAIN = "lsp_main";
+        public static Dictionary<string, string> LSP_KIND_DISPLAYNAMES =
+                new Dictionary<string, string>() {
+                    { KIND_LSP_MAIN,"Survey" }
                 };
 
         public const string KIND_SITESESSION = "sitesession";
@@ -153,6 +175,7 @@ namespace MobileCollector
         //prepexreg_fields
         public const string FILE_PPX_FIELDS = "ppx_fields.json";
         public const string FILE_VMMC_FIELDS = "vmmc_fields.json";
+        public const string FILE_LSP_FIELDS = "ilsp_fields.json";
 
         public const string PP_VIEWS_1= "prepexreg1";
         public const string PP_VIEWS_2 = "prepexreg2";

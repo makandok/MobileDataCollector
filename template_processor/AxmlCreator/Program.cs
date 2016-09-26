@@ -12,59 +12,20 @@ namespace ExcelToAndroidXML
     class Program
     {
         const int TARGET_NUMPAGES = 4;
-        static List<ViewDefinitionBuilder> autoCreatePages(List<FieldDefinition> fields, string MODULE_NAME_PREFIX)
-        {
-            var fieldCounter = 0;
-            var pagedFieldDefinitions = new List<ViewDefinitionBuilder>();
-            ViewDefinitionBuilder dataPage = null;
-            var pageCounter = 0;
-            var sets = fields.Count / TARGET_NUMPAGES;
-            var previousFieldGroupName = string.Empty;
-            foreach (var field in fields)
-            {
-                var canAssignToNewPage = true;
-                if (field.GridColumn == 5)
-                {
-                    if (previousFieldGroupName != string.Empty && previousFieldGroupName == field.GroupName)
-                    {
-                        canAssignToNewPage = false;
-                    }
-
-                    if (previousFieldGroupName != field.GroupName)
-                    {
-                        previousFieldGroupName = field.GroupName;
-                    }
-                }
-
-                if (canAssignToNewPage)
-                {
-                    if (fieldCounter % sets == 0 && pageCounter < TARGET_NUMPAGES)
-                    {
-                        //create a new view
-                        var currentDataPage = new ViewDefinitionBuilder() { ViewPageName = MODULE_NAME_PREFIX + (++pageCounter) };
-                        pagedFieldDefinitions.Add(currentDataPage);
-                        dataPage = currentDataPage;
-                    }
-
-                    fieldCounter++;
-                }
-
-                dataPage.ViewFields.Add(field);
-            }
-            return pagedFieldDefinitions;
-        }
 
         static void Main(string[] args)
         {
-            bool ProcessingForVMMC = false;
-            var projectHelper = ProcessingForVMMC ? 
-                new vmmcHelper() as ProjectInfo: 
-                new ppxHelper();
+            //bool ProcessingForVMMC = false;            
+            var projectHelper =
+                new ilaspHelper();
+            //new vmmcHelper();
+            //new ppxHelper();
+
+            ProcessingFor project = projectHelper.Project;
 
             var instance = SharedInstance.Instance;
             instance.metaDataProvider = new MetaDataProvider();
             var moduleNamePrefixes = projectHelper.moduleNamePrefixes;
-
 
             var text = File.ReadAllText(projectHelper.LookupChoicesFile);
             var lookups = JsonConvert.DeserializeObject<List<FieldChoices>>(text);
@@ -78,25 +39,33 @@ namespace ExcelToAndroidXML
                     }
                 }
                 );
+            var fieldDictText = File.ReadAllText(projectHelper.FieldDictionaryFile);
 
-            var fields = JsonConvert.DeserializeObject<List<FieldDefinition>>(
-                File.ReadAllText(projectHelper.FieldDictionaryFile));
-            if (ProcessingForVMMC)
+            var fields = JsonConvert.DeserializeObject<List<FieldDefinition>>(fieldDictText);
+            var fieldsToIgnore = new List<string>() { "district", "vm_province", "vm_district" };
+
+            if (project == ProcessingFor.VMMC)
             {
                 if (fields.Count != 147)
                     throw new ArgumentOutOfRangeException("Expected 210 fields");
+                foreach (var fieldname in fieldsToIgnore)
+                {
+                    fields.RemoveAll(t => t.ViewName == fieldname);
+                }
             }
-            else
+            else if (project == ProcessingFor.PPX)
             {
                 if (fields.Count != 216)
                     throw new ArgumentOutOfRangeException("Expected 210 fields");
+                foreach (var fieldname in fieldsToIgnore)
+                {
+                    fields.RemoveAll(t => t.ViewName == fieldname);
+                }
             }
-
-            //fields.RemoveAll(t=>t.)
-            var fieldsToIgnore = new List<string>() { "district", "vm_province" , "vm_district"};
-            foreach (var fieldname in fieldsToIgnore)
+            else if (project == ProcessingFor.ILASP)
             {
-                fields.RemoveAll(t => t.ViewName == fieldname);
+                if (fields.Count != 197)
+                    throw new ArgumentOutOfRangeException("Expected 210 fields");
             }
 
             fields.ForEach(t =>
@@ -170,6 +139,48 @@ namespace ExcelToAndroidXML
             //kipeto
             Console.WriteLine("Import completed, press any key to return");
             Console.ReadLine();
+        }
+
+        static List<ViewDefinitionBuilder> autoCreatePages(List<FieldDefinition> fields, string MODULE_NAME_PREFIX)
+        {
+            var fieldCounter = 0;
+            var pagedFieldDefinitions = new List<ViewDefinitionBuilder>();
+            ViewDefinitionBuilder dataPage = null;
+            var pageCounter = 0;
+            var sets = fields.Count / TARGET_NUMPAGES;
+            var previousFieldGroupName = string.Empty;
+            foreach (var field in fields)
+            {
+                var canAssignToNewPage = true;
+                if (field.GridColumn == 5)
+                {
+                    if (previousFieldGroupName != string.Empty && previousFieldGroupName == field.GroupName)
+                    {
+                        canAssignToNewPage = false;
+                    }
+
+                    if (previousFieldGroupName != field.GroupName)
+                    {
+                        previousFieldGroupName = field.GroupName;
+                    }
+                }
+
+                if (canAssignToNewPage)
+                {
+                    if (fieldCounter % sets == 0 && pageCounter < TARGET_NUMPAGES)
+                    {
+                        //create a new view
+                        var currentDataPage = new ViewDefinitionBuilder() { ViewPageName = MODULE_NAME_PREFIX + (++pageCounter) };
+                        pagedFieldDefinitions.Add(currentDataPage);
+                        dataPage = currentDataPage;
+                    }
+
+                    fieldCounter++;
+                }
+
+                dataPage.ViewFields.Add(field);
+            }
+            return pagedFieldDefinitions;
         }
     }
 }

@@ -246,7 +246,6 @@
     <Compile Include="DatePickerFragment.cs" />
     <Compile Include="db\DefaultCredentialProvider.cs" />
     <Compile Include="db\GoogleCredential.cs" />
-    <AndroidAsset Include="Assets\vmmc_fields.json" />
     <AndroidAsset Include="Assets\dcoll.p12" />
     <Compile Include="EncryptionHelper.cs" />
     <Compile Include="Humongous.cs" />
@@ -267,42 +266,29 @@
     <Compile Include="projects\ContextLocalEntityStore.cs" />
     <Compile Include="projects\DataFormsBase.cs" />
     <Compile Include="projects\DataFormsBaseAttributes.cs" />
+    <Compile Include="projects\ilsp\activity\lspClientSelectionActivity.cs" />
+    <Compile Include="projects\ilsp\activity\lspRecordSelectorActivity.cs" />
+    <Compile Include="projects\ilsp\lspActivities.cs" />
+    <Compile Include="projects\ilsp\lspClientSummary.cs" />
+    <Compile Include="projects\ilsp\lspClientSummaryAdapter.cs" />
+    <Compile Include="projects\ilsp\VmmcContextManager.cs" />
+    <Compile Include="projects\ilsp\VmmcFilteredGridDisplayActivity.cs" />
+    <Compile Include="projects\ilsp\lspFormsBase.cs" />
+    <Compile Include="projects\ilsp\lspHomeActivity.cs" />
+    <Compile Include="projects\ilsp\lspProvider.cs" />
+    <Compile Include="projects\ilsp\wfcontrollers\lspMainControl.cs" />
     <Compile Include="projects\IPP_NavController.cs" />
-    <Compile Include="projects\ppx\activity\PpxClientSelectionActivity.cs" />
-    <Compile Include="projects\ppx\activity\PpxRecordSelectorActivity.cs" />
-    <Compile Include="projects\ppx\PpxContextManager.cs" />
-    <Compile Include="projects\ppx\GridDisplayActivity.cs" />
-    <Compile Include="projects\ppx\PPClientSummary.cs" />
-    <Compile Include="projects\ppx\PPDeviceSizes.cs" />
-    <Compile Include="projects\ppx\PPXActivities.cs" />
-    <Compile Include="projects\ppx\PpxClientSummaryAdapter.cs" />
-    <Compile Include="projects\ppx\PPXFormsBase.cs" />
     <Compile Include="modules\SmsActivity.cs" />
-    <Compile Include="projects\ppx\PpxLookupProvider.cs" />
-    <Compile Include="projects\ppx\wfcontrollers\WorkflowControllers.cs" />
     <Compile Include="projects\session\activity\ProviderSummaryAdapter.cs" />
     <Compile Include="projects\session\SessionHomeActivity.cs" />
     <Compile Include="projects\session\activity\SessionEditor.cs" />
     <Compile Include="projects\session\SiteSession.cs" />
     <Compile Include="projects\session\SessionSummaryAdapter.cs" />
     <Compile Include="projects\session\activity\ProviderGridDisplayActivity.cs" />
-    <Compile Include="projects\vmc\activity\VmmcClientSelectionActivity.cs" />
-    <Compile Include="projects\vmc\activity\VmmcRecordSelectorActivity.cs" />
-    <Compile Include="projects\vmc\VmmcContextManager.cs" />
-    <Compile Include="projects\vmc\VmmcClientSummary.cs" />
-    <Compile Include="projects\vmc\VmmcFilteredGridDisplayActivity.cs" />
-    <Compile Include="projects\vmc\VmmcClientSummaryAdapter.cs" />
-    <Compile Include="projects\vmc\VmmcFormsBase.cs" />
-    <Compile Include="projects\vmc\VmmcHomeActivity.cs" />
-    <Compile Include="projects\vmc\VmmcLookupProvider.cs" />
-    <Compile Include="projects\vmc\VmmcActivities.cs" />
-    <Compile Include="projects\vmc\wfcontrollers\VmmcPostOperationControl.cs" />
-    <Compile Include="projects\vmc\wfcontrollers\VmmcRegAndProcControl.cs" />
     <Compile Include="projects\DefaultLookupProvider.cs" />
     <Compile Include="store\CloudDb.cs" />
     <Compile Include="store\LocalDB3.cs" />
     <Compile Include="SystemConfigActivity.cs" />
-    <AndroidAsset Include="Assets\ppx_fields.json" />
     <AndroidResource Include="Resources\layout\prepexreg5.axml" />
     <AndroidResource Include="Resources\layout\prepexdevremoval1.axml" />
     <AndroidResource Include="Resources\layout\prepexdevremoval2.axml" />
@@ -341,7 +327,6 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <Compile Include="LauncherActivity.cs" />
-    <Compile Include="projects\ppx\PPXHomeActivity.cs" />
     <Compile Include="store\DbSaveableEntity.cs" />
     <Compile Include="db\ServiceAccountCredentiaal.cs" />
     <Compile Include="db\SHA256CryptoServiceProvider.cs" />
@@ -364,6 +349,7 @@
     <AndroidResource Include="Resources\layout\PrepexHome.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidAsset Include="Assets\ilsp_fields.json" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -436,7 +422,11 @@
     <AndroidResource Include="Resources\drawable\DC.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="projects\ppx\" />
     <Folder Include="Samples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ilsp_main1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

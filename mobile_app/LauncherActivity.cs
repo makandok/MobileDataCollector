@@ -42,18 +42,28 @@ namespace MobileCollector
             var buttonPrepexHome = FindViewById<Button>(Resource.Id.buttonPrepexHome);
             buttonPrepexHome.Click += (x, y) =>
             {
-                var contextManager = new PpxContextManager(this.Assets, this);
+                var contextManager = new lspContextManager(this.Assets, this);
                 AppInstance.Instance.SetProjectContext(contextManager);
-                StartActivity(typeof(MobileCollector.projects.ppx.PPXHomeActivity));
+                StartActivity(typeof(MobileCollector.projects.ilsp.lspHomeActivity));
             };
+            buttonPrepexHome.Text = "ILASP Survey";
+            //var buttonPrepexHome = FindViewById<Button>(Resource.Id.buttonPrepexHome);
+            //buttonPrepexHome.Click += (x, y) =>
+            //{
+            //    var contextManager = new PpxContextManager(this.Assets, this);
+            //    AppInstance.Instance.SetProjectContext(contextManager);
+            //    StartActivity(typeof(MobileCollector.projects.ppx.PPXHomeActivity));
+            //};
 
             var buttonVmmcHome = FindViewById<Button>(Resource.Id.buttonVmmcHome);
-            buttonVmmcHome.Click += (x, y) => 
+            buttonVmmcHome.Click += (x, y) =>
             {
-                var contextManager = new VmmcContextManager(this.Assets, this);
-                AppInstance.Instance.SetProjectContext(contextManager);
-                StartActivity(typeof(MobileCollector.projects.vmc.VmmcHomeActivity));
+                //var contextManager = new VmmcContextManager(this.Assets, this);
+                //AppInstance.Instance.SetProjectContext(contextManager);
+                //StartActivity(typeof(MobileCollector.projects.vmc.VmmcHomeActivity));
             };
+            buttonVmmcHome.Visibility = Android.Views.ViewStates.Gone;
+
             //fetchData
             var fetchData = FindViewById<Button>(Resource.Id.fetchData);
             fetchData.Visibility = Android.Views.ViewStates.Invisible;

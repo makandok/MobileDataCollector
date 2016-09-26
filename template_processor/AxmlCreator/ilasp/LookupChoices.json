@@ -1,0 +1,745 @@
+﻿[
+  {
+    "Name": "ilsp_fiscal_year",
+    "Values": [
+      "2014",
+      "2015",
+      "2016"
+    ]
+  },
+  {
+    "Name": "ilsp_reporting_period",
+    "Values": [
+      "July - December",
+      "January - June"
+    ]
+  },
+  {
+    "Name": "ilsp_project_duration",
+    "Values": [
+      "1 Year",
+      "2 Years",
+      "3 Years",
+      "4 Years",
+      "5 Years"
+    ]
+  },
+  {
+    "Name": "ilsp_project_year",
+    "Values": [
+      "year 1",
+      "year 2",
+      "year 3",
+      "year 4",
+      "year 5"
+    ]
+  },
+  {
+    "Name": "ilsp_recipient_type_1",
+    "Values": [
+      "Family",
+      "Individual"
+    ]
+  },
+  {
+    "Name": "ilsp_recipient_type_2",
+    "Values": [
+      "Original",
+      "POG",
+      "Original-Not yet received anything"
+    ]
+  },
+  {
+    "Name": "ilsp_sex",
+    "Values": [
+      "Male",
+      "Female"
+    ]
+  },
+  {
+    "Name": "ilsp_marital_status",
+    "Values": [
+      "Single",
+      "Married",
+      "Separated",
+      "Divorced",
+      "Widowed"
+    ]
+  },
+  {
+    "Name": "ilsp_yes_no_na",
+    "Values": [
+      "Yes",
+      "No",
+      "na"
+    ]
+  },
+  {
+    "Name": "ilsp_yes_no",
+    "Values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "Name": "ilsp_age_band",
+    "Values": [
+      "Under 18"
+    ]
+  },
+  {
+    "Name": "ilsp_age_band",
+    "Values": [
+      "Between 18 to 35",
+      "Between 36 to 64",
+      "65 and above"
+    ]
+  },
+  {
+    "Name": "ilsp_land_tenure",
+    "Values": [
+      "Traditional",
+      "Lease hold (Title Deeds)",
+      "ired/Rented",
+      "Borrowed",
+      "Squating",
+      "Municipal land (Council)",
+      "Don't Know"
+    ]
+  },
+  {
+    "Name": "ilsp_land_uom",
+    "Values": [
+      "Acres",
+      "Hectares",
+      "Lima",
+      "Sq meter"
+    ]
+  },
+  {
+    "Name": "ilsp_weight_uom",
+    "Values": [
+      "Kilograms",
+      "Sack",
+      "Box",
+      "Bunch",
+      "Head"
+    ]
+  },
+  {
+    "Name": "ilsp_production_crop_name",
+    "Values": [
+      "Maize",
+      "Groundnuts",
+      "Sweet Potatoes",
+      "Potatoes",
+      "Cassava",
+      "Soya Beans",
+      "Cowpeas",
+      "Mbambara Nuts",
+      "Beans",
+      "Cabbage",
+      "Tomatoes",
+      "Onion",
+      "Egg Plant (Impwa)",
+      "Leafy Vegetables",
+      "Cotton",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_production_livestock",
+    "Values": [
+      "Local Chickens",
+      "Broiler Chickens",
+      "Turkeys",
+      "Ducks",
+      "Guinea Fowls",
+      "Pigeons",
+      "Goats",
+      "Pigs",
+      "Sheep",
+      "Dairy Cattle",
+      "Beef Cattle",
+      "Draft Cattle",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_stockfeed_source",
+    "Values": [
+      "Local Market",
+      "Urban Markets",
+      "Local Agro-vet shops",
+      "Urban Agro-vet shops",
+      "Middlemen/Traders",
+      "Cooperatives",
+      "Milk Collection Centres",
+      "Local Millers",
+      "Urban Millers",
+      "Own Production",
+      "Never buy",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_tick_control",
+    "Values": [
+      "Dipping",
+      "Spraying",
+      "None",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_frequency_livestock_dipspray",
+    "Values": [
+      "Weekly",
+      "Every 2 weeks",
+      "Monthly",
+      "Quarterly (Every 3 months)",
+      "Bi-annually (Every 6 months)",
+      "Annually",
+      "According to schedule",
+      "When there is a disease outbreak ",
+      "Never",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_livestock_vaccination",
+    "Values": [
+      "According to vaccination schedule",
+      "When animals are sick",
+      "When there is a disease outbreak",
+      "Annually",
+      "Never",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_source_livestock_drugs",
+    "Values": [
+      "Community Animal Health Workers (Paravets)",
+      "Public Vet Clinic/Camp",
+      "Private Veterinary Clinics",
+      "Local Agro-vet shops",
+      "Urban Agro-vet shops",
+      "Cooperatives",
+      "Use Natural Remedies",
+      "Never buy",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_production_cowmilk",
+    "Values": [
+      "Cow Milk"
+    ]
+  },
+  {
+    "Name": "ilsp_infarm_prod_timeframe",
+    "Values": [
+      "Day",
+      "Week",
+      "Month",
+      "Season",
+      "Year"
+    ]
+  },
+  {
+    "Name": "ilsp_production_timeframe",
+    "Values": [
+      "Week",
+      "Month",
+      "3 Months",
+      "6 Months",
+      "9 Months",
+      "Year"
+    ]
+  },
+  {
+    "Name": "ilsp_how_produce_sold",
+    "Values": [
+      "Individually",
+      "Aggregating/Bulking as a Producer Group",
+      "N/A"
+    ]
+  },
+  {
+    "Name": "ilsp_where_milk_sold",
+    "Values": [
+      "Local markets (Within community,Neighbors,local traders)",
+      "Urban Markets (District Markets)",
+      "Cooperatives",
+      "Processors directly (e.g Parmalat,Mpima)",
+      "Processors through MCC",
+      "Do not sell",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_value_addition_enterprises",
+    "Values": [
+      "Milk Processing",
+      "Goat Meat Processing",
+      "Ground nut Processing",
+      "Cassava Processing",
+      "Maize Processing",
+      "Vegetable Processing",
+      "None",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_where_produce_sold",
+    "Values": [
+      "Local markets (Within community,Neighbors,local traders)",
+      "Urban Markets (District Markets)",
+      "Traders",
+      "Cooperatives",
+      "Local processors",
+      "Processors (Millers, Butcheries)",
+      "Government (Food Reserve Agency)",
+      "Export Markets",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_information_sources",
+    "Values": [
+      "Through media (radios, TV)",
+      "Mobile phones (SMS MIS) /internet",
+      "Through Buyers (Traders from urban markets) ",
+      "Village notice boards",
+      "Through Producer Groups",
+      "Through Cooperatives",
+      "Government Extension Services",
+      "Community gatherings e.g churches, mosques,etc",
+      "Opinion Leaders (Councillors, cultural leaders, etc)",
+      "Farmer-to-Farmer",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_farm_records",
+    "Values": [
+      "Crop Production",
+      "Livestock Production",
+      "Milk Production",
+      "Crop Sales",
+      "Milk Sales",
+      "Expenditure records",
+      "Livestock Health Records Training",
+      "Livestock sales",
+      "None",
+      "Other "
+    ]
+  },
+  {
+    "Name": "ilsp_range_1_3",
+    "Values": [
+      "1"
+    ]
+  },
+  {
+    "Name": "ilsp_range_1_4",
+    "Values": [
+      "2"
+    ]
+  },
+  {
+    "Name": "ilsp_range_1_5",
+    "Values": [
+      "3"
+    ]
+  },
+  {
+    "Name": "ilsp_food_primary_source",
+    "Values": [
+      "Own production",
+      "Purchased",
+      "Borrowed, gift from friends or relatives",
+      "Food aid",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_food_group_name",
+    "Values": [
+      "Cereals- millet, rice, Nshima",
+      "Tubers-    sweet potatoes, cassava",
+      "Vegetables-   tomatoes, onions, green pepper, cabbage, egg plants",
+      "Fruits-  pineapples, mangoes, oranges, apples, pawpaws, watermelon,",
+      "Meat-   beef, pork, lamb, goat, rabbit, wild game, chicken, duck, other birds",
+      "Eggs",
+      "Fish -  fish,kapenta",
+      "Legumes-  ground nuts, beans, soya, peas,",
+      "Milk-  milk, yogurt, sour milk",
+      "Oils and fats-  oil, fats or butter added to food or used for cooking",
+      "Sweets- sugar, honey, sugarcane, sugary foods",
+      "Spices and condiments-  ginger, tea, coffee"
+    ]
+  },
+  {
+    "Name": "ilsp_duration_3months",
+    "Values": [
+      "less than 3 months",
+      "3-6 Months",
+      "7-9 Months",
+      "10-12 months",
+      "More than 12 months"
+    ]
+  },
+  {
+    "Name": "ilsp_reasons_food_doesnt_last",
+    "Values": [
+      "Poor weather conditions",
+      "Inadequate input",
+      "Inadequate Land",
+      "Inadequate labor",
+      "Sold crop to raisemone",
+      "Illness in the family",
+      "Late delivery of inputs",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_months",
+    "Values": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "Name": "ilsp_coping_strategies",
+    "Values": [
+      "Borrowing (Food, money)",
+      "Begging",
+      "Working for Food",
+      "Reducing the number of meals",
+      "Eating wild fruits",
+      "Selling livestock to buy food",
+      "Skipping days without meals",
+      "Purchase food on credit",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_water_sources",
+    "Values": [
+      "Piped Water",
+      "Borehole Water",
+      "Protected Well Water",
+      "Unprotected Well Water",
+      "Shallow Wells",
+      "River Water",
+      "Rain Water",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_time_30min_intervals",
+    "Values": [
+      "Less than 30 min",
+      "Between 30 min to 1 hr",
+      "More than 1 hr",
+      "N/A",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_pit_latrines",
+    "Values": [
+      "Ordinary PitLatrines",
+      "VIP Latrines",
+      "Water Closet"
+    ]
+  },
+  {
+    "Name": "ilsp_money_sources",
+    "Values": [
+      "Salaries/Wages",
+      "Sales- firewood,homemade products/crafts",
+      "Trading",
+      "Rents-draft power/ property/machinery/interests",
+      "Remittances- sent from children, relatives",
+      "Government assistance- unemployment/welfare/allowance",
+      "Other",
+      "Total"
+    ]
+  },
+  {
+    "Name": "ilsp_hh_member_types",
+    "Values": [
+      "Male Household Member",
+      "Female Household Member",
+      "Other Household Member",
+      "Total"
+    ]
+  },
+  {
+    "Name": "ilsp_hh_expense",
+    "Values": [
+      "Food",
+      " Shelter/Housing-Building, renovations ",
+      "Education-School fees, uniforms,books",
+      " Clothing ",
+      "Health-Medical bills, medicine",
+      " Utilities- electricity, mobile, ",
+      "Transportation",
+      " Farm expenses-inputs,Livestock structures, vet-care, feed ",
+      "Productive Assets-farm assets",
+      " Household Assets-(e.g furniture, solar) ",
+      "Other Investments",
+      " Entertainment (e.g recreation, alcohol) ",
+      "Social (Membership fees, church offering, functions)",
+      " Savings "
+    ]
+  },
+  {
+    "Name": "ilsp_hh_expense_amount",
+    "Values": [
+      "Amount"
+    ]
+  },
+  {
+    "Name": "ilsp_loan_sources",
+    "Values": [
+      "Village Savings & Credit Scheme",
+      "Loan Sharks-Kaloba",
+      "Relative/Friend",
+      "Micro-Finance Institution",
+      "Commercial Bank",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_farming_tool",
+    "Values": [
+      "Hoe",
+      "Axe",
+      "Spade",
+      "Pangas",
+      "Wheelbarrow",
+      "Sprayer",
+      "Slasher",
+      "Ox-plough",
+      "Ridge-Plough",
+      "Ripper",
+      "Oil press",
+      "Grain mill",
+      "Ox-carts",
+      "Tractor",
+      "Trailor",
+      "Bicycle",
+      "Radio",
+      "TV",
+      "Mobile (cellphone)",
+      "Stove",
+      "Motorbike",
+      "Solar Panel",
+      "Motor Vehicle",
+      "Sofas",
+      "Bed",
+      "Mattress"
+    ]
+  },
+  {
+    "Name": "ilsp_main_wall_material",
+    "Values": [
+      "Mud",
+      "Clay / Burnt bricks",
+      "Concrete Blocks",
+      "Grass Thatched",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_material_house_roof",
+    "Values": [
+      "Grass-thatched",
+      "Iron Sheet",
+      "Plastics",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_family_type",
+    "Values": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "Name": "ilsp_soil_conservation_practices",
+    "Values": [
+      "Strip cropping",
+      "Reduced tillage",
+      "Zero tillage",
+      "Composting",
+      "Raised-bed gardening",
+      "Mulching",
+      "Tree planting",
+      "Contour farming",
+      "None",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_soil_building_practice",
+    "Values": [
+      "Composting",
+      "Manure usage",
+      "Cover cropping",
+      "Tree planting",
+      "None",
+      "Others"
+    ]
+  },
+  {
+    "Name": "ilsp_agroforestry_practice",
+    "Values": [
+      "Windbreaks",
+      "Agrosilvopasture (Crop livestock integration)",
+      "Bush Fire Prevention",
+      "Hedge grow planting",
+      "None",
+      "Others"
+    ]
+  },
+  {
+    "Name": "ilsp_energy_type",
+    "Values": [
+      "Firewood",
+      "Charcoal",
+      "Gas",
+      "Electric",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_grazing_type",
+    "Values": [
+      "Zero Grazing",
+      "Semi Zero Grazing",
+      "Controlled Grazing",
+      "Communal Grazing",
+      "Free Range Grazing",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_hh_owns_assets",
+    "Values": [
+      "Male and Female",
+      "Only Male",
+      "Only Female",
+      "Nobody from the family"
+    ]
+  },
+  {
+    "Name": "ilsp_male_female_combos",
+    "Values": [
+      "Male and Female",
+      "Only Male",
+      "Only Female"
+    ]
+  },
+  {
+    "Name": "ilsp_hh_members_serv",
+    "Values": [
+      "Male and Female",
+      "Only Male",
+      "Only Female",
+      "Nobody from the household"
+    ]
+  },
+  {
+    "Name": "ilsp_services_incommunity",
+    "Values": [
+      "Education",
+      "Health Services",
+      "Training and Professional Services",
+      "Justice/conflict resolution",
+      "Extension Services",
+      "Marketing Services",
+      "Veterinary Services",
+      "Financial Services"
+    ]
+  },
+  {
+    "Name": "ilsp_male_female_participation",
+    "Values": [
+      "Only Male",
+      "Only Female",
+      "Male and Female",
+      "Dont participate"
+    ]
+  },
+  {
+    "Name": "ilsp_low_avg_high",
+    "Values": [
+      "Low",
+      "Average",
+      "High"
+    ]
+  },
+  {
+    "Name": "ilsp_community_group",
+    "Values": [
+      "Producer group",
+      "Cooperative",
+      "Credit/Finance group",
+      "Women's group",
+      "Men's group",
+      "Youth group",
+      "Other"
+    ]
+  },
+  {
+    "Name": "ilsp_frequency_gen",
+    "Values": [
+      "Never",
+      "Very Rarely",
+      "Ocassionally",
+      "Frequently"
+    ]
+  },
+  {
+    "Name": "ilsp_agree_disagree",
+    "Values": [
+      "Agree",
+      "Strongly Agree",
+      "Disagree",
+      "Strongly Disagree"
+    ]
+  },
+  {
+    "Name": "ilsp_agree_disagree_neutral",
+    "Values": [
+      "Agree",
+      "Strongly Agree",
+      "Disagree",
+      "Strongly Disagree",
+      "Neutral"
+    ]
+  }
+]

@@ -28,9 +28,11 @@ namespace MobileCollector.store
 
             var ppxKinds = Constants.PPX_KIND_DISPLAYNAMES.Keys;
             var vmmcKinds = Constants.VMMC_KIND_DISPLAYNAMES.Keys;
+            var lspKinds = Constants.LSP_KIND_DISPLAYNAMES.Keys;
             var combined = new List<string>();
             combined.AddRange(ppxKinds);
             combined.AddRange(vmmcKinds);
+            combined.AddRange(lspKinds);
 
             var multiStore = new MultiTableStore()
             {
@@ -44,6 +46,8 @@ namespace MobileCollector.store
                     .DeserializeObject<GeneralEntityDataset>(record.Value);
                 var editDateObj = saveable.GetValue(Constants.FIELD_PPX_DATEOFVISIT);
                 editDateObj = editDateObj ?? saveable.GetValue(Constants.FIELD_VMMC_DATEOFVISIT);
+                editDateObj = editDateObj ?? saveable.GetValue(Constants.FIELD_LSP_DATEOFVISIT);
+
                 DateTime dateEdited;
                 if (editDateObj == null || string.IsNullOrWhiteSpace(editDateObj.Value))
                 {
@@ -103,8 +107,9 @@ namespace MobileCollector.store
             db.DeleteAll<OutEntity>();
             db.DeleteAll<OutEntityUnsynced>();
 
-            db.DeleteAll<projects.ppx.PPClientSummary>();
-            db.DeleteAll<projects.vmc.VmmcClientSummary>();
+            //db.DeleteAll<projects.ppx.PPClientSummary>();
+            //db.DeleteAll<projects.vmc.VmmcClientSummary>();
+            db.DeleteAll<projects.ilsp.lspClientSummary>();
             db.DeleteAll<RecordSummary>();
 
             new TableStore(Constants.KIND_DEFAULT).DeleteAll();
@@ -112,15 +117,17 @@ namespace MobileCollector.store
             new TableStore(Constants.KIND_SITESESSION).DeleteAll();
             new TableStore(Constants.KIND_SITEPROVIDER).DeleteAll();
 
-            //prepex clients
-            new TableStore(Constants.KIND_PPX_CLIENTEVAL).DeleteAll();
-            new TableStore(Constants.KIND_PPX_DEVICEREMOVAL).DeleteAll();
-            new TableStore(Constants.KIND_PPX_POSTREMOVAL).DeleteAll();
-            new TableStore(Constants.KIND_PPX_UNSCHEDULEDVISIT).DeleteAll();
+            ////prepex clients
+            //new TableStore(Constants.KIND_PPX_CLIENTEVAL).DeleteAll();
+            //new TableStore(Constants.KIND_PPX_DEVICEREMOVAL).DeleteAll();
+            //new TableStore(Constants.KIND_PPX_POSTREMOVAL).DeleteAll();
+            //new TableStore(Constants.KIND_PPX_UNSCHEDULEDVISIT).DeleteAll();
 
-            //VMMC
-            new TableStore(Constants.KIND_VMMC_POSTOP).DeleteAll();
-            new TableStore(Constants.KIND_VMMC_REGANDPROCEDURE).DeleteAll();
+            ////VMMC
+            //new TableStore(Constants.KIND_VMMC_POSTOP).DeleteAll();
+            //new TableStore(Constants.KIND_VMMC_REGANDPROCEDURE).DeleteAll();
+
+            new TableStore(Constants.KIND_LSP_MAIN).DeleteAll();
         }
 
         public void buildTables(bool rebuildIndexes)
@@ -129,8 +136,9 @@ namespace MobileCollector.store
             db.CreateTable<OutEntity>();
             db.CreateTable<OutEntityUnsynced>();
 
-            db.CreateTable<projects.ppx.PPClientSummary>();
-            db.CreateTable<projects.vmc.VmmcClientSummary>();
+            //db.CreateTable<projects.ppx.PPClientSummary>();
+            //db.CreateTable<projects.vmc.VmmcClientSummary>();
+            db.CreateTable<projects.ilsp.lspClientSummary>();
             db.CreateTable<RecordSummary>();
 
             db.CreateTable<DeviceConfiguration>();
@@ -139,14 +147,19 @@ namespace MobileCollector.store
             if (rebuildIndexes)
             {
                 RebuildClientSummaryIndexes<
-                    projects.vmc.VmmcClientSummary,
-                    projects.vmc.VmmcLookupProvider>(
-                    new KindName(Constants.KIND_VMMC_REGANDPROCEDURE));
+                    projects.ilsp.lspClientSummary,
+                    projects.ilsp.lspProvider>(
+                    new KindName(Constants.KIND_LSP_MAIN));
 
-                RebuildClientSummaryIndexes<
-                    projects.ppx.PPClientSummary,
-                    projects.ppx.PpxLookupProvider>(
-                    new KindName(Constants.KIND_PPX_CLIENTEVAL));
+    //            RebuildClientSummaryIndexes<
+    //projects.vmc.VmmcClientSummary,
+    //projects.vmc.VmmcLookupProvider>(
+    //new KindName(Constants.KIND_VMMC_REGANDPROCEDURE));
+
+    //            RebuildClientSummaryIndexes<
+    //                projects.ppx.PPClientSummary,
+    //                projects.ppx.PpxLookupProvider>(
+    //                new KindName(Constants.KIND_PPX_CLIENTEVAL));
 
                 RebuildRecordSummaryIndexes();
             }
@@ -158,15 +171,17 @@ namespace MobileCollector.store
             new TableStore(Constants.KIND_SITESESSION).build();
             new TableStore(Constants.KIND_SITEPROVIDER).build();
 
-            //prepex clients
-            new TableStore(Constants.KIND_PPX_CLIENTEVAL).build();
-            new TableStore(Constants.KIND_PPX_DEVICEREMOVAL).build();
-            new TableStore(Constants.KIND_PPX_POSTREMOVAL).build();
-            new TableStore(Constants.KIND_PPX_UNSCHEDULEDVISIT).build();
+            ////prepex clients
+            //new TableStore(Constants.KIND_PPX_CLIENTEVAL).build();
+            //new TableStore(Constants.KIND_PPX_DEVICEREMOVAL).build();
+            //new TableStore(Constants.KIND_PPX_POSTREMOVAL).build();
+            //new TableStore(Constants.KIND_PPX_UNSCHEDULEDVISIT).build();
 
-            //VMMC
-            new TableStore(Constants.KIND_VMMC_POSTOP).build();
-            new TableStore(Constants.KIND_VMMC_REGANDPROCEDURE).build();
+            ////VMMC
+            //new TableStore(Constants.KIND_VMMC_POSTOP).build();
+            //new TableStore(Constants.KIND_VMMC_REGANDPROCEDURE).build();
+
+            new TableStore(Constants.KIND_LSP_MAIN).build();
         }
 
         internal KindKey Save(KindKey entityId, KindName entityKind, KindItem dataToSave)
