@@ -49,9 +49,11 @@
     <Compile Include="FieldDefinition.cs" />
     <Compile Include="FieldItem.cs" />
     <Compile Include="IProjectInfo.cs" />
+    <Compile Include="MinimalViewDefinitionBuilder.cs" />
     <Compile Include="MyExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewDefinitionBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

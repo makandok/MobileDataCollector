@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<include layout="@layout/nextandprevbuttons" />
+
+    <TextView
+        android:text="@string/ilsp_livestock_fodder"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_livestock_fodder" />
+    <LinearLayout
+        android:background="@color/colorTableHeader"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="350dp"
+            android:text="@string/ilsp_livestock_fodder_yes"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ilsp_livestock_fodder_no"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_grow_fodder_livstck" >
+    <TextView
+android:text="@string/ilsp_grow_fodder_livstck"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_grow_fodder_livstck" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_grow_fodder_livstck_yes" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_grow_fodder_livstck_no" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_area_cultivated_fodder" >
+    <TextView
+android:text="@string/ilsp_area_cultivated_fodder"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_area_cultivated_fodder" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_area_cultivated_fodder_acres" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_area_cultivated_fodder_hectares" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_area_cultivated_fodder_lima" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_area_cultivated_fodder_sqmeter" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_fodder_produced"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_fodder_produced" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:id="@+id/ilsp_fodder_produced"
+        android:hint="@string/ilsp_fodder_produced" />
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_store_and_preseve_fodder" >
+    <TextView
+android:text="@string/ilsp_store_and_preseve_fodder"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_store_and_preseve_fodder" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_store_and_preseve_fodder_yes" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_store_and_preseve_fodder_no" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livstck_enough_food" >
+    <TextView
+android:text="@string/ilsp_livstck_enough_food"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_livstck_enough_food" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_livstck_enough_food_yes" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_livstck_enough_food_no" /></RadioGroup >
+
+    <TextView
+android:text="@string/ilsp_where_feed_is_bought"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_where_feed_is_bought" /> <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_localmarket"
+             android:id="@+id/ilsp_where_feed_is_bought_localmarket" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_urbanmarkets"
+             android:id="@+id/ilsp_where_feed_is_bought_urbanmarkets" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_localagrovetshops"
+             android:id="@+id/ilsp_where_feed_is_bought_localagrovetshops" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_urbanagrovetshops"
+             android:id="@+id/ilsp_where_feed_is_bought_urbanagrovetshops" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_middlementraders"
+             android:id="@+id/ilsp_where_feed_is_bought_middlementraders" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_cooperatives"
+             android:id="@+id/ilsp_where_feed_is_bought_cooperatives" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_milkcollectioncentres"
+             android:id="@+id/ilsp_where_feed_is_bought_milkcollectioncentres" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_localmillers"
+             android:id="@+id/ilsp_where_feed_is_bought_localmillers" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_urbanmillers"
+             android:id="@+id/ilsp_where_feed_is_bought_urbanmillers" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_ownproduction"
+             android:id="@+id/ilsp_where_feed_is_bought_ownproduction" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_neverbuy"
+             android:id="@+id/ilsp_where_feed_is_bought_neverbuy" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_na"
+             android:id="@+id/ilsp_where_feed_is_bought_na" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_where_feed_is_bought_other"
+             android:id="@+id/ilsp_where_feed_is_bought_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_feed_source"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_feed_source" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_feed_source"
+        android:hint="@string/ilsp_other_feed_source" />
+
+    <TextView
+android:text="@string/ilsp_tick_control_method"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_tick_control_method" />
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_tick_control_method" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_tick_control_method_dipping"
+android:id="@+id/ilsp_tick_control_method_dipping" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_tick_control_method_spraying"
+android:id="@+id/ilsp_tick_control_method_spraying" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_tick_control_method_none"
+android:id="@+id/ilsp_tick_control_method_none" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_tick_control_method_na"
+android:id="@+id/ilsp_tick_control_method_na" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_tick_control_method_other"
+android:id="@+id/ilsp_tick_control_method_other" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_other_tick_control"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_tick_control" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_tick_control"
+        android:hint="@string/ilsp_other_tick_control" />
+
+    <TextView
+android:text="@string/ilsp_frequency_livestock_dip"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_frequency_livestock_dip" /> <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_weekly"
+             android:id="@+id/ilsp_frequency_livestock_dip_weekly" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_every2weeks"
+             android:id="@+id/ilsp_frequency_livestock_dip_every2weeks" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_monthly"
+             android:id="@+id/ilsp_frequency_livestock_dip_monthly" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_quarterlyevery3months"
+             android:id="@+id/ilsp_frequency_livestock_dip_quarterlyevery3months" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_biannuallyevery6months"
+             android:id="@+id/ilsp_frequency_livestock_dip_biannuallyevery6months" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_annually"
+             android:id="@+id/ilsp_frequency_livestock_dip_annually" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_accordingtoschedule"
+             android:id="@+id/ilsp_frequency_livestock_dip_accordingtoschedule" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_whenthereisadiseaseoutbreak"
+             android:id="@+id/ilsp_frequency_livestock_dip_whenthereisadiseaseoutbreak" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_never"
+             android:id="@+id/ilsp_frequency_livestock_dip_never" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_frequency_livestock_dip_other"
+             android:id="@+id/ilsp_frequency_livestock_dip_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_freq_livstck_dip"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_freq_livstck_dip" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_freq_livstck_dip"
+        android:hint="@string/ilsp_other_freq_livstck_dip" />
+
+    <TextView
+android:text="@string/ilsp_how_often_vacc_livstck"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_how_often_vacc_livstck" /> <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_accordingtovaccinationschedule"
+             android:id="@+id/ilsp_how_often_vacc_livstck_accordingtovaccinationschedule" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_whenanimalsaresick"
+             android:id="@+id/ilsp_how_often_vacc_livstck_whenanimalsaresick" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_whenthereisadiseaseoutbreak"
+             android:id="@+id/ilsp_how_often_vacc_livstck_whenthereisadiseaseoutbreak" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_annually"
+             android:id="@+id/ilsp_how_often_vacc_livstck_annually" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_never"
+             android:id="@+id/ilsp_how_often_vacc_livstck_never" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_na"
+             android:id="@+id/ilsp_how_often_vacc_livstck_na" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_how_often_vacc_livstck_other"
+             android:id="@+id/ilsp_how_often_vacc_livstck_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_vacc_livstck"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_vacc_livstck" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_vacc_livstck"
+        android:hint="@string/ilsp_other_vacc_livstck" />
+
+    <TextView
+android:text="@string/ilsp_source_livestock_drugs"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_source_livestock_drugs" /> <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_communityanimalhealthworkersparavets"
+             android:id="@+id/ilsp_source_livestock_drugs_communityanimalhealthworkersparavets" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_publicvetcliniccamp"
+             android:id="@+id/ilsp_source_livestock_drugs_publicvetcliniccamp" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_privateveterinaryclinics"
+             android:id="@+id/ilsp_source_livestock_drugs_privateveterinaryclinics" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_localagrovetshops"
+             android:id="@+id/ilsp_source_livestock_drugs_localagrovetshops" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_urbanagrovetshops"
+             android:id="@+id/ilsp_source_livestock_drugs_urbanagrovetshops" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_cooperatives"
+             android:id="@+id/ilsp_source_livestock_drugs_cooperatives" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_usenaturalremedies"
+             android:id="@+id/ilsp_source_livestock_drugs_usenaturalremedies" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_neverbuy"
+             android:id="@+id/ilsp_source_livestock_drugs_neverbuy" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_na"
+             android:id="@+id/ilsp_source_livestock_drugs_na" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_livestock_drugs_other"
+             android:id="@+id/ilsp_source_livestock_drugs_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_souce_livstck_drgs"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_souce_livstck_drgs" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_souce_livstck_drgs"
+        android:hint="@string/ilsp_other_souce_livstck_drgs" />
+
+</LinearLayout>
+</ScrollView>

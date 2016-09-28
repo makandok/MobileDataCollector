@@ -27,11 +27,11 @@
   {
     "Name": "ilsp_project_year",
     "Values": [
-      "year 1",
-      "year 2",
-      "year 3",
-      "year 4",
-      "year 5"
+      "Year 1",
+      "Year 2",
+      "Year 3",
+      "Year 4",
+      "Year 5"
     ]
   },
   {
@@ -46,7 +46,8 @@
     "Values": [
       "Original",
       "POG",
-      "Original-Not yet received anything"
+      "Original-Not yet received anything",
+      "POG - Not yet received"
     ]
   },
   {
@@ -84,12 +85,7 @@
   {
     "Name": "ilsp_age_band",
     "Values": [
-      "Under 18"
-    ]
-  },
-  {
-    "Name": "ilsp_age_band",
-    "Values": [
+      "Under 18",
       "Between 18 to 35",
       "Between 36 to 64",
       "65 and above"
@@ -99,12 +95,12 @@
     "Name": "ilsp_land_tenure",
     "Values": [
       "Traditional",
-      "Lease hold (Title Deeds)",
-      "ired/Rented",
+      "Lease hold",
+      "Hired/Rented",
       "Borrowed",
       "Squating",
       "Municipal land (Council)",
-      "Don't Know"
+      "Don\\'t Know"
     ]
   },
   {
@@ -162,6 +158,7 @@
       "Dairy Cattle",
       "Beef Cattle",
       "Draft Cattle",
+      "Quails",
       "Other"
     ]
   },
@@ -345,19 +342,9 @@
   {
     "Name": "ilsp_range_1_3",
     "Values": [
-      "1"
-    ]
-  },
-  {
-    "Name": "ilsp_range_1_4",
-    "Values": [
-      "2"
-    ]
-  },
-  {
-    "Name": "ilsp_range_1_5",
-    "Values": [
-      "3"
+      "1 meal",
+      "2 meals",
+      "3 meals"
     ]
   },
   {
@@ -467,7 +454,7 @@
   {
     "Name": "ilsp_pit_latrines",
     "Values": [
-      "Ordinary PitLatrines",
+      "Ordinary Pit Latrines",
       "VIP Latrines",
       "Water Closet"
     ]
@@ -522,7 +509,7 @@
   {
     "Name": "ilsp_loan_sources",
     "Values": [
-      "Village Savings & Credit Scheme",
+      "Village Savings and Credit Scheme",
       "Loan Sharks-Kaloba",
       "Relative/Friend",
       "Micro-Finance Institution",
@@ -558,7 +545,37 @@
       "Motor Vehicle",
       "Sofas",
       "Bed",
-      "Mattress"
+      "Mattress",
+      "Hoe",
+      "Axe",
+      "Spade",
+      "Pangas",
+      "Wheelbarrow",
+      "Sprayer",
+      "Slasher",
+      "plough",
+      "Oil press",
+      "Grain mill",
+      "Ox-carts",
+      "Tractor",
+      "Trailor"
+    ]
+  },
+  {
+    "Name": "ilsp_non_farming_tool",
+    "Values": [
+      "Bicycle",
+      "Radio",
+      "TV",
+      "Mobile (cellphone)",
+      "Stove",
+      "Motorbike",
+      "Solar Panel",
+      "Motor Vehicle",
+      "Sofas",
+      "Bed",
+      "Mattress",
+      "Solar Lamps"
     ]
   },
   {
@@ -708,8 +725,8 @@
       "Producer group",
       "Cooperative",
       "Credit/Finance group",
-      "Women's group",
-      "Men's group",
+      "Women\\'s group",
+      "Men\\'s group",
       "Youth group",
       "Other"
     ]
@@ -740,6 +757,22 @@
       "Disagree",
       "Strongly Disagree",
       "Neutral"
+    ]
+  },
+  {
+    "Name": "ilsp_beneficiary_project",
+    "Values": [
+      "ILASP",
+      "SLWEP"
+    ]
+  },
+  {
+    "Name": "ilsp_education",
+    "Values": [
+      "Primary ",
+      "Junior Secondary (8 to 9)",
+      "Senior Secondary (10 to 12) ",
+      "Tertiary (college/university)"
     ]
   }
 ]

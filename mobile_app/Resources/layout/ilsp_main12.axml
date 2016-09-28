@@ -9,54 +9,262 @@
 <include layout="@layout/nextandprevbuttons" />
 
     <TextView
-        android:text="@string/unschedule_preassmt_hdr"
+        android:text="@string/ilsp_improved_environment"
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/white"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/unschedule_preassmt_hdr" />
+        android:id="@+id/ilsp_improved_environment" />
 
     <TextView
-android:text="@string/aesswhilewearing"
+android:text="@string/ilsp_soil_conservation_pract"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/l_aesswhilewearing" />
+        android:id="@+id/l_ilsp_soil_conservation_pract" /> <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_stripcropping"
+             android:id="@+id/ilsp_soil_conservation_pract_stripcropping" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_reducedtillage"
+             android:id="@+id/ilsp_soil_conservation_pract_reducedtillage" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_zerotillage"
+             android:id="@+id/ilsp_soil_conservation_pract_zerotillage" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_composting"
+             android:id="@+id/ilsp_soil_conservation_pract_composting" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_raisedbedgardening"
+             android:id="@+id/ilsp_soil_conservation_pract_raisedbedgardening" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_mulching"
+             android:id="@+id/ilsp_soil_conservation_pract_mulching" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_treeplanting"
+             android:id="@+id/ilsp_soil_conservation_pract_treeplanting" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_contourfarming"
+             android:id="@+id/ilsp_soil_conservation_pract_contourfarming" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_none"
+             android:id="@+id/ilsp_soil_conservation_pract_none" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_soil_conservation_pract_other"
+             android:id="@+id/ilsp_soil_conservation_pract_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_soil_conserv_pract"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_soil_conserv_pract" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_soil_conserv_pract"
+        android:hint="@string/ilsp_other_soil_conserv_pract" />
+
+    <TextView
+android:text="@string/ilsp_energy_type_used"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_energy_type_used" />
 <RadioGroup
 android:orientation="horizontal"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_aesswhilewearing" >
+        android:id="@+id/rg_ilsp_energy_type_used" >
 <RadioButton
             android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/aesswhilewearing_noadverseeventsdiagnosed"
-android:id="@+id/aesswhilewearing_noadverseeventsdiagnosed" />
+            android:text="@string/ilsp_energy_type_used_firewood"
+android:id="@+id/ilsp_energy_type_used_firewood" />
 
 <RadioButton
             android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/aesswhilewearing_adverseeventsdiagnosed"
-android:id="@+id/aesswhilewearing_adverseeventsdiagnosed" /></RadioGroup >
+            android:text="@string/ilsp_energy_type_used_charcoal"
+android:id="@+id/ilsp_energy_type_used_charcoal" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_energy_type_used_gas"
+android:id="@+id/ilsp_energy_type_used_gas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_energy_type_used_electric"
+android:id="@+id/ilsp_energy_type_used_electric" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_energy_type_used_other"
+android:id="@+id/ilsp_energy_type_used_other" /></RadioGroup >
 
     <TextView
-        android:text="@string/aesdiagnosed_hdr"
+        android:text="@string/ilsp_other_energy_type_used"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_energy_type_used" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_energy_type_used"
+        android:hint="@string/ilsp_other_energy_type_used" />
+
+    <TextView
+android:text="@string/ilsp_livestock_graztyp"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_livestock_graztyp" />
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_graztyp" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_graztyp_zerograzing"
+android:id="@+id/ilsp_livestock_graztyp_zerograzing" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_graztyp_semizerograzing"
+android:id="@+id/ilsp_livestock_graztyp_semizerograzing" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_graztyp_controlledgrazing"
+android:id="@+id/ilsp_livestock_graztyp_controlledgrazing" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_graztyp_communalgrazing"
+android:id="@+id/ilsp_livestock_graztyp_communalgrazing" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_graztyp_freerangegrazing"
+android:id="@+id/ilsp_livestock_graztyp_freerangegrazing" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_graztyp_other"
+android:id="@+id/ilsp_livestock_graztyp_other" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_other_livestock_graztyp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_livestock_graztyp" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_livestock_graztyp"
+        android:hint="@string/ilsp_other_livestock_graztyp" />
+
+    <TextView
+        android:text="@string/ilsp_who_owns_assets"
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/white"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/aesdiagnosed_hdr" />
+        android:id="@+id/ilsp_who_owns_assets" />
+
+    <TextView
+        android:text="@string/ilsp_asset_ownership_label"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_asset_ownership_label" />
     <LinearLayout
         android:background="@color/colorTableHeader"
         android:orientation="horizontal"
@@ -67,7 +275,7 @@ android:id="@+id/aesswhilewearing_adverseeventsdiagnosed" /></RadioGroup >
             android:textColor="@android:color/holo_blue_dark"
             android:gravity="center_vertical"
             android:layout_marginLeft="350dp"
-            android:text="@string/aesdiagnosed_hdr_mild"
+            android:text="@string/ilsp_asset_ownership_label_maleandfemale"
             android:layout_height="wrap_content"
             android:layout_width="100dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -76,7 +284,7 @@ android:id="@+id/aesswhilewearing_adverseeventsdiagnosed" /></RadioGroup >
             android:textColor="@android:color/holo_blue_dark"
             android:gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:text="@string/aesdiagnosed_hdr_moderate"
+            android:text="@string/ilsp_asset_ownership_label_onlymale"
             android:layout_height="wrap_content"
             android:layout_width="100dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -85,7 +293,7 @@ android:id="@+id/aesswhilewearing_adverseeventsdiagnosed" /></RadioGroup >
             android:textColor="@android:color/holo_blue_dark"
             android:gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:text="@string/aesdiagnosed_hdr_severe"
+            android:text="@string/ilsp_asset_ownership_label_onlyfemale"
             android:layout_height="wrap_content"
             android:layout_width="100dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -94,7 +302,7 @@ android:id="@+id/aesswhilewearing_adverseeventsdiagnosed" /></RadioGroup >
             android:textColor="@android:color/holo_blue_dark"
             android:gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:text="@string/aesdiagnosed_hdr_severitynotclassified"
+            android:text="@string/ilsp_asset_ownership_label_nobodyfromthefamily"
             android:layout_height="wrap_content"
             android:layout_width="100dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -106,23 +314,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_pain" >
+        android:id="@+id/rg_ilsp_who_owns_land" >
     <TextView
-android:text="@string/pain"
+android:text="@string/ilsp_who_owns_land"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_pain" />
+        android:id="@+id/l_ilsp_who_owns_land" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/pain_mild" />
+android:id="@+id/ilsp_who_owns_land_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -130,7 +338,7 @@ android:id="@+id/pain_mild" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/pain_moderate" />
+android:id="@+id/ilsp_who_owns_land_onlymale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -138,7 +346,7 @@ android:id="@+id/pain_moderate" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/pain_severe" />
+android:id="@+id/ilsp_who_owns_land_onlyfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -146,7 +354,7 @@ android:id="@+id/pain_severe" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/pain_severitynotclassified" /></RadioGroup >
+android:id="@+id/ilsp_who_owns_land_nobodyfromthefamily" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -154,23 +362,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_bleeding" >
+        android:id="@+id/rg_ilsp_who_owns_mach_work_land" >
     <TextView
-android:text="@string/bleeding"
+android:text="@string/ilsp_who_owns_mach_work_land"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_bleeding" />
+        android:id="@+id/l_ilsp_who_owns_mach_work_land" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/bleeding_mild" />
+android:id="@+id/ilsp_who_owns_mach_work_land_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -178,7 +386,7 @@ android:id="@+id/bleeding_mild" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/bleeding_moderate" />
+android:id="@+id/ilsp_who_owns_mach_work_land_onlymale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -186,7 +394,7 @@ android:id="@+id/bleeding_moderate" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/bleeding_severe" />
+android:id="@+id/ilsp_who_owns_mach_work_land_onlyfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -194,7 +402,7 @@ android:id="@+id/bleeding_severe" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/bleeding_severitynotclassified" /></RadioGroup >
+android:id="@+id/ilsp_who_owns_mach_work_land_nobodyfromthefamily" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -202,23 +410,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_damagetopenis" >
+        android:id="@+id/rg_ilsp_who_owns_small_ruminants" >
     <TextView
-android:text="@string/damagetopenis"
+android:text="@string/ilsp_who_owns_small_ruminants"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_damagetopenis" />
+        android:id="@+id/l_ilsp_who_owns_small_ruminants" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/damagetopenis_mild" />
+android:id="@+id/ilsp_who_owns_small_ruminants_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -226,7 +434,7 @@ android:id="@+id/damagetopenis_mild" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/damagetopenis_moderate" />
+android:id="@+id/ilsp_who_owns_small_ruminants_onlymale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -234,7 +442,7 @@ android:id="@+id/damagetopenis_moderate" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/damagetopenis_severe" />
+android:id="@+id/ilsp_who_owns_small_ruminants_onlyfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -242,7 +450,7 @@ android:id="@+id/damagetopenis_severe" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/damagetopenis_severitynotclassified" /></RadioGroup >
+android:id="@+id/ilsp_who_owns_small_ruminants_nobodyfromthefamily" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -250,23 +458,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_infection" >
+        android:id="@+id/rg_ilsp_who_owns_large_animals" >
     <TextView
-android:text="@string/infection"
+android:text="@string/ilsp_who_owns_large_animals"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_infection" />
+        android:id="@+id/l_ilsp_who_owns_large_animals" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/infection_mild" />
+android:id="@+id/ilsp_who_owns_large_animals_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -274,7 +482,7 @@ android:id="@+id/infection_mild" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/infection_moderate" />
+android:id="@+id/ilsp_who_owns_large_animals_onlymale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -282,7 +490,7 @@ android:id="@+id/infection_moderate" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/infection_severe" />
+android:id="@+id/ilsp_who_owns_large_animals_onlyfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -290,409 +498,16 @@ android:id="@+id/infection_severe" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/infection_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_hematoma" >
-    <TextView
-android:text="@string/hematoma"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_hematoma" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/hematoma_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/hematoma_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/hematoma_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/hematoma_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_edema_swelling" >
-    <TextView
-android:text="@string/edema_swelling"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_edema_swelling" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/edema_swelling_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/edema_swelling_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/edema_swelling_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/edema_swelling_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_problemsvoiding" >
-    <TextView
-android:text="@string/problemsvoiding"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_problemsvoiding" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/problemsvoiding_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/problemsvoiding_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/problemsvoiding_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/problemsvoiding_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_psychological" >
-    <TextView
-android:text="@string/psychological"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_psychological" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/psychological_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/psychological_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/psychological_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/psychological_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_requestingearlyremoval" >
-    <TextView
-android:text="@string/requestingearlyremoval"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_requestingearlyremoval" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/requestingearlyremoval_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/requestingearlyremoval_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/requestingearlyremoval_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/requestingearlyremoval_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_devicemalfunction" >
-    <TextView
-android:text="@string/devicemalfunction"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_devicemalfunction" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicemalfunction_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicemalfunction_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicemalfunction_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicemalfunction_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_devicedisplacement" >
-    <TextView
-android:text="@string/devicedisplacement"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_devicedisplacement" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicedisplacement_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicedisplacement_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicedisplacement_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/devicedisplacement_severitynotclassified" /></RadioGroup >
-
-<RadioGroup
-android:orientation="horizontal"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rg_prematuredifferentialsloughing" >
-    <TextView
-android:text="@string/prematuredifferentialsloughing"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_prematuredifferentialsloughing" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/prematuredifferentialsloughing_mild" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/prematuredifferentialsloughing_moderate" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/prematuredifferentialsloughing_severe" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/prematuredifferentialsloughing_severitynotclassified" /></RadioGroup >
+android:id="@+id/ilsp_who_owns_large_animals_nobodyfromthefamily" /></RadioGroup >
 
     <TextView
-        android:text="@string/unschedule_preassmt_hdr"
+        android:text="@string/ilsp_factors_controlled_by"
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/white"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/unschedule_preassmt_hdr" />
-
-    <TextView
-        android:text="@string/clientinstructedon_hdr"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@color/white"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/clientinstructedon_hdr" />
+        android:id="@+id/ilsp_factors_controlled_by" />
     <LinearLayout
         android:background="@color/colorTableHeader"
         android:orientation="horizontal"
@@ -703,7 +518,7 @@ android:id="@+id/prematuredifferentialsloughing_severitynotclassified" /></Radio
             android:textColor="@android:color/holo_blue_dark"
             android:gravity="center_vertical"
             android:layout_marginLeft="350dp"
-            android:text="@string/clientinstructedon_hdr_yes"
+            android:text="@string/ilsp_factors_controlled_by_maleandfemale"
             android:layout_height="wrap_content"
             android:layout_width="100dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -712,7 +527,16 @@ android:id="@+id/prematuredifferentialsloughing_severitynotclassified" /></Radio
             android:textColor="@android:color/holo_blue_dark"
             android:gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:text="@string/clientinstructedon_hdr_no"
+            android:text="@string/ilsp_factors_controlled_by_onlymale"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ilsp_factors_controlled_by_onlyfemale"
             android:layout_height="wrap_content"
             android:layout_width="100dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -724,23 +548,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_notmovedevice" >
+        android:id="@+id/rg_ilsp_land" >
     <TextView
-android:text="@string/notmovedevice"
+android:text="@string/ilsp_land"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_notmovedevice" />
+        android:id="@+id/l_ilsp_land" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/notmovedevice_yes" />
+android:id="@+id/ilsp_land_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -748,7 +572,15 @@ android:id="@+id/notmovedevice_yes" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/notmovedevice_no" /></RadioGroup >
+android:id="@+id/ilsp_land_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_land_onlyfemale" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -756,23 +588,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_removalonday7" >
+        android:id="@+id/rg_ilsp_machinery_work_land" >
     <TextView
-android:text="@string/removalonday7"
+android:text="@string/ilsp_machinery_work_land"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_removalonday7" />
+        android:id="@+id/l_ilsp_machinery_work_land" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/removalonday7_yes" />
+android:id="@+id/ilsp_machinery_work_land_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -780,7 +612,15 @@ android:id="@+id/removalonday7_yes" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/removalonday7_no" /></RadioGroup >
+android:id="@+id/ilsp_machinery_work_land_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_machinery_work_land_onlyfemale" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -788,23 +628,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_returnifwantsdeviceremoved" >
+        android:id="@+id/rg_ilsp_tech_trng_work_land" >
     <TextView
-android:text="@string/returnifwantsdeviceremoved"
+android:text="@string/ilsp_tech_trng_work_land"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_returnifwantsdeviceremoved" />
+        android:id="@+id/l_ilsp_tech_trng_work_land" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/returnifwantsdeviceremoved_yes" />
+android:id="@+id/ilsp_tech_trng_work_land_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -812,7 +652,15 @@ android:id="@+id/returnifwantsdeviceremoved_yes" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/returnifwantsdeviceremoved_no" /></RadioGroup >
+android:id="@+id/ilsp_tech_trng_work_land_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_tech_trng_work_land_onlyfemale" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -820,23 +668,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_notremovedevice" >
+        android:id="@+id/rg_ilsp_microfinance_services" >
     <TextView
-android:text="@string/notremovedevice"
+android:text="@string/ilsp_microfinance_services"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_notremovedevice" />
+        android:id="@+id/l_ilsp_microfinance_services" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/notremovedevice_yes" />
+android:id="@+id/ilsp_microfinance_services_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -844,7 +692,57 @@ android:id="@+id/notremovedevice_yes" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/notremovedevice_no" /></RadioGroup >
+android:id="@+id/ilsp_microfinance_services_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_microfinance_services_onlyfemale" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_decisions_made_by"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_decisions_made_by" />
+    <LinearLayout
+        android:background="@color/colorTableHeader"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="350dp"
+            android:text="@string/ilsp_decisions_made_by_maleandfemale"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ilsp_decisions_made_by_onlymale"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ilsp_decisions_made_by_onlyfemale"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
 
 <RadioGroup
 android:orientation="horizontal"
@@ -852,23 +750,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_notpullforeskin" >
+        android:id="@+id/rg_ilsp_own_education_dec" >
     <TextView
-android:text="@string/notpullforeskin"
+android:text="@string/ilsp_own_education_dec"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_notpullforeskin" />
+        android:id="@+id/l_ilsp_own_education_dec" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/notpullforeskin_yes" />
+android:id="@+id/ilsp_own_education_dec_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -876,7 +774,15 @@ android:id="@+id/notpullforeskin_yes" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/notpullforeskin_no" /></RadioGroup >
+android:id="@+id/ilsp_own_education_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_own_education_dec_onlyfemale" /></RadioGroup >
 
 <RadioGroup
 android:orientation="horizontal"
@@ -884,23 +790,23 @@ android:orientation="horizontal"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_nosexmastrubation" >
+        android:id="@+id/rg_ilsp_labor_hours_dec" >
     <TextView
-android:text="@string/nosexmastrubation"
+android:text="@string/ilsp_labor_hours_dec"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/l_nosexmastrubation" />
+        android:id="@+id/l_ilsp_labor_hours_dec" />
 <RadioButton
     android:layout_marginStart="10dp"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/nosexmastrubation_yes" />
+android:id="@+id/ilsp_labor_hours_dec_maleandfemale" />
 
 <RadioButton
     android:layout_marginStart="10dp"
@@ -908,7 +814,215 @@ android:id="@+id/nosexmastrubation_yes" />
     android:layout_height="wrap_content"
     android:checked="false"
 android:text=""
-android:id="@+id/nosexmastrubation_no" /></RadioGroup >
+android:id="@+id/ilsp_labor_hours_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_labor_hours_dec_onlyfemale" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_household_exp_dec" >
+    <TextView
+android:text="@string/ilsp_household_exp_dec"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_household_exp_dec" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_household_exp_dec_maleandfemale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_household_exp_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_household_exp_dec_onlyfemale" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_family_size_dec" >
+    <TextView
+android:text="@string/ilsp_family_size_dec"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_family_size_dec" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_family_size_dec_maleandfemale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_family_size_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_family_size_dec_onlyfemale" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_children_sch_attend_dec" >
+    <TextView
+android:text="@string/ilsp_children_sch_attend_dec"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_children_sch_attend_dec" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_children_sch_attend_dec_maleandfemale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_children_sch_attend_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_children_sch_attend_dec_onlyfemale" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_manage_house_dec" >
+    <TextView
+android:text="@string/ilsp_manage_house_dec"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_manage_house_dec" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_manage_house_dec_maleandfemale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_manage_house_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_manage_house_dec_onlyfemale" /></RadioGroup >
+
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_particip_comm_org_dec" >
+    <TextView
+android:text="@string/ilsp_particip_comm_org_dec"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_particip_comm_org_dec" />
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_particip_comm_org_dec_maleandfemale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_particip_comm_org_dec_onlymale" />
+
+<RadioButton
+    android:layout_marginStart="10dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:checked="false"
+android:text=""
+android:id="@+id/ilsp_particip_comm_org_dec_onlyfemale" /></RadioGroup >
 
 </LinearLayout>
 </ScrollView>

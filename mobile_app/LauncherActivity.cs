@@ -58,11 +58,14 @@ namespace MobileCollector
             var buttonVmmcHome = FindViewById<Button>(Resource.Id.buttonVmmcHome);
             buttonVmmcHome.Click += (x, y) =>
             {
+                //StartActivity(typeof(MobileCollector.projects.GridDisplayActivity));
+
                 //var contextManager = new VmmcContextManager(this.Assets, this);
                 //AppInstance.Instance.SetProjectContext(contextManager);
                 //StartActivity(typeof(MobileCollector.projects.vmc.VmmcHomeActivity));
             };
             buttonVmmcHome.Visibility = Android.Views.ViewStates.Gone;
+            //buttonVmmcHome.Visibility = Android.Views.ViewStates.Visible;
 
             //fetchData
             var fetchData = FindViewById<Button>(Resource.Id.fetchData);
@@ -72,7 +75,7 @@ namespace MobileCollector
             var buttonSiteSession = FindViewById<Button>(Resource.Id.buttonSiteSession);
             buttonSiteSession.Click += (x, y) =>
             {
-                StartActivity(typeof(MobileCollector.projects.session.SessionHomeActivity));
+                //StartActivity(typeof(MobileCollector.projects.session.SessionHomeActivity));
             };
             buttonSiteSession.Visibility = Android.Views.ViewStates.Invisible;
         }

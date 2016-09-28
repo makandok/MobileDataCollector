@@ -89,12 +89,6 @@ namespace MobileCollector.projects.ilsp
             this.EntityId = new KindKey(KindKey);
             this.Id = new KindKey(KindKey);
 
-            //var kmd = new KindMetaData()
-            //{
-            //    chksum = 1,
-            //    devid = AppInstance.Instance.Configuration.Serial,
-            //    facidx = 0
-            //};
             this.KindMetaData = lookupEntry.KindMetaData;
 
             var dateStr = allFields[Constants.FIELD_LSP_DATEOFVISIT];

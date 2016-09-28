@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/nextandprevbuttons" />
+        <TextView
+            android:text="@string/ilsp_income_and_assets"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_income_and_assets" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_salarieswages" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_salarieswages"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_salarieswages" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_salarieswages" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_salarieswages" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_salarieswages" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_salarieswages" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_salarieswages" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_salarieswages" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_salesfirewoodhomemadeproductscrafts" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_salesfirewoodhomemadeproductscrafts"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_salesfirewoodhomemadeproductscrafts" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_salesfirewoodhomemadeproductscrafts" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_salesfirewoodhomemadeproductscrafts" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_salesfirewoodhomemadeproductscrafts" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_salesfirewoodhomemadeproductscrafts" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_salesfirewoodhomemadeproductscrafts" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_salesfirewoodhomemadeproductscrafts" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_trading" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_trading"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_trading" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_trading" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_trading" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_trading" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_trading" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_trading" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_trading" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_rentsdraftpowerpropertymachineryinterests" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_rentsdraftpowerpropertymachineryinterests"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_rentsdraftpowerpropertymachineryinterests" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_rentsdraftpowerpropertymachineryinterests" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_rentsdraftpowerpropertymachineryinterests" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_rentsdraftpowerpropertymachineryinterests" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_rentsdraftpowerpropertymachineryinterests" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_rentsdraftpowerpropertymachineryinterests" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_rentsdraftpowerpropertymachineryinterests" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_remittancessentfromchildrenrelatives" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_remittancessentfromchildrenrelatives"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_remittancessentfromchildrenrelatives" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_remittancessentfromchildrenrelatives" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_remittancessentfromchildrenrelatives" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_remittancessentfromchildrenrelatives" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_remittancessentfromchildrenrelatives" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_remittancessentfromchildrenrelatives" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_remittancessentfromchildrenrelatives" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_governmentassistanceunemploymentwelfareallowance" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_governmentassistanceunemploymentwelfareallowance"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_governmentassistanceunemploymentwelfareallowance" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_governmentassistanceunemploymentwelfareallowance" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_governmentassistanceunemploymentwelfareallowance" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_governmentassistanceunemploymentwelfareallowance" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_governmentassistanceunemploymentwelfareallowance" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_governmentassistanceunemploymentwelfareallowance" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_governmentassistanceunemploymentwelfareallowance" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_other" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_other"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_other" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_other" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_other" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_other" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_other" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_other" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_other" />
+        <TextView
+            android:text="@string/ilsp_amnt_recvd_by_hh_mbrs"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_amnt_recvd_by_hh_mbrs_sx_total" />
+        <TextView
+            android:text="@string/ilsp_source_of_money_sx_total"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilsp_source_of_money_sx_total" />
+        <TextView
+            android:text="@string/ilsp_male_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_male_household_member_sx_total" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_male_household_member_sx_total" />
+        <TextView
+            android:text="@string/ilsp_female_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_female_household_member_sx_total" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_female_household_member_sx_total" />
+        <TextView
+            android:text="@string/ilsp_other_household_member"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:labelFor="@+id/ilsp_other_household_member_sx_total" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:id="@+id/ilsp_other_household_member_sx_total" />
+    </LinearLayout>
+</ScrollView>

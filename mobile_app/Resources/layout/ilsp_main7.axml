@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/nextandprevbuttons" />
+        <TextView
+            android:text="@string/ilsp_dur_food_stocks_lasted"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_dur_food_stocks_lasted" />
+        <RadioGroup
+            android:orientation="vertical"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_ilsp_dur_food_stocks_lasted">
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_dur_food_stocks_lasted_lessthan3months"
+                android:id="@+id/ilsp_dur_food_stocks_lasted_lessthan3months" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_dur_food_stocks_lasted_36months"
+                android:id="@+id/ilsp_dur_food_stocks_lasted_36months" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_dur_food_stocks_lasted_79months"
+                android:id="@+id/ilsp_dur_food_stocks_lasted_79months" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_dur_food_stocks_lasted_1012months"
+                android:id="@+id/ilsp_dur_food_stocks_lasted_1012months" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_dur_food_stocks_lasted_morethan12months"
+                android:id="@+id/ilsp_dur_food_stocks_lasted_morethan12months" />
+        </RadioGroup>
+        <TextView
+            android:text="@string/ilsp_is_this_pattern_usual"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_is_this_pattern_usual" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_ilsp_is_this_pattern_usual">
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_is_this_pattern_usual_yes"
+                android:id="@+id/ilsp_is_this_pattern_usual_yes" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_is_this_pattern_usual_no"
+                android:id="@+id/ilsp_is_this_pattern_usual_no" />
+        </RadioGroup>
+        <TextView
+            android:text="@string/ilsp_reas_food_not_last_yr"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_reas_food_not_last_yr" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_poorweatherconditions"
+            android:id="@+id/ilsp_reas_food_not_last_yr_poorweatherconditions" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_inadequateinput"
+            android:id="@+id/ilsp_reas_food_not_last_yr_inadequateinput" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_inadequateland"
+            android:id="@+id/ilsp_reas_food_not_last_yr_inadequateland" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_inadequatelabor"
+            android:id="@+id/ilsp_reas_food_not_last_yr_inadequatelabor" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_soldcroptoraisemone"
+            android:id="@+id/ilsp_reas_food_not_last_yr_soldcroptoraisemone" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_illnessinthefamily"
+            android:id="@+id/ilsp_reas_food_not_last_yr_illnessinthefamily" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_latedeliveryofinputs"
+            android:id="@+id/ilsp_reas_food_not_last_yr_latedeliveryofinputs" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_reas_food_not_last_yr_other"
+            android:id="@+id/ilsp_reas_food_not_last_yr_other" />
+        <TextView
+            android:text="@string/ilsp_other_reas_food_scarcity"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ilsp_other_reas_food_scarcity" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/ilsp_other_reas_food_scarcity"
+            android:hint="@string/ilsp_other_reas_food_scarcity" />
+        <TextView
+            android:text="@string/ilsp_had_months_without_food"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_had_months_without_food" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_ilsp_had_months_without_food">
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_had_months_without_food_yes"
+                android:id="@+id/ilsp_had_months_without_food_yes" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_had_months_without_food_no"
+                android:id="@+id/ilsp_had_months_without_food_no" />
+        </RadioGroup>
+        <TextView
+            android:text="@string/ilsp_months_food_scarcity"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_months_food_scarcity" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_january"
+            android:id="@+id/ilsp_months_food_scarcity_january" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_february"
+            android:id="@+id/ilsp_months_food_scarcity_february" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_march"
+            android:id="@+id/ilsp_months_food_scarcity_march" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_april"
+            android:id="@+id/ilsp_months_food_scarcity_april" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_may"
+            android:id="@+id/ilsp_months_food_scarcity_may" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_june"
+            android:id="@+id/ilsp_months_food_scarcity_june" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_july"
+            android:id="@+id/ilsp_months_food_scarcity_july" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_august"
+            android:id="@+id/ilsp_months_food_scarcity_august" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_september"
+            android:id="@+id/ilsp_months_food_scarcity_september" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_october"
+            android:id="@+id/ilsp_months_food_scarcity_october" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_november"
+            android:id="@+id/ilsp_months_food_scarcity_november" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_months_food_scarcity_december"
+            android:id="@+id/ilsp_months_food_scarcity_december" />
+        <TextView
+            android:text="@string/ilsp_coping_strat_emp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_coping_strat_emp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_borrowingfoodmoney"
+            android:id="@+id/ilsp_coping_strat_emp_borrowingfoodmoney" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_begging"
+            android:id="@+id/ilsp_coping_strat_emp_begging" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_workingforfood"
+            android:id="@+id/ilsp_coping_strat_emp_workingforfood" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_reducingthenumberofmeals"
+            android:id="@+id/ilsp_coping_strat_emp_reducingthenumberofmeals" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_eatingwildfruits"
+            android:id="@+id/ilsp_coping_strat_emp_eatingwildfruits" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_sellinglivestocktobuyfood"
+            android:id="@+id/ilsp_coping_strat_emp_sellinglivestocktobuyfood" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_skippingdayswithoutmeals"
+            android:id="@+id/ilsp_coping_strat_emp_skippingdayswithoutmeals" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_purchasefoodoncredit"
+            android:id="@+id/ilsp_coping_strat_emp_purchasefoodoncredit" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_coping_strat_emp_other"
+            android:id="@+id/ilsp_coping_strat_emp_other" />
+        <TextView
+            android:text="@string/ilsp_other_coping_strat_emp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ilsp_other_coping_strat_emp" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/ilsp_other_coping_strat_emp"
+            android:hint="@string/ilsp_other_coping_strat_emp" />
+        <TextView
+            android:text="@string/ilsp_wht_are_your_water_sourc"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_wht_are_your_water_sourc" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_pipedwater"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_pipedwater" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_boreholewater"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_boreholewater" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_protectedwellwater"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_protectedwellwater" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_unprotectedwellwater"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_unprotectedwellwater" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_shallowwells"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_shallowwells" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_riverwater"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_riverwater" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_rainwater"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_rainwater" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_wht_are_your_water_sourc_other"
+            android:id="@+id/ilsp_wht_are_your_water_sourc_other" />
+        <TextView
+            android:text="@string/ilsp_other_water_sources"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ilsp_other_water_sources" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/ilsp_other_water_sources"
+            android:hint="@string/ilsp_other_water_sources" />
+        <TextView
+            android:text="@string/ilsp_avg_tme_bring_water"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_avg_tme_bring_water" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_avg_tme_bring_water_lessthan30min"
+            android:id="@+id/ilsp_avg_tme_bring_water_lessthan30min" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_avg_tme_bring_water_between30minto1hr"
+            android:id="@+id/ilsp_avg_tme_bring_water_between30minto1hr" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_avg_tme_bring_water_morethan1hr"
+            android:id="@+id/ilsp_avg_tme_bring_water_morethan1hr" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_avg_tme_bring_water_na"
+            android:id="@+id/ilsp_avg_tme_bring_water_na" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_avg_tme_bring_water_other"
+            android:id="@+id/ilsp_avg_tme_bring_water_other" />
+        <TextView
+            android:text="@string/ilsp_other_avg_tme_bring_wtr"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ilsp_other_avg_tme_bring_wtr" />
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/ilsp_other_avg_tme_bring_wtr"
+            android:hint="@string/ilsp_other_avg_tme_bring_wtr" />
+        <TextView
+            android:text="@string/ilsp_had_mnths_no_water_anim"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_had_mnths_no_water_anim" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_ilsp_had_mnths_no_water_anim">
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_had_mnths_no_water_anim_yes"
+                android:id="@+id/ilsp_had_mnths_no_water_anim_yes" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_had_mnths_no_water_anim_no"
+                android:id="@+id/ilsp_had_mnths_no_water_anim_no" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_had_mnths_no_water_anim_na"
+                android:id="@+id/ilsp_had_mnths_no_water_anim_na" />
+        </RadioGroup>
+        <TextView
+            android:text="@string/ilsp_mnths_water_scarcity"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_mnths_water_scarcity" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_january"
+            android:id="@+id/ilsp_mnths_water_scarcity_january" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_february"
+            android:id="@+id/ilsp_mnths_water_scarcity_february" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_march"
+            android:id="@+id/ilsp_mnths_water_scarcity_march" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_april"
+            android:id="@+id/ilsp_mnths_water_scarcity_april" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_may"
+            android:id="@+id/ilsp_mnths_water_scarcity_may" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_june"
+            android:id="@+id/ilsp_mnths_water_scarcity_june" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_july"
+            android:id="@+id/ilsp_mnths_water_scarcity_july" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_august"
+            android:id="@+id/ilsp_mnths_water_scarcity_august" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_september"
+            android:id="@+id/ilsp_mnths_water_scarcity_september" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_october"
+            android:id="@+id/ilsp_mnths_water_scarcity_october" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_november"
+            android:id="@+id/ilsp_mnths_water_scarcity_november" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_mnths_water_scarcity_december"
+            android:id="@+id/ilsp_mnths_water_scarcity_december" />
+        <TextView
+            android:text="@string/ilsp_pit_latrines_accesssible"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l_ilsp_pit_latrines_accesssible" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_ilsp_pit_latrines_accesssible">
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_pit_latrines_accesssible_ordinarypitlatrines"
+                android:id="@+id/ilsp_pit_latrines_accesssible_ordinarypitlatrines" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_pit_latrines_accesssible_viplatrines"
+                android:id="@+id/ilsp_pit_latrines_accesssible_viplatrines" />
+            <RadioButton
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/ilsp_pit_latrines_accesssible_watercloset"
+                android:id="@+id/ilsp_pit_latrines_accesssible_watercloset" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

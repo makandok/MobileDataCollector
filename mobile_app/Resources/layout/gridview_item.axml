@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TextView
+        android:text="Name of product"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText1" />
+    <RadioGroup
+        android:layout_weight="1"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton"
+            android:id="@+id/radioButton1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:id="@+id/radioButton2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:id="@+id/radioButton3" />
+    </RadioGroup>
+    <EditText
+        android:layout_weight="1"
+        android:text="Text Box 2 is here"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText2" />
+    <EditText
+        android:layout_weight="1"
+        android:text="Text Box 3 is here"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText3" />
+    <EditText
+        android:layout_weight="1"
+        android:text="Text Box 4 is here"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText4" />
+</LinearLayout>

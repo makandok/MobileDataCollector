@@ -64,8 +64,8 @@ namespace ExcelToAndroidXML
             }
             else if (project == ProcessingFor.ILASP)
             {
-                if (fields.Count != 197)
-                    throw new ArgumentOutOfRangeException("Expected 210 fields");
+                if (fields.Count != 215)
+                    throw new ArgumentOutOfRangeException("Expected 215 fields");
             }
 
             fields.ForEach(t =>

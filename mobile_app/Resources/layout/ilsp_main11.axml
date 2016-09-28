@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<include layout="@layout/nextandprevbuttons" />
+
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_bicycle" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_bicycle"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_bicycle" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_bicycle" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_bicycle" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_bicycle" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_bicycle" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_bicycle"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_radio" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_radio"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_radio" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_radio" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_radio" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_radio" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_radio" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_radio"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_tv" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_tv"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_tv" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_tv" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_tv" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_tv" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_tv" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_tv"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_mobilecellphone" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_mobilecellphone"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_mobilecellphone" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_mobilecellphone" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_mobilecellphone" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_mobilecellphone" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_mobilecellphone" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_mobilecellphone"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_stove" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_stove"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_stove" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_stove" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_stove" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_stove" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_stove" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_stove"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_motorbike" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_motorbike"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_motorbike" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_motorbike" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_motorbike" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_motorbike" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_motorbike" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_motorbike"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_solarpanel" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_solarpanel"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_solarpanel" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_solarpanel" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_solarpanel" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_solarpanel" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_solarpanel" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_solarpanel"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_motorvehicle" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_motorvehicle"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_motorvehicle" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_motorvehicle" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_motorvehicle" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_motorvehicle" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_motorvehicle" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_motorvehicle"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_sofas" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_sofas"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_sofas" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_sofas" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_sofas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_sofas" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_sofas" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_sofas"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_bed" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_bed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_bed" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_bed" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_bed" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_bed" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_bed" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_bed"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_mattress" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_mattress"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_mattress" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_mattress" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_mattress" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_mattress" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_mattress" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_mattress"/>
+    <TextView
+        android:text="@string/ilsp_non_agric_tools_owned_and_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_non_agric_tools_owned_and_quantity_sx_solarlamps" />
+    <TextView
+        android:text="@string/ilsp_tool_name_non_agric_sx_solarlamps"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tool_name_non_agric_sx_solarlamps" />
+    <TextView
+android:text="@string/ilsp_owned_non_agric"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_owned_non_agric_sx_solarlamps" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_yes"
+android:id="@+id/ilsp_owned_non_agric_yes_sx_solarlamps" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_owned_non_agric_no"
+android:id="@+id/ilsp_owned_non_agric_no_sx_solarlamps" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_number_owned_non_agric"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_number_owned_non_agric_sx_solarlamps" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_number_owned_non_agric_sx_solarlamps"/>
+
+    <TextView
+android:text="@string/ilsp_main_walls_material"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_main_walls_material" />
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_main_walls_material" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_main_walls_material_mud"
+android:id="@+id/ilsp_main_walls_material_mud" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_main_walls_material_clayburntbricks"
+android:id="@+id/ilsp_main_walls_material_clayburntbricks" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_main_walls_material_concreteblocks"
+android:id="@+id/ilsp_main_walls_material_concreteblocks" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_main_walls_material_grassthatched"
+android:id="@+id/ilsp_main_walls_material_grassthatched" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_main_walls_material_other"
+android:id="@+id/ilsp_main_walls_material_other" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_other_main_wall_mater"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_main_wall_mater" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_main_wall_mater"
+        android:hint="@string/ilsp_other_main_wall_mater" />
+
+    <TextView
+android:text="@string/ilsp_hse_roof_princip_mater"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_hse_roof_princip_mater" />
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_hse_roof_princip_mater" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_hse_roof_princip_mater_grassthatched"
+android:id="@+id/ilsp_hse_roof_princip_mater_grassthatched" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_hse_roof_princip_mater_ironsheet"
+android:id="@+id/ilsp_hse_roof_princip_mater_ironsheet" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_hse_roof_princip_mater_plastics"
+android:id="@+id/ilsp_hse_roof_princip_mater_plastics" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_hse_roof_princip_mater_other"
+android:id="@+id/ilsp_hse_roof_princip_mater_other" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_other_material_hse_roof"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_material_hse_roof" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_material_hse_roof"
+        android:hint="@string/ilsp_other_material_hse_roof" />
+
+    <TextView
+android:text="@string/ilsp_family_type"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_family_type" />
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_family_type" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_family_type_a"
+android:id="@+id/ilsp_family_type_a" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_family_type_b"
+android:id="@+id/ilsp_family_type_b" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_family_type_c"
+android:id="@+id/ilsp_family_type_c" /></RadioGroup >
+
+</LinearLayout>
+</ScrollView>

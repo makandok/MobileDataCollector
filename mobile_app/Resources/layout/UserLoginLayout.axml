@@ -36,7 +36,7 @@
             android:textSize="24dp"
             style="@android:style/Widget.Holo.Light.EditText" />
         <TextView
-            android:text="Pin"
+            android:text="Pin Number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
