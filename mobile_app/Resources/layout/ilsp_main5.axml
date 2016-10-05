@@ -2,658 +2,671 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:orientation="vertical"
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<include layout="@layout/nextandprevbuttons" />
+
+    <TextView
+        android:text="@string/ilsp_milk_production"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <include
-            layout="@layout/nextandprevbuttons" />
-        <TextView
-            android:text="@string/ilsp_milk_production"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_milk_production_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_milk_type_name_sx_cowmilk"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_milk_type_name_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_proj_reltd_milk_prodn"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_proj_reltd_milk_prodn_sx_cowmilk">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_proj_reltd_milk_prodn_yes"
-                android:id="@+id/ilsp_proj_reltd_milk_prodn_yes_sx_cowmilk" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_proj_reltd_milk_prodn_no"
-                android:id="@+id/ilsp_proj_reltd_milk_prodn_no_sx_cowmilk" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_total_prod_qty_milk"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_total_prod_qty_milk_sx_cowmilk" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_total_prod_qty_milk_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_qty_consumed_per_day"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_qty_consumed_per_day_sx_cowmilk" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_qty_consumed_per_day_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_quantity_sold_per_day"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_quantity_sold_per_day_sx_cowmilk" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_quantity_sold_per_day_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_price_per_litre"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_price_per_litre_sx_cowmilk" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_price_per_litre_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_total_annual_income"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_total_annual_income_sx_cowmilk" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_total_annual_income_sx_cowmilk" />
-        <TextView
-            android:text="@string/ilsp_how_you_sell_your_milk"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_how_you_sell_your_milk" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_how_you_sell_your_milk">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_you_sell_your_milk_individually"
-                android:id="@+id/ilsp_how_you_sell_your_milk_individually" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup"
-                android:id="@+id/ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_you_sell_your_milk_na"
-                android:id="@+id/ilsp_how_you_sell_your_milk_na" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_where_you_sell_your_milk"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_where_you_sell_your_milk" />
-        <CheckBox
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_milk_production_sx_cowmilk" />
+    <TextView
+        android:text="@string/ilsp_milk_type_name_sx_cowmilk"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_milk_type_name_sx_cowmilk" />
+    <TextView
+android:text="@string/ilsp_proj_reltd_milk_prodn"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_proj_reltd_milk_prodn_sx_cowmilk" >
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders"
-            android:id="@+id/ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders" />
-        <CheckBox
+            android:text="@string/ilsp_proj_reltd_milk_prodn_yes"
+android:id="@+id/ilsp_proj_reltd_milk_prodn_yes_sx_cowmilk" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets"
-            android:id="@+id/ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets" />
-        <CheckBox
+            android:text="@string/ilsp_proj_reltd_milk_prodn_no"
+android:id="@+id/ilsp_proj_reltd_milk_prodn_no_sx_cowmilk" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_total_prod_qty_milk"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_total_prod_qty_milk_sx_cowmilk" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_total_prod_qty_milk_sx_cowmilk"/>
+    <TextView
+        android:text="@string/ilsp_qty_consumed_per_day"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_qty_consumed_per_day_sx_cowmilk" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_qty_consumed_per_day_sx_cowmilk"/>
+    <TextView
+        android:text="@string/ilsp_quantity_sold_per_day"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_quantity_sold_per_day_sx_cowmilk" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_quantity_sold_per_day_sx_cowmilk"/>
+    <TextView
+        android:text="@string/ilsp_price_per_litre"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_price_per_litre_sx_cowmilk" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_price_per_litre_sx_cowmilk"/>
+    <TextView
+        android:text="@string/ilsp_total_annual_income"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_total_annual_income_sx_cowmilk" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_total_annual_income_sx_cowmilk"/>
+
+    <TextView
+android:text="@string/ilsp_how_you_sell_your_milk"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_how_you_sell_your_milk" />
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_how_you_sell_your_milk" >
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_cooperatives"
-            android:id="@+id/ilsp_where_you_sell_your_milk_cooperatives" />
-        <CheckBox
+            android:text="@string/ilsp_how_you_sell_your_milk_individually"
+android:id="@+id/ilsp_how_you_sell_your_milk_individually" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima"
-            android:id="@+id/ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima" />
-        <CheckBox
+            android:text="@string/ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup"
+android:id="@+id/ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_processorsthroughmcc"
-            android:id="@+id/ilsp_where_you_sell_your_milk_processorsthroughmcc" />
-        <CheckBox
+            android:text="@string/ilsp_how_you_sell_your_milk_na"
+android:id="@+id/ilsp_how_you_sell_your_milk_na" /></RadioGroup >
+
+    <TextView
+android:text="@string/ilsp_where_you_sell_your_milk"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_where_you_sell_your_milk" /> <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_donotsell"
-            android:id="@+id/ilsp_where_you_sell_your_milk_donotsell" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders"
+             android:id="@+id/ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_na"
-            android:id="@+id/ilsp_where_you_sell_your_milk_na" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets"
+             android:id="@+id/ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_where_you_sell_your_milk_other"
-            android:id="@+id/ilsp_where_you_sell_your_milk_other" />
-        <TextView
-            android:text="@string/ilsp_other_where_milk_is_sold"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:labelFor="@+id/ilsp_other_where_milk_is_sold" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:inputType="text"
-            android:id="@+id/ilsp_other_where_milk_is_sold"
-            android:hint="@string/ilsp_other_where_milk_is_sold" />
-        <TextView
-            android:text="@string/ilsp_value_addition_enterp"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_value_addition_enterp" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_cooperatives"
+             android:id="@+id/ilsp_where_you_sell_your_milk_cooperatives" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_milkprocessing"
-            android:id="@+id/ilsp_value_addition_enterp_milkprocessing" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima"
+             android:id="@+id/ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_goatmeatprocessing"
-            android:id="@+id/ilsp_value_addition_enterp_goatmeatprocessing" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_processorsthroughmcc"
+             android:id="@+id/ilsp_where_you_sell_your_milk_processorsthroughmcc" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_groundnutprocessing"
-            android:id="@+id/ilsp_value_addition_enterp_groundnutprocessing" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_donotsell"
+             android:id="@+id/ilsp_where_you_sell_your_milk_donotsell" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_cassavaprocessing"
-            android:id="@+id/ilsp_value_addition_enterp_cassavaprocessing" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_na"
+             android:id="@+id/ilsp_where_you_sell_your_milk_na" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_maizeprocessing"
-            android:id="@+id/ilsp_value_addition_enterp_maizeprocessing" />
-        <CheckBox
+             android:text="@string/ilsp_where_you_sell_your_milk_other"
+             android:id="@+id/ilsp_where_you_sell_your_milk_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_where_milk_is_sold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_where_milk_is_sold" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_where_milk_is_sold"
+        android:hint="@string/ilsp_other_where_milk_is_sold" />
+
+    <TextView
+android:text="@string/ilsp_value_addition_enterp"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_value_addition_enterp" /> <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_vegetableprocessing"
-            android:id="@+id/ilsp_value_addition_enterp_vegetableprocessing" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_milkprocessing"
+             android:id="@+id/ilsp_value_addition_enterp_milkprocessing" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_none"
-            android:id="@+id/ilsp_value_addition_enterp_none" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_goatmeatprocessing"
+             android:id="@+id/ilsp_value_addition_enterp_goatmeatprocessing" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_value_addition_enterp_other"
-            android:id="@+id/ilsp_value_addition_enterp_other" />
-        <TextView
-            android:text="@string/ilsp_how_your_crops_are_sold"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_how_your_crops_are_sold" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_how_your_crops_are_sold">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_your_crops_are_sold_individually"
-                android:id="@+id/ilsp_how_your_crops_are_sold_individually" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup"
-                android:id="@+id/ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_your_crops_are_sold_na"
-                android:id="@+id/ilsp_how_your_crops_are_sold_na" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_how_livestock_sold"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_how_livestock_sold" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_how_livestock_sold">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_livestock_sold_individually"
-                android:id="@+id/ilsp_how_livestock_sold_individually" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup"
-                android:id="@+id/ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_how_livestock_sold_na"
-                android:id="@+id/ilsp_how_livestock_sold_na" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_whr_agric_prod_sold"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_whr_agric_prod_sold" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_groundnutprocessing"
+             android:id="@+id/ilsp_value_addition_enterp_groundnutprocessing" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders"
-            android:id="@+id/ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_cassavaprocessing"
+             android:id="@+id/ilsp_value_addition_enterp_cassavaprocessing" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets"
-            android:id="@+id/ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_maizeprocessing"
+             android:id="@+id/ilsp_value_addition_enterp_maizeprocessing" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_traders"
-            android:id="@+id/ilsp_whr_agric_prod_sold_traders" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_vegetableprocessing"
+             android:id="@+id/ilsp_value_addition_enterp_vegetableprocessing" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_cooperatives"
-            android:id="@+id/ilsp_whr_agric_prod_sold_cooperatives" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_none"
+             android:id="@+id/ilsp_value_addition_enterp_none" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_localprocessors"
-            android:id="@+id/ilsp_whr_agric_prod_sold_localprocessors" />
-        <CheckBox
+             android:text="@string/ilsp_value_addition_enterp_other"
+             android:id="@+id/ilsp_value_addition_enterp_other" />
+
+    <TextView
+android:text="@string/ilsp_how_your_crops_are_sold"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_how_your_crops_are_sold" />
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_how_your_crops_are_sold" >
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_processorsmillersbutcheries"
-            android:id="@+id/ilsp_whr_agric_prod_sold_processorsmillersbutcheries" />
-        <CheckBox
+            android:text="@string/ilsp_how_your_crops_are_sold_individually"
+android:id="@+id/ilsp_how_your_crops_are_sold_individually" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_governmentfoodreserveagency"
-            android:id="@+id/ilsp_whr_agric_prod_sold_governmentfoodreserveagency" />
-        <CheckBox
+            android:text="@string/ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup"
+android:id="@+id/ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_exportmarkets"
-            android:id="@+id/ilsp_whr_agric_prod_sold_exportmarkets" />
-        <CheckBox
+            android:text="@string/ilsp_how_your_crops_are_sold_na"
+android:id="@+id/ilsp_how_your_crops_are_sold_na" /></RadioGroup >
+
+    <TextView
+android:text="@string/ilsp_how_livestock_sold"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_how_livestock_sold" />
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_how_livestock_sold" >
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_na"
-            android:id="@+id/ilsp_whr_agric_prod_sold_na" />
-        <CheckBox
+            android:text="@string/ilsp_how_livestock_sold_individually"
+android:id="@+id/ilsp_how_livestock_sold_individually" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_whr_agric_prod_sold_other"
-            android:id="@+id/ilsp_whr_agric_prod_sold_other" />
-        <TextView
-            android:text="@string/ilsp_other_whr_agric_prod_sld"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:labelFor="@+id/ilsp_other_whr_agric_prod_sld" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:inputType="text"
-            android:id="@+id/ilsp_other_whr_agric_prod_sld"
-            android:hint="@string/ilsp_other_whr_agric_prod_sld" />
-        <TextView
-            android:text="@string/ilsp_access_market_info"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_access_market_info" />
-        <CheckBox
+            android:text="@string/ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup"
+android:id="@+id/ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_throughmediaradiostv"
-            android:id="@+id/ilsp_access_market_info_throughmediaradiostv" />
-        <CheckBox
+            android:text="@string/ilsp_how_livestock_sold_na"
+android:id="@+id/ilsp_how_livestock_sold_na" /></RadioGroup >
+
+    <TextView
+android:text="@string/ilsp_whr_agric_prod_sold"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_whr_agric_prod_sold" /> <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_mobilephonessmsmisinternet"
-            android:id="@+id/ilsp_access_market_info_mobilephonessmsmisinternet" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders"
+             android:id="@+id/ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_throughbuyerstradersfromurbanmarkets"
-            android:id="@+id/ilsp_access_market_info_throughbuyerstradersfromurbanmarkets" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets"
+             android:id="@+id/ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_villagenoticeboards"
-            android:id="@+id/ilsp_access_market_info_villagenoticeboards" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_traders"
+             android:id="@+id/ilsp_whr_agric_prod_sold_traders" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_throughproducergroups"
-            android:id="@+id/ilsp_access_market_info_throughproducergroups" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_cooperatives"
+             android:id="@+id/ilsp_whr_agric_prod_sold_cooperatives" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_throughcooperatives"
-            android:id="@+id/ilsp_access_market_info_throughcooperatives" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_localprocessors"
+             android:id="@+id/ilsp_whr_agric_prod_sold_localprocessors" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_governmentextensionservices"
-            android:id="@+id/ilsp_access_market_info_governmentextensionservices" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_processorsmillersbutcheries"
+             android:id="@+id/ilsp_whr_agric_prod_sold_processorsmillersbutcheries" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_communitygatheringsegchurchesmosquesetc"
-            android:id="@+id/ilsp_access_market_info_communitygatheringsegchurchesmosquesetc" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_governmentfoodreserveagency"
+             android:id="@+id/ilsp_whr_agric_prod_sold_governmentfoodreserveagency" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc"
-            android:id="@+id/ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_exportmarkets"
+             android:id="@+id/ilsp_whr_agric_prod_sold_exportmarkets" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_farmertofarmer"
-            android:id="@+id/ilsp_access_market_info_farmertofarmer" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_na"
+             android:id="@+id/ilsp_whr_agric_prod_sold_na" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_access_market_info_other"
-            android:id="@+id/ilsp_access_market_info_other" />
-        <TextView
-            android:text="@string/ilsp_other_source_market_info"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:labelFor="@+id/ilsp_other_source_market_info" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:inputType="text"
-            android:id="@+id/ilsp_other_source_market_info"
-            android:hint="@string/ilsp_other_source_market_info" />
-        <TextView
-            android:text="@string/ilsp_type_of_farm_rec_kept"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_type_of_farm_rec_kept" />
-        <CheckBox
+             android:text="@string/ilsp_whr_agric_prod_sold_other"
+             android:id="@+id/ilsp_whr_agric_prod_sold_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_whr_agric_prod_sld"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_whr_agric_prod_sld" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_whr_agric_prod_sld"
+        android:hint="@string/ilsp_other_whr_agric_prod_sld" />
+
+    <TextView
+android:text="@string/ilsp_access_market_info"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_access_market_info" /> <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_cropproduction"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_cropproduction" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_throughmediaradiostv"
+             android:id="@+id/ilsp_access_market_info_throughmediaradiostv" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_livestockproduction"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_livestockproduction" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_mobilephonessmsmisinternet"
+             android:id="@+id/ilsp_access_market_info_mobilephonessmsmisinternet" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_milkproduction"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_milkproduction" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_throughbuyerstradersfromurbanmarkets"
+             android:id="@+id/ilsp_access_market_info_throughbuyerstradersfromurbanmarkets" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_cropsales"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_cropsales" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_villagenoticeboards"
+             android:id="@+id/ilsp_access_market_info_villagenoticeboards" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_milksales"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_milksales" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_throughproducergroups"
+             android:id="@+id/ilsp_access_market_info_throughproducergroups" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_expenditurerecords"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_expenditurerecords" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_throughcooperatives"
+             android:id="@+id/ilsp_access_market_info_throughcooperatives" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_governmentextensionservices"
+             android:id="@+id/ilsp_access_market_info_governmentextensionservices" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_livestocksales"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_livestocksales" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_communitygatheringsegchurchesmosquesetc"
+             android:id="@+id/ilsp_access_market_info_communitygatheringsegchurchesmosquesetc" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_none"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_none" />
-        <CheckBox
+             android:text="@string/ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc"
+             android:id="@+id/ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_type_of_farm_rec_kept_other"
-            android:id="@+id/ilsp_type_of_farm_rec_kept_other" />
-        <TextView
-            android:text="@string/ilsp_other_type_farm_rec_kept"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+             android:text="@string/ilsp_access_market_info_farmertofarmer"
+             android:id="@+id/ilsp_access_market_info_farmertofarmer" />
+ <CheckBox
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:labelFor="@+id/ilsp_other_type_farm_rec_kept" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:inputType="text"
-            android:id="@+id/ilsp_other_type_farm_rec_kept"
-            android:hint="@string/ilsp_other_type_farm_rec_kept" />
-        <TextView
-            android:text="@string/ilsp_average_number_of_meals"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+             android:text="@string/ilsp_access_market_info_other"
+             android:id="@+id/ilsp_access_market_info_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_source_market_info"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_source_market_info" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_source_market_info"
+        android:hint="@string/ilsp_other_source_market_info" />
+
+    <TextView
+android:text="@string/ilsp_type_of_farm_rec_kept"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_type_of_farm_rec_kept" /> <CheckBox
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_average_number_of_meals" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_cropproduction"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_cropproduction" />
+ <CheckBox
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_average_number_of_meals">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_average_number_of_meals_1meal"
-                android:id="@+id/ilsp_average_number_of_meals_1meal" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_average_number_of_meals_2meals"
-                android:id="@+id/ilsp_average_number_of_meals_2meals" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_average_number_of_meals_3meals"
-                android:id="@+id/ilsp_average_number_of_meals_3meals" />
-        </RadioGroup>
-    </LinearLayout>
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_livestockproduction"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_livestockproduction" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_milkproduction"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_milkproduction" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_cropsales"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_cropsales" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_milksales"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_milksales" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_expenditurerecords"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_expenditurerecords" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_livestocksales"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_livestocksales" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_none"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_none" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_type_of_farm_rec_kept_other"
+             android:id="@+id/ilsp_type_of_farm_rec_kept_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_type_farm_rec_kept"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_type_farm_rec_kept" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_type_farm_rec_kept"
+        android:hint="@string/ilsp_other_type_farm_rec_kept" />
+
+    <TextView
+android:text="@string/ilsp_average_number_of_meals"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_average_number_of_meals" />
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_average_number_of_meals" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_average_number_of_meals_1meal"
+android:id="@+id/ilsp_average_number_of_meals_1meal" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_average_number_of_meals_2meals"
+android:id="@+id/ilsp_average_number_of_meals_2meals" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_average_number_of_meals_3meals"
+android:id="@+id/ilsp_average_number_of_meals_3meals" /></RadioGroup >
+
+</LinearLayout>
 </ScrollView>

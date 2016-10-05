@@ -26,7 +26,21 @@
                 android:layout_height="match_parent" />
         </LinearLayout>
         <LinearLayout
-            android:layout_weight="50"
+            android:layout_weight="25"
+            android:orientation="vertical"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Get GPS"
+                android:id="@+id/buttonGetGPS"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="25"
             android:orientation="vertical"
             android:minWidth="25dp"
             android:minHeight="25dp"

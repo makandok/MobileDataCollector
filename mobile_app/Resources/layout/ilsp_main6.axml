@@ -2,1343 +2,1380 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:orientation="vertical"
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<include layout="@layout/nextandprevbuttons" />
+
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <include
-            layout="@layout/nextandprevbuttons" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_cerealsmilletricenshima" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_cerealsmilletricenshima"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_cerealsmilletricenshima" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_cerealsmilletricenshima" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_cerealsmilletricenshima" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_cerealsmilletricenshima"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_cerealsmilletricenshima" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_cerealsmilletricenshima" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_cerealsmilletricenshima" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_cerealsmilletricenshima" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_cerealsmilletricenshima">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_cerealsmilletricenshima" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_cerealsmilletricenshima" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_cerealsmilletricenshima" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_cerealsmilletricenshima">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_cerealsmilletricenshima" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_cerealsmilletricenshima" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_cerealsmilletricenshima" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_cerealsmilletricenshima" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_cerealsmilletricenshima" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_cerealsmilletricenshima" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_cerealsmilletricenshima" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_cerealsmilletricenshima" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_cerealsmilletricenshima" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_tuberssweetpotatoescassava" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_tuberssweetpotatoescassava"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_cerealsmilletricenshima" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_tuberssweetpotatoescassava" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_cerealsmilletricenshima" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_cerealsmilletricenshima" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_cerealsmilletricenshima"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_tuberssweetpotatoescassava" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_tuberssweetpotatoescassava"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_tuberssweetpotatoescassava" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_tuberssweetpotatoescassava" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_tuberssweetpotatoescassava">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_tuberssweetpotatoescassava" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_tuberssweetpotatoescassava" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_tuberssweetpotatoescassava" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_tuberssweetpotatoescassava">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_tuberssweetpotatoescassava" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_tuberssweetpotatoescassava" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_tuberssweetpotatoescassava" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_tuberssweetpotatoescassava" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_tuberssweetpotatoescassava" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_tuberssweetpotatoescassava" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_tuberssweetpotatoescassava" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_tuberssweetpotatoescassava" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_tuberssweetpotatoescassava" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_tuberssweetpotatoescassava" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_tuberssweetpotatoescassava" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_tuberssweetpotatoescassava" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_tuberssweetpotatoescassava" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_tuberssweetpotatoescassava" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_tuberssweetpotatoescassava" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_tuberssweetpotatoescassava"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_eggs" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_eggs"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_eggs" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_eggs">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_eggs" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_eggs" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_eggs">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_eggs" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_eggs" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_eggs" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_eggs" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_eggs" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_eggs" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_eggs" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_fishfishkapenta" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_fishfishkapenta"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_fishfishkapenta" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_fishfishkapenta">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_fishfishkapenta" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_fishfishkapenta" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_fishfishkapenta">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_fishfishkapenta" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_fishfishkapenta" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fishfishkapenta" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_fishfishkapenta" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_fishfishkapenta" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_fishfishkapenta" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_fishfishkapenta" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_eggs" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_eggs"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_eggs" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_eggs" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_legumesgroundnutsbeanssoyapeas" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_eggs" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_eggs" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_eggs" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_legumesgroundnutsbeanssoyapeas">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_legumesgroundnutsbeanssoyapeas" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_legumesgroundnutsbeanssoyapeas" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_eggs" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_legumesgroundnutsbeanssoyapeas">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_legumesgroundnutsbeanssoyapeas" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_legumesgroundnutsbeanssoyapeas" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_legumesgroundnutsbeanssoyapeas" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_legumesgroundnutsbeanssoyapeas" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_legumesgroundnutsbeanssoyapeas" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_eggs" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_legumesgroundnutsbeanssoyapeas" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_legumesgroundnutsbeanssoyapeas" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_eggs" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_milkmilkyogurtsourmilk" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_milkmilkyogurtsourmilk"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_eggs" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_milkmilkyogurtsourmilk" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_eggs" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_eggs" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_eggs"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_fishfishkapenta" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_fishfishkapenta"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_fishfishkapenta" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_fishfishkapenta" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_milkmilkyogurtsourmilk">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_milkmilkyogurtsourmilk" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_milkmilkyogurtsourmilk" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_fishfishkapenta" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_milkmilkyogurtsourmilk">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_milkmilkyogurtsourmilk" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_milkmilkyogurtsourmilk" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_milkmilkyogurtsourmilk" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_milkmilkyogurtsourmilk" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_milkmilkyogurtsourmilk" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_fishfishkapenta" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_fishfishkapenta" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_milkmilkyogurtsourmilk" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_milkmilkyogurtsourmilk" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_fishfishkapenta" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_fishfishkapenta" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fishfishkapenta" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_fishfishkapenta" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_fishfishkapenta" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_fishfishkapenta" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_fishfishkapenta"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_legumesgroundnutsbeanssoyapeas" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_legumesgroundnutsbeanssoyapeas" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_legumesgroundnutsbeanssoyapeas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_sweetssugarhoneysugarcanesugaryfoods" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_legumesgroundnutsbeanssoyapeas" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_legumesgroundnutsbeanssoyapeas" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_legumesgroundnutsbeanssoyapeas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_sweetssugarhoneysugarcanesugaryfoods">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_sweetssugarhoneysugarcanesugaryfoods" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_sweetssugarhoneysugarcanesugaryfoods" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_legumesgroundnutsbeanssoyapeas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_sweetssugarhoneysugarcanesugaryfoods">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_sweetssugarhoneysugarcanesugaryfoods" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_sweetssugarhoneysugarcanesugaryfoods" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_sweetssugarhoneysugarcanesugaryfoods" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_sweetssugarhoneysugarcanesugaryfoods" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_sweetssugarhoneysugarcanesugaryfoods" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_legumesgroundnutsbeanssoyapeas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_sweetssugarhoneysugarcanesugaryfoods" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_sweetssugarhoneysugarcanesugaryfoods" />
-        <TextView
-            android:text="@string/ilsp_food_groups_consumed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_legumesgroundnutsbeanssoyapeas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_food_groups_consumed_sx_spicesandcondimentsgingerteacoffee" />
-        <TextView
-            android:text="@string/ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_legumesgroundnutsbeanssoyapeas" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_legumesgroundnutsbeanssoyapeas" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_legumesgroundnutsbeanssoyapeas"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_milkmilkyogurtsourmilk" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_milkmilkyogurtsourmilk"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_milkmilkyogurtsourmilk" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_milkmilkyogurtsourmilk" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee" />
-        <TextView
-            android:text="@string/ilsp_food_group_consumed"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_milkmilkyogurtsourmilk" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_food_group_consumed_sx_spicesandcondimentsgingerteacoffee">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_yes"
-                android:id="@+id/ilsp_food_group_consumed_yes_sx_spicesandcondimentsgingerteacoffee" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_food_group_consumed_no"
-                android:id="@+id/ilsp_food_group_consumed_no_sx_spicesandcondimentsgingerteacoffee" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_primary_source"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <RadioGroup
-            android:orientation="vertical"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_milkmilkyogurtsourmilk" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_milkmilkyogurtsourmilk" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_primary_source_sx_spicesandcondimentsgingerteacoffee">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_ownproduction"
-                android:id="@+id/ilsp_primary_source_ownproduction_sx_spicesandcondimentsgingerteacoffee" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_purchased"
-                android:id="@+id/ilsp_primary_source_purchased_sx_spicesandcondimentsgingerteacoffee" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
-                android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_spicesandcondimentsgingerteacoffee" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_foodaid"
-                android:id="@+id/ilsp_primary_source_foodaid_sx_spicesandcondimentsgingerteacoffee" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_primary_source_other"
-                android:id="@+id/ilsp_primary_source_other_sx_spicesandcondimentsgingerteacoffee" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_amt_spent_food_past_7d"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_milkmilkyogurtsourmilk" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_spicesandcondimentsgingerteacoffee" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amt_spent_food_past_7d_sx_spicesandcondimentsgingerteacoffee" />
-    </LinearLayout>
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_milkmilkyogurtsourmilk" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_milkmilkyogurtsourmilk" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_milkmilkyogurtsourmilk" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_milkmilkyogurtsourmilk" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_milkmilkyogurtsourmilk" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_milkmilkyogurtsourmilk"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_sweetssugarhoneysugarcanesugaryfoods" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_sweetssugarhoneysugarcanesugaryfoods" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_sweetssugarhoneysugarcanesugaryfoods" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_sweetssugarhoneysugarcanesugaryfoods" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_sweetssugarhoneysugarcanesugaryfoods" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_sweetssugarhoneysugarcanesugaryfoods" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_sweetssugarhoneysugarcanesugaryfoods" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_sweetssugarhoneysugarcanesugaryfoods" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_sweetssugarhoneysugarcanesugaryfoods" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_sweetssugarhoneysugarcanesugaryfoods" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_sweetssugarhoneysugarcanesugaryfoods" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_sweetssugarhoneysugarcanesugaryfoods"/>
+    <TextView
+        android:text="@string/ilsp_food_groups_consumed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_food_groups_consumed_sx_spicesandcondimentsgingerteacoffee" />
+    <TextView
+        android:text="@string/ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee" />
+    <TextView
+android:text="@string/ilsp_food_group_consumed"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_food_group_consumed_sx_spicesandcondimentsgingerteacoffee" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_yes"
+android:id="@+id/ilsp_food_group_consumed_yes_sx_spicesandcondimentsgingerteacoffee" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_food_group_consumed_no"
+android:id="@+id/ilsp_food_group_consumed_no_sx_spicesandcondimentsgingerteacoffee" /></RadioGroup >
+    <TextView
+android:text="@string/ilsp_primary_source"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_primary_source_sx_spicesandcondimentsgingerteacoffee" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_ownproduction"
+android:id="@+id/ilsp_primary_source_ownproduction_sx_spicesandcondimentsgingerteacoffee" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_purchased"
+android:id="@+id/ilsp_primary_source_purchased_sx_spicesandcondimentsgingerteacoffee" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_borrowedgiftfromfriendsorrelatives"
+android:id="@+id/ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_spicesandcondimentsgingerteacoffee" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_foodaid"
+android:id="@+id/ilsp_primary_source_foodaid_sx_spicesandcondimentsgingerteacoffee" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_primary_source_other"
+android:id="@+id/ilsp_primary_source_other_sx_spicesandcondimentsgingerteacoffee" /></RadioGroup >
+    <TextView
+        android:text="@string/ilsp_amt_spent_food_past_7d"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amt_spent_food_past_7d_sx_spicesandcondimentsgingerteacoffee" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amt_spent_food_past_7d_sx_spicesandcondimentsgingerteacoffee"/>
+
+</LinearLayout>
 </ScrollView>

@@ -1919,8 +1919,8 @@ namespace MobileCollector
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06079a
-			public const int action0 = 2131101594;
+			// aapt resource value: 0x7f0607a4
+			public const int action0 = 2131101604;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -1946,8 +1946,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f06079e
-			public const int action_divider = 2131101598;
+			// aapt resource value: 0x7f0607a8
+			public const int action_divider = 2131101608;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2009,41 +2009,44 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060078
 			public const int buttonClearClientData = 2131099768;
 			
-			// aapt resource value: 0x7f0607a9
-			public const int buttonClientEvaluation = 2131101609;
+			// aapt resource value: 0x7f0607b3
+			public const int buttonClientEvaluation = 2131101619;
 			
-			// aapt resource value: 0x7f0607af
-			public const int buttonClientsToCall = 2131101615;
+			// aapt resource value: 0x7f0607b9
+			public const int buttonClientsToCall = 2131101625;
 			
-			// aapt resource value: 0x7f0607ae
-			public const int buttonClientsToSms = 2131101614;
+			// aapt resource value: 0x7f0607b8
+			public const int buttonClientsToSms = 2131101624;
 			
-			// aapt resource value: 0x7f0607a7
-			public const int buttonClose = 2131101607;
+			// aapt resource value: 0x7f0607b1
+			public const int buttonClose = 2131101617;
 			
-			// aapt resource value: 0x7f060790
-			public const int buttonCloseApp = 2131101584;
+			// aapt resource value: 0x7f060799
+			public const int buttonCloseApp = 2131101593;
 			
-			// aapt resource value: 0x7f0607a8
-			public const int buttonDatastoreSync = 2131101608;
+			// aapt resource value: 0x7f0607b2
+			public const int buttonDatastoreSync = 2131101618;
 			
-			// aapt resource value: 0x7f0607ab
-			public const int buttonDeviceRemovalVisit = 2131101611;
+			// aapt resource value: 0x7f0607b5
+			public const int buttonDeviceRemovalVisit = 2131101621;
 			
 			// aapt resource value: 0x7f060090
 			public const int buttonDiscard = 2131099792;
 			
-			// aapt resource value: 0x7f0607ad
-			public const int buttonEditRecords = 2131101613;
+			// aapt resource value: 0x7f0607b7
+			public const int buttonEditRecords = 2131101623;
 			
 			// aapt resource value: 0x7f060091
 			public const int buttonFinalise = 2131099793;
 			
-			// aapt resource value: 0x7f0607ba
-			public const int buttonLoginIn = 2131101626;
+			// aapt resource value: 0x7f0607a0
+			public const int buttonGetGPS = 2131101600;
 			
-			// aapt resource value: 0x7f060799
-			public const int buttonNext = 2131101593;
+			// aapt resource value: 0x7f0607c4
+			public const int buttonLoginIn = 2131101636;
+			
+			// aapt resource value: 0x7f0607a3
+			public const int buttonNext = 2131101603;
 			
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
@@ -2051,14 +2054,14 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06008c
 			public const int buttonPerformAction = 2131099788;
 			
-			// aapt resource value: 0x7f0607ac
-			public const int buttonPostRemovalVisit = 2131101612;
+			// aapt resource value: 0x7f0607b6
+			public const int buttonPostRemovalVisit = 2131101622;
 			
-			// aapt resource value: 0x7f060793
-			public const int buttonPrepexHome = 2131101587;
+			// aapt resource value: 0x7f06079c
+			public const int buttonPrepexHome = 2131101596;
 			
-			// aapt resource value: 0x7f060796
-			public const int buttonPrevious = 2131101590;
+			// aapt resource value: 0x7f06079f
+			public const int buttonPrevious = 2131101599;
 			
 			// aapt resource value: 0x7f060079
 			public const int buttonRebuildIndexes = 2131099769;
@@ -2075,32 +2078,32 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060073
 			public const int buttonSaveDeviceConf = 2131099763;
 			
+			// aapt resource value: 0x7f0607be
+			public const int buttonSendReport = 2131101630;
+			
+			// aapt resource value: 0x7f0607c0
+			public const int buttonSendSms = 2131101632;
+			
+			// aapt resource value: 0x7f06079d
+			public const int buttonSiteSession = 2131101597;
+			
+			// aapt resource value: 0x7f0607bb
+			public const int buttonSupplies = 2131101627;
+			
 			// aapt resource value: 0x7f0607b4
-			public const int buttonSendReport = 2131101620;
+			public const int buttonUnscheduled = 2131101620;
 			
-			// aapt resource value: 0x7f0607b6
-			public const int buttonSendSms = 2131101622;
+			// aapt resource value: 0x7f0607ba
+			public const int buttonViewList = 2131101626;
 			
-			// aapt resource value: 0x7f060794
-			public const int buttonSiteSession = 2131101588;
-			
-			// aapt resource value: 0x7f0607b1
-			public const int buttonSupplies = 2131101617;
-			
-			// aapt resource value: 0x7f0607aa
-			public const int buttonUnscheduled = 2131101610;
-			
-			// aapt resource value: 0x7f0607b0
-			public const int buttonViewList = 2131101616;
-			
-			// aapt resource value: 0x7f0607b2
-			public const int buttonViewRecordSummaries = 2131101618;
-			
-			// aapt resource value: 0x7f060792
-			public const int buttonVmmcHome = 2131101586;
+			// aapt resource value: 0x7f0607bc
+			public const int buttonViewRecordSummaries = 2131101628;
 			
 			// aapt resource value: 0x7f06079b
-			public const int cancel_action = 2131101595;
+			public const int buttonVmmcHome = 2131101595;
+			
+			// aapt resource value: 0x7f0607a5
+			public const int cancel_action = 2131101605;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -2114,8 +2117,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f0607a1
-			public const int chronometer = 2131101601;
+			// aapt resource value: 0x7f0607ab
+			public const int chronometer = 2131101611;
 			
 			// aapt resource value: 0x7f060080
 			public const int clientSummaryCardSerial = 2131099776;
@@ -2177,11 +2180,11 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
 			
-			// aapt resource value: 0x7f0600b6
-			public const int dtbtn_ilsp_date_of_interview = 2131099830;
+			// aapt resource value: 0x7f0600ab
+			public const int dtbtn_ilsp_date_of_interview = 2131099819;
 			
-			// aapt resource value: 0x7f0600b5
-			public const int dttxt_ilsp_date_of_interview = 2131099829;
+			// aapt resource value: 0x7f0600aa
+			public const int dttxt_ilsp_date_of_interview = 2131099818;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -2189,8 +2192,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f0607a6
-			public const int end_padder = 2131101606;
+			// aapt resource value: 0x7f0607b0
+			public const int end_padder = 2131101616;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2207,8 +2210,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060051
 			public const int expanded_menu = 2131099729;
 			
-			// aapt resource value: 0x7f060795
-			public const int fetchData = 2131101589;
+			// aapt resource value: 0x7f06079e
+			public const int fetchData = 2131101598;
 			
 			// aapt resource value: 0x7f060035
 			public const int fill = 2131099701;
@@ -2237,38 +2240,38 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060107
 			public const int ilsp_ = 2131099911;
 			
-			// aapt resource value: 0x7f06062c
-			public const int ilsp_access_market_info_communitygatheringsegchurchesmosquesetc = 2131101228;
+			// aapt resource value: 0x7f060635
+			public const int ilsp_access_market_info_communitygatheringsegchurchesmosquesetc = 2131101237;
 			
-			// aapt resource value: 0x7f06062e
-			public const int ilsp_access_market_info_farmertofarmer = 2131101230;
+			// aapt resource value: 0x7f060637
+			public const int ilsp_access_market_info_farmertofarmer = 2131101239;
 			
-			// aapt resource value: 0x7f06062b
-			public const int ilsp_access_market_info_governmentextensionservices = 2131101227;
-			
-			// aapt resource value: 0x7f060626
-			public const int ilsp_access_market_info_mobilephonessmsmisinternet = 2131101222;
-			
-			// aapt resource value: 0x7f06062d
-			public const int ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc = 2131101229;
+			// aapt resource value: 0x7f060634
+			public const int ilsp_access_market_info_governmentextensionservices = 2131101236;
 			
 			// aapt resource value: 0x7f06062f
-			public const int ilsp_access_market_info_other = 2131101231;
+			public const int ilsp_access_market_info_mobilephonessmsmisinternet = 2131101231;
 			
-			// aapt resource value: 0x7f060627
-			public const int ilsp_access_market_info_throughbuyerstradersfromurbanmarkets = 2131101223;
+			// aapt resource value: 0x7f060636
+			public const int ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc = 2131101238;
 			
-			// aapt resource value: 0x7f06062a
-			public const int ilsp_access_market_info_throughcooperatives = 2131101226;
+			// aapt resource value: 0x7f060638
+			public const int ilsp_access_market_info_other = 2131101240;
 			
-			// aapt resource value: 0x7f060625
-			public const int ilsp_access_market_info_throughmediaradiostv = 2131101221;
+			// aapt resource value: 0x7f060630
+			public const int ilsp_access_market_info_throughbuyerstradersfromurbanmarkets = 2131101232;
 			
-			// aapt resource value: 0x7f060629
-			public const int ilsp_access_market_info_throughproducergroups = 2131101225;
+			// aapt resource value: 0x7f060633
+			public const int ilsp_access_market_info_throughcooperatives = 2131101235;
 			
-			// aapt resource value: 0x7f060628
-			public const int ilsp_access_market_info_villagenoticeboards = 2131101224;
+			// aapt resource value: 0x7f06062e
+			public const int ilsp_access_market_info_throughmediaradiostv = 2131101230;
+			
+			// aapt resource value: 0x7f060632
+			public const int ilsp_access_market_info_throughproducergroups = 2131101234;
+			
+			// aapt resource value: 0x7f060631
+			public const int ilsp_access_market_info_villagenoticeboards = 2131101233;
 			
 			// aapt resource value: 0x7f0600f6
 			public const int ilsp_access_to_prodtv_land_no = 2131099894;
@@ -2276,524 +2279,623 @@ namespace MobileCollector
 			// aapt resource value: 0x7f0600f5
 			public const int ilsp_access_to_prodtv_land_yes = 2131099893;
 			
-			// aapt resource value: 0x7f060347
-			public const int ilsp_address_common_issue_frequently = 2131100487;
+			// aapt resource value: 0x7f0602f4
+			public const int ilsp_address_common_issue_frequently = 2131100404;
 			
-			// aapt resource value: 0x7f060344
-			public const int ilsp_address_common_issue_never = 2131100484;
+			// aapt resource value: 0x7f0602f1
+			public const int ilsp_address_common_issue_never = 2131100401;
 			
-			// aapt resource value: 0x7f060346
-			public const int ilsp_address_common_issue_ocassionally = 2131100486;
-			
-			// aapt resource value: 0x7f060345
-			public const int ilsp_address_common_issue_veryrarely = 2131100485;
-			
-			// aapt resource value: 0x7f0600b8
-			public const int ilsp_age_of_beneficiary = 2131099832;
-			
-			// aapt resource value: 0x7f0600df
-			public const int ilsp_age_of_household_head_65andabove = 2131099871;
-			
-			// aapt resource value: 0x7f0600dd
-			public const int ilsp_age_of_household_head_between18to35 = 2131099869;
-			
-			// aapt resource value: 0x7f0600de
-			public const int ilsp_age_of_household_head_between36to64 = 2131099870;
-			
-			// aapt resource value: 0x7f0600dc
-			public const int ilsp_age_of_household_head_under18 = 2131099868;
-			
-			// aapt resource value: 0x7f06075f
-			public const int ilsp_amount_of_expense_sx_clothing = 2131101535;
-			
-			// aapt resource value: 0x7f06075c
-			public const int ilsp_amount_of_expense_sx_educationschoolfeesuniformsbooks = 2131101532;
-			
-			// aapt resource value: 0x7f060777
-			public const int ilsp_amount_of_expense_sx_entertainmentegrecreationalcohol = 2131101559;
-			
-			// aapt resource value: 0x7f06076b
-			public const int ilsp_amount_of_expense_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131101547;
-			
-			// aapt resource value: 0x7f060756
-			public const int ilsp_amount_of_expense_sx_food = 2131101526;
-			
-			// aapt resource value: 0x7f060762
-			public const int ilsp_amount_of_expense_sx_healthmedicalbillsmedicine = 2131101538;
-			
-			// aapt resource value: 0x7f060771
-			public const int ilsp_amount_of_expense_sx_householdassetsegfurnituresolar = 2131101553;
-			
-			// aapt resource value: 0x7f060774
-			public const int ilsp_amount_of_expense_sx_otherinvestments = 2131101556;
-			
-			// aapt resource value: 0x7f06076e
-			public const int ilsp_amount_of_expense_sx_productiveassetsfarmassets = 2131101550;
-			
-			// aapt resource value: 0x7f06077d
-			public const int ilsp_amount_of_expense_sx_savings = 2131101565;
-			
-			// aapt resource value: 0x7f060759
-			public const int ilsp_amount_of_expense_sx_shelterhousingbuildingrenovations = 2131101529;
-			
-			// aapt resource value: 0x7f06077a
-			public const int ilsp_amount_of_expense_sx_socialmembershipfeeschurchofferingfunctions = 2131101562;
-			
-			// aapt resource value: 0x7f060768
-			public const int ilsp_amount_of_expense_sx_transportation = 2131101544;
-			
-			// aapt resource value: 0x7f060765
-			public const int ilsp_amount_of_expense_sx_utilitieselectricitymobile = 2131101541;
-			
-			// aapt resource value: 0x7f06064d
-			public const int ilsp_amt_spent_food_past_7d_sx_cerealsmilletricenshima = 2131101261;
-			
-			// aapt resource value: 0x7f060689
-			public const int ilsp_amt_spent_food_past_7d_sx_eggs = 2131101321;
-			
-			// aapt resource value: 0x7f060695
-			public const int ilsp_amt_spent_food_past_7d_sx_fishfishkapenta = 2131101333;
-			
-			// aapt resource value: 0x7f060671
-			public const int ilsp_amt_spent_food_past_7d_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101297;
-			
-			// aapt resource value: 0x7f0606a1
-			public const int ilsp_amt_spent_food_past_7d_sx_legumesgroundnutsbeanssoyapeas = 2131101345;
-			
-			// aapt resource value: 0x7f06067d
-			public const int ilsp_amt_spent_food_past_7d_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101309;
-			
-			// aapt resource value: 0x7f0606ad
-			public const int ilsp_amt_spent_food_past_7d_sx_milkmilkyogurtsourmilk = 2131101357;
-			
-			// aapt resource value: 0x7f0606b9
-			public const int ilsp_amt_spent_food_past_7d_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101369;
-			
-			// aapt resource value: 0x7f0606d1
-			public const int ilsp_amt_spent_food_past_7d_sx_spicesandcondimentsgingerteacoffee = 2131101393;
-			
-			// aapt resource value: 0x7f0606c5
-			public const int ilsp_amt_spent_food_past_7d_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101381;
-			
-			// aapt resource value: 0x7f060659
-			public const int ilsp_amt_spent_food_past_7d_sx_tuberssweetpotatoescassava = 2131101273;
-			
-			// aapt resource value: 0x7f060665
-			public const int ilsp_amt_spent_food_past_7d_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101285;
-			
-			// aapt resource value: 0x7f0605a7
-			public const int ilsp_area_cultivated_fodder_acres = 2131101095;
-			
-			// aapt resource value: 0x7f0605a8
-			public const int ilsp_area_cultivated_fodder_hectares = 2131101096;
-			
-			// aapt resource value: 0x7f0605a9
-			public const int ilsp_area_cultivated_fodder_lima = 2131101097;
-			
-			// aapt resource value: 0x7f0605aa
-			public const int ilsp_area_cultivated_fodder_sqmeter = 2131101098;
-			
-			// aapt resource value: 0x7f060458
-			public const int ilsp_area_cultivated_sx_beans = 2131100760;
-			
-			// aapt resource value: 0x7f060475
-			public const int ilsp_area_cultivated_sx_cabbage = 2131100789;
-			
-			// aapt resource value: 0x7f0603e4
-			public const int ilsp_area_cultivated_sx_cassava = 2131100644;
-			
-			// aapt resource value: 0x7f060506
-			public const int ilsp_area_cultivated_sx_cotton = 2131100934;
-			
-			// aapt resource value: 0x7f06041e
-			public const int ilsp_area_cultivated_sx_cowpeas = 2131100702;
-			
-			// aapt resource value: 0x7f0604cc
-			public const int ilsp_area_cultivated_sx_eggplantimpwa = 2131100876;
-			
-			// aapt resource value: 0x7f06038d
-			public const int ilsp_area_cultivated_sx_groundnuts = 2131100557;
-			
-			// aapt resource value: 0x7f0604e9
-			public const int ilsp_area_cultivated_sx_leafyvegetables = 2131100905;
-			
-			// aapt resource value: 0x7f060370
-			public const int ilsp_area_cultivated_sx_maize = 2131100528;
-			
-			// aapt resource value: 0x7f06043b
-			public const int ilsp_area_cultivated_sx_mbambaranuts = 2131100731;
-			
-			// aapt resource value: 0x7f0604af
-			public const int ilsp_area_cultivated_sx_onion = 2131100847;
-			
-			// aapt resource value: 0x7f060523
-			public const int ilsp_area_cultivated_sx_other = 2131100963;
-			
-			// aapt resource value: 0x7f0603c7
-			public const int ilsp_area_cultivated_sx_potatoes = 2131100615;
-			
-			// aapt resource value: 0x7f060401
-			public const int ilsp_area_cultivated_sx_soyabeans = 2131100673;
-			
-			// aapt resource value: 0x7f0603aa
-			public const int ilsp_area_cultivated_sx_sweetpotatoes = 2131100586;
-			
-			// aapt resource value: 0x7f060492
-			public const int ilsp_area_cultivated_sx_tomatoes = 2131100818;
-			
-			// aapt resource value: 0x7f06045a
-			public const int ilsp_area_cultivated_uom_acres_sx_beans = 2131100762;
-			
-			// aapt resource value: 0x7f060477
-			public const int ilsp_area_cultivated_uom_acres_sx_cabbage = 2131100791;
-			
-			// aapt resource value: 0x7f0603e6
-			public const int ilsp_area_cultivated_uom_acres_sx_cassava = 2131100646;
-			
-			// aapt resource value: 0x7f060508
-			public const int ilsp_area_cultivated_uom_acres_sx_cotton = 2131100936;
-			
-			// aapt resource value: 0x7f060420
-			public const int ilsp_area_cultivated_uom_acres_sx_cowpeas = 2131100704;
-			
-			// aapt resource value: 0x7f0604ce
-			public const int ilsp_area_cultivated_uom_acres_sx_eggplantimpwa = 2131100878;
-			
-			// aapt resource value: 0x7f06038f
-			public const int ilsp_area_cultivated_uom_acres_sx_groundnuts = 2131100559;
-			
-			// aapt resource value: 0x7f0604eb
-			public const int ilsp_area_cultivated_uom_acres_sx_leafyvegetables = 2131100907;
-			
-			// aapt resource value: 0x7f060372
-			public const int ilsp_area_cultivated_uom_acres_sx_maize = 2131100530;
-			
-			// aapt resource value: 0x7f06043d
-			public const int ilsp_area_cultivated_uom_acres_sx_mbambaranuts = 2131100733;
-			
-			// aapt resource value: 0x7f0604b1
-			public const int ilsp_area_cultivated_uom_acres_sx_onion = 2131100849;
-			
-			// aapt resource value: 0x7f060525
-			public const int ilsp_area_cultivated_uom_acres_sx_other = 2131100965;
-			
-			// aapt resource value: 0x7f0603c9
-			public const int ilsp_area_cultivated_uom_acres_sx_potatoes = 2131100617;
-			
-			// aapt resource value: 0x7f060403
-			public const int ilsp_area_cultivated_uom_acres_sx_soyabeans = 2131100675;
-			
-			// aapt resource value: 0x7f0603ac
-			public const int ilsp_area_cultivated_uom_acres_sx_sweetpotatoes = 2131100588;
-			
-			// aapt resource value: 0x7f060494
-			public const int ilsp_area_cultivated_uom_acres_sx_tomatoes = 2131100820;
-			
-			// aapt resource value: 0x7f06045b
-			public const int ilsp_area_cultivated_uom_hectares_sx_beans = 2131100763;
-			
-			// aapt resource value: 0x7f060478
-			public const int ilsp_area_cultivated_uom_hectares_sx_cabbage = 2131100792;
-			
-			// aapt resource value: 0x7f0603e7
-			public const int ilsp_area_cultivated_uom_hectares_sx_cassava = 2131100647;
-			
-			// aapt resource value: 0x7f060509
-			public const int ilsp_area_cultivated_uom_hectares_sx_cotton = 2131100937;
-			
-			// aapt resource value: 0x7f060421
-			public const int ilsp_area_cultivated_uom_hectares_sx_cowpeas = 2131100705;
-			
-			// aapt resource value: 0x7f0604cf
-			public const int ilsp_area_cultivated_uom_hectares_sx_eggplantimpwa = 2131100879;
-			
-			// aapt resource value: 0x7f060390
-			public const int ilsp_area_cultivated_uom_hectares_sx_groundnuts = 2131100560;
-			
-			// aapt resource value: 0x7f0604ec
-			public const int ilsp_area_cultivated_uom_hectares_sx_leafyvegetables = 2131100908;
-			
-			// aapt resource value: 0x7f060373
-			public const int ilsp_area_cultivated_uom_hectares_sx_maize = 2131100531;
-			
-			// aapt resource value: 0x7f06043e
-			public const int ilsp_area_cultivated_uom_hectares_sx_mbambaranuts = 2131100734;
-			
-			// aapt resource value: 0x7f0604b2
-			public const int ilsp_area_cultivated_uom_hectares_sx_onion = 2131100850;
-			
-			// aapt resource value: 0x7f060526
-			public const int ilsp_area_cultivated_uom_hectares_sx_other = 2131100966;
-			
-			// aapt resource value: 0x7f0603ca
-			public const int ilsp_area_cultivated_uom_hectares_sx_potatoes = 2131100618;
-			
-			// aapt resource value: 0x7f060404
-			public const int ilsp_area_cultivated_uom_hectares_sx_soyabeans = 2131100676;
-			
-			// aapt resource value: 0x7f0603ad
-			public const int ilsp_area_cultivated_uom_hectares_sx_sweetpotatoes = 2131100589;
-			
-			// aapt resource value: 0x7f060495
-			public const int ilsp_area_cultivated_uom_hectares_sx_tomatoes = 2131100821;
-			
-			// aapt resource value: 0x7f06045c
-			public const int ilsp_area_cultivated_uom_lima_sx_beans = 2131100764;
-			
-			// aapt resource value: 0x7f060479
-			public const int ilsp_area_cultivated_uom_lima_sx_cabbage = 2131100793;
-			
-			// aapt resource value: 0x7f0603e8
-			public const int ilsp_area_cultivated_uom_lima_sx_cassava = 2131100648;
-			
-			// aapt resource value: 0x7f06050a
-			public const int ilsp_area_cultivated_uom_lima_sx_cotton = 2131100938;
-			
-			// aapt resource value: 0x7f060422
-			public const int ilsp_area_cultivated_uom_lima_sx_cowpeas = 2131100706;
-			
-			// aapt resource value: 0x7f0604d0
-			public const int ilsp_area_cultivated_uom_lima_sx_eggplantimpwa = 2131100880;
-			
-			// aapt resource value: 0x7f060391
-			public const int ilsp_area_cultivated_uom_lima_sx_groundnuts = 2131100561;
-			
-			// aapt resource value: 0x7f0604ed
-			public const int ilsp_area_cultivated_uom_lima_sx_leafyvegetables = 2131100909;
-			
-			// aapt resource value: 0x7f060374
-			public const int ilsp_area_cultivated_uom_lima_sx_maize = 2131100532;
-			
-			// aapt resource value: 0x7f06043f
-			public const int ilsp_area_cultivated_uom_lima_sx_mbambaranuts = 2131100735;
-			
-			// aapt resource value: 0x7f0604b3
-			public const int ilsp_area_cultivated_uom_lima_sx_onion = 2131100851;
-			
-			// aapt resource value: 0x7f060527
-			public const int ilsp_area_cultivated_uom_lima_sx_other = 2131100967;
-			
-			// aapt resource value: 0x7f0603cb
-			public const int ilsp_area_cultivated_uom_lima_sx_potatoes = 2131100619;
-			
-			// aapt resource value: 0x7f060405
-			public const int ilsp_area_cultivated_uom_lima_sx_soyabeans = 2131100677;
-			
-			// aapt resource value: 0x7f0603ae
-			public const int ilsp_area_cultivated_uom_lima_sx_sweetpotatoes = 2131100590;
-			
-			// aapt resource value: 0x7f060496
-			public const int ilsp_area_cultivated_uom_lima_sx_tomatoes = 2131100822;
-			
-			// aapt resource value: 0x7f06045d
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_beans = 2131100765;
-			
-			// aapt resource value: 0x7f06047a
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_cabbage = 2131100794;
-			
-			// aapt resource value: 0x7f0603e9
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_cassava = 2131100649;
-			
-			// aapt resource value: 0x7f06050b
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_cotton = 2131100939;
-			
-			// aapt resource value: 0x7f060423
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_cowpeas = 2131100707;
-			
-			// aapt resource value: 0x7f0604d1
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_eggplantimpwa = 2131100881;
-			
-			// aapt resource value: 0x7f060392
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_groundnuts = 2131100562;
-			
-			// aapt resource value: 0x7f0604ee
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_leafyvegetables = 2131100910;
-			
-			// aapt resource value: 0x7f060375
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_maize = 2131100533;
-			
-			// aapt resource value: 0x7f060440
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_mbambaranuts = 2131100736;
-			
-			// aapt resource value: 0x7f0604b4
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_onion = 2131100852;
-			
-			// aapt resource value: 0x7f060528
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_other = 2131100968;
-			
-			// aapt resource value: 0x7f0603cc
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_potatoes = 2131100620;
-			
-			// aapt resource value: 0x7f060406
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_soyabeans = 2131100678;
-			
-			// aapt resource value: 0x7f0603af
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_sweetpotatoes = 2131100591;
-			
-			// aapt resource value: 0x7f060497
-			public const int ilsp_area_cultivated_uom_sqmeter_sx_tomatoes = 2131100823;
-			
-			// aapt resource value: 0x7f06022c
-			public const int ilsp_asset_ownership_label = 2131100204;
-			
-			// aapt resource value: 0x7f06063f
-			public const int ilsp_average_number_of_meals_1meal = 2131101247;
-			
-			// aapt resource value: 0x7f060640
-			public const int ilsp_average_number_of_meals_2meals = 2131101248;
-			
-			// aapt resource value: 0x7f060641
-			public const int ilsp_average_number_of_meals_3meals = 2131101249;
-			
-			// aapt resource value: 0x7f06070f
-			public const int ilsp_avg_tme_bring_water_between30minto1hr = 2131101455;
-			
-			// aapt resource value: 0x7f06070e
-			public const int ilsp_avg_tme_bring_water_lessthan30min = 2131101454;
-			
-			// aapt resource value: 0x7f060710
-			public const int ilsp_avg_tme_bring_water_morethan1hr = 2131101456;
-			
-			// aapt resource value: 0x7f060711
-			public const int ilsp_avg_tme_bring_water_na = 2131101457;
-			
-			// aapt resource value: 0x7f060712
-			public const int ilsp_avg_tme_bring_water_other = 2131101458;
-			
-			// aapt resource value: 0x7f060271
-			public const int ilsp_children_sch_attend_dec_maleandfemale = 2131100273;
-			
-			// aapt resource value: 0x7f060273
-			public const int ilsp_children_sch_attend_dec_onlyfemale = 2131100275;
-			
-			// aapt resource value: 0x7f060272
-			public const int ilsp_children_sch_attend_dec_onlymale = 2131100274;
+			// aapt resource value: 0x7f0602f3
+			public const int ilsp_address_common_issue_ocassionally = 2131100403;
 			
 			// aapt resource value: 0x7f0602f2
-			public const int ilsp_community_group_name_sx_cooperative = 2131100402;
+			public const int ilsp_address_common_issue_veryrarely = 2131100402;
 			
-			// aapt resource value: 0x7f0602fa
-			public const int ilsp_community_group_name_sx_creditfinancegroup = 2131100410;
+			// aapt resource value: 0x7f0600af
+			public const int ilsp_age_of_beneficiary = 2131099823;
 			
-			// aapt resource value: 0x7f06030a
-			public const int ilsp_community_group_name_sx_mensgroup = 2131100426;
+			// aapt resource value: 0x7f0600dd
+			public const int ilsp_age_of_household_head_65andabove = 2131099869;
 			
-			// aapt resource value: 0x7f06031a
-			public const int ilsp_community_group_name_sx_other = 2131100442;
+			// aapt resource value: 0x7f0600db
+			public const int ilsp_age_of_household_head_between18to35 = 2131099867;
 			
-			// aapt resource value: 0x7f0602ea
-			public const int ilsp_community_group_name_sx_producergroup = 2131100394;
+			// aapt resource value: 0x7f0600dc
+			public const int ilsp_age_of_household_head_between36to64 = 2131099868;
 			
-			// aapt resource value: 0x7f060302
-			public const int ilsp_community_group_name_sx_womensgroup = 2131100418;
+			// aapt resource value: 0x7f0600da
+			public const int ilsp_age_of_household_head_under18 = 2131099866;
 			
-			// aapt resource value: 0x7f060312
-			public const int ilsp_community_group_name_sx_youthgroup = 2131100434;
+			// aapt resource value: 0x7f060768
+			public const int ilsp_amount_of_expense_sx_clothing = 2131101544;
 			
-			// aapt resource value: 0x7f06027f
-			public const int ilsp_community_service_name_sx_education = 2131100287;
+			// aapt resource value: 0x7f060765
+			public const int ilsp_amount_of_expense_sx_educationschoolfeesuniformsbooks = 2131101541;
 			
-			// aapt resource value: 0x7f0602a7
-			public const int ilsp_community_service_name_sx_extensionservices = 2131100327;
+			// aapt resource value: 0x7f060780
+			public const int ilsp_amount_of_expense_sx_entertainmentegrecreationalcohol = 2131101568;
 			
-			// aapt resource value: 0x7f0602c5
-			public const int ilsp_community_service_name_sx_financialservices = 2131100357;
+			// aapt resource value: 0x7f060774
+			public const int ilsp_amount_of_expense_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131101556;
 			
-			// aapt resource value: 0x7f060289
-			public const int ilsp_community_service_name_sx_healthservices = 2131100297;
+			// aapt resource value: 0x7f06075f
+			public const int ilsp_amount_of_expense_sx_food = 2131101535;
 			
-			// aapt resource value: 0x7f06029d
-			public const int ilsp_community_service_name_sx_justiceconflictresolution = 2131100317;
+			// aapt resource value: 0x7f06076b
+			public const int ilsp_amount_of_expense_sx_healthmedicalbillsmedicine = 2131101547;
 			
-			// aapt resource value: 0x7f0602b1
-			public const int ilsp_community_service_name_sx_marketingservices = 2131100337;
+			// aapt resource value: 0x7f06077a
+			public const int ilsp_amount_of_expense_sx_householdassetsegfurnituresolar = 2131101562;
 			
-			// aapt resource value: 0x7f060293
-			public const int ilsp_community_service_name_sx_trainingandprofessionalservices = 2131100307;
+			// aapt resource value: 0x7f06077d
+			public const int ilsp_amount_of_expense_sx_otherinvestments = 2131101565;
 			
-			// aapt resource value: 0x7f0602bb
-			public const int ilsp_community_service_name_sx_veterinaryservices = 2131100347;
+			// aapt resource value: 0x7f060777
+			public const int ilsp_amount_of_expense_sx_productiveassetsfarmassets = 2131101559;
 			
-			// aapt resource value: 0x7f0606fa
-			public const int ilsp_coping_strat_emp_begging = 2131101434;
+			// aapt resource value: 0x7f060786
+			public const int ilsp_amount_of_expense_sx_savings = 2131101574;
 			
-			// aapt resource value: 0x7f0606f9
-			public const int ilsp_coping_strat_emp_borrowingfoodmoney = 2131101433;
+			// aapt resource value: 0x7f060762
+			public const int ilsp_amount_of_expense_sx_shelterhousingbuildingrenovations = 2131101538;
 			
-			// aapt resource value: 0x7f0606fd
-			public const int ilsp_coping_strat_emp_eatingwildfruits = 2131101437;
+			// aapt resource value: 0x7f060783
+			public const int ilsp_amount_of_expense_sx_socialmembershipfeeschurchofferingfunctions = 2131101571;
 			
-			// aapt resource value: 0x7f060701
-			public const int ilsp_coping_strat_emp_other = 2131101441;
+			// aapt resource value: 0x7f060771
+			public const int ilsp_amount_of_expense_sx_transportation = 2131101553;
 			
-			// aapt resource value: 0x7f060700
-			public const int ilsp_coping_strat_emp_purchasefoodoncredit = 2131101440;
+			// aapt resource value: 0x7f06076e
+			public const int ilsp_amount_of_expense_sx_utilitieselectricitymobile = 2131101550;
 			
-			// aapt resource value: 0x7f0606fc
-			public const int ilsp_coping_strat_emp_reducingthenumberofmeals = 2131101436;
+			// aapt resource value: 0x7f060656
+			public const int ilsp_amt_spent_food_past_7d_sx_cerealsmilletricenshima = 2131101270;
 			
-			// aapt resource value: 0x7f0606fe
-			public const int ilsp_coping_strat_emp_sellinglivestocktobuyfood = 2131101438;
+			// aapt resource value: 0x7f060692
+			public const int ilsp_amt_spent_food_past_7d_sx_eggs = 2131101330;
 			
-			// aapt resource value: 0x7f0606ff
-			public const int ilsp_coping_strat_emp_skippingdayswithoutmeals = 2131101439;
+			// aapt resource value: 0x7f06069e
+			public const int ilsp_amt_spent_food_past_7d_sx_fishfishkapenta = 2131101342;
 			
-			// aapt resource value: 0x7f0606fb
-			public const int ilsp_coping_strat_emp_workingforfood = 2131101435;
+			// aapt resource value: 0x7f06067a
+			public const int ilsp_amt_spent_food_past_7d_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101306;
 			
-			// aapt resource value: 0x7f060457
-			public const int ilsp_crop_name_sx_beans = 2131100759;
+			// aapt resource value: 0x7f0606aa
+			public const int ilsp_amt_spent_food_past_7d_sx_legumesgroundnutsbeanssoyapeas = 2131101354;
 			
-			// aapt resource value: 0x7f060474
-			public const int ilsp_crop_name_sx_cabbage = 2131100788;
+			// aapt resource value: 0x7f060686
+			public const int ilsp_amt_spent_food_past_7d_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101318;
 			
-			// aapt resource value: 0x7f0603e3
-			public const int ilsp_crop_name_sx_cassava = 2131100643;
+			// aapt resource value: 0x7f0606b6
+			public const int ilsp_amt_spent_food_past_7d_sx_milkmilkyogurtsourmilk = 2131101366;
 			
-			// aapt resource value: 0x7f060505
-			public const int ilsp_crop_name_sx_cotton = 2131100933;
+			// aapt resource value: 0x7f0606c2
+			public const int ilsp_amt_spent_food_past_7d_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101378;
 			
-			// aapt resource value: 0x7f06041d
-			public const int ilsp_crop_name_sx_cowpeas = 2131100701;
+			// aapt resource value: 0x7f0606da
+			public const int ilsp_amt_spent_food_past_7d_sx_spicesandcondimentsgingerteacoffee = 2131101402;
 			
-			// aapt resource value: 0x7f0604cb
-			public const int ilsp_crop_name_sx_eggplantimpwa = 2131100875;
+			// aapt resource value: 0x7f0606ce
+			public const int ilsp_amt_spent_food_past_7d_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101390;
 			
-			// aapt resource value: 0x7f06038c
-			public const int ilsp_crop_name_sx_groundnuts = 2131100556;
+			// aapt resource value: 0x7f060662
+			public const int ilsp_amt_spent_food_past_7d_sx_tuberssweetpotatoescassava = 2131101282;
 			
-			// aapt resource value: 0x7f0604e8
-			public const int ilsp_crop_name_sx_leafyvegetables = 2131100904;
+			// aapt resource value: 0x7f06066e
+			public const int ilsp_amt_spent_food_past_7d_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101294;
 			
-			// aapt resource value: 0x7f06036f
-			public const int ilsp_crop_name_sx_maize = 2131100527;
+			// aapt resource value: 0x7f0605ac
+			public const int ilsp_area_cultivated_fodder = 2131101100;
 			
-			// aapt resource value: 0x7f06043a
-			public const int ilsp_crop_name_sx_mbambaranuts = 2131100730;
+			// aapt resource value: 0x7f0605af
+			public const int ilsp_area_cultivated_fodder_uom_acres = 2131101103;
 			
-			// aapt resource value: 0x7f0604ae
-			public const int ilsp_crop_name_sx_onion = 2131100846;
+			// aapt resource value: 0x7f0605b0
+			public const int ilsp_area_cultivated_fodder_uom_hectares = 2131101104;
 			
-			// aapt resource value: 0x7f060522
-			public const int ilsp_crop_name_sx_other = 2131100962;
+			// aapt resource value: 0x7f0605b1
+			public const int ilsp_area_cultivated_fodder_uom_lima = 2131101105;
 			
-			// aapt resource value: 0x7f0603c6
-			public const int ilsp_crop_name_sx_potatoes = 2131100614;
+			// aapt resource value: 0x7f0605b2
+			public const int ilsp_area_cultivated_fodder_uom_sqmeter = 2131101106;
+			
+			// aapt resource value: 0x7f060420
+			public const int ilsp_area_cultivated_sx_beans = 2131100704;
+			
+			// aapt resource value: 0x7f060440
+			public const int ilsp_area_cultivated_sx_cabbage = 2131100736;
+			
+			// aapt resource value: 0x7f0603a0
+			public const int ilsp_area_cultivated_sx_cassava = 2131100576;
+			
+			// aapt resource value: 0x7f0604e0
+			public const int ilsp_area_cultivated_sx_cotton = 2131100896;
+			
+			// aapt resource value: 0x7f0603e0
+			public const int ilsp_area_cultivated_sx_cowpeas = 2131100640;
+			
+			// aapt resource value: 0x7f0604a0
+			public const int ilsp_area_cultivated_sx_eggplantimpwa = 2131100832;
+			
+			// aapt resource value: 0x7f060340
+			public const int ilsp_area_cultivated_sx_groundnuts = 2131100480;
+			
+			// aapt resource value: 0x7f0604c0
+			public const int ilsp_area_cultivated_sx_leafyvegetables = 2131100864;
+			
+			// aapt resource value: 0x7f060320
+			public const int ilsp_area_cultivated_sx_maize = 2131100448;
 			
 			// aapt resource value: 0x7f060400
-			public const int ilsp_crop_name_sx_soyabeans = 2131100672;
+			public const int ilsp_area_cultivated_sx_mbambaranuts = 2131100672;
 			
-			// aapt resource value: 0x7f0603a9
-			public const int ilsp_crop_name_sx_sweetpotatoes = 2131100585;
+			// aapt resource value: 0x7f060480
+			public const int ilsp_area_cultivated_sx_onion = 2131100800;
 			
-			// aapt resource value: 0x7f060491
-			public const int ilsp_crop_name_sx_tomatoes = 2131100817;
+			// aapt resource value: 0x7f060500
+			public const int ilsp_area_cultivated_sx_other = 2131100928;
 			
-			// aapt resource value: 0x7f060331
-			public const int ilsp_crop_production_trng_no = 2131100465;
+			// aapt resource value: 0x7f060380
+			public const int ilsp_area_cultivated_sx_potatoes = 2131100544;
 			
-			// aapt resource value: 0x7f060330
-			public const int ilsp_crop_production_trng_yes = 2131100464;
+			// aapt resource value: 0x7f0603c0
+			public const int ilsp_area_cultivated_sx_soyabeans = 2131100608;
+			
+			// aapt resource value: 0x7f060360
+			public const int ilsp_area_cultivated_sx_sweetpotatoes = 2131100512;
+			
+			// aapt resource value: 0x7f060460
+			public const int ilsp_area_cultivated_sx_tomatoes = 2131100768;
+			
+			// aapt resource value: 0x7f060422
+			public const int ilsp_area_cultivated_uom_acres_sx_beans = 2131100706;
+			
+			// aapt resource value: 0x7f060442
+			public const int ilsp_area_cultivated_uom_acres_sx_cabbage = 2131100738;
+			
+			// aapt resource value: 0x7f0603a2
+			public const int ilsp_area_cultivated_uom_acres_sx_cassava = 2131100578;
+			
+			// aapt resource value: 0x7f0604e2
+			public const int ilsp_area_cultivated_uom_acres_sx_cotton = 2131100898;
+			
+			// aapt resource value: 0x7f0603e2
+			public const int ilsp_area_cultivated_uom_acres_sx_cowpeas = 2131100642;
+			
+			// aapt resource value: 0x7f0604a2
+			public const int ilsp_area_cultivated_uom_acres_sx_eggplantimpwa = 2131100834;
+			
+			// aapt resource value: 0x7f060342
+			public const int ilsp_area_cultivated_uom_acres_sx_groundnuts = 2131100482;
+			
+			// aapt resource value: 0x7f0604c2
+			public const int ilsp_area_cultivated_uom_acres_sx_leafyvegetables = 2131100866;
+			
+			// aapt resource value: 0x7f060322
+			public const int ilsp_area_cultivated_uom_acres_sx_maize = 2131100450;
+			
+			// aapt resource value: 0x7f060402
+			public const int ilsp_area_cultivated_uom_acres_sx_mbambaranuts = 2131100674;
+			
+			// aapt resource value: 0x7f060482
+			public const int ilsp_area_cultivated_uom_acres_sx_onion = 2131100802;
+			
+			// aapt resource value: 0x7f060502
+			public const int ilsp_area_cultivated_uom_acres_sx_other = 2131100930;
+			
+			// aapt resource value: 0x7f060382
+			public const int ilsp_area_cultivated_uom_acres_sx_potatoes = 2131100546;
+			
+			// aapt resource value: 0x7f0603c2
+			public const int ilsp_area_cultivated_uom_acres_sx_soyabeans = 2131100610;
+			
+			// aapt resource value: 0x7f060362
+			public const int ilsp_area_cultivated_uom_acres_sx_sweetpotatoes = 2131100514;
+			
+			// aapt resource value: 0x7f060462
+			public const int ilsp_area_cultivated_uom_acres_sx_tomatoes = 2131100770;
+			
+			// aapt resource value: 0x7f060423
+			public const int ilsp_area_cultivated_uom_hectares_sx_beans = 2131100707;
+			
+			// aapt resource value: 0x7f060443
+			public const int ilsp_area_cultivated_uom_hectares_sx_cabbage = 2131100739;
+			
+			// aapt resource value: 0x7f0603a3
+			public const int ilsp_area_cultivated_uom_hectares_sx_cassava = 2131100579;
+			
+			// aapt resource value: 0x7f0604e3
+			public const int ilsp_area_cultivated_uom_hectares_sx_cotton = 2131100899;
+			
+			// aapt resource value: 0x7f0603e3
+			public const int ilsp_area_cultivated_uom_hectares_sx_cowpeas = 2131100643;
+			
+			// aapt resource value: 0x7f0604a3
+			public const int ilsp_area_cultivated_uom_hectares_sx_eggplantimpwa = 2131100835;
+			
+			// aapt resource value: 0x7f060343
+			public const int ilsp_area_cultivated_uom_hectares_sx_groundnuts = 2131100483;
+			
+			// aapt resource value: 0x7f0604c3
+			public const int ilsp_area_cultivated_uom_hectares_sx_leafyvegetables = 2131100867;
+			
+			// aapt resource value: 0x7f060323
+			public const int ilsp_area_cultivated_uom_hectares_sx_maize = 2131100451;
+			
+			// aapt resource value: 0x7f060403
+			public const int ilsp_area_cultivated_uom_hectares_sx_mbambaranuts = 2131100675;
+			
+			// aapt resource value: 0x7f060483
+			public const int ilsp_area_cultivated_uom_hectares_sx_onion = 2131100803;
+			
+			// aapt resource value: 0x7f060503
+			public const int ilsp_area_cultivated_uom_hectares_sx_other = 2131100931;
+			
+			// aapt resource value: 0x7f060383
+			public const int ilsp_area_cultivated_uom_hectares_sx_potatoes = 2131100547;
+			
+			// aapt resource value: 0x7f0603c3
+			public const int ilsp_area_cultivated_uom_hectares_sx_soyabeans = 2131100611;
+			
+			// aapt resource value: 0x7f060363
+			public const int ilsp_area_cultivated_uom_hectares_sx_sweetpotatoes = 2131100515;
+			
+			// aapt resource value: 0x7f060463
+			public const int ilsp_area_cultivated_uom_hectares_sx_tomatoes = 2131100771;
+			
+			// aapt resource value: 0x7f060424
+			public const int ilsp_area_cultivated_uom_lima_sx_beans = 2131100708;
+			
+			// aapt resource value: 0x7f060444
+			public const int ilsp_area_cultivated_uom_lima_sx_cabbage = 2131100740;
+			
+			// aapt resource value: 0x7f0603a4
+			public const int ilsp_area_cultivated_uom_lima_sx_cassava = 2131100580;
+			
+			// aapt resource value: 0x7f0604e4
+			public const int ilsp_area_cultivated_uom_lima_sx_cotton = 2131100900;
+			
+			// aapt resource value: 0x7f0603e4
+			public const int ilsp_area_cultivated_uom_lima_sx_cowpeas = 2131100644;
+			
+			// aapt resource value: 0x7f0604a4
+			public const int ilsp_area_cultivated_uom_lima_sx_eggplantimpwa = 2131100836;
+			
+			// aapt resource value: 0x7f060344
+			public const int ilsp_area_cultivated_uom_lima_sx_groundnuts = 2131100484;
+			
+			// aapt resource value: 0x7f0604c4
+			public const int ilsp_area_cultivated_uom_lima_sx_leafyvegetables = 2131100868;
+			
+			// aapt resource value: 0x7f060324
+			public const int ilsp_area_cultivated_uom_lima_sx_maize = 2131100452;
+			
+			// aapt resource value: 0x7f060404
+			public const int ilsp_area_cultivated_uom_lima_sx_mbambaranuts = 2131100676;
+			
+			// aapt resource value: 0x7f060484
+			public const int ilsp_area_cultivated_uom_lima_sx_onion = 2131100804;
+			
+			// aapt resource value: 0x7f060504
+			public const int ilsp_area_cultivated_uom_lima_sx_other = 2131100932;
+			
+			// aapt resource value: 0x7f060384
+			public const int ilsp_area_cultivated_uom_lima_sx_potatoes = 2131100548;
+			
+			// aapt resource value: 0x7f0603c4
+			public const int ilsp_area_cultivated_uom_lima_sx_soyabeans = 2131100612;
+			
+			// aapt resource value: 0x7f060364
+			public const int ilsp_area_cultivated_uom_lima_sx_sweetpotatoes = 2131100516;
+			
+			// aapt resource value: 0x7f060464
+			public const int ilsp_area_cultivated_uom_lima_sx_tomatoes = 2131100772;
+			
+			// aapt resource value: 0x7f060425
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_beans = 2131100709;
+			
+			// aapt resource value: 0x7f060445
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_cabbage = 2131100741;
+			
+			// aapt resource value: 0x7f0603a5
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_cassava = 2131100581;
+			
+			// aapt resource value: 0x7f0604e5
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_cotton = 2131100901;
+			
+			// aapt resource value: 0x7f0603e5
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_cowpeas = 2131100645;
+			
+			// aapt resource value: 0x7f0604a5
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_eggplantimpwa = 2131100837;
+			
+			// aapt resource value: 0x7f060345
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_groundnuts = 2131100485;
+			
+			// aapt resource value: 0x7f0604c5
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_leafyvegetables = 2131100869;
+			
+			// aapt resource value: 0x7f060325
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_maize = 2131100453;
+			
+			// aapt resource value: 0x7f060405
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_mbambaranuts = 2131100677;
+			
+			// aapt resource value: 0x7f060485
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_onion = 2131100805;
+			
+			// aapt resource value: 0x7f060505
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_other = 2131100933;
+			
+			// aapt resource value: 0x7f060385
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_potatoes = 2131100549;
+			
+			// aapt resource value: 0x7f0603c5
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_soyabeans = 2131100613;
+			
+			// aapt resource value: 0x7f060365
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_sweetpotatoes = 2131100517;
+			
+			// aapt resource value: 0x7f060465
+			public const int ilsp_area_cultivated_uom_sqmeter_sx_tomatoes = 2131100773;
+			
+			// aapt resource value: 0x7f0601d8
+			public const int ilsp_asset_ownership_label = 2131100120;
+			
+			// aapt resource value: 0x7f060648
+			public const int ilsp_average_number_of_meals_1meal = 2131101256;
+			
+			// aapt resource value: 0x7f060649
+			public const int ilsp_average_number_of_meals_2meals = 2131101257;
+			
+			// aapt resource value: 0x7f06064a
+			public const int ilsp_average_number_of_meals_3meals = 2131101258;
+			
+			// aapt resource value: 0x7f060718
+			public const int ilsp_avg_tme_bring_water_between30minto1hr = 2131101464;
+			
+			// aapt resource value: 0x7f060717
+			public const int ilsp_avg_tme_bring_water_lessthan30min = 2131101463;
+			
+			// aapt resource value: 0x7f060719
+			public const int ilsp_avg_tme_bring_water_morethan1hr = 2131101465;
+			
+			// aapt resource value: 0x7f06071a
+			public const int ilsp_avg_tme_bring_water_na = 2131101466;
+			
+			// aapt resource value: 0x7f06071b
+			public const int ilsp_avg_tme_bring_water_other = 2131101467;
+			
+			// aapt resource value: 0x7f06021d
+			public const int ilsp_children_sch_attend_dec_maleandfemale = 2131100189;
+			
+			// aapt resource value: 0x7f06021f
+			public const int ilsp_children_sch_attend_dec_onlyfemale = 2131100191;
+			
+			// aapt resource value: 0x7f06021e
+			public const int ilsp_children_sch_attend_dec_onlymale = 2131100190;
+			
+			// aapt resource value: 0x7f06029f
+			public const int ilsp_community_group_name_sx_cooperative = 2131100319;
+			
+			// aapt resource value: 0x7f0602a7
+			public const int ilsp_community_group_name_sx_creditfinancegroup = 2131100327;
+			
+			// aapt resource value: 0x7f0602b7
+			public const int ilsp_community_group_name_sx_mensgroup = 2131100343;
+			
+			// aapt resource value: 0x7f0602c7
+			public const int ilsp_community_group_name_sx_other = 2131100359;
+			
+			// aapt resource value: 0x7f060297
+			public const int ilsp_community_group_name_sx_producergroup = 2131100311;
+			
+			// aapt resource value: 0x7f0602af
+			public const int ilsp_community_group_name_sx_womensgroup = 2131100335;
+			
+			// aapt resource value: 0x7f0602bf
+			public const int ilsp_community_group_name_sx_youthgroup = 2131100351;
+			
+			// aapt resource value: 0x7f06022b
+			public const int ilsp_community_service_name_sx_education = 2131100203;
+			
+			// aapt resource value: 0x7f060253
+			public const int ilsp_community_service_name_sx_extensionservices = 2131100243;
+			
+			// aapt resource value: 0x7f060271
+			public const int ilsp_community_service_name_sx_financialservices = 2131100273;
+			
+			// aapt resource value: 0x7f060235
+			public const int ilsp_community_service_name_sx_healthservices = 2131100213;
+			
+			// aapt resource value: 0x7f060249
+			public const int ilsp_community_service_name_sx_justiceconflictresolution = 2131100233;
+			
+			// aapt resource value: 0x7f06025d
+			public const int ilsp_community_service_name_sx_marketingservices = 2131100253;
+			
+			// aapt resource value: 0x7f06023f
+			public const int ilsp_community_service_name_sx_trainingandprofessionalservices = 2131100223;
+			
+			// aapt resource value: 0x7f060267
+			public const int ilsp_community_service_name_sx_veterinaryservices = 2131100263;
+			
+			// aapt resource value: 0x7f060703
+			public const int ilsp_coping_strat_emp_begging = 2131101443;
+			
+			// aapt resource value: 0x7f060702
+			public const int ilsp_coping_strat_emp_borrowingfoodmoney = 2131101442;
+			
+			// aapt resource value: 0x7f060706
+			public const int ilsp_coping_strat_emp_eatingwildfruits = 2131101446;
+			
+			// aapt resource value: 0x7f06070a
+			public const int ilsp_coping_strat_emp_other = 2131101450;
+			
+			// aapt resource value: 0x7f060709
+			public const int ilsp_coping_strat_emp_purchasefoodoncredit = 2131101449;
+			
+			// aapt resource value: 0x7f060705
+			public const int ilsp_coping_strat_emp_reducingthenumberofmeals = 2131101445;
+			
+			// aapt resource value: 0x7f060707
+			public const int ilsp_coping_strat_emp_sellinglivestocktobuyfood = 2131101447;
+			
+			// aapt resource value: 0x7f060708
+			public const int ilsp_coping_strat_emp_skippingdayswithoutmeals = 2131101448;
+			
+			// aapt resource value: 0x7f060704
+			public const int ilsp_coping_strat_emp_workingforfood = 2131101444;
+			
+			// aapt resource value: 0x7f06041f
+			public const int ilsp_crop_gown_no_sx_beans = 2131100703;
+			
+			// aapt resource value: 0x7f06043f
+			public const int ilsp_crop_gown_no_sx_cabbage = 2131100735;
+			
+			// aapt resource value: 0x7f06039f
+			public const int ilsp_crop_gown_no_sx_cassava = 2131100575;
+			
+			// aapt resource value: 0x7f0604df
+			public const int ilsp_crop_gown_no_sx_cotton = 2131100895;
+			
+			// aapt resource value: 0x7f0603df
+			public const int ilsp_crop_gown_no_sx_cowpeas = 2131100639;
+			
+			// aapt resource value: 0x7f06049f
+			public const int ilsp_crop_gown_no_sx_eggplantimpwa = 2131100831;
+			
+			// aapt resource value: 0x7f06033f
+			public const int ilsp_crop_gown_no_sx_groundnuts = 2131100479;
+			
+			// aapt resource value: 0x7f0604bf
+			public const int ilsp_crop_gown_no_sx_leafyvegetables = 2131100863;
+			
+			// aapt resource value: 0x7f06031f
+			public const int ilsp_crop_gown_no_sx_maize = 2131100447;
+			
+			// aapt resource value: 0x7f0603ff
+			public const int ilsp_crop_gown_no_sx_mbambaranuts = 2131100671;
+			
+			// aapt resource value: 0x7f06047f
+			public const int ilsp_crop_gown_no_sx_onion = 2131100799;
+			
+			// aapt resource value: 0x7f0604ff
+			public const int ilsp_crop_gown_no_sx_other = 2131100927;
+			
+			// aapt resource value: 0x7f06037f
+			public const int ilsp_crop_gown_no_sx_potatoes = 2131100543;
+			
+			// aapt resource value: 0x7f0603bf
+			public const int ilsp_crop_gown_no_sx_soyabeans = 2131100607;
+			
+			// aapt resource value: 0x7f06035f
+			public const int ilsp_crop_gown_no_sx_sweetpotatoes = 2131100511;
+			
+			// aapt resource value: 0x7f06045f
+			public const int ilsp_crop_gown_no_sx_tomatoes = 2131100767;
+			
+			// aapt resource value: 0x7f06041e
+			public const int ilsp_crop_gown_yes_sx_beans = 2131100702;
+			
+			// aapt resource value: 0x7f06043e
+			public const int ilsp_crop_gown_yes_sx_cabbage = 2131100734;
+			
+			// aapt resource value: 0x7f06039e
+			public const int ilsp_crop_gown_yes_sx_cassava = 2131100574;
+			
+			// aapt resource value: 0x7f0604de
+			public const int ilsp_crop_gown_yes_sx_cotton = 2131100894;
+			
+			// aapt resource value: 0x7f0603de
+			public const int ilsp_crop_gown_yes_sx_cowpeas = 2131100638;
+			
+			// aapt resource value: 0x7f06049e
+			public const int ilsp_crop_gown_yes_sx_eggplantimpwa = 2131100830;
+			
+			// aapt resource value: 0x7f06033e
+			public const int ilsp_crop_gown_yes_sx_groundnuts = 2131100478;
+			
+			// aapt resource value: 0x7f0604be
+			public const int ilsp_crop_gown_yes_sx_leafyvegetables = 2131100862;
+			
+			// aapt resource value: 0x7f06031e
+			public const int ilsp_crop_gown_yes_sx_maize = 2131100446;
+			
+			// aapt resource value: 0x7f0603fe
+			public const int ilsp_crop_gown_yes_sx_mbambaranuts = 2131100670;
+			
+			// aapt resource value: 0x7f06047e
+			public const int ilsp_crop_gown_yes_sx_onion = 2131100798;
+			
+			// aapt resource value: 0x7f0604fe
+			public const int ilsp_crop_gown_yes_sx_other = 2131100926;
+			
+			// aapt resource value: 0x7f06037e
+			public const int ilsp_crop_gown_yes_sx_potatoes = 2131100542;
+			
+			// aapt resource value: 0x7f0603be
+			public const int ilsp_crop_gown_yes_sx_soyabeans = 2131100606;
+			
+			// aapt resource value: 0x7f06035e
+			public const int ilsp_crop_gown_yes_sx_sweetpotatoes = 2131100510;
+			
+			// aapt resource value: 0x7f06045e
+			public const int ilsp_crop_gown_yes_sx_tomatoes = 2131100766;
+			
+			// aapt resource value: 0x7f06041c
+			public const int ilsp_crop_name_sx_beans = 2131100700;
+			
+			// aapt resource value: 0x7f06043c
+			public const int ilsp_crop_name_sx_cabbage = 2131100732;
+			
+			// aapt resource value: 0x7f06039c
+			public const int ilsp_crop_name_sx_cassava = 2131100572;
+			
+			// aapt resource value: 0x7f0604dc
+			public const int ilsp_crop_name_sx_cotton = 2131100892;
+			
+			// aapt resource value: 0x7f0603dc
+			public const int ilsp_crop_name_sx_cowpeas = 2131100636;
+			
+			// aapt resource value: 0x7f06049c
+			public const int ilsp_crop_name_sx_eggplantimpwa = 2131100828;
+			
+			// aapt resource value: 0x7f06033c
+			public const int ilsp_crop_name_sx_groundnuts = 2131100476;
+			
+			// aapt resource value: 0x7f0604bc
+			public const int ilsp_crop_name_sx_leafyvegetables = 2131100860;
+			
+			// aapt resource value: 0x7f06031c
+			public const int ilsp_crop_name_sx_maize = 2131100444;
+			
+			// aapt resource value: 0x7f0603fc
+			public const int ilsp_crop_name_sx_mbambaranuts = 2131100668;
+			
+			// aapt resource value: 0x7f06047c
+			public const int ilsp_crop_name_sx_onion = 2131100796;
+			
+			// aapt resource value: 0x7f0604fc
+			public const int ilsp_crop_name_sx_other = 2131100924;
+			
+			// aapt resource value: 0x7f06037c
+			public const int ilsp_crop_name_sx_potatoes = 2131100540;
+			
+			// aapt resource value: 0x7f0603bc
+			public const int ilsp_crop_name_sx_soyabeans = 2131100604;
+			
+			// aapt resource value: 0x7f06035c
+			public const int ilsp_crop_name_sx_sweetpotatoes = 2131100508;
+			
+			// aapt resource value: 0x7f06045c
+			public const int ilsp_crop_name_sx_tomatoes = 2131100764;
+			
+			// aapt resource value: 0x7f0602de
+			public const int ilsp_crop_production_trng_no = 2131100382;
+			
+			// aapt resource value: 0x7f0602dd
+			public const int ilsp_crop_production_trng_yes = 2131100381;
 			
 			// aapt resource value: 0x7f060108
 			public const int ilsp_cultivated_land_size = 2131099912;
@@ -2810,47 +2912,47 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06010e
 			public const int ilsp_cultivated_uom_sqmeter = 2131099918;
 			
-			// aapt resource value: 0x7f060586
-			public const int ilsp_curr_numb_animals_for_hh_sx_beefcattle = 2131101062;
+			// aapt resource value: 0x7f060584
+			public const int ilsp_curr_numb_animals_for_hh_sx_beefcattle = 2131101060;
 			
-			// aapt resource value: 0x7f060547
-			public const int ilsp_curr_numb_animals_for_hh_sx_broilerchickens = 2131100999;
+			// aapt resource value: 0x7f06052a
+			public const int ilsp_curr_numb_animals_for_hh_sx_broilerchickens = 2131100970;
 			
-			// aapt resource value: 0x7f06057f
-			public const int ilsp_curr_numb_animals_for_hh_sx_dairycattle = 2131101055;
+			// aapt resource value: 0x7f06057a
+			public const int ilsp_curr_numb_animals_for_hh_sx_dairycattle = 2131101050;
 			
-			// aapt resource value: 0x7f06058d
-			public const int ilsp_curr_numb_animals_for_hh_sx_draftcattle = 2131101069;
+			// aapt resource value: 0x7f06058e
+			public const int ilsp_curr_numb_animals_for_hh_sx_draftcattle = 2131101070;
 			
-			// aapt resource value: 0x7f060555
-			public const int ilsp_curr_numb_animals_for_hh_sx_ducks = 2131101013;
-			
-			// aapt resource value: 0x7f06056a
-			public const int ilsp_curr_numb_animals_for_hh_sx_goats = 2131101034;
+			// aapt resource value: 0x7f06053e
+			public const int ilsp_curr_numb_animals_for_hh_sx_ducks = 2131100990;
 			
 			// aapt resource value: 0x7f06055c
-			public const int ilsp_curr_numb_animals_for_hh_sx_guineafowls = 2131101020;
+			public const int ilsp_curr_numb_animals_for_hh_sx_goats = 2131101020;
 			
-			// aapt resource value: 0x7f060540
-			public const int ilsp_curr_numb_animals_for_hh_sx_localchickens = 2131100992;
+			// aapt resource value: 0x7f060548
+			public const int ilsp_curr_numb_animals_for_hh_sx_guineafowls = 2131101000;
 			
-			// aapt resource value: 0x7f06059b
-			public const int ilsp_curr_numb_animals_for_hh_sx_other = 2131101083;
+			// aapt resource value: 0x7f060520
+			public const int ilsp_curr_numb_animals_for_hh_sx_localchickens = 2131100960;
 			
-			// aapt resource value: 0x7f060563
-			public const int ilsp_curr_numb_animals_for_hh_sx_pigeons = 2131101027;
+			// aapt resource value: 0x7f0605a2
+			public const int ilsp_curr_numb_animals_for_hh_sx_other = 2131101090;
 			
-			// aapt resource value: 0x7f060571
-			public const int ilsp_curr_numb_animals_for_hh_sx_pigs = 2131101041;
+			// aapt resource value: 0x7f060552
+			public const int ilsp_curr_numb_animals_for_hh_sx_pigeons = 2131101010;
 			
-			// aapt resource value: 0x7f060594
-			public const int ilsp_curr_numb_animals_for_hh_sx_quails = 2131101076;
+			// aapt resource value: 0x7f060566
+			public const int ilsp_curr_numb_animals_for_hh_sx_pigs = 2131101030;
 			
-			// aapt resource value: 0x7f060578
-			public const int ilsp_curr_numb_animals_for_hh_sx_sheep = 2131101048;
+			// aapt resource value: 0x7f060598
+			public const int ilsp_curr_numb_animals_for_hh_sx_quails = 2131101080;
 			
-			// aapt resource value: 0x7f06054e
-			public const int ilsp_curr_numb_animals_for_hh_sx_turkeys = 2131101006;
+			// aapt resource value: 0x7f060570
+			public const int ilsp_curr_numb_animals_for_hh_sx_sheep = 2131101040;
+			
+			// aapt resource value: 0x7f060534
+			public const int ilsp_curr_numb_animals_for_hh_sx_turkeys = 2131100980;
 			
 			// aapt resource value: 0x7f06009e
 			public const int ilsp_data_coll_fiscal_yr_2014 = 2131099806;
@@ -2861,146 +2963,158 @@ namespace MobileCollector
 			// aapt resource value: 0x7f0600a0
 			public const int ilsp_data_coll_fiscal_yr_2016 = 2131099808;
 			
-			// aapt resource value: 0x7f0600a4
-			public const int ilsp_data_coll_rprt_period_januaryjune = 2131099812;
+			// aapt resource value: 0x7f060206
+			public const int ilsp_decisions_made_by = 2131100166;
 			
-			// aapt resource value: 0x7f0600a3
-			public const int ilsp_data_coll_rprt_period_julydecember = 2131099811;
+			// aapt resource value: 0x7f0600b7
+			public const int ilsp_district_name_chibombo = 2131099831;
 			
-			// aapt resource value: 0x7f06025a
-			public const int ilsp_decisions_made_by = 2131100250;
+			// aapt resource value: 0x7f0600b6
+			public const int ilsp_district_name_chisamba = 2131099830;
 			
-			// aapt resource value: 0x7f0600bb
-			public const int ilsp_district = 2131099835;
+			// aapt resource value: 0x7f0600b5
+			public const int ilsp_district_name_kabwe = 2131099829;
 			
-			// aapt resource value: 0x7f0606d7
-			public const int ilsp_dur_food_stocks_lasted_1012months = 2131101399;
+			// aapt resource value: 0x7f0600b4
+			public const int ilsp_district_name_kaprimposhi = 2131099828;
 			
-			// aapt resource value: 0x7f0606d5
-			public const int ilsp_dur_food_stocks_lasted_36months = 2131101397;
+			// aapt resource value: 0x7f0600b8
+			public const int ilsp_district_name_other = 2131099832;
 			
-			// aapt resource value: 0x7f0606d6
-			public const int ilsp_dur_food_stocks_lasted_79months = 2131101398;
+			// aapt resource value: 0x7f0606e0
+			public const int ilsp_dur_food_stocks_lasted_1012months = 2131101408;
 			
-			// aapt resource value: 0x7f0606d4
-			public const int ilsp_dur_food_stocks_lasted_lessthan3months = 2131101396;
+			// aapt resource value: 0x7f0606de
+			public const int ilsp_dur_food_stocks_lasted_36months = 2131101406;
 			
-			// aapt resource value: 0x7f0606d8
-			public const int ilsp_dur_food_stocks_lasted_morethan12months = 2131101400;
+			// aapt resource value: 0x7f0606df
+			public const int ilsp_dur_food_stocks_lasted_79months = 2131101407;
 			
-			// aapt resource value: 0x7f0600e3
-			public const int ilsp_educ_household_head_juniorsecondary8to9 = 2131099875;
+			// aapt resource value: 0x7f0606dd
+			public const int ilsp_dur_food_stocks_lasted_lessthan3months = 2131101405;
 			
-			// aapt resource value: 0x7f0600e2
-			public const int ilsp_educ_household_head_primary = 2131099874;
-			
-			// aapt resource value: 0x7f0600e4
-			public const int ilsp_educ_household_head_seniorsecondary10to12 = 2131099876;
+			// aapt resource value: 0x7f0606e1
+			public const int ilsp_dur_food_stocks_lasted_morethan12months = 2131101409;
 			
 			// aapt resource value: 0x7f0600e5
-			public const int ilsp_educ_household_head_tertiarycollegeuniversity = 2131099877;
+			public const int ilsp_educ_household_head_dontknow = 2131099877;
 			
-			// aapt resource value: 0x7f0602e1
-			public const int ilsp_elderly_participation_average = 2131100385;
+			// aapt resource value: 0x7f0600e1
+			public const int ilsp_educ_household_head_juniorsecondary8to9 = 2131099873;
+			
+			// aapt resource value: 0x7f0600e4
+			public const int ilsp_educ_household_head_none = 2131099876;
+			
+			// aapt resource value: 0x7f0600e0
+			public const int ilsp_educ_household_head_primary = 2131099872;
+			
+			// aapt resource value: 0x7f0600e2
+			public const int ilsp_educ_household_head_seniorsecondary10to12 = 2131099874;
+			
+			// aapt resource value: 0x7f0600e3
+			public const int ilsp_educ_household_head_tertiarycollegeuniversity = 2131099875;
+			
+			// aapt resource value: 0x7f06028e
+			public const int ilsp_elderly_participation_average = 2131100302;
+			
+			// aapt resource value: 0x7f06028f
+			public const int ilsp_elderly_participation_high = 2131100303;
+			
+			// aapt resource value: 0x7f06028d
+			public const int ilsp_elderly_participation_low = 2131100301;
+			
+			// aapt resource value: 0x7f0601c9
+			public const int ilsp_energy_type_used_charcoal = 2131100105;
+			
+			// aapt resource value: 0x7f0601cb
+			public const int ilsp_energy_type_used_electric = 2131100107;
+			
+			// aapt resource value: 0x7f0601c8
+			public const int ilsp_energy_type_used_firewood = 2131100104;
+			
+			// aapt resource value: 0x7f0601ca
+			public const int ilsp_energy_type_used_gas = 2131100106;
+			
+			// aapt resource value: 0x7f0601cc
+			public const int ilsp_energy_type_used_other = 2131100108;
+			
+			// aapt resource value: 0x7f0602d6
+			public const int ilsp_enterp_dev_skills_trng_no = 2131100374;
+			
+			// aapt resource value: 0x7f0602d5
+			public const int ilsp_enterp_dev_skills_trng_yes = 2131100373;
 			
 			// aapt resource value: 0x7f0602e2
-			public const int ilsp_elderly_participation_high = 2131100386;
+			public const int ilsp_environ_nat_res_mgt_trng_no = 2131100386;
 			
-			// aapt resource value: 0x7f0602e0
-			public const int ilsp_elderly_participation_low = 2131100384;
-			
-			// aapt resource value: 0x7f06021d
-			public const int ilsp_energy_type_used_charcoal = 2131100189;
-			
-			// aapt resource value: 0x7f06021f
-			public const int ilsp_energy_type_used_electric = 2131100191;
-			
-			// aapt resource value: 0x7f06021c
-			public const int ilsp_energy_type_used_firewood = 2131100188;
-			
-			// aapt resource value: 0x7f06021e
-			public const int ilsp_energy_type_used_gas = 2131100190;
-			
-			// aapt resource value: 0x7f060220
-			public const int ilsp_energy_type_used_other = 2131100192;
-			
-			// aapt resource value: 0x7f060329
-			public const int ilsp_enterp_dev_skills_trng_no = 2131100457;
-			
-			// aapt resource value: 0x7f060328
-			public const int ilsp_enterp_dev_skills_trng_yes = 2131100456;
-			
-			// aapt resource value: 0x7f060335
-			public const int ilsp_environ_nat_res_mgt_trng_no = 2131100469;
-			
-			// aapt resource value: 0x7f060334
-			public const int ilsp_environ_nat_res_mgt_trng_yes = 2131100468;
-			
-			// aapt resource value: 0x7f06075e
-			public const int ilsp_expenses_sx_clothing = 2131101534;
-			
-			// aapt resource value: 0x7f06075b
-			public const int ilsp_expenses_sx_educationschoolfeesuniformsbooks = 2131101531;
-			
-			// aapt resource value: 0x7f060776
-			public const int ilsp_expenses_sx_entertainmentegrecreationalcohol = 2131101558;
-			
-			// aapt resource value: 0x7f06076a
-			public const int ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131101546;
-			
-			// aapt resource value: 0x7f060755
-			public const int ilsp_expenses_sx_food = 2131101525;
-			
-			// aapt resource value: 0x7f060761
-			public const int ilsp_expenses_sx_healthmedicalbillsmedicine = 2131101537;
-			
-			// aapt resource value: 0x7f060770
-			public const int ilsp_expenses_sx_householdassetsegfurnituresolar = 2131101552;
-			
-			// aapt resource value: 0x7f060773
-			public const int ilsp_expenses_sx_otherinvestments = 2131101555;
-			
-			// aapt resource value: 0x7f06076d
-			public const int ilsp_expenses_sx_productiveassetsfarmassets = 2131101549;
-			
-			// aapt resource value: 0x7f06077c
-			public const int ilsp_expenses_sx_savings = 2131101564;
-			
-			// aapt resource value: 0x7f060758
-			public const int ilsp_expenses_sx_shelterhousingbuildingrenovations = 2131101528;
-			
-			// aapt resource value: 0x7f060779
-			public const int ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions = 2131101561;
+			// aapt resource value: 0x7f0602e1
+			public const int ilsp_environ_nat_res_mgt_trng_yes = 2131100385;
 			
 			// aapt resource value: 0x7f060767
-			public const int ilsp_expenses_sx_transportation = 2131101543;
+			public const int ilsp_expenses_sx_clothing = 2131101543;
 			
 			// aapt resource value: 0x7f060764
-			public const int ilsp_expenses_sx_utilitieselectricitymobile = 2131101540;
+			public const int ilsp_expenses_sx_educationschoolfeesuniformsbooks = 2131101540;
 			
-			// aapt resource value: 0x7f060245
-			public const int ilsp_factors_controlled_by = 2131100229;
+			// aapt resource value: 0x7f06077f
+			public const int ilsp_expenses_sx_entertainmentegrecreationalcohol = 2131101567;
+			
+			// aapt resource value: 0x7f060773
+			public const int ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131101555;
+			
+			// aapt resource value: 0x7f06075e
+			public const int ilsp_expenses_sx_food = 2131101534;
+			
+			// aapt resource value: 0x7f06076a
+			public const int ilsp_expenses_sx_healthmedicalbillsmedicine = 2131101546;
+			
+			// aapt resource value: 0x7f060779
+			public const int ilsp_expenses_sx_householdassetsegfurnituresolar = 2131101561;
+			
+			// aapt resource value: 0x7f06077c
+			public const int ilsp_expenses_sx_otherinvestments = 2131101564;
+			
+			// aapt resource value: 0x7f060776
+			public const int ilsp_expenses_sx_productiveassetsfarmassets = 2131101558;
+			
+			// aapt resource value: 0x7f060785
+			public const int ilsp_expenses_sx_savings = 2131101573;
+			
+			// aapt resource value: 0x7f060761
+			public const int ilsp_expenses_sx_shelterhousingbuildingrenovations = 2131101537;
+			
+			// aapt resource value: 0x7f060782
+			public const int ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions = 2131101570;
+			
+			// aapt resource value: 0x7f060770
+			public const int ilsp_expenses_sx_transportation = 2131101552;
+			
+			// aapt resource value: 0x7f06076d
+			public const int ilsp_expenses_sx_utilitieselectricitymobile = 2131101549;
+			
+			// aapt resource value: 0x7f0601f1
+			public const int ilsp_factors_controlled_by = 2131100145;
 			
 			// aapt resource value: 0x7f0600e6
 			public const int ilsp_family_size = 2131099878;
 			
-			// aapt resource value: 0x7f06026c
-			public const int ilsp_family_size_dec_maleandfemale = 2131100268;
+			// aapt resource value: 0x7f060218
+			public const int ilsp_family_size_dec_maleandfemale = 2131100184;
 			
-			// aapt resource value: 0x7f06026e
-			public const int ilsp_family_size_dec_onlyfemale = 2131100270;
+			// aapt resource value: 0x7f06021a
+			public const int ilsp_family_size_dec_onlyfemale = 2131100186;
 			
-			// aapt resource value: 0x7f06026d
-			public const int ilsp_family_size_dec_onlymale = 2131100269;
+			// aapt resource value: 0x7f060219
+			public const int ilsp_family_size_dec_onlymale = 2131100185;
 			
-			// aapt resource value: 0x7f06020a
-			public const int ilsp_family_type_a = 2131100170;
+			// aapt resource value: 0x7f0601b6
+			public const int ilsp_family_type_a = 2131100086;
 			
-			// aapt resource value: 0x7f06020b
-			public const int ilsp_family_type_b = 2131100171;
+			// aapt resource value: 0x7f0601b7
+			public const int ilsp_family_type_b = 2131100087;
 			
-			// aapt resource value: 0x7f06020c
-			public const int ilsp_family_type_c = 2131100172;
+			// aapt resource value: 0x7f0601b8
+			public const int ilsp_family_type_c = 2131100088;
 			
 			// aapt resource value: 0x7f0600ed
 			public const int ilsp_female_adult_36_to_64 = 2131099885;
@@ -3014,416 +3128,422 @@ namespace MobileCollector
 			// aapt resource value: 0x7f0600ef
 			public const int ilsp_female_elderly_65 = 2131099887;
 			
-			// aapt resource value: 0x7f060748
-			public const int ilsp_female_household_member_sx_governmentassistanceunemploymentwelfareallowance = 2131101512;
+			// aapt resource value: 0x7f060751
+			public const int ilsp_female_household_member_sx_governmentassistanceunemploymentwelfareallowance = 2131101521;
 			
-			// aapt resource value: 0x7f06074d
-			public const int ilsp_female_household_member_sx_other = 2131101517;
+			// aapt resource value: 0x7f060756
+			public const int ilsp_female_household_member_sx_other = 2131101526;
 			
-			// aapt resource value: 0x7f060743
-			public const int ilsp_female_household_member_sx_remittancessentfromchildrenrelatives = 2131101507;
+			// aapt resource value: 0x7f06074c
+			public const int ilsp_female_household_member_sx_remittancessentfromchildrenrelatives = 2131101516;
 			
-			// aapt resource value: 0x7f06073e
-			public const int ilsp_female_household_member_sx_rentsdraftpowerpropertymachineryinterests = 2131101502;
+			// aapt resource value: 0x7f060747
+			public const int ilsp_female_household_member_sx_rentsdraftpowerpropertymachineryinterests = 2131101511;
 			
-			// aapt resource value: 0x7f06072f
-			public const int ilsp_female_household_member_sx_salarieswages = 2131101487;
+			// aapt resource value: 0x7f060738
+			public const int ilsp_female_household_member_sx_salarieswages = 2131101496;
 			
-			// aapt resource value: 0x7f060734
-			public const int ilsp_female_household_member_sx_salesfirewoodhomemadeproductscrafts = 2131101492;
+			// aapt resource value: 0x7f06073d
+			public const int ilsp_female_household_member_sx_salesfirewoodhomemadeproductscrafts = 2131101501;
 			
-			// aapt resource value: 0x7f060752
-			public const int ilsp_female_household_member_sx_total = 2131101522;
+			// aapt resource value: 0x7f06075b
+			public const int ilsp_female_household_member_sx_total = 2131101531;
 			
-			// aapt resource value: 0x7f060739
-			public const int ilsp_female_household_member_sx_trading = 2131101497;
+			// aapt resource value: 0x7f060742
+			public const int ilsp_female_household_member_sx_trading = 2131101506;
 			
 			// aapt resource value: 0x7f0600eb
 			public const int ilsp_female_youth_18_to_35 = 2131099883;
 			
-			// aapt resource value: 0x7f0605ab
-			public const int ilsp_fodder_produced = 2131101099;
-			
-			// aapt resource value: 0x7f060646
-			public const int ilsp_food_group_consumed_no_sx_cerealsmilletricenshima = 2131101254;
-			
-			// aapt resource value: 0x7f060682
-			public const int ilsp_food_group_consumed_no_sx_eggs = 2131101314;
-			
-			// aapt resource value: 0x7f06068e
-			public const int ilsp_food_group_consumed_no_sx_fishfishkapenta = 2131101326;
-			
-			// aapt resource value: 0x7f06066a
-			public const int ilsp_food_group_consumed_no_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101290;
-			
-			// aapt resource value: 0x7f06069a
-			public const int ilsp_food_group_consumed_no_sx_legumesgroundnutsbeanssoyapeas = 2131101338;
-			
-			// aapt resource value: 0x7f060676
-			public const int ilsp_food_group_consumed_no_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101302;
-			
-			// aapt resource value: 0x7f0606a6
-			public const int ilsp_food_group_consumed_no_sx_milkmilkyogurtsourmilk = 2131101350;
-			
-			// aapt resource value: 0x7f0606b2
-			public const int ilsp_food_group_consumed_no_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101362;
-			
-			// aapt resource value: 0x7f0606ca
-			public const int ilsp_food_group_consumed_no_sx_spicesandcondimentsgingerteacoffee = 2131101386;
-			
-			// aapt resource value: 0x7f0606be
-			public const int ilsp_food_group_consumed_no_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101374;
-			
-			// aapt resource value: 0x7f060652
-			public const int ilsp_food_group_consumed_no_sx_tuberssweetpotatoescassava = 2131101266;
-			
-			// aapt resource value: 0x7f06065e
-			public const int ilsp_food_group_consumed_no_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101278;
-			
-			// aapt resource value: 0x7f060645
-			public const int ilsp_food_group_consumed_yes_sx_cerealsmilletricenshima = 2131101253;
-			
-			// aapt resource value: 0x7f060681
-			public const int ilsp_food_group_consumed_yes_sx_eggs = 2131101313;
-			
-			// aapt resource value: 0x7f06068d
-			public const int ilsp_food_group_consumed_yes_sx_fishfishkapenta = 2131101325;
-			
-			// aapt resource value: 0x7f060669
-			public const int ilsp_food_group_consumed_yes_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101289;
-			
-			// aapt resource value: 0x7f060699
-			public const int ilsp_food_group_consumed_yes_sx_legumesgroundnutsbeanssoyapeas = 2131101337;
-			
-			// aapt resource value: 0x7f060675
-			public const int ilsp_food_group_consumed_yes_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101301;
-			
-			// aapt resource value: 0x7f0606a5
-			public const int ilsp_food_group_consumed_yes_sx_milkmilkyogurtsourmilk = 2131101349;
-			
-			// aapt resource value: 0x7f0606b1
-			public const int ilsp_food_group_consumed_yes_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101361;
-			
-			// aapt resource value: 0x7f0606c9
-			public const int ilsp_food_group_consumed_yes_sx_spicesandcondimentsgingerteacoffee = 2131101385;
-			
-			// aapt resource value: 0x7f0606bd
-			public const int ilsp_food_group_consumed_yes_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101373;
-			
-			// aapt resource value: 0x7f060651
-			public const int ilsp_food_group_consumed_yes_sx_tuberssweetpotatoescassava = 2131101265;
-			
-			// aapt resource value: 0x7f06065d
-			public const int ilsp_food_group_consumed_yes_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101277;
-			
-			// aapt resource value: 0x7f060643
-			public const int ilsp_food_group_name_sx_cerealsmilletricenshima = 2131101251;
-			
-			// aapt resource value: 0x7f06067f
-			public const int ilsp_food_group_name_sx_eggs = 2131101311;
-			
-			// aapt resource value: 0x7f06068b
-			public const int ilsp_food_group_name_sx_fishfishkapenta = 2131101323;
-			
-			// aapt resource value: 0x7f060667
-			public const int ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101287;
-			
-			// aapt resource value: 0x7f060697
-			public const int ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas = 2131101335;
-			
-			// aapt resource value: 0x7f060673
-			public const int ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101299;
-			
-			// aapt resource value: 0x7f0606a3
-			public const int ilsp_food_group_name_sx_milkmilkyogurtsourmilk = 2131101347;
-			
-			// aapt resource value: 0x7f0606af
-			public const int ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101359;
-			
-			// aapt resource value: 0x7f0606c7
-			public const int ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee = 2131101383;
-			
-			// aapt resource value: 0x7f0606bb
-			public const int ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101371;
+			// aapt resource value: 0x7f0605b3
+			public const int ilsp_fodder_produced = 2131101107;
 			
 			// aapt resource value: 0x7f06064f
-			public const int ilsp_food_group_name_sx_tuberssweetpotatoescassava = 2131101263;
+			public const int ilsp_food_group_consumed_no_sx_cerealsmilletricenshima = 2131101263;
+			
+			// aapt resource value: 0x7f06068b
+			public const int ilsp_food_group_consumed_no_sx_eggs = 2131101323;
+			
+			// aapt resource value: 0x7f060697
+			public const int ilsp_food_group_consumed_no_sx_fishfishkapenta = 2131101335;
+			
+			// aapt resource value: 0x7f060673
+			public const int ilsp_food_group_consumed_no_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101299;
+			
+			// aapt resource value: 0x7f0606a3
+			public const int ilsp_food_group_consumed_no_sx_legumesgroundnutsbeanssoyapeas = 2131101347;
+			
+			// aapt resource value: 0x7f06067f
+			public const int ilsp_food_group_consumed_no_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101311;
+			
+			// aapt resource value: 0x7f0606af
+			public const int ilsp_food_group_consumed_no_sx_milkmilkyogurtsourmilk = 2131101359;
+			
+			// aapt resource value: 0x7f0606bb
+			public const int ilsp_food_group_consumed_no_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101371;
+			
+			// aapt resource value: 0x7f0606d3
+			public const int ilsp_food_group_consumed_no_sx_spicesandcondimentsgingerteacoffee = 2131101395;
+			
+			// aapt resource value: 0x7f0606c7
+			public const int ilsp_food_group_consumed_no_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101383;
 			
 			// aapt resource value: 0x7f06065b
-			public const int ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101275;
+			public const int ilsp_food_group_consumed_no_sx_tuberssweetpotatoescassava = 2131101275;
 			
-			// aapt resource value: 0x7f060339
-			public const int ilsp_food_proc_utiliz_trng_no = 2131100473;
+			// aapt resource value: 0x7f060667
+			public const int ilsp_food_group_consumed_no_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101287;
 			
-			// aapt resource value: 0x7f060338
-			public const int ilsp_food_proc_utiliz_trng_yes = 2131100472;
+			// aapt resource value: 0x7f06064e
+			public const int ilsp_food_group_consumed_yes_sx_cerealsmilletricenshima = 2131101262;
+			
+			// aapt resource value: 0x7f06068a
+			public const int ilsp_food_group_consumed_yes_sx_eggs = 2131101322;
+			
+			// aapt resource value: 0x7f060696
+			public const int ilsp_food_group_consumed_yes_sx_fishfishkapenta = 2131101334;
+			
+			// aapt resource value: 0x7f060672
+			public const int ilsp_food_group_consumed_yes_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101298;
+			
+			// aapt resource value: 0x7f0606a2
+			public const int ilsp_food_group_consumed_yes_sx_legumesgroundnutsbeanssoyapeas = 2131101346;
+			
+			// aapt resource value: 0x7f06067e
+			public const int ilsp_food_group_consumed_yes_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101310;
+			
+			// aapt resource value: 0x7f0606ae
+			public const int ilsp_food_group_consumed_yes_sx_milkmilkyogurtsourmilk = 2131101358;
+			
+			// aapt resource value: 0x7f0606ba
+			public const int ilsp_food_group_consumed_yes_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101370;
+			
+			// aapt resource value: 0x7f0606d2
+			public const int ilsp_food_group_consumed_yes_sx_spicesandcondimentsgingerteacoffee = 2131101394;
+			
+			// aapt resource value: 0x7f0606c6
+			public const int ilsp_food_group_consumed_yes_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101382;
+			
+			// aapt resource value: 0x7f06065a
+			public const int ilsp_food_group_consumed_yes_sx_tuberssweetpotatoescassava = 2131101274;
+			
+			// aapt resource value: 0x7f060666
+			public const int ilsp_food_group_consumed_yes_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101286;
+			
+			// aapt resource value: 0x7f06064c
+			public const int ilsp_food_group_name_sx_cerealsmilletricenshima = 2131101260;
+			
+			// aapt resource value: 0x7f060688
+			public const int ilsp_food_group_name_sx_eggs = 2131101320;
+			
+			// aapt resource value: 0x7f060694
+			public const int ilsp_food_group_name_sx_fishfishkapenta = 2131101332;
+			
+			// aapt resource value: 0x7f060670
+			public const int ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101296;
+			
+			// aapt resource value: 0x7f0606a0
+			public const int ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas = 2131101344;
+			
+			// aapt resource value: 0x7f06067c
+			public const int ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101308;
+			
+			// aapt resource value: 0x7f0606ac
+			public const int ilsp_food_group_name_sx_milkmilkyogurtsourmilk = 2131101356;
+			
+			// aapt resource value: 0x7f0606b8
+			public const int ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101368;
+			
+			// aapt resource value: 0x7f0606d0
+			public const int ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee = 2131101392;
+			
+			// aapt resource value: 0x7f0606c4
+			public const int ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101380;
+			
+			// aapt resource value: 0x7f060658
+			public const int ilsp_food_group_name_sx_tuberssweetpotatoescassava = 2131101272;
+			
+			// aapt resource value: 0x7f060664
+			public const int ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101284;
+			
+			// aapt resource value: 0x7f0602e6
+			public const int ilsp_food_proc_utiliz_trng_no = 2131100390;
+			
+			// aapt resource value: 0x7f0602e5
+			public const int ilsp_food_proc_utiliz_trng_yes = 2131100389;
 			
 			// aapt resource value: 0x7f0600f2
 			public const int ilsp_food_sec_and_nutrition = 2131099890;
 			
-			// aapt resource value: 0x7f0605d2
-			public const int ilsp_frequency_livestock_dip_accordingtoschedule = 2131101138;
-			
-			// aapt resource value: 0x7f0605d1
-			public const int ilsp_frequency_livestock_dip_annually = 2131101137;
-			
-			// aapt resource value: 0x7f0605d0
-			public const int ilsp_frequency_livestock_dip_biannuallyevery6months = 2131101136;
-			
-			// aapt resource value: 0x7f0605cd
-			public const int ilsp_frequency_livestock_dip_every2weeks = 2131101133;
-			
-			// aapt resource value: 0x7f0605ce
-			public const int ilsp_frequency_livestock_dip_monthly = 2131101134;
-			
-			// aapt resource value: 0x7f0605d4
-			public const int ilsp_frequency_livestock_dip_never = 2131101140;
-			
-			// aapt resource value: 0x7f0605d5
-			public const int ilsp_frequency_livestock_dip_other = 2131101141;
-			
-			// aapt resource value: 0x7f0605cf
-			public const int ilsp_frequency_livestock_dip_quarterlyevery3months = 2131101135;
-			
-			// aapt resource value: 0x7f0605cc
-			public const int ilsp_frequency_livestock_dip_weekly = 2131101132;
-			
-			// aapt resource value: 0x7f0605d3
-			public const int ilsp_frequency_livestock_dip_whenthereisadiseaseoutbreak = 2131101139;
-			
-			// aapt resource value: 0x7f0600ce
-			public const int ilsp_gender_of_beneficiary_female = 2131099854;
-			
-			// aapt resource value: 0x7f0600cd
-			public const int ilsp_gender_of_beneficiary_male = 2131099853;
-			
-			// aapt resource value: 0x7f0600d9
-			public const int ilsp_gender_of_household_head_female = 2131099865;
-			
-			// aapt resource value: 0x7f0600d8
-			public const int ilsp_gender_of_household_head_male = 2131099864;
-			
-			// aapt resource value: 0x7f06033d
-			public const int ilsp_gendr_eqty_wom_emp_trng_no = 2131100477;
-			
-			// aapt resource value: 0x7f06033c
-			public const int ilsp_gendr_eqty_wom_emp_trng_yes = 2131100476;
-			
-			// aapt resource value: 0x7f060350
-			public const int ilsp_general_statement = 2131100496;
-			
-			// aapt resource value: 0x7f0602f3
-			public const int ilsp_group_available_sx_cooperative = 2131100403;
-			
-			// aapt resource value: 0x7f0602fb
-			public const int ilsp_group_available_sx_creditfinancegroup = 2131100411;
-			
-			// aapt resource value: 0x7f06030b
-			public const int ilsp_group_available_sx_mensgroup = 2131100427;
-			
-			// aapt resource value: 0x7f06031b
-			public const int ilsp_group_available_sx_other = 2131100443;
-			
-			// aapt resource value: 0x7f0602eb
-			public const int ilsp_group_available_sx_producergroup = 2131100395;
-			
-			// aapt resource value: 0x7f060303
-			public const int ilsp_group_available_sx_womensgroup = 2131100419;
-			
-			// aapt resource value: 0x7f060313
-			public const int ilsp_group_available_sx_youthgroup = 2131100435;
-			
-			// aapt resource value: 0x7f060325
-			public const int ilsp_group_mgmnt_skills_trng_no = 2131100453;
-			
-			// aapt resource value: 0x7f060324
-			public const int ilsp_group_mgmnt_skills_trng_yes = 2131100452;
-			
-			// aapt resource value: 0x7f0605a4
-			public const int ilsp_grow_fodder_livstck_no = 2131101092;
-			
-			// aapt resource value: 0x7f0605a3
-			public const int ilsp_grow_fodder_livstck_yes = 2131101091;
-			
-			// aapt resource value: 0x7f060718
-			public const int ilsp_had_mnths_no_water_anim_na = 2131101464;
-			
-			// aapt resource value: 0x7f060717
-			public const int ilsp_had_mnths_no_water_anim_no = 2131101463;
-			
-			// aapt resource value: 0x7f060716
-			public const int ilsp_had_mnths_no_water_anim_yes = 2131101462;
-			
-			// aapt resource value: 0x7f0606ea
-			public const int ilsp_had_months_without_food_no = 2131101418;
-			
-			// aapt resource value: 0x7f0606e9
-			public const int ilsp_had_months_without_food_yes = 2131101417;
-			
-			// aapt resource value: 0x7f060781
-			public const int ilsp_have_a_bank_account_no = 2131101569;
-			
-			// aapt resource value: 0x7f060780
-			public const int ilsp_have_a_bank_account_yes = 2131101568;
-			
-			// aapt resource value: 0x7f060360
-			public const int ilsp_heard_or_practiced_pog_no = 2131100512;
-			
-			// aapt resource value: 0x7f06035f
-			public const int ilsp_heard_or_practiced_pog_yes = 2131100511;
-			
-			// aapt resource value: 0x7f060341
-			public const int ilsp_hiv_aids_awareness_trng_no = 2131100481;
-			
-			// aapt resource value: 0x7f060340
-			public const int ilsp_hiv_aids_awareness_trng_yes = 2131100480;
-			
-			// aapt resource value: 0x7f060267
-			public const int ilsp_household_exp_dec_maleandfemale = 2131100263;
-			
-			// aapt resource value: 0x7f060269
-			public const int ilsp_household_exp_dec_onlyfemale = 2131100265;
-			
-			// aapt resource value: 0x7f060268
-			public const int ilsp_household_exp_dec_onlymale = 2131100264;
-			
-			// aapt resource value: 0x7f060616
-			public const int ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup = 2131101206;
-			
-			// aapt resource value: 0x7f060615
-			public const int ilsp_how_livestock_sold_individually = 2131101205;
-			
-			// aapt resource value: 0x7f060617
-			public const int ilsp_how_livestock_sold_na = 2131101207;
-			
-			// aapt resource value: 0x7f0605d8
-			public const int ilsp_how_often_vacc_livstck_accordingtovaccinationschedule = 2131101144;
-			
 			// aapt resource value: 0x7f0605db
-			public const int ilsp_how_often_vacc_livstck_annually = 2131101147;
-			
-			// aapt resource value: 0x7f0605dd
-			public const int ilsp_how_often_vacc_livstck_na = 2131101149;
-			
-			// aapt resource value: 0x7f0605dc
-			public const int ilsp_how_often_vacc_livstck_never = 2131101148;
-			
-			// aapt resource value: 0x7f0605de
-			public const int ilsp_how_often_vacc_livstck_other = 2131101150;
-			
-			// aapt resource value: 0x7f0605d9
-			public const int ilsp_how_often_vacc_livstck_whenanimalsaresick = 2131101145;
+			public const int ilsp_frequency_livestock_dip_accordingtoschedule = 2131101147;
 			
 			// aapt resource value: 0x7f0605da
-			public const int ilsp_how_often_vacc_livstck_whenthereisadiseaseoutbreak = 2131101146;
+			public const int ilsp_frequency_livestock_dip_annually = 2131101146;
 			
-			// aapt resource value: 0x7f0605f9
-			public const int ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup = 2131101177;
+			// aapt resource value: 0x7f0605d9
+			public const int ilsp_frequency_livestock_dip_biannuallyevery6months = 2131101145;
 			
-			// aapt resource value: 0x7f0605f8
-			public const int ilsp_how_you_sell_your_milk_individually = 2131101176;
+			// aapt resource value: 0x7f0605d6
+			public const int ilsp_frequency_livestock_dip_every2weeks = 2131101142;
 			
-			// aapt resource value: 0x7f0605fa
-			public const int ilsp_how_you_sell_your_milk_na = 2131101178;
+			// aapt resource value: 0x7f0605d7
+			public const int ilsp_frequency_livestock_dip_monthly = 2131101143;
 			
-			// aapt resource value: 0x7f060611
-			public const int ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup = 2131101201;
+			// aapt resource value: 0x7f0605dd
+			public const int ilsp_frequency_livestock_dip_never = 2131101149;
 			
-			// aapt resource value: 0x7f060610
-			public const int ilsp_how_your_crops_are_sold_individually = 2131101200;
+			// aapt resource value: 0x7f0605de
+			public const int ilsp_frequency_livestock_dip_other = 2131101150;
 			
-			// aapt resource value: 0x7f060612
-			public const int ilsp_how_your_crops_are_sold_na = 2131101202;
+			// aapt resource value: 0x7f0605d8
+			public const int ilsp_frequency_livestock_dip_quarterlyevery3months = 2131101144;
 			
-			// aapt resource value: 0x7f060203
-			public const int ilsp_hse_roof_princip_mater_grassthatched = 2131100163;
+			// aapt resource value: 0x7f0605d5
+			public const int ilsp_frequency_livestock_dip_weekly = 2131101141;
 			
-			// aapt resource value: 0x7f060204
-			public const int ilsp_hse_roof_princip_mater_ironsheet = 2131100164;
+			// aapt resource value: 0x7f0605dc
+			public const int ilsp_frequency_livestock_dip_whenthereisadiseaseoutbreak = 2131101148;
 			
-			// aapt resource value: 0x7f060206
-			public const int ilsp_hse_roof_princip_mater_other = 2131100166;
+			// aapt resource value: 0x7f0600cc
+			public const int ilsp_gender_of_beneficiary_female = 2131099852;
 			
-			// aapt resource value: 0x7f060205
-			public const int ilsp_hse_roof_princip_mater_plastics = 2131100165;
+			// aapt resource value: 0x7f0600cb
+			public const int ilsp_gender_of_beneficiary_male = 2131099851;
 			
-			// aapt resource value: 0x7f06020d
-			public const int ilsp_improved_environment = 2131100173;
+			// aapt resource value: 0x7f0600d7
+			public const int ilsp_gender_of_household_head_female = 2131099863;
 			
-			// aapt resource value: 0x7f06034b
-			public const int ilsp_in_comm_labor_groups_no = 2131100491;
+			// aapt resource value: 0x7f0600d6
+			public const int ilsp_gender_of_household_head_male = 2131099862;
 			
-			// aapt resource value: 0x7f06034a
-			public const int ilsp_in_comm_labor_groups_yes = 2131100490;
+			// aapt resource value: 0x7f0602ea
+			public const int ilsp_gendr_eqty_wom_emp_trng_no = 2131100394;
 			
-			// aapt resource value: 0x7f06072b
-			public const int ilsp_income_and_assets = 2131101483;
+			// aapt resource value: 0x7f0602e9
+			public const int ilsp_gendr_eqty_wom_emp_trng_yes = 2131100393;
 			
-			// aapt resource value: 0x7f06058a
-			public const int ilsp_income_realised_sx_beefcattle = 2131101066;
+			// aapt resource value: 0x7f0602fd
+			public const int ilsp_general_statement = 2131100413;
 			
-			// aapt resource value: 0x7f06054b
-			public const int ilsp_income_realised_sx_broilerchickens = 2131101003;
+			// aapt resource value: 0x7f0600ac
+			public const int ilsp_gps_latitude = 2131099820;
 			
-			// aapt resource value: 0x7f060583
-			public const int ilsp_income_realised_sx_dairycattle = 2131101059;
+			// aapt resource value: 0x7f0600ad
+			public const int ilsp_gps_longitude = 2131099821;
 			
-			// aapt resource value: 0x7f060591
-			public const int ilsp_income_realised_sx_draftcattle = 2131101073;
+			// aapt resource value: 0x7f0602a0
+			public const int ilsp_group_available_sx_cooperative = 2131100320;
 			
-			// aapt resource value: 0x7f060559
-			public const int ilsp_income_realised_sx_ducks = 2131101017;
+			// aapt resource value: 0x7f0602a8
+			public const int ilsp_group_available_sx_creditfinancegroup = 2131100328;
 			
-			// aapt resource value: 0x7f06056e
-			public const int ilsp_income_realised_sx_goats = 2131101038;
+			// aapt resource value: 0x7f0602b8
+			public const int ilsp_group_available_sx_mensgroup = 2131100344;
+			
+			// aapt resource value: 0x7f0602c8
+			public const int ilsp_group_available_sx_other = 2131100360;
+			
+			// aapt resource value: 0x7f060298
+			public const int ilsp_group_available_sx_producergroup = 2131100312;
+			
+			// aapt resource value: 0x7f0602b0
+			public const int ilsp_group_available_sx_womensgroup = 2131100336;
+			
+			// aapt resource value: 0x7f0602c0
+			public const int ilsp_group_available_sx_youthgroup = 2131100352;
+			
+			// aapt resource value: 0x7f0602d2
+			public const int ilsp_group_mgmnt_skills_trng_no = 2131100370;
+			
+			// aapt resource value: 0x7f0602d1
+			public const int ilsp_group_mgmnt_skills_trng_yes = 2131100369;
+			
+			// aapt resource value: 0x7f0605ab
+			public const int ilsp_grow_fodder_livstck_no = 2131101099;
+			
+			// aapt resource value: 0x7f0605aa
+			public const int ilsp_grow_fodder_livstck_yes = 2131101098;
+			
+			// aapt resource value: 0x7f060721
+			public const int ilsp_had_mnths_no_water_anim_na = 2131101473;
+			
+			// aapt resource value: 0x7f060720
+			public const int ilsp_had_mnths_no_water_anim_no = 2131101472;
+			
+			// aapt resource value: 0x7f06071f
+			public const int ilsp_had_mnths_no_water_anim_yes = 2131101471;
+			
+			// aapt resource value: 0x7f0606f3
+			public const int ilsp_had_months_without_food_no = 2131101427;
+			
+			// aapt resource value: 0x7f0606f2
+			public const int ilsp_had_months_without_food_yes = 2131101426;
+			
+			// aapt resource value: 0x7f06078a
+			public const int ilsp_have_a_bank_account_no = 2131101578;
+			
+			// aapt resource value: 0x7f060789
+			public const int ilsp_have_a_bank_account_yes = 2131101577;
+			
+			// aapt resource value: 0x7f06030d
+			public const int ilsp_heard_or_practiced_pog_no = 2131100429;
+			
+			// aapt resource value: 0x7f06030c
+			public const int ilsp_heard_or_practiced_pog_yes = 2131100428;
+			
+			// aapt resource value: 0x7f0602ee
+			public const int ilsp_hiv_aids_awareness_trng_no = 2131100398;
+			
+			// aapt resource value: 0x7f0602ed
+			public const int ilsp_hiv_aids_awareness_trng_yes = 2131100397;
+			
+			// aapt resource value: 0x7f060213
+			public const int ilsp_household_exp_dec_maleandfemale = 2131100179;
+			
+			// aapt resource value: 0x7f060215
+			public const int ilsp_household_exp_dec_onlyfemale = 2131100181;
+			
+			// aapt resource value: 0x7f060214
+			public const int ilsp_household_exp_dec_onlymale = 2131100180;
+			
+			// aapt resource value: 0x7f06061f
+			public const int ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup = 2131101215;
+			
+			// aapt resource value: 0x7f06061e
+			public const int ilsp_how_livestock_sold_individually = 2131101214;
+			
+			// aapt resource value: 0x7f060620
+			public const int ilsp_how_livestock_sold_na = 2131101216;
+			
+			// aapt resource value: 0x7f0605e1
+			public const int ilsp_how_often_vacc_livstck_accordingtovaccinationschedule = 2131101153;
+			
+			// aapt resource value: 0x7f0605e4
+			public const int ilsp_how_often_vacc_livstck_annually = 2131101156;
+			
+			// aapt resource value: 0x7f0605e6
+			public const int ilsp_how_often_vacc_livstck_na = 2131101158;
+			
+			// aapt resource value: 0x7f0605e5
+			public const int ilsp_how_often_vacc_livstck_never = 2131101157;
+			
+			// aapt resource value: 0x7f0605e7
+			public const int ilsp_how_often_vacc_livstck_other = 2131101159;
+			
+			// aapt resource value: 0x7f0605e2
+			public const int ilsp_how_often_vacc_livstck_whenanimalsaresick = 2131101154;
+			
+			// aapt resource value: 0x7f0605e3
+			public const int ilsp_how_often_vacc_livstck_whenthereisadiseaseoutbreak = 2131101155;
+			
+			// aapt resource value: 0x7f060602
+			public const int ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup = 2131101186;
+			
+			// aapt resource value: 0x7f060601
+			public const int ilsp_how_you_sell_your_milk_individually = 2131101185;
+			
+			// aapt resource value: 0x7f060603
+			public const int ilsp_how_you_sell_your_milk_na = 2131101187;
+			
+			// aapt resource value: 0x7f06061a
+			public const int ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup = 2131101210;
+			
+			// aapt resource value: 0x7f060619
+			public const int ilsp_how_your_crops_are_sold_individually = 2131101209;
+			
+			// aapt resource value: 0x7f06061b
+			public const int ilsp_how_your_crops_are_sold_na = 2131101211;
+			
+			// aapt resource value: 0x7f0601af
+			public const int ilsp_hse_roof_princip_mater_grassthatched = 2131100079;
+			
+			// aapt resource value: 0x7f0601b0
+			public const int ilsp_hse_roof_princip_mater_ironsheet = 2131100080;
+			
+			// aapt resource value: 0x7f0601b2
+			public const int ilsp_hse_roof_princip_mater_other = 2131100082;
+			
+			// aapt resource value: 0x7f0601b1
+			public const int ilsp_hse_roof_princip_mater_plastics = 2131100081;
+			
+			// aapt resource value: 0x7f0601b9
+			public const int ilsp_improved_environment = 2131100089;
+			
+			// aapt resource value: 0x7f0602f8
+			public const int ilsp_in_comm_labor_groups_no = 2131100408;
+			
+			// aapt resource value: 0x7f0602f7
+			public const int ilsp_in_comm_labor_groups_yes = 2131100407;
+			
+			// aapt resource value: 0x7f060734
+			public const int ilsp_income_and_assets = 2131101492;
+			
+			// aapt resource value: 0x7f060588
+			public const int ilsp_income_realised_sx_beefcattle = 2131101064;
+			
+			// aapt resource value: 0x7f06052e
+			public const int ilsp_income_realised_sx_broilerchickens = 2131100974;
+			
+			// aapt resource value: 0x7f06057e
+			public const int ilsp_income_realised_sx_dairycattle = 2131101054;
+			
+			// aapt resource value: 0x7f060592
+			public const int ilsp_income_realised_sx_draftcattle = 2131101074;
+			
+			// aapt resource value: 0x7f060542
+			public const int ilsp_income_realised_sx_ducks = 2131100994;
 			
 			// aapt resource value: 0x7f060560
-			public const int ilsp_income_realised_sx_guineafowls = 2131101024;
+			public const int ilsp_income_realised_sx_goats = 2131101024;
 			
-			// aapt resource value: 0x7f060544
-			public const int ilsp_income_realised_sx_localchickens = 2131100996;
+			// aapt resource value: 0x7f06054c
+			public const int ilsp_income_realised_sx_guineafowls = 2131101004;
 			
-			// aapt resource value: 0x7f06059f
-			public const int ilsp_income_realised_sx_other = 2131101087;
+			// aapt resource value: 0x7f060524
+			public const int ilsp_income_realised_sx_localchickens = 2131100964;
 			
-			// aapt resource value: 0x7f060567
-			public const int ilsp_income_realised_sx_pigeons = 2131101031;
+			// aapt resource value: 0x7f0605a6
+			public const int ilsp_income_realised_sx_other = 2131101094;
 			
-			// aapt resource value: 0x7f060575
-			public const int ilsp_income_realised_sx_pigs = 2131101045;
+			// aapt resource value: 0x7f060556
+			public const int ilsp_income_realised_sx_pigeons = 2131101014;
 			
-			// aapt resource value: 0x7f060598
-			public const int ilsp_income_realised_sx_quails = 2131101080;
+			// aapt resource value: 0x7f06056a
+			public const int ilsp_income_realised_sx_pigs = 2131101034;
 			
-			// aapt resource value: 0x7f06057c
-			public const int ilsp_income_realised_sx_sheep = 2131101052;
+			// aapt resource value: 0x7f06059c
+			public const int ilsp_income_realised_sx_quails = 2131101084;
 			
-			// aapt resource value: 0x7f060552
-			public const int ilsp_income_realised_sx_turkeys = 2131101010;
+			// aapt resource value: 0x7f060574
+			public const int ilsp_income_realised_sx_sheep = 2131101044;
 			
-			// aapt resource value: 0x7f0606dc
-			public const int ilsp_is_this_pattern_usual_no = 2131101404;
+			// aapt resource value: 0x7f060538
+			public const int ilsp_income_realised_sx_turkeys = 2131100984;
 			
-			// aapt resource value: 0x7f0606db
-			public const int ilsp_is_this_pattern_usual_yes = 2131101403;
+			// aapt resource value: 0x7f0606e5
+			public const int ilsp_is_this_pattern_usual_no = 2131101413;
 			
-			// aapt resource value: 0x7f060262
-			public const int ilsp_labor_hours_dec_maleandfemale = 2131100258;
+			// aapt resource value: 0x7f0606e4
+			public const int ilsp_is_this_pattern_usual_yes = 2131101412;
 			
-			// aapt resource value: 0x7f060264
-			public const int ilsp_labor_hours_dec_onlyfemale = 2131100260;
+			// aapt resource value: 0x7f06020e
+			public const int ilsp_labor_hours_dec_maleandfemale = 2131100174;
 			
-			// aapt resource value: 0x7f060263
-			public const int ilsp_labor_hours_dec_onlymale = 2131100259;
+			// aapt resource value: 0x7f060210
+			public const int ilsp_labor_hours_dec_onlyfemale = 2131100176;
 			
-			// aapt resource value: 0x7f060248
-			public const int ilsp_land_maleandfemale = 2131100232;
+			// aapt resource value: 0x7f06020f
+			public const int ilsp_labor_hours_dec_onlymale = 2131100175;
 			
-			// aapt resource value: 0x7f06024a
-			public const int ilsp_land_onlyfemale = 2131100234;
+			// aapt resource value: 0x7f0601f4
+			public const int ilsp_land_maleandfemale = 2131100148;
 			
-			// aapt resource value: 0x7f060249
-			public const int ilsp_land_onlymale = 2131100233;
+			// aapt resource value: 0x7f0601f6
+			public const int ilsp_land_onlyfemale = 2131100150;
+			
+			// aapt resource value: 0x7f0601f5
+			public const int ilsp_land_onlymale = 2131100149;
 			
 			// aapt resource value: 0x7f0600fb
 			public const int ilsp_land_tenure_system_is_borrowed = 2131099899;
@@ -3446,107 +3566,194 @@ namespace MobileCollector
 			// aapt resource value: 0x7f0600f8
 			public const int ilsp_land_tenure_system_is_traditional = 2131099896;
 			
-			// aapt resource value: 0x7f0605a0
-			public const int ilsp_livestock_fodder = 2131101088;
+			// aapt resource value: 0x7f060280
+			public const int ilsp_level_community_participation = 2131100288;
 			
-			// aapt resource value: 0x7f060227
-			public const int ilsp_livestock_graztyp_communalgrazing = 2131100199;
+			// aapt resource value: 0x7f0605a7
+			public const int ilsp_livestock_fodder = 2131101095;
 			
-			// aapt resource value: 0x7f060226
-			public const int ilsp_livestock_graztyp_controlledgrazing = 2131100198;
+			// aapt resource value: 0x7f0601d3
+			public const int ilsp_livestock_graztyp_communalgrazing = 2131100115;
 			
-			// aapt resource value: 0x7f060228
-			public const int ilsp_livestock_graztyp_freerangegrazing = 2131100200;
+			// aapt resource value: 0x7f0601d2
+			public const int ilsp_livestock_graztyp_controlledgrazing = 2131100114;
 			
-			// aapt resource value: 0x7f060229
-			public const int ilsp_livestock_graztyp_other = 2131100201;
+			// aapt resource value: 0x7f0601d4
+			public const int ilsp_livestock_graztyp_freerangegrazing = 2131100116;
 			
-			// aapt resource value: 0x7f060225
-			public const int ilsp_livestock_graztyp_semizerograzing = 2131100197;
+			// aapt resource value: 0x7f0601d5
+			public const int ilsp_livestock_graztyp_other = 2131100117;
 			
-			// aapt resource value: 0x7f060224
-			public const int ilsp_livestock_graztyp_zerograzing = 2131100196;
+			// aapt resource value: 0x7f0601d1
+			public const int ilsp_livestock_graztyp_semizerograzing = 2131100113;
 			
-			// aapt resource value: 0x7f060585
-			public const int ilsp_livestock_name_sx_beefcattle = 2131101061;
+			// aapt resource value: 0x7f0601d0
+			public const int ilsp_livestock_graztyp_zerograzing = 2131100112;
 			
-			// aapt resource value: 0x7f060546
-			public const int ilsp_livestock_name_sx_broilerchickens = 2131100998;
+			// aapt resource value: 0x7f060583
+			public const int ilsp_livestock_grown_no_sx_beefcattle = 2131101059;
 			
-			// aapt resource value: 0x7f06057e
-			public const int ilsp_livestock_name_sx_dairycattle = 2131101054;
+			// aapt resource value: 0x7f060529
+			public const int ilsp_livestock_grown_no_sx_broilerchickens = 2131100969;
 			
-			// aapt resource value: 0x7f06058c
-			public const int ilsp_livestock_name_sx_draftcattle = 2131101068;
+			// aapt resource value: 0x7f060579
+			public const int ilsp_livestock_grown_no_sx_dairycattle = 2131101049;
 			
-			// aapt resource value: 0x7f060554
-			public const int ilsp_livestock_name_sx_ducks = 2131101012;
+			// aapt resource value: 0x7f06058d
+			public const int ilsp_livestock_grown_no_sx_draftcattle = 2131101069;
 			
-			// aapt resource value: 0x7f060569
-			public const int ilsp_livestock_name_sx_goats = 2131101033;
+			// aapt resource value: 0x7f06053d
+			public const int ilsp_livestock_grown_no_sx_ducks = 2131100989;
 			
 			// aapt resource value: 0x7f06055b
-			public const int ilsp_livestock_name_sx_guineafowls = 2131101019;
+			public const int ilsp_livestock_grown_no_sx_goats = 2131101019;
 			
-			// aapt resource value: 0x7f06053f
-			public const int ilsp_livestock_name_sx_localchickens = 2131100991;
+			// aapt resource value: 0x7f060547
+			public const int ilsp_livestock_grown_no_sx_guineafowls = 2131100999;
 			
-			// aapt resource value: 0x7f06059a
-			public const int ilsp_livestock_name_sx_other = 2131101082;
+			// aapt resource value: 0x7f06051f
+			public const int ilsp_livestock_grown_no_sx_localchickens = 2131100959;
+			
+			// aapt resource value: 0x7f0605a1
+			public const int ilsp_livestock_grown_no_sx_other = 2131101089;
+			
+			// aapt resource value: 0x7f060551
+			public const int ilsp_livestock_grown_no_sx_pigeons = 2131101009;
+			
+			// aapt resource value: 0x7f060565
+			public const int ilsp_livestock_grown_no_sx_pigs = 2131101029;
+			
+			// aapt resource value: 0x7f060597
+			public const int ilsp_livestock_grown_no_sx_quails = 2131101079;
+			
+			// aapt resource value: 0x7f06056f
+			public const int ilsp_livestock_grown_no_sx_sheep = 2131101039;
+			
+			// aapt resource value: 0x7f060533
+			public const int ilsp_livestock_grown_no_sx_turkeys = 2131100979;
+			
+			// aapt resource value: 0x7f060582
+			public const int ilsp_livestock_grown_yes_sx_beefcattle = 2131101058;
+			
+			// aapt resource value: 0x7f060528
+			public const int ilsp_livestock_grown_yes_sx_broilerchickens = 2131100968;
+			
+			// aapt resource value: 0x7f060578
+			public const int ilsp_livestock_grown_yes_sx_dairycattle = 2131101048;
+			
+			// aapt resource value: 0x7f06058c
+			public const int ilsp_livestock_grown_yes_sx_draftcattle = 2131101068;
+			
+			// aapt resource value: 0x7f06053c
+			public const int ilsp_livestock_grown_yes_sx_ducks = 2131100988;
+			
+			// aapt resource value: 0x7f06055a
+			public const int ilsp_livestock_grown_yes_sx_goats = 2131101018;
+			
+			// aapt resource value: 0x7f060546
+			public const int ilsp_livestock_grown_yes_sx_guineafowls = 2131100998;
+			
+			// aapt resource value: 0x7f06051e
+			public const int ilsp_livestock_grown_yes_sx_localchickens = 2131100958;
+			
+			// aapt resource value: 0x7f0605a0
+			public const int ilsp_livestock_grown_yes_sx_other = 2131101088;
+			
+			// aapt resource value: 0x7f060550
+			public const int ilsp_livestock_grown_yes_sx_pigeons = 2131101008;
+			
+			// aapt resource value: 0x7f060564
+			public const int ilsp_livestock_grown_yes_sx_pigs = 2131101028;
+			
+			// aapt resource value: 0x7f060596
+			public const int ilsp_livestock_grown_yes_sx_quails = 2131101078;
+			
+			// aapt resource value: 0x7f06056e
+			public const int ilsp_livestock_grown_yes_sx_sheep = 2131101038;
+			
+			// aapt resource value: 0x7f060532
+			public const int ilsp_livestock_grown_yes_sx_turkeys = 2131100978;
+			
+			// aapt resource value: 0x7f060580
+			public const int ilsp_livestock_name_sx_beefcattle = 2131101056;
+			
+			// aapt resource value: 0x7f060526
+			public const int ilsp_livestock_name_sx_broilerchickens = 2131100966;
+			
+			// aapt resource value: 0x7f060576
+			public const int ilsp_livestock_name_sx_dairycattle = 2131101046;
+			
+			// aapt resource value: 0x7f06058a
+			public const int ilsp_livestock_name_sx_draftcattle = 2131101066;
+			
+			// aapt resource value: 0x7f06053a
+			public const int ilsp_livestock_name_sx_ducks = 2131100986;
+			
+			// aapt resource value: 0x7f060558
+			public const int ilsp_livestock_name_sx_goats = 2131101016;
+			
+			// aapt resource value: 0x7f060544
+			public const int ilsp_livestock_name_sx_guineafowls = 2131100996;
+			
+			// aapt resource value: 0x7f06051c
+			public const int ilsp_livestock_name_sx_localchickens = 2131100956;
+			
+			// aapt resource value: 0x7f06059e
+			public const int ilsp_livestock_name_sx_other = 2131101086;
+			
+			// aapt resource value: 0x7f06054e
+			public const int ilsp_livestock_name_sx_pigeons = 2131101006;
 			
 			// aapt resource value: 0x7f060562
-			public const int ilsp_livestock_name_sx_pigeons = 2131101026;
+			public const int ilsp_livestock_name_sx_pigs = 2131101026;
 			
-			// aapt resource value: 0x7f060570
-			public const int ilsp_livestock_name_sx_pigs = 2131101040;
+			// aapt resource value: 0x7f060594
+			public const int ilsp_livestock_name_sx_quails = 2131101076;
 			
-			// aapt resource value: 0x7f060593
-			public const int ilsp_livestock_name_sx_quails = 2131101075;
+			// aapt resource value: 0x7f06056c
+			public const int ilsp_livestock_name_sx_sheep = 2131101036;
 			
-			// aapt resource value: 0x7f060577
-			public const int ilsp_livestock_name_sx_sheep = 2131101047;
+			// aapt resource value: 0x7f060530
+			public const int ilsp_livestock_name_sx_turkeys = 2131100976;
 			
-			// aapt resource value: 0x7f06054d
-			public const int ilsp_livestock_name_sx_turkeys = 2131101005;
+			// aapt resource value: 0x7f0605bb
+			public const int ilsp_livstck_enough_food_no = 2131101115;
 			
-			// aapt resource value: 0x7f0605b3
-			public const int ilsp_livstck_enough_food_no = 2131101107;
+			// aapt resource value: 0x7f0605ba
+			public const int ilsp_livstck_enough_food_yes = 2131101114;
 			
-			// aapt resource value: 0x7f0605b2
-			public const int ilsp_livstck_enough_food_yes = 2131101106;
+			// aapt resource value: 0x7f0602da
+			public const int ilsp_livstck_mgmt_health_trng_no = 2131100378;
 			
-			// aapt resource value: 0x7f06032d
-			public const int ilsp_livstck_mgmt_health_trng_no = 2131100461;
+			// aapt resource value: 0x7f0602d9
+			public const int ilsp_livstck_mgmt_health_trng_yes = 2131100377;
 			
-			// aapt resource value: 0x7f06032c
-			public const int ilsp_livstck_mgmt_health_trng_yes = 2131100460;
+			// aapt resource value: 0x7f06078f
+			public const int ilsp_loan_amount_received = 2131101583;
 			
-			// aapt resource value: 0x7f060786
-			public const int ilsp_loan_amount_received = 2131101574;
-			
-			// aapt resource value: 0x7f06024d
-			public const int ilsp_machinery_work_land_maleandfemale = 2131100237;
-			
-			// aapt resource value: 0x7f06024f
-			public const int ilsp_machinery_work_land_onlyfemale = 2131100239;
-			
-			// aapt resource value: 0x7f06024e
-			public const int ilsp_machinery_work_land_onlymale = 2131100238;
-			
-			// aapt resource value: 0x7f0601fc
-			public const int ilsp_main_walls_material_clayburntbricks = 2131100156;
-			
-			// aapt resource value: 0x7f0601fd
-			public const int ilsp_main_walls_material_concreteblocks = 2131100157;
-			
-			// aapt resource value: 0x7f0601fe
-			public const int ilsp_main_walls_material_grassthatched = 2131100158;
+			// aapt resource value: 0x7f0601f9
+			public const int ilsp_machinery_work_land_maleandfemale = 2131100153;
 			
 			// aapt resource value: 0x7f0601fb
-			public const int ilsp_main_walls_material_mud = 2131100155;
+			public const int ilsp_machinery_work_land_onlyfemale = 2131100155;
 			
-			// aapt resource value: 0x7f0601ff
-			public const int ilsp_main_walls_material_other = 2131100159;
+			// aapt resource value: 0x7f0601fa
+			public const int ilsp_machinery_work_land_onlymale = 2131100154;
+			
+			// aapt resource value: 0x7f0601a8
+			public const int ilsp_main_walls_material_clayburntbricks = 2131100072;
+			
+			// aapt resource value: 0x7f0601a9
+			public const int ilsp_main_walls_material_concreteblocks = 2131100073;
+			
+			// aapt resource value: 0x7f0601aa
+			public const int ilsp_main_walls_material_grassthatched = 2131100074;
+			
+			// aapt resource value: 0x7f0601a7
+			public const int ilsp_main_walls_material_mud = 2131100071;
+			
+			// aapt resource value: 0x7f0601ab
+			public const int ilsp_main_walls_material_other = 2131100075;
 			
 			// aapt resource value: 0x7f0600ee
 			public const int ilsp_male_adult_36_to_64 = 2131099886;
@@ -3560,299 +3767,266 @@ namespace MobileCollector
 			// aapt resource value: 0x7f0600f0
 			public const int ilsp_male_elderly_65 = 2131099888;
 			
-			// aapt resource value: 0x7f060747
-			public const int ilsp_male_household_member_sx_governmentassistanceunemploymentwelfareallowance = 2131101511;
+			// aapt resource value: 0x7f060750
+			public const int ilsp_male_household_member_sx_governmentassistanceunemploymentwelfareallowance = 2131101520;
 			
-			// aapt resource value: 0x7f06074c
-			public const int ilsp_male_household_member_sx_other = 2131101516;
+			// aapt resource value: 0x7f060755
+			public const int ilsp_male_household_member_sx_other = 2131101525;
 			
-			// aapt resource value: 0x7f060742
-			public const int ilsp_male_household_member_sx_remittancessentfromchildrenrelatives = 2131101506;
+			// aapt resource value: 0x7f06074b
+			public const int ilsp_male_household_member_sx_remittancessentfromchildrenrelatives = 2131101515;
 			
-			// aapt resource value: 0x7f06073d
-			public const int ilsp_male_household_member_sx_rentsdraftpowerpropertymachineryinterests = 2131101501;
+			// aapt resource value: 0x7f060746
+			public const int ilsp_male_household_member_sx_rentsdraftpowerpropertymachineryinterests = 2131101510;
 			
-			// aapt resource value: 0x7f06072e
-			public const int ilsp_male_household_member_sx_salarieswages = 2131101486;
+			// aapt resource value: 0x7f060737
+			public const int ilsp_male_household_member_sx_salarieswages = 2131101495;
 			
-			// aapt resource value: 0x7f060733
-			public const int ilsp_male_household_member_sx_salesfirewoodhomemadeproductscrafts = 2131101491;
+			// aapt resource value: 0x7f06073c
+			public const int ilsp_male_household_member_sx_salesfirewoodhomemadeproductscrafts = 2131101500;
 			
-			// aapt resource value: 0x7f060751
-			public const int ilsp_male_household_member_sx_total = 2131101521;
+			// aapt resource value: 0x7f06075a
+			public const int ilsp_male_household_member_sx_total = 2131101530;
 			
-			// aapt resource value: 0x7f060738
-			public const int ilsp_male_household_member_sx_trading = 2131101496;
+			// aapt resource value: 0x7f060741
+			public const int ilsp_male_household_member_sx_trading = 2131101505;
 			
 			// aapt resource value: 0x7f0600ec
 			public const int ilsp_male_youth_18_to_35 = 2131099884;
 			
-			// aapt resource value: 0x7f060276
-			public const int ilsp_manage_house_dec_maleandfemale = 2131100278;
+			// aapt resource value: 0x7f060222
+			public const int ilsp_manage_house_dec_maleandfemale = 2131100194;
 			
-			// aapt resource value: 0x7f060278
-			public const int ilsp_manage_house_dec_onlyfemale = 2131100280;
+			// aapt resource value: 0x7f060224
+			public const int ilsp_manage_house_dec_onlyfemale = 2131100196;
 			
-			// aapt resource value: 0x7f060277
-			public const int ilsp_manage_house_dec_onlymale = 2131100279;
-			
-			// aapt resource value: 0x7f0600d4
-			public const int ilsp_marital_status_beneficiary_divorced = 2131099860;
+			// aapt resource value: 0x7f060223
+			public const int ilsp_manage_house_dec_onlymale = 2131100195;
 			
 			// aapt resource value: 0x7f0600d2
-			public const int ilsp_marital_status_beneficiary_married = 2131099858;
+			public const int ilsp_marital_status_beneficiary_divorced = 2131099858;
 			
-			// aapt resource value: 0x7f0600d3
-			public const int ilsp_marital_status_beneficiary_separated = 2131099859;
+			// aapt resource value: 0x7f0600d0
+			public const int ilsp_marital_status_beneficiary_married = 2131099856;
 			
 			// aapt resource value: 0x7f0600d1
-			public const int ilsp_marital_status_beneficiary_single = 2131099857;
+			public const int ilsp_marital_status_beneficiary_separated = 2131099857;
 			
-			// aapt resource value: 0x7f0600d5
-			public const int ilsp_marital_status_beneficiary_widowed = 2131099861;
+			// aapt resource value: 0x7f0600cf
+			public const int ilsp_marital_status_beneficiary_single = 2131099855;
 			
-			// aapt resource value: 0x7f0602dc
-			public const int ilsp_men_participation_average = 2131100380;
+			// aapt resource value: 0x7f0600d3
+			public const int ilsp_marital_status_beneficiary_widowed = 2131099859;
 			
-			// aapt resource value: 0x7f0602dd
-			public const int ilsp_men_participation_high = 2131100381;
+			// aapt resource value: 0x7f060289
+			public const int ilsp_men_participation_average = 2131100297;
 			
-			// aapt resource value: 0x7f0602db
-			public const int ilsp_men_participation_low = 2131100379;
+			// aapt resource value: 0x7f06028a
+			public const int ilsp_men_participation_high = 2131100298;
 			
-			// aapt resource value: 0x7f060257
-			public const int ilsp_microfinance_services_maleandfemale = 2131100247;
+			// aapt resource value: 0x7f060288
+			public const int ilsp_men_participation_low = 2131100296;
 			
-			// aapt resource value: 0x7f060259
-			public const int ilsp_microfinance_services_onlyfemale = 2131100249;
+			// aapt resource value: 0x7f060203
+			public const int ilsp_microfinance_services_maleandfemale = 2131100163;
 			
-			// aapt resource value: 0x7f060258
-			public const int ilsp_microfinance_services_onlymale = 2131100248;
+			// aapt resource value: 0x7f060205
+			public const int ilsp_microfinance_services_onlyfemale = 2131100165;
 			
-			// aapt resource value: 0x7f0605ed
-			public const int ilsp_milk_type_name_sx_cowmilk = 2131101165;
+			// aapt resource value: 0x7f060204
+			public const int ilsp_microfinance_services_onlymale = 2131100164;
 			
-			// aapt resource value: 0x7f06071d
-			public const int ilsp_mnths_water_scarcity_april = 2131101469;
+			// aapt resource value: 0x7f0605f6
+			public const int ilsp_milk_type_name_sx_cowmilk = 2131101174;
 			
-			// aapt resource value: 0x7f060721
-			public const int ilsp_mnths_water_scarcity_august = 2131101473;
+			// aapt resource value: 0x7f060726
+			public const int ilsp_mnths_water_scarcity_april = 2131101478;
 			
-			// aapt resource value: 0x7f060725
-			public const int ilsp_mnths_water_scarcity_december = 2131101477;
+			// aapt resource value: 0x7f06072a
+			public const int ilsp_mnths_water_scarcity_august = 2131101482;
 			
-			// aapt resource value: 0x7f06071b
-			public const int ilsp_mnths_water_scarcity_february = 2131101467;
-			
-			// aapt resource value: 0x7f06071a
-			public const int ilsp_mnths_water_scarcity_january = 2131101466;
-			
-			// aapt resource value: 0x7f060720
-			public const int ilsp_mnths_water_scarcity_july = 2131101472;
-			
-			// aapt resource value: 0x7f06071f
-			public const int ilsp_mnths_water_scarcity_june = 2131101471;
-			
-			// aapt resource value: 0x7f06071c
-			public const int ilsp_mnths_water_scarcity_march = 2131101468;
-			
-			// aapt resource value: 0x7f06071e
-			public const int ilsp_mnths_water_scarcity_may = 2131101470;
+			// aapt resource value: 0x7f06072e
+			public const int ilsp_mnths_water_scarcity_december = 2131101486;
 			
 			// aapt resource value: 0x7f060724
-			public const int ilsp_mnths_water_scarcity_november = 2131101476;
+			public const int ilsp_mnths_water_scarcity_february = 2131101476;
 			
 			// aapt resource value: 0x7f060723
-			public const int ilsp_mnths_water_scarcity_october = 2131101475;
+			public const int ilsp_mnths_water_scarcity_january = 2131101475;
 			
-			// aapt resource value: 0x7f060722
-			public const int ilsp_mnths_water_scarcity_september = 2131101474;
+			// aapt resource value: 0x7f060729
+			public const int ilsp_mnths_water_scarcity_july = 2131101481;
 			
-			// aapt resource value: 0x7f0606ef
-			public const int ilsp_months_food_scarcity_april = 2131101423;
+			// aapt resource value: 0x7f060728
+			public const int ilsp_mnths_water_scarcity_june = 2131101480;
 			
-			// aapt resource value: 0x7f0606f3
-			public const int ilsp_months_food_scarcity_august = 2131101427;
+			// aapt resource value: 0x7f060725
+			public const int ilsp_mnths_water_scarcity_march = 2131101477;
 			
-			// aapt resource value: 0x7f0606f7
-			public const int ilsp_months_food_scarcity_december = 2131101431;
+			// aapt resource value: 0x7f060727
+			public const int ilsp_mnths_water_scarcity_may = 2131101479;
 			
-			// aapt resource value: 0x7f0606ed
-			public const int ilsp_months_food_scarcity_february = 2131101421;
+			// aapt resource value: 0x7f06072d
+			public const int ilsp_mnths_water_scarcity_november = 2131101485;
 			
-			// aapt resource value: 0x7f0606ec
-			public const int ilsp_months_food_scarcity_january = 2131101420;
+			// aapt resource value: 0x7f06072c
+			public const int ilsp_mnths_water_scarcity_october = 2131101484;
 			
-			// aapt resource value: 0x7f0606f2
-			public const int ilsp_months_food_scarcity_july = 2131101426;
+			// aapt resource value: 0x7f06072b
+			public const int ilsp_mnths_water_scarcity_september = 2131101483;
 			
-			// aapt resource value: 0x7f0606f1
-			public const int ilsp_months_food_scarcity_june = 2131101425;
+			// aapt resource value: 0x7f0606f8
+			public const int ilsp_months_food_scarcity_april = 2131101432;
 			
-			// aapt resource value: 0x7f0606ee
-			public const int ilsp_months_food_scarcity_march = 2131101422;
+			// aapt resource value: 0x7f0606fc
+			public const int ilsp_months_food_scarcity_august = 2131101436;
 			
-			// aapt resource value: 0x7f0606f0
-			public const int ilsp_months_food_scarcity_may = 2131101424;
+			// aapt resource value: 0x7f060700
+			public const int ilsp_months_food_scarcity_december = 2131101440;
 			
 			// aapt resource value: 0x7f0606f6
-			public const int ilsp_months_food_scarcity_november = 2131101430;
+			public const int ilsp_months_food_scarcity_february = 2131101430;
 			
 			// aapt resource value: 0x7f0606f5
-			public const int ilsp_months_food_scarcity_october = 2131101429;
+			public const int ilsp_months_food_scarcity_january = 2131101429;
 			
-			// aapt resource value: 0x7f0606f4
-			public const int ilsp_months_food_scarcity_september = 2131101428;
+			// aapt resource value: 0x7f0606fb
+			public const int ilsp_months_food_scarcity_july = 2131101435;
 			
-			// aapt resource value: 0x7f060588
-			public const int ilsp_mortality_last_year_sx_beefcattle = 2131101064;
+			// aapt resource value: 0x7f0606fa
+			public const int ilsp_months_food_scarcity_june = 2131101434;
 			
-			// aapt resource value: 0x7f060549
-			public const int ilsp_mortality_last_year_sx_broilerchickens = 2131101001;
+			// aapt resource value: 0x7f0606f7
+			public const int ilsp_months_food_scarcity_march = 2131101431;
 			
-			// aapt resource value: 0x7f060581
-			public const int ilsp_mortality_last_year_sx_dairycattle = 2131101057;
+			// aapt resource value: 0x7f0606f9
+			public const int ilsp_months_food_scarcity_may = 2131101433;
 			
-			// aapt resource value: 0x7f06058f
-			public const int ilsp_mortality_last_year_sx_draftcattle = 2131101071;
+			// aapt resource value: 0x7f0606ff
+			public const int ilsp_months_food_scarcity_november = 2131101439;
 			
-			// aapt resource value: 0x7f060557
-			public const int ilsp_mortality_last_year_sx_ducks = 2131101015;
+			// aapt resource value: 0x7f0606fe
+			public const int ilsp_months_food_scarcity_october = 2131101438;
 			
-			// aapt resource value: 0x7f06056c
-			public const int ilsp_mortality_last_year_sx_goats = 2131101036;
+			// aapt resource value: 0x7f0606fd
+			public const int ilsp_months_food_scarcity_september = 2131101437;
+			
+			// aapt resource value: 0x7f0605bc
+			public const int ilsp_months_without_feed = 2131101116;
+			
+			// aapt resource value: 0x7f060586
+			public const int ilsp_mortality_last_year_sx_beefcattle = 2131101062;
+			
+			// aapt resource value: 0x7f06052c
+			public const int ilsp_mortality_last_year_sx_broilerchickens = 2131100972;
+			
+			// aapt resource value: 0x7f06057c
+			public const int ilsp_mortality_last_year_sx_dairycattle = 2131101052;
+			
+			// aapt resource value: 0x7f060590
+			public const int ilsp_mortality_last_year_sx_draftcattle = 2131101072;
+			
+			// aapt resource value: 0x7f060540
+			public const int ilsp_mortality_last_year_sx_ducks = 2131100992;
 			
 			// aapt resource value: 0x7f06055e
-			public const int ilsp_mortality_last_year_sx_guineafowls = 2131101022;
+			public const int ilsp_mortality_last_year_sx_goats = 2131101022;
 			
-			// aapt resource value: 0x7f060542
-			public const int ilsp_mortality_last_year_sx_localchickens = 2131100994;
+			// aapt resource value: 0x7f06054a
+			public const int ilsp_mortality_last_year_sx_guineafowls = 2131101002;
 			
-			// aapt resource value: 0x7f06059d
-			public const int ilsp_mortality_last_year_sx_other = 2131101085;
+			// aapt resource value: 0x7f060522
+			public const int ilsp_mortality_last_year_sx_localchickens = 2131100962;
 			
-			// aapt resource value: 0x7f060565
-			public const int ilsp_mortality_last_year_sx_pigeons = 2131101029;
+			// aapt resource value: 0x7f0605a4
+			public const int ilsp_mortality_last_year_sx_other = 2131101092;
 			
-			// aapt resource value: 0x7f060573
-			public const int ilsp_mortality_last_year_sx_pigs = 2131101043;
+			// aapt resource value: 0x7f060554
+			public const int ilsp_mortality_last_year_sx_pigeons = 2131101012;
 			
-			// aapt resource value: 0x7f060596
-			public const int ilsp_mortality_last_year_sx_quails = 2131101078;
+			// aapt resource value: 0x7f060568
+			public const int ilsp_mortality_last_year_sx_pigs = 2131101032;
 			
-			// aapt resource value: 0x7f06057a
-			public const int ilsp_mortality_last_year_sx_sheep = 2131101050;
+			// aapt resource value: 0x7f06059a
+			public const int ilsp_mortality_last_year_sx_quails = 2131101082;
 			
-			// aapt resource value: 0x7f060550
-			public const int ilsp_mortality_last_year_sx_turkeys = 2131101008;
+			// aapt resource value: 0x7f060572
+			public const int ilsp_mortality_last_year_sx_sheep = 2131101042;
 			
-			// aapt resource value: 0x7f0600b7
-			public const int ilsp_name_of_beneficiary = 2131099831;
+			// aapt resource value: 0x7f060536
+			public const int ilsp_mortality_last_year_sx_turkeys = 2131100982;
 			
-			// aapt resource value: 0x7f0600b9
-			public const int ilsp_name_of_group = 2131099833;
+			// aapt resource value: 0x7f0600ae
+			public const int ilsp_name_of_beneficiary = 2131099822;
 			
-			// aapt resource value: 0x7f0600b4
-			public const int ilsp_name_of_interviewer = 2131099828;
+			// aapt resource value: 0x7f0600b0
+			public const int ilsp_name_of_group = 2131099824;
 			
-			// aapt resource value: 0x7f0600ba
-			public const int ilsp_name_of_village = 2131099834;
+			// aapt resource value: 0x7f0600a9
+			public const int ilsp_name_of_interviewer = 2131099817;
 			
-			// aapt resource value: 0x7f0601ec
-			public const int ilsp_number_owned_non_agric_sx_bed = 2131100140;
+			// aapt resource value: 0x7f0600b1
+			public const int ilsp_name_of_village = 2131099825;
 			
-			// aapt resource value: 0x7f0601b6
-			public const int ilsp_number_owned_non_agric_sx_bicycle = 2131100086;
+			// aapt resource value: 0x7f060198
+			public const int ilsp_number_owned_non_agric_sx_bed = 2131100056;
 			
-			// aapt resource value: 0x7f0601f2
-			public const int ilsp_number_owned_non_agric_sx_mattress = 2131100146;
+			// aapt resource value: 0x7f060162
+			public const int ilsp_number_owned_non_agric_sx_bicycle = 2131100002;
 			
-			// aapt resource value: 0x7f0601c8
-			public const int ilsp_number_owned_non_agric_sx_mobilecellphone = 2131100104;
+			// aapt resource value: 0x7f06019e
+			public const int ilsp_number_owned_non_agric_sx_mattress = 2131100062;
 			
-			// aapt resource value: 0x7f0601d4
-			public const int ilsp_number_owned_non_agric_sx_motorbike = 2131100116;
+			// aapt resource value: 0x7f060174
+			public const int ilsp_number_owned_non_agric_sx_mobilecellphone = 2131100020;
 			
-			// aapt resource value: 0x7f0601e0
-			public const int ilsp_number_owned_non_agric_sx_motorvehicle = 2131100128;
+			// aapt resource value: 0x7f060180
+			public const int ilsp_number_owned_non_agric_sx_motorbike = 2131100032;
 			
-			// aapt resource value: 0x7f0601bc
-			public const int ilsp_number_owned_non_agric_sx_radio = 2131100092;
+			// aapt resource value: 0x7f06018c
+			public const int ilsp_number_owned_non_agric_sx_motorvehicle = 2131100044;
 			
-			// aapt resource value: 0x7f0601e6
-			public const int ilsp_number_owned_non_agric_sx_sofas = 2131100134;
+			// aapt resource value: 0x7f060168
+			public const int ilsp_number_owned_non_agric_sx_radio = 2131100008;
 			
-			// aapt resource value: 0x7f0601f8
-			public const int ilsp_number_owned_non_agric_sx_solarlamps = 2131100152;
+			// aapt resource value: 0x7f060192
+			public const int ilsp_number_owned_non_agric_sx_sofas = 2131100050;
 			
-			// aapt resource value: 0x7f0601da
-			public const int ilsp_number_owned_non_agric_sx_solarpanel = 2131100122;
+			// aapt resource value: 0x7f0601a4
+			public const int ilsp_number_owned_non_agric_sx_solarlamps = 2131100068;
 			
-			// aapt resource value: 0x7f0601ce
-			public const int ilsp_number_owned_non_agric_sx_stove = 2131100110;
+			// aapt resource value: 0x7f060186
+			public const int ilsp_number_owned_non_agric_sx_solarpanel = 2131100038;
 			
-			// aapt resource value: 0x7f0601c2
-			public const int ilsp_number_owned_non_agric_sx_tv = 2131100098;
+			// aapt resource value: 0x7f06017a
+			public const int ilsp_number_owned_non_agric_sx_stove = 2131100026;
+			
+			// aapt resource value: 0x7f06016e
+			public const int ilsp_number_owned_non_agric_sx_tv = 2131100014;
 			
 			// aapt resource value: 0x7f06011a
 			public const int ilsp_number_owned_sx_axe = 2131099930;
 			
-			// aapt resource value: 0x7f0601a4
-			public const int ilsp_number_owned_sx_bed = 2131100068;
-			
-			// aapt resource value: 0x7f06016e
-			public const int ilsp_number_owned_sx_bicycle = 2131100014;
-			
-			// aapt resource value: 0x7f060156
-			public const int ilsp_number_owned_sx_grainmill = 2131099990;
+			// aapt resource value: 0x7f06014a
+			public const int ilsp_number_owned_sx_grainmill = 2131099978;
 			
 			// aapt resource value: 0x7f060114
 			public const int ilsp_number_owned_sx_hoe = 2131099924;
 			
-			// aapt resource value: 0x7f0601aa
-			public const int ilsp_number_owned_sx_mattress = 2131100074;
-			
-			// aapt resource value: 0x7f060180
-			public const int ilsp_number_owned_sx_mobilecellphone = 2131100032;
-			
-			// aapt resource value: 0x7f06018c
-			public const int ilsp_number_owned_sx_motorbike = 2131100044;
-			
-			// aapt resource value: 0x7f060198
-			public const int ilsp_number_owned_sx_motorvehicle = 2131100056;
+			// aapt resource value: 0x7f060144
+			public const int ilsp_number_owned_sx_oilpress = 2131099972;
 			
 			// aapt resource value: 0x7f060150
-			public const int ilsp_number_owned_sx_oilpress = 2131099984;
-			
-			// aapt resource value: 0x7f06015c
-			public const int ilsp_number_owned_sx_oxcarts = 2131099996;
-			
-			// aapt resource value: 0x7f06013e
-			public const int ilsp_number_owned_sx_oxplough = 2131099966;
+			public const int ilsp_number_owned_sx_oxcarts = 2131099984;
 			
 			// aapt resource value: 0x7f060126
 			public const int ilsp_number_owned_sx_pangas = 2131099942;
 			
-			// aapt resource value: 0x7f0601b0
-			public const int ilsp_number_owned_sx_plough = 2131100080;
-			
-			// aapt resource value: 0x7f060174
-			public const int ilsp_number_owned_sx_radio = 2131100020;
-			
-			// aapt resource value: 0x7f060144
-			public const int ilsp_number_owned_sx_ridgeplough = 2131099972;
-			
-			// aapt resource value: 0x7f06014a
-			public const int ilsp_number_owned_sx_ripper = 2131099978;
+			// aapt resource value: 0x7f06013e
+			public const int ilsp_number_owned_sx_plough = 2131099966;
 			
 			// aapt resource value: 0x7f060138
 			public const int ilsp_number_owned_sx_slasher = 2131099960;
-			
-			// aapt resource value: 0x7f06019e
-			public const int ilsp_number_owned_sx_sofas = 2131100062;
-			
-			// aapt resource value: 0x7f060192
-			public const int ilsp_number_owned_sx_solarpanel = 2131100050;
 			
 			// aapt resource value: 0x7f060120
 			public const int ilsp_number_owned_sx_spade = 2131099936;
@@ -3860,254 +4034,212 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060132
 			public const int ilsp_number_owned_sx_sprayer = 2131099954;
 			
-			// aapt resource value: 0x7f060186
-			public const int ilsp_number_owned_sx_stove = 2131100038;
+			// aapt resource value: 0x7f060156
+			public const int ilsp_number_owned_sx_tractor = 2131099990;
 			
-			// aapt resource value: 0x7f060162
-			public const int ilsp_number_owned_sx_tractor = 2131100002;
-			
-			// aapt resource value: 0x7f060168
-			public const int ilsp_number_owned_sx_trailor = 2131100008;
-			
-			// aapt resource value: 0x7f06017a
-			public const int ilsp_number_owned_sx_tv = 2131100026;
+			// aapt resource value: 0x7f06015c
+			public const int ilsp_number_owned_sx_trailor = 2131099996;
 			
 			// aapt resource value: 0x7f06012c
 			public const int ilsp_number_owned_sx_wheelbarrow = 2131099948;
 			
-			// aapt resource value: 0x7f060589
-			public const int ilsp_number_sold_last_year_sx_beefcattle = 2131101065;
-			
-			// aapt resource value: 0x7f06054a
-			public const int ilsp_number_sold_last_year_sx_broilerchickens = 2131101002;
-			
-			// aapt resource value: 0x7f060582
-			public const int ilsp_number_sold_last_year_sx_dairycattle = 2131101058;
-			
-			// aapt resource value: 0x7f060590
-			public const int ilsp_number_sold_last_year_sx_draftcattle = 2131101072;
-			
-			// aapt resource value: 0x7f060558
-			public const int ilsp_number_sold_last_year_sx_ducks = 2131101016;
-			
-			// aapt resource value: 0x7f06056d
-			public const int ilsp_number_sold_last_year_sx_goats = 2131101037;
-			
-			// aapt resource value: 0x7f06055f
-			public const int ilsp_number_sold_last_year_sx_guineafowls = 2131101023;
-			
-			// aapt resource value: 0x7f060543
-			public const int ilsp_number_sold_last_year_sx_localchickens = 2131100995;
-			
-			// aapt resource value: 0x7f06059e
-			public const int ilsp_number_sold_last_year_sx_other = 2131101086;
-			
-			// aapt resource value: 0x7f060566
-			public const int ilsp_number_sold_last_year_sx_pigeons = 2131101030;
-			
-			// aapt resource value: 0x7f060574
-			public const int ilsp_number_sold_last_year_sx_pigs = 2131101044;
-			
-			// aapt resource value: 0x7f060597
-			public const int ilsp_number_sold_last_year_sx_quails = 2131101079;
-			
-			// aapt resource value: 0x7f06057b
-			public const int ilsp_number_sold_last_year_sx_sheep = 2131101051;
-			
-			// aapt resource value: 0x7f060551
-			public const int ilsp_number_sold_last_year_sx_turkeys = 2131101009;
-			
 			// aapt resource value: 0x7f060587
-			public const int ilsp_offspring_born_last_year_sx_beefcattle = 2131101063;
+			public const int ilsp_number_sold_last_year_sx_beefcattle = 2131101063;
 			
-			// aapt resource value: 0x7f060548
-			public const int ilsp_offspring_born_last_year_sx_broilerchickens = 2131101000;
+			// aapt resource value: 0x7f06052d
+			public const int ilsp_number_sold_last_year_sx_broilerchickens = 2131100973;
 			
-			// aapt resource value: 0x7f060580
-			public const int ilsp_offspring_born_last_year_sx_dairycattle = 2131101056;
+			// aapt resource value: 0x7f06057d
+			public const int ilsp_number_sold_last_year_sx_dairycattle = 2131101053;
 			
-			// aapt resource value: 0x7f06058e
-			public const int ilsp_offspring_born_last_year_sx_draftcattle = 2131101070;
-			
-			// aapt resource value: 0x7f060556
-			public const int ilsp_offspring_born_last_year_sx_ducks = 2131101014;
-			
-			// aapt resource value: 0x7f06056b
-			public const int ilsp_offspring_born_last_year_sx_goats = 2131101035;
-			
-			// aapt resource value: 0x7f06055d
-			public const int ilsp_offspring_born_last_year_sx_guineafowls = 2131101021;
+			// aapt resource value: 0x7f060591
+			public const int ilsp_number_sold_last_year_sx_draftcattle = 2131101073;
 			
 			// aapt resource value: 0x7f060541
-			public const int ilsp_offspring_born_last_year_sx_localchickens = 2131100993;
+			public const int ilsp_number_sold_last_year_sx_ducks = 2131100993;
 			
-			// aapt resource value: 0x7f06059c
-			public const int ilsp_offspring_born_last_year_sx_other = 2131101084;
+			// aapt resource value: 0x7f06055f
+			public const int ilsp_number_sold_last_year_sx_goats = 2131101023;
 			
-			// aapt resource value: 0x7f060564
-			public const int ilsp_offspring_born_last_year_sx_pigeons = 2131101028;
+			// aapt resource value: 0x7f06054b
+			public const int ilsp_number_sold_last_year_sx_guineafowls = 2131101003;
 			
-			// aapt resource value: 0x7f060572
-			public const int ilsp_offspring_born_last_year_sx_pigs = 2131101042;
+			// aapt resource value: 0x7f060523
+			public const int ilsp_number_sold_last_year_sx_localchickens = 2131100963;
 			
-			// aapt resource value: 0x7f060595
-			public const int ilsp_offspring_born_last_year_sx_quails = 2131101077;
+			// aapt resource value: 0x7f0605a5
+			public const int ilsp_number_sold_last_year_sx_other = 2131101093;
 			
-			// aapt resource value: 0x7f060579
-			public const int ilsp_offspring_born_last_year_sx_sheep = 2131101049;
+			// aapt resource value: 0x7f060555
+			public const int ilsp_number_sold_last_year_sx_pigeons = 2131101013;
 			
-			// aapt resource value: 0x7f06054f
-			public const int ilsp_offspring_born_last_year_sx_turkeys = 2131101007;
+			// aapt resource value: 0x7f060569
+			public const int ilsp_number_sold_last_year_sx_pigs = 2131101033;
 			
-			// aapt resource value: 0x7f060713
-			public const int ilsp_other_avg_tme_bring_wtr = 2131101459;
+			// aapt resource value: 0x7f06059b
+			public const int ilsp_number_sold_last_year_sx_quails = 2131101083;
 			
-			// aapt resource value: 0x7f060702
-			public const int ilsp_other_coping_strat_emp = 2131101442;
+			// aapt resource value: 0x7f060573
+			public const int ilsp_number_sold_last_year_sx_sheep = 2131101043;
 			
-			// aapt resource value: 0x7f060221
-			public const int ilsp_other_energy_type_used = 2131100193;
+			// aapt resource value: 0x7f060537
+			public const int ilsp_number_sold_last_year_sx_turkeys = 2131100983;
 			
-			// aapt resource value: 0x7f0605c2
-			public const int ilsp_other_feed_source = 2131101122;
+			// aapt resource value: 0x7f060585
+			public const int ilsp_offspring_born_last_year_sx_beefcattle = 2131101061;
 			
-			// aapt resource value: 0x7f0605d6
-			public const int ilsp_other_freq_livstck_dip = 2131101142;
+			// aapt resource value: 0x7f06052b
+			public const int ilsp_offspring_born_last_year_sx_broilerchickens = 2131100971;
 			
-			// aapt resource value: 0x7f060749
-			public const int ilsp_other_household_member_sx_governmentassistanceunemploymentwelfareallowance = 2131101513;
+			// aapt resource value: 0x7f06057b
+			public const int ilsp_offspring_born_last_year_sx_dairycattle = 2131101051;
 			
-			// aapt resource value: 0x7f06074e
-			public const int ilsp_other_household_member_sx_other = 2131101518;
+			// aapt resource value: 0x7f06058f
+			public const int ilsp_offspring_born_last_year_sx_draftcattle = 2131101071;
 			
-			// aapt resource value: 0x7f060744
-			public const int ilsp_other_household_member_sx_remittancessentfromchildrenrelatives = 2131101508;
+			// aapt resource value: 0x7f06053f
+			public const int ilsp_offspring_born_last_year_sx_ducks = 2131100991;
 			
-			// aapt resource value: 0x7f06073f
-			public const int ilsp_other_household_member_sx_rentsdraftpowerpropertymachineryinterests = 2131101503;
+			// aapt resource value: 0x7f06055d
+			public const int ilsp_offspring_born_last_year_sx_goats = 2131101021;
 			
-			// aapt resource value: 0x7f060730
-			public const int ilsp_other_household_member_sx_salarieswages = 2131101488;
+			// aapt resource value: 0x7f060549
+			public const int ilsp_offspring_born_last_year_sx_guineafowls = 2131101001;
 			
-			// aapt resource value: 0x7f060735
-			public const int ilsp_other_household_member_sx_salesfirewoodhomemadeproductscrafts = 2131101493;
+			// aapt resource value: 0x7f060521
+			public const int ilsp_offspring_born_last_year_sx_localchickens = 2131100961;
 			
-			// aapt resource value: 0x7f060753
-			public const int ilsp_other_household_member_sx_total = 2131101523;
+			// aapt resource value: 0x7f0605a3
+			public const int ilsp_offspring_born_last_year_sx_other = 2131101091;
 			
-			// aapt resource value: 0x7f06073a
-			public const int ilsp_other_household_member_sx_trading = 2131101498;
+			// aapt resource value: 0x7f060553
+			public const int ilsp_offspring_born_last_year_sx_pigeons = 2131101011;
 			
-			// aapt resource value: 0x7f06022a
-			public const int ilsp_other_livestock_graztyp = 2131100202;
+			// aapt resource value: 0x7f060567
+			public const int ilsp_offspring_born_last_year_sx_pigs = 2131101031;
 			
-			// aapt resource value: 0x7f060200
-			public const int ilsp_other_main_wall_mater = 2131100160;
+			// aapt resource value: 0x7f060599
+			public const int ilsp_offspring_born_last_year_sx_quails = 2131101081;
 			
-			// aapt resource value: 0x7f060207
-			public const int ilsp_other_material_hse_roof = 2131100167;
+			// aapt resource value: 0x7f060571
+			public const int ilsp_offspring_born_last_year_sx_sheep = 2131101041;
 			
-			// aapt resource value: 0x7f0606e6
-			public const int ilsp_other_reas_food_scarcity = 2131101414;
+			// aapt resource value: 0x7f060535
+			public const int ilsp_offspring_born_last_year_sx_turkeys = 2131100981;
 			
-			// aapt resource value: 0x7f060219
-			public const int ilsp_other_soil_conserv_pract = 2131100185;
+			// aapt resource value: 0x7f06071c
+			public const int ilsp_other_avg_tme_bring_wtr = 2131101468;
 			
-			// aapt resource value: 0x7f0605eb
-			public const int ilsp_other_souce_livstck_drgs = 2131101163;
+			// aapt resource value: 0x7f06070b
+			public const int ilsp_other_coping_strat_emp = 2131101451;
 			
-			// aapt resource value: 0x7f060630
-			public const int ilsp_other_source_market_info = 2131101232;
+			// aapt resource value: 0x7f0601cd
+			public const int ilsp_other_energy_type_used = 2131100109;
 			
-			// aapt resource value: 0x7f06078e
-			public const int ilsp_other_source_of_loan = 2131101582;
-			
-			// aapt resource value: 0x7f0605ca
-			public const int ilsp_other_tick_control = 2131101130;
-			
-			// aapt resource value: 0x7f06063c
-			public const int ilsp_other_type_farm_rec_kept = 2131101244;
+			// aapt resource value: 0x7f0605cb
+			public const int ilsp_other_feed_source = 2131101131;
 			
 			// aapt resource value: 0x7f0605df
-			public const int ilsp_other_vacc_livstck = 2131101151;
+			public const int ilsp_other_freq_livstck_dip = 2131101151;
 			
-			// aapt resource value: 0x7f06070c
-			public const int ilsp_other_water_sources = 2131101452;
+			// aapt resource value: 0x7f060752
+			public const int ilsp_other_household_member_sx_governmentassistanceunemploymentwelfareallowance = 2131101522;
 			
-			// aapt resource value: 0x7f060604
-			public const int ilsp_other_where_milk_is_sold = 2131101188;
+			// aapt resource value: 0x7f060757
+			public const int ilsp_other_household_member_sx_other = 2131101527;
 			
-			// aapt resource value: 0x7f060623
-			public const int ilsp_other_whr_agric_prod_sld = 2131101219;
+			// aapt resource value: 0x7f06074d
+			public const int ilsp_other_household_member_sx_remittancessentfromchildrenrelatives = 2131101517;
 			
-			// aapt resource value: 0x7f06025d
-			public const int ilsp_own_education_dec_maleandfemale = 2131100253;
+			// aapt resource value: 0x7f060748
+			public const int ilsp_other_household_member_sx_rentsdraftpowerpropertymachineryinterests = 2131101512;
 			
-			// aapt resource value: 0x7f06025f
-			public const int ilsp_own_education_dec_onlyfemale = 2131100255;
+			// aapt resource value: 0x7f060739
+			public const int ilsp_other_household_member_sx_salarieswages = 2131101497;
 			
-			// aapt resource value: 0x7f06025e
-			public const int ilsp_own_education_dec_onlymale = 2131100254;
+			// aapt resource value: 0x7f06073e
+			public const int ilsp_other_household_member_sx_salesfirewoodhomemadeproductscrafts = 2131101502;
+			
+			// aapt resource value: 0x7f06075c
+			public const int ilsp_other_household_member_sx_total = 2131101532;
+			
+			// aapt resource value: 0x7f060743
+			public const int ilsp_other_household_member_sx_trading = 2131101507;
+			
+			// aapt resource value: 0x7f0601d6
+			public const int ilsp_other_livestock_graztyp = 2131100118;
+			
+			// aapt resource value: 0x7f0601ac
+			public const int ilsp_other_main_wall_mater = 2131100076;
+			
+			// aapt resource value: 0x7f0601b3
+			public const int ilsp_other_material_hse_roof = 2131100083;
+			
+			// aapt resource value: 0x7f0606ef
+			public const int ilsp_other_reas_food_scarcity = 2131101423;
+			
+			// aapt resource value: 0x7f0601c5
+			public const int ilsp_other_soil_conserv_pract = 2131100101;
+			
+			// aapt resource value: 0x7f0605f4
+			public const int ilsp_other_souce_livstck_drgs = 2131101172;
+			
+			// aapt resource value: 0x7f060639
+			public const int ilsp_other_source_market_info = 2131101241;
+			
+			// aapt resource value: 0x7f060797
+			public const int ilsp_other_source_of_loan = 2131101591;
+			
+			// aapt resource value: 0x7f0605d3
+			public const int ilsp_other_tick_control = 2131101139;
+			
+			// aapt resource value: 0x7f060645
+			public const int ilsp_other_type_farm_rec_kept = 2131101253;
+			
+			// aapt resource value: 0x7f0605e8
+			public const int ilsp_other_vacc_livstck = 2131101160;
+			
+			// aapt resource value: 0x7f060715
+			public const int ilsp_other_water_sources = 2131101461;
+			
+			// aapt resource value: 0x7f06060d
+			public const int ilsp_other_where_milk_is_sold = 2131101197;
+			
+			// aapt resource value: 0x7f06062c
+			public const int ilsp_other_whr_agric_prod_sld = 2131101228;
+			
+			// aapt resource value: 0x7f060209
+			public const int ilsp_own_education_dec_maleandfemale = 2131100169;
+			
+			// aapt resource value: 0x7f06020b
+			public const int ilsp_own_education_dec_onlyfemale = 2131100171;
+			
+			// aapt resource value: 0x7f06020a
+			public const int ilsp_own_education_dec_onlymale = 2131100170;
 			
 			// aapt resource value: 0x7f060119
 			public const int ilsp_owned_no_sx_axe = 2131099929;
 			
-			// aapt resource value: 0x7f0601a3
-			public const int ilsp_owned_no_sx_bed = 2131100067;
-			
-			// aapt resource value: 0x7f06016d
-			public const int ilsp_owned_no_sx_bicycle = 2131100013;
-			
-			// aapt resource value: 0x7f060155
-			public const int ilsp_owned_no_sx_grainmill = 2131099989;
+			// aapt resource value: 0x7f060149
+			public const int ilsp_owned_no_sx_grainmill = 2131099977;
 			
 			// aapt resource value: 0x7f060113
 			public const int ilsp_owned_no_sx_hoe = 2131099923;
 			
-			// aapt resource value: 0x7f0601a9
-			public const int ilsp_owned_no_sx_mattress = 2131100073;
-			
-			// aapt resource value: 0x7f06017f
-			public const int ilsp_owned_no_sx_mobilecellphone = 2131100031;
-			
-			// aapt resource value: 0x7f06018b
-			public const int ilsp_owned_no_sx_motorbike = 2131100043;
-			
-			// aapt resource value: 0x7f060197
-			public const int ilsp_owned_no_sx_motorvehicle = 2131100055;
+			// aapt resource value: 0x7f060143
+			public const int ilsp_owned_no_sx_oilpress = 2131099971;
 			
 			// aapt resource value: 0x7f06014f
-			public const int ilsp_owned_no_sx_oilpress = 2131099983;
-			
-			// aapt resource value: 0x7f06015b
-			public const int ilsp_owned_no_sx_oxcarts = 2131099995;
-			
-			// aapt resource value: 0x7f06013d
-			public const int ilsp_owned_no_sx_oxplough = 2131099965;
+			public const int ilsp_owned_no_sx_oxcarts = 2131099983;
 			
 			// aapt resource value: 0x7f060125
 			public const int ilsp_owned_no_sx_pangas = 2131099941;
 			
-			// aapt resource value: 0x7f0601af
-			public const int ilsp_owned_no_sx_plough = 2131100079;
-			
-			// aapt resource value: 0x7f060173
-			public const int ilsp_owned_no_sx_radio = 2131100019;
-			
-			// aapt resource value: 0x7f060143
-			public const int ilsp_owned_no_sx_ridgeplough = 2131099971;
-			
-			// aapt resource value: 0x7f060149
-			public const int ilsp_owned_no_sx_ripper = 2131099977;
+			// aapt resource value: 0x7f06013d
+			public const int ilsp_owned_no_sx_plough = 2131099965;
 			
 			// aapt resource value: 0x7f060137
 			public const int ilsp_owned_no_sx_slasher = 2131099959;
-			
-			// aapt resource value: 0x7f06019d
-			public const int ilsp_owned_no_sx_sofas = 2131100061;
-			
-			// aapt resource value: 0x7f060191
-			public const int ilsp_owned_no_sx_solarpanel = 2131100049;
 			
 			// aapt resource value: 0x7f06011f
 			public const int ilsp_owned_no_sx_spade = 2131099935;
@@ -4115,152 +4247,110 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060131
 			public const int ilsp_owned_no_sx_sprayer = 2131099953;
 			
-			// aapt resource value: 0x7f060185
-			public const int ilsp_owned_no_sx_stove = 2131100037;
+			// aapt resource value: 0x7f060155
+			public const int ilsp_owned_no_sx_tractor = 2131099989;
 			
-			// aapt resource value: 0x7f060161
-			public const int ilsp_owned_no_sx_tractor = 2131100001;
-			
-			// aapt resource value: 0x7f060167
-			public const int ilsp_owned_no_sx_trailor = 2131100007;
-			
-			// aapt resource value: 0x7f060179
-			public const int ilsp_owned_no_sx_tv = 2131100025;
+			// aapt resource value: 0x7f06015b
+			public const int ilsp_owned_no_sx_trailor = 2131099995;
 			
 			// aapt resource value: 0x7f06012b
 			public const int ilsp_owned_no_sx_wheelbarrow = 2131099947;
 			
-			// aapt resource value: 0x7f0601eb
-			public const int ilsp_owned_non_agric_no_sx_bed = 2131100139;
+			// aapt resource value: 0x7f060197
+			public const int ilsp_owned_non_agric_no_sx_bed = 2131100055;
 			
-			// aapt resource value: 0x7f0601b5
-			public const int ilsp_owned_non_agric_no_sx_bicycle = 2131100085;
+			// aapt resource value: 0x7f060161
+			public const int ilsp_owned_non_agric_no_sx_bicycle = 2131100001;
 			
-			// aapt resource value: 0x7f0601f1
-			public const int ilsp_owned_non_agric_no_sx_mattress = 2131100145;
+			// aapt resource value: 0x7f06019d
+			public const int ilsp_owned_non_agric_no_sx_mattress = 2131100061;
 			
-			// aapt resource value: 0x7f0601c7
-			public const int ilsp_owned_non_agric_no_sx_mobilecellphone = 2131100103;
+			// aapt resource value: 0x7f060173
+			public const int ilsp_owned_non_agric_no_sx_mobilecellphone = 2131100019;
 			
-			// aapt resource value: 0x7f0601d3
-			public const int ilsp_owned_non_agric_no_sx_motorbike = 2131100115;
+			// aapt resource value: 0x7f06017f
+			public const int ilsp_owned_non_agric_no_sx_motorbike = 2131100031;
 			
-			// aapt resource value: 0x7f0601df
-			public const int ilsp_owned_non_agric_no_sx_motorvehicle = 2131100127;
+			// aapt resource value: 0x7f06018b
+			public const int ilsp_owned_non_agric_no_sx_motorvehicle = 2131100043;
 			
-			// aapt resource value: 0x7f0601bb
-			public const int ilsp_owned_non_agric_no_sx_radio = 2131100091;
+			// aapt resource value: 0x7f060167
+			public const int ilsp_owned_non_agric_no_sx_radio = 2131100007;
 			
-			// aapt resource value: 0x7f0601e5
-			public const int ilsp_owned_non_agric_no_sx_sofas = 2131100133;
+			// aapt resource value: 0x7f060191
+			public const int ilsp_owned_non_agric_no_sx_sofas = 2131100049;
 			
-			// aapt resource value: 0x7f0601f7
-			public const int ilsp_owned_non_agric_no_sx_solarlamps = 2131100151;
+			// aapt resource value: 0x7f0601a3
+			public const int ilsp_owned_non_agric_no_sx_solarlamps = 2131100067;
 			
-			// aapt resource value: 0x7f0601d9
-			public const int ilsp_owned_non_agric_no_sx_solarpanel = 2131100121;
+			// aapt resource value: 0x7f060185
+			public const int ilsp_owned_non_agric_no_sx_solarpanel = 2131100037;
 			
-			// aapt resource value: 0x7f0601cd
-			public const int ilsp_owned_non_agric_no_sx_stove = 2131100109;
+			// aapt resource value: 0x7f060179
+			public const int ilsp_owned_non_agric_no_sx_stove = 2131100025;
 			
-			// aapt resource value: 0x7f0601c1
-			public const int ilsp_owned_non_agric_no_sx_tv = 2131100097;
+			// aapt resource value: 0x7f06016d
+			public const int ilsp_owned_non_agric_no_sx_tv = 2131100013;
 			
-			// aapt resource value: 0x7f0601ea
-			public const int ilsp_owned_non_agric_yes_sx_bed = 2131100138;
+			// aapt resource value: 0x7f060196
+			public const int ilsp_owned_non_agric_yes_sx_bed = 2131100054;
 			
-			// aapt resource value: 0x7f0601b4
-			public const int ilsp_owned_non_agric_yes_sx_bicycle = 2131100084;
+			// aapt resource value: 0x7f060160
+			public const int ilsp_owned_non_agric_yes_sx_bicycle = 2131100000;
 			
-			// aapt resource value: 0x7f0601f0
-			public const int ilsp_owned_non_agric_yes_sx_mattress = 2131100144;
+			// aapt resource value: 0x7f06019c
+			public const int ilsp_owned_non_agric_yes_sx_mattress = 2131100060;
 			
-			// aapt resource value: 0x7f0601c6
-			public const int ilsp_owned_non_agric_yes_sx_mobilecellphone = 2131100102;
+			// aapt resource value: 0x7f060172
+			public const int ilsp_owned_non_agric_yes_sx_mobilecellphone = 2131100018;
 			
-			// aapt resource value: 0x7f0601d2
-			public const int ilsp_owned_non_agric_yes_sx_motorbike = 2131100114;
+			// aapt resource value: 0x7f06017e
+			public const int ilsp_owned_non_agric_yes_sx_motorbike = 2131100030;
 			
-			// aapt resource value: 0x7f0601de
-			public const int ilsp_owned_non_agric_yes_sx_motorvehicle = 2131100126;
+			// aapt resource value: 0x7f06018a
+			public const int ilsp_owned_non_agric_yes_sx_motorvehicle = 2131100042;
 			
-			// aapt resource value: 0x7f0601ba
-			public const int ilsp_owned_non_agric_yes_sx_radio = 2131100090;
+			// aapt resource value: 0x7f060166
+			public const int ilsp_owned_non_agric_yes_sx_radio = 2131100006;
 			
-			// aapt resource value: 0x7f0601e4
-			public const int ilsp_owned_non_agric_yes_sx_sofas = 2131100132;
+			// aapt resource value: 0x7f060190
+			public const int ilsp_owned_non_agric_yes_sx_sofas = 2131100048;
 			
-			// aapt resource value: 0x7f0601f6
-			public const int ilsp_owned_non_agric_yes_sx_solarlamps = 2131100150;
+			// aapt resource value: 0x7f0601a2
+			public const int ilsp_owned_non_agric_yes_sx_solarlamps = 2131100066;
 			
-			// aapt resource value: 0x7f0601d8
-			public const int ilsp_owned_non_agric_yes_sx_solarpanel = 2131100120;
+			// aapt resource value: 0x7f060184
+			public const int ilsp_owned_non_agric_yes_sx_solarpanel = 2131100036;
 			
-			// aapt resource value: 0x7f0601cc
-			public const int ilsp_owned_non_agric_yes_sx_stove = 2131100108;
+			// aapt resource value: 0x7f060178
+			public const int ilsp_owned_non_agric_yes_sx_stove = 2131100024;
 			
-			// aapt resource value: 0x7f0601c0
-			public const int ilsp_owned_non_agric_yes_sx_tv = 2131100096;
+			// aapt resource value: 0x7f06016c
+			public const int ilsp_owned_non_agric_yes_sx_tv = 2131100012;
 			
 			// aapt resource value: 0x7f060118
 			public const int ilsp_owned_yes_sx_axe = 2131099928;
 			
-			// aapt resource value: 0x7f0601a2
-			public const int ilsp_owned_yes_sx_bed = 2131100066;
-			
-			// aapt resource value: 0x7f06016c
-			public const int ilsp_owned_yes_sx_bicycle = 2131100012;
-			
-			// aapt resource value: 0x7f060154
-			public const int ilsp_owned_yes_sx_grainmill = 2131099988;
+			// aapt resource value: 0x7f060148
+			public const int ilsp_owned_yes_sx_grainmill = 2131099976;
 			
 			// aapt resource value: 0x7f060112
 			public const int ilsp_owned_yes_sx_hoe = 2131099922;
 			
-			// aapt resource value: 0x7f0601a8
-			public const int ilsp_owned_yes_sx_mattress = 2131100072;
-			
-			// aapt resource value: 0x7f06017e
-			public const int ilsp_owned_yes_sx_mobilecellphone = 2131100030;
-			
-			// aapt resource value: 0x7f06018a
-			public const int ilsp_owned_yes_sx_motorbike = 2131100042;
-			
-			// aapt resource value: 0x7f060196
-			public const int ilsp_owned_yes_sx_motorvehicle = 2131100054;
+			// aapt resource value: 0x7f060142
+			public const int ilsp_owned_yes_sx_oilpress = 2131099970;
 			
 			// aapt resource value: 0x7f06014e
-			public const int ilsp_owned_yes_sx_oilpress = 2131099982;
-			
-			// aapt resource value: 0x7f06015a
-			public const int ilsp_owned_yes_sx_oxcarts = 2131099994;
-			
-			// aapt resource value: 0x7f06013c
-			public const int ilsp_owned_yes_sx_oxplough = 2131099964;
+			public const int ilsp_owned_yes_sx_oxcarts = 2131099982;
 			
 			// aapt resource value: 0x7f060124
 			public const int ilsp_owned_yes_sx_pangas = 2131099940;
 			
-			// aapt resource value: 0x7f0601ae
-			public const int ilsp_owned_yes_sx_plough = 2131100078;
-			
-			// aapt resource value: 0x7f060172
-			public const int ilsp_owned_yes_sx_radio = 2131100018;
-			
-			// aapt resource value: 0x7f060142
-			public const int ilsp_owned_yes_sx_ridgeplough = 2131099970;
-			
-			// aapt resource value: 0x7f060148
-			public const int ilsp_owned_yes_sx_ripper = 2131099976;
+			// aapt resource value: 0x7f06013c
+			public const int ilsp_owned_yes_sx_plough = 2131099964;
 			
 			// aapt resource value: 0x7f060136
 			public const int ilsp_owned_yes_sx_slasher = 2131099958;
-			
-			// aapt resource value: 0x7f06019c
-			public const int ilsp_owned_yes_sx_sofas = 2131100060;
-			
-			// aapt resource value: 0x7f060190
-			public const int ilsp_owned_yes_sx_solarpanel = 2131100048;
 			
 			// aapt resource value: 0x7f06011e
 			public const int ilsp_owned_yes_sx_spade = 2131099934;
@@ -4268,647 +4358,641 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060130
 			public const int ilsp_owned_yes_sx_sprayer = 2131099952;
 			
-			// aapt resource value: 0x7f060184
-			public const int ilsp_owned_yes_sx_stove = 2131100036;
+			// aapt resource value: 0x7f060154
+			public const int ilsp_owned_yes_sx_tractor = 2131099988;
 			
-			// aapt resource value: 0x7f060160
-			public const int ilsp_owned_yes_sx_tractor = 2131100000;
-			
-			// aapt resource value: 0x7f060166
-			public const int ilsp_owned_yes_sx_trailor = 2131100006;
-			
-			// aapt resource value: 0x7f060178
-			public const int ilsp_owned_yes_sx_tv = 2131100024;
+			// aapt resource value: 0x7f06015a
+			public const int ilsp_owned_yes_sx_trailor = 2131099994;
 			
 			// aapt resource value: 0x7f06012a
 			public const int ilsp_owned_yes_sx_wheelbarrow = 2131099946;
 			
-			// aapt resource value: 0x7f0602d3
-			public const int ilsp_particip_comm_groups_dontparticipate = 2131100371;
+			// aapt resource value: 0x7f06027f
+			public const int ilsp_particip_comm_groups_dontparticipate = 2131100287;
 			
-			// aapt resource value: 0x7f0602d2
-			public const int ilsp_particip_comm_groups_maleandfemale = 2131100370;
-			
-			// aapt resource value: 0x7f0602d1
-			public const int ilsp_particip_comm_groups_onlyfemale = 2131100369;
-			
-			// aapt resource value: 0x7f0602d0
-			public const int ilsp_particip_comm_groups_onlymale = 2131100368;
-			
-			// aapt resource value: 0x7f06027b
-			public const int ilsp_particip_comm_org_dec_maleandfemale = 2131100283;
+			// aapt resource value: 0x7f06027e
+			public const int ilsp_particip_comm_groups_maleandfemale = 2131100286;
 			
 			// aapt resource value: 0x7f06027d
-			public const int ilsp_particip_comm_org_dec_onlyfemale = 2131100285;
+			public const int ilsp_particip_comm_groups_onlyfemale = 2131100285;
 			
 			// aapt resource value: 0x7f06027c
-			public const int ilsp_particip_comm_org_dec_onlymale = 2131100284;
+			public const int ilsp_particip_comm_groups_onlymale = 2131100284;
 			
-			// aapt resource value: 0x7f060364
-			public const int ilsp_passed_on_gift_no = 2131100516;
+			// aapt resource value: 0x7f060227
+			public const int ilsp_particip_comm_org_dec_maleandfemale = 2131100199;
 			
-			// aapt resource value: 0x7f060363
-			public const int ilsp_passed_on_gift_yes = 2131100515;
+			// aapt resource value: 0x7f060229
+			public const int ilsp_particip_comm_org_dec_onlyfemale = 2131100201;
 			
-			// aapt resource value: 0x7f06034f
-			public const int ilsp_people_trust_one_another_no = 2131100495;
+			// aapt resource value: 0x7f060228
+			public const int ilsp_particip_comm_org_dec_onlymale = 2131100200;
 			
-			// aapt resource value: 0x7f06034e
-			public const int ilsp_people_trust_one_another_yes = 2131100494;
+			// aapt resource value: 0x7f060311
+			public const int ilsp_passed_on_gift_no = 2131100433;
 			
-			// aapt resource value: 0x7f060728
-			public const int ilsp_pit_latrines_accesssible_ordinarypitlatrines = 2131101480;
+			// aapt resource value: 0x7f060310
+			public const int ilsp_passed_on_gift_yes = 2131100432;
 			
-			// aapt resource value: 0x7f060729
-			public const int ilsp_pit_latrines_accesssible_viplatrines = 2131101481;
+			// aapt resource value: 0x7f0602fc
+			public const int ilsp_people_trust_one_another_no = 2131100412;
 			
-			// aapt resource value: 0x7f06072a
-			public const int ilsp_pit_latrines_accesssible_watercloset = 2131101482;
+			// aapt resource value: 0x7f0602fb
+			public const int ilsp_people_trust_one_another_yes = 2131100411;
+			
+			// aapt resource value: 0x7f060731
+			public const int ilsp_pit_latrines_accesssible_ordinarypitlatrines = 2131101489;
+			
+			// aapt resource value: 0x7f060732
+			public const int ilsp_pit_latrines_accesssible_viplatrines = 2131101490;
+			
+			// aapt resource value: 0x7f060733
+			public const int ilsp_pit_latrines_accesssible_watercloset = 2131101491;
 			
 			// aapt resource value: 0x7f0600ff
-			public const int ilsp_plot_size_labeel = 2131099903;
+			public const int ilsp_plot_size_label = 2131099903;
 			
-			// aapt resource value: 0x7f060369
-			public const int ilsp_pog_contributes_agree = 2131100521;
+			// aapt resource value: 0x7f060316
+			public const int ilsp_pog_contributes_agree = 2131100438;
 			
-			// aapt resource value: 0x7f06036b
-			public const int ilsp_pog_contributes_disagree = 2131100523;
+			// aapt resource value: 0x7f060318
+			public const int ilsp_pog_contributes_disagree = 2131100440;
 			
-			// aapt resource value: 0x7f06036d
-			public const int ilsp_pog_contributes_neutral = 2131100525;
+			// aapt resource value: 0x7f06031a
+			public const int ilsp_pog_contributes_neutral = 2131100442;
 			
-			// aapt resource value: 0x7f06036a
-			public const int ilsp_pog_contributes_stronglyagree = 2131100522;
+			// aapt resource value: 0x7f060317
+			public const int ilsp_pog_contributes_stronglyagree = 2131100439;
 			
-			// aapt resource value: 0x7f06036c
-			public const int ilsp_pog_contributes_stronglydisagree = 2131100524;
+			// aapt resource value: 0x7f060319
+			public const int ilsp_pog_contributes_stronglydisagree = 2131100441;
 			
-			// aapt resource value: 0x7f0605f4
-			public const int ilsp_price_per_litre_sx_cowmilk = 2131101172;
+			// aapt resource value: 0x7f0605fd
+			public const int ilsp_price_per_litre_sx_cowmilk = 2131101181;
 			
-			// aapt resource value: 0x7f06064a
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_cerealsmilletricenshima = 2131101258;
+			// aapt resource value: 0x7f060653
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_cerealsmilletricenshima = 2131101267;
 			
-			// aapt resource value: 0x7f060686
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_eggs = 2131101318;
+			// aapt resource value: 0x7f06068f
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_eggs = 2131101327;
 			
-			// aapt resource value: 0x7f060692
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fishfishkapenta = 2131101330;
+			// aapt resource value: 0x7f06069b
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fishfishkapenta = 2131101339;
 			
-			// aapt resource value: 0x7f06066e
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101294;
+			// aapt resource value: 0x7f060677
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101303;
 			
-			// aapt resource value: 0x7f06069e
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_legumesgroundnutsbeanssoyapeas = 2131101342;
+			// aapt resource value: 0x7f0606a7
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_legumesgroundnutsbeanssoyapeas = 2131101351;
 			
-			// aapt resource value: 0x7f06067a
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101306;
+			// aapt resource value: 0x7f060683
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101315;
 			
-			// aapt resource value: 0x7f0606aa
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_milkmilkyogurtsourmilk = 2131101354;
+			// aapt resource value: 0x7f0606b3
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_milkmilkyogurtsourmilk = 2131101363;
 			
-			// aapt resource value: 0x7f0606b6
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101366;
+			// aapt resource value: 0x7f0606bf
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101375;
 			
-			// aapt resource value: 0x7f0606ce
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_spicesandcondimentsgingerteacoffee = 2131101390;
+			// aapt resource value: 0x7f0606d7
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_spicesandcondimentsgingerteacoffee = 2131101399;
 			
-			// aapt resource value: 0x7f0606c2
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101378;
+			// aapt resource value: 0x7f0606cb
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101387;
 			
-			// aapt resource value: 0x7f060656
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_tuberssweetpotatoescassava = 2131101270;
+			// aapt resource value: 0x7f06065f
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_tuberssweetpotatoescassava = 2131101279;
 			
-			// aapt resource value: 0x7f060662
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101282;
-			
-			// aapt resource value: 0x7f06064b
-			public const int ilsp_primary_source_foodaid_sx_cerealsmilletricenshima = 2131101259;
-			
-			// aapt resource value: 0x7f060687
-			public const int ilsp_primary_source_foodaid_sx_eggs = 2131101319;
-			
-			// aapt resource value: 0x7f060693
-			public const int ilsp_primary_source_foodaid_sx_fishfishkapenta = 2131101331;
-			
-			// aapt resource value: 0x7f06066f
-			public const int ilsp_primary_source_foodaid_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101295;
-			
-			// aapt resource value: 0x7f06069f
-			public const int ilsp_primary_source_foodaid_sx_legumesgroundnutsbeanssoyapeas = 2131101343;
-			
-			// aapt resource value: 0x7f06067b
-			public const int ilsp_primary_source_foodaid_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101307;
-			
-			// aapt resource value: 0x7f0606ab
-			public const int ilsp_primary_source_foodaid_sx_milkmilkyogurtsourmilk = 2131101355;
-			
-			// aapt resource value: 0x7f0606b7
-			public const int ilsp_primary_source_foodaid_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101367;
-			
-			// aapt resource value: 0x7f0606cf
-			public const int ilsp_primary_source_foodaid_sx_spicesandcondimentsgingerteacoffee = 2131101391;
-			
-			// aapt resource value: 0x7f0606c3
-			public const int ilsp_primary_source_foodaid_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101379;
-			
-			// aapt resource value: 0x7f060657
-			public const int ilsp_primary_source_foodaid_sx_tuberssweetpotatoescassava = 2131101271;
-			
-			// aapt resource value: 0x7f060663
-			public const int ilsp_primary_source_foodaid_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101283;
-			
-			// aapt resource value: 0x7f06064c
-			public const int ilsp_primary_source_other_sx_cerealsmilletricenshima = 2131101260;
-			
-			// aapt resource value: 0x7f060688
-			public const int ilsp_primary_source_other_sx_eggs = 2131101320;
-			
-			// aapt resource value: 0x7f060694
-			public const int ilsp_primary_source_other_sx_fishfishkapenta = 2131101332;
-			
-			// aapt resource value: 0x7f060670
-			public const int ilsp_primary_source_other_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101296;
-			
-			// aapt resource value: 0x7f0606a0
-			public const int ilsp_primary_source_other_sx_legumesgroundnutsbeanssoyapeas = 2131101344;
-			
-			// aapt resource value: 0x7f06067c
-			public const int ilsp_primary_source_other_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101308;
-			
-			// aapt resource value: 0x7f0606ac
-			public const int ilsp_primary_source_other_sx_milkmilkyogurtsourmilk = 2131101356;
-			
-			// aapt resource value: 0x7f0606b8
-			public const int ilsp_primary_source_other_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101368;
-			
-			// aapt resource value: 0x7f0606d0
-			public const int ilsp_primary_source_other_sx_spicesandcondimentsgingerteacoffee = 2131101392;
-			
-			// aapt resource value: 0x7f0606c4
-			public const int ilsp_primary_source_other_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101380;
-			
-			// aapt resource value: 0x7f060658
-			public const int ilsp_primary_source_other_sx_tuberssweetpotatoescassava = 2131101272;
-			
-			// aapt resource value: 0x7f060664
-			public const int ilsp_primary_source_other_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101284;
-			
-			// aapt resource value: 0x7f060648
-			public const int ilsp_primary_source_ownproduction_sx_cerealsmilletricenshima = 2131101256;
-			
-			// aapt resource value: 0x7f060684
-			public const int ilsp_primary_source_ownproduction_sx_eggs = 2131101316;
-			
-			// aapt resource value: 0x7f060690
-			public const int ilsp_primary_source_ownproduction_sx_fishfishkapenta = 2131101328;
-			
-			// aapt resource value: 0x7f06066c
-			public const int ilsp_primary_source_ownproduction_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101292;
-			
-			// aapt resource value: 0x7f06069c
-			public const int ilsp_primary_source_ownproduction_sx_legumesgroundnutsbeanssoyapeas = 2131101340;
-			
-			// aapt resource value: 0x7f060678
-			public const int ilsp_primary_source_ownproduction_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101304;
-			
-			// aapt resource value: 0x7f0606a8
-			public const int ilsp_primary_source_ownproduction_sx_milkmilkyogurtsourmilk = 2131101352;
-			
-			// aapt resource value: 0x7f0606b4
-			public const int ilsp_primary_source_ownproduction_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101364;
-			
-			// aapt resource value: 0x7f0606cc
-			public const int ilsp_primary_source_ownproduction_sx_spicesandcondimentsgingerteacoffee = 2131101388;
-			
-			// aapt resource value: 0x7f0606c0
-			public const int ilsp_primary_source_ownproduction_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101376;
+			// aapt resource value: 0x7f06066b
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101291;
 			
 			// aapt resource value: 0x7f060654
-			public const int ilsp_primary_source_ownproduction_sx_tuberssweetpotatoescassava = 2131101268;
+			public const int ilsp_primary_source_foodaid_sx_cerealsmilletricenshima = 2131101268;
+			
+			// aapt resource value: 0x7f060690
+			public const int ilsp_primary_source_foodaid_sx_eggs = 2131101328;
+			
+			// aapt resource value: 0x7f06069c
+			public const int ilsp_primary_source_foodaid_sx_fishfishkapenta = 2131101340;
+			
+			// aapt resource value: 0x7f060678
+			public const int ilsp_primary_source_foodaid_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101304;
+			
+			// aapt resource value: 0x7f0606a8
+			public const int ilsp_primary_source_foodaid_sx_legumesgroundnutsbeanssoyapeas = 2131101352;
+			
+			// aapt resource value: 0x7f060684
+			public const int ilsp_primary_source_foodaid_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101316;
+			
+			// aapt resource value: 0x7f0606b4
+			public const int ilsp_primary_source_foodaid_sx_milkmilkyogurtsourmilk = 2131101364;
+			
+			// aapt resource value: 0x7f0606c0
+			public const int ilsp_primary_source_foodaid_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101376;
+			
+			// aapt resource value: 0x7f0606d8
+			public const int ilsp_primary_source_foodaid_sx_spicesandcondimentsgingerteacoffee = 2131101400;
+			
+			// aapt resource value: 0x7f0606cc
+			public const int ilsp_primary_source_foodaid_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101388;
 			
 			// aapt resource value: 0x7f060660
-			public const int ilsp_primary_source_ownproduction_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101280;
+			public const int ilsp_primary_source_foodaid_sx_tuberssweetpotatoescassava = 2131101280;
 			
-			// aapt resource value: 0x7f060649
-			public const int ilsp_primary_source_purchased_sx_cerealsmilletricenshima = 2131101257;
-			
-			// aapt resource value: 0x7f060685
-			public const int ilsp_primary_source_purchased_sx_eggs = 2131101317;
-			
-			// aapt resource value: 0x7f060691
-			public const int ilsp_primary_source_purchased_sx_fishfishkapenta = 2131101329;
-			
-			// aapt resource value: 0x7f06066d
-			public const int ilsp_primary_source_purchased_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101293;
-			
-			// aapt resource value: 0x7f06069d
-			public const int ilsp_primary_source_purchased_sx_legumesgroundnutsbeanssoyapeas = 2131101341;
-			
-			// aapt resource value: 0x7f060679
-			public const int ilsp_primary_source_purchased_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101305;
-			
-			// aapt resource value: 0x7f0606a9
-			public const int ilsp_primary_source_purchased_sx_milkmilkyogurtsourmilk = 2131101353;
-			
-			// aapt resource value: 0x7f0606b5
-			public const int ilsp_primary_source_purchased_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101365;
-			
-			// aapt resource value: 0x7f0606cd
-			public const int ilsp_primary_source_purchased_sx_spicesandcondimentsgingerteacoffee = 2131101389;
-			
-			// aapt resource value: 0x7f0606c1
-			public const int ilsp_primary_source_purchased_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101377;
+			// aapt resource value: 0x7f06066c
+			public const int ilsp_primary_source_foodaid_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101292;
 			
 			// aapt resource value: 0x7f060655
-			public const int ilsp_primary_source_purchased_sx_tuberssweetpotatoescassava = 2131101269;
+			public const int ilsp_primary_source_other_sx_cerealsmilletricenshima = 2131101269;
+			
+			// aapt resource value: 0x7f060691
+			public const int ilsp_primary_source_other_sx_eggs = 2131101329;
+			
+			// aapt resource value: 0x7f06069d
+			public const int ilsp_primary_source_other_sx_fishfishkapenta = 2131101341;
+			
+			// aapt resource value: 0x7f060679
+			public const int ilsp_primary_source_other_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101305;
+			
+			// aapt resource value: 0x7f0606a9
+			public const int ilsp_primary_source_other_sx_legumesgroundnutsbeanssoyapeas = 2131101353;
+			
+			// aapt resource value: 0x7f060685
+			public const int ilsp_primary_source_other_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101317;
+			
+			// aapt resource value: 0x7f0606b5
+			public const int ilsp_primary_source_other_sx_milkmilkyogurtsourmilk = 2131101365;
+			
+			// aapt resource value: 0x7f0606c1
+			public const int ilsp_primary_source_other_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101377;
+			
+			// aapt resource value: 0x7f0606d9
+			public const int ilsp_primary_source_other_sx_spicesandcondimentsgingerteacoffee = 2131101401;
+			
+			// aapt resource value: 0x7f0606cd
+			public const int ilsp_primary_source_other_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101389;
 			
 			// aapt resource value: 0x7f060661
-			public const int ilsp_primary_source_purchased_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101281;
+			public const int ilsp_primary_source_other_sx_tuberssweetpotatoescassava = 2131101281;
 			
-			// aapt resource value: 0x7f06046a
-			public const int ilsp_produce_sold_no_sx_beans = 2131100778;
+			// aapt resource value: 0x7f06066d
+			public const int ilsp_primary_source_other_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101293;
 			
-			// aapt resource value: 0x7f060487
-			public const int ilsp_produce_sold_no_sx_cabbage = 2131100807;
+			// aapt resource value: 0x7f060651
+			public const int ilsp_primary_source_ownproduction_sx_cerealsmilletricenshima = 2131101265;
 			
-			// aapt resource value: 0x7f0603f6
-			public const int ilsp_produce_sold_no_sx_cassava = 2131100662;
+			// aapt resource value: 0x7f06068d
+			public const int ilsp_primary_source_ownproduction_sx_eggs = 2131101325;
 			
-			// aapt resource value: 0x7f060518
-			public const int ilsp_produce_sold_no_sx_cotton = 2131100952;
+			// aapt resource value: 0x7f060699
+			public const int ilsp_primary_source_ownproduction_sx_fishfishkapenta = 2131101337;
 			
-			// aapt resource value: 0x7f060430
-			public const int ilsp_produce_sold_no_sx_cowpeas = 2131100720;
+			// aapt resource value: 0x7f060675
+			public const int ilsp_primary_source_ownproduction_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101301;
 			
-			// aapt resource value: 0x7f0604de
-			public const int ilsp_produce_sold_no_sx_eggplantimpwa = 2131100894;
+			// aapt resource value: 0x7f0606a5
+			public const int ilsp_primary_source_ownproduction_sx_legumesgroundnutsbeanssoyapeas = 2131101349;
 			
-			// aapt resource value: 0x7f06039f
-			public const int ilsp_produce_sold_no_sx_groundnuts = 2131100575;
+			// aapt resource value: 0x7f060681
+			public const int ilsp_primary_source_ownproduction_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101313;
 			
-			// aapt resource value: 0x7f0604fb
-			public const int ilsp_produce_sold_no_sx_leafyvegetables = 2131100923;
+			// aapt resource value: 0x7f0606b1
+			public const int ilsp_primary_source_ownproduction_sx_milkmilkyogurtsourmilk = 2131101361;
 			
-			// aapt resource value: 0x7f060382
-			public const int ilsp_produce_sold_no_sx_maize = 2131100546;
+			// aapt resource value: 0x7f0606bd
+			public const int ilsp_primary_source_ownproduction_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101373;
 			
-			// aapt resource value: 0x7f06044d
-			public const int ilsp_produce_sold_no_sx_mbambaranuts = 2131100749;
+			// aapt resource value: 0x7f0606d5
+			public const int ilsp_primary_source_ownproduction_sx_spicesandcondimentsgingerteacoffee = 2131101397;
 			
-			// aapt resource value: 0x7f0604c1
-			public const int ilsp_produce_sold_no_sx_onion = 2131100865;
+			// aapt resource value: 0x7f0606c9
+			public const int ilsp_primary_source_ownproduction_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101385;
 			
-			// aapt resource value: 0x7f060535
-			public const int ilsp_produce_sold_no_sx_other = 2131100981;
+			// aapt resource value: 0x7f06065d
+			public const int ilsp_primary_source_ownproduction_sx_tuberssweetpotatoescassava = 2131101277;
 			
-			// aapt resource value: 0x7f0603d9
-			public const int ilsp_produce_sold_no_sx_potatoes = 2131100633;
+			// aapt resource value: 0x7f060669
+			public const int ilsp_primary_source_ownproduction_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101289;
 			
-			// aapt resource value: 0x7f060413
-			public const int ilsp_produce_sold_no_sx_soyabeans = 2131100691;
+			// aapt resource value: 0x7f060652
+			public const int ilsp_primary_source_purchased_sx_cerealsmilletricenshima = 2131101266;
 			
-			// aapt resource value: 0x7f0603bc
-			public const int ilsp_produce_sold_no_sx_sweetpotatoes = 2131100604;
+			// aapt resource value: 0x7f06068e
+			public const int ilsp_primary_source_purchased_sx_eggs = 2131101326;
 			
-			// aapt resource value: 0x7f0604a4
-			public const int ilsp_produce_sold_no_sx_tomatoes = 2131100836;
+			// aapt resource value: 0x7f06069a
+			public const int ilsp_primary_source_purchased_sx_fishfishkapenta = 2131101338;
 			
-			// aapt resource value: 0x7f060469
-			public const int ilsp_produce_sold_yes_sx_beans = 2131100777;
+			// aapt resource value: 0x7f060676
+			public const int ilsp_primary_source_purchased_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101302;
 			
-			// aapt resource value: 0x7f060486
-			public const int ilsp_produce_sold_yes_sx_cabbage = 2131100806;
+			// aapt resource value: 0x7f0606a6
+			public const int ilsp_primary_source_purchased_sx_legumesgroundnutsbeanssoyapeas = 2131101350;
 			
-			// aapt resource value: 0x7f0603f5
-			public const int ilsp_produce_sold_yes_sx_cassava = 2131100661;
+			// aapt resource value: 0x7f060682
+			public const int ilsp_primary_source_purchased_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101314;
 			
-			// aapt resource value: 0x7f060517
-			public const int ilsp_produce_sold_yes_sx_cotton = 2131100951;
+			// aapt resource value: 0x7f0606b2
+			public const int ilsp_primary_source_purchased_sx_milkmilkyogurtsourmilk = 2131101362;
 			
-			// aapt resource value: 0x7f06042f
-			public const int ilsp_produce_sold_yes_sx_cowpeas = 2131100719;
+			// aapt resource value: 0x7f0606be
+			public const int ilsp_primary_source_purchased_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101374;
 			
-			// aapt resource value: 0x7f0604dd
-			public const int ilsp_produce_sold_yes_sx_eggplantimpwa = 2131100893;
+			// aapt resource value: 0x7f0606d6
+			public const int ilsp_primary_source_purchased_sx_spicesandcondimentsgingerteacoffee = 2131101398;
 			
-			// aapt resource value: 0x7f06039e
-			public const int ilsp_produce_sold_yes_sx_groundnuts = 2131100574;
+			// aapt resource value: 0x7f0606ca
+			public const int ilsp_primary_source_purchased_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101386;
 			
-			// aapt resource value: 0x7f0604fa
-			public const int ilsp_produce_sold_yes_sx_leafyvegetables = 2131100922;
+			// aapt resource value: 0x7f06065e
+			public const int ilsp_primary_source_purchased_sx_tuberssweetpotatoescassava = 2131101278;
 			
-			// aapt resource value: 0x7f060381
-			public const int ilsp_produce_sold_yes_sx_maize = 2131100545;
+			// aapt resource value: 0x7f06066a
+			public const int ilsp_primary_source_purchased_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101290;
 			
-			// aapt resource value: 0x7f06044c
-			public const int ilsp_produce_sold_yes_sx_mbambaranuts = 2131100748;
+			// aapt resource value: 0x7f060432
+			public const int ilsp_produce_sold_no_sx_beans = 2131100722;
 			
-			// aapt resource value: 0x7f0604c0
-			public const int ilsp_produce_sold_yes_sx_onion = 2131100864;
-			
-			// aapt resource value: 0x7f060534
-			public const int ilsp_produce_sold_yes_sx_other = 2131100980;
-			
-			// aapt resource value: 0x7f0603d8
-			public const int ilsp_produce_sold_yes_sx_potatoes = 2131100632;
-			
-			// aapt resource value: 0x7f060412
-			public const int ilsp_produce_sold_yes_sx_soyabeans = 2131100690;
-			
-			// aapt resource value: 0x7f0603bb
-			public const int ilsp_produce_sold_yes_sx_sweetpotatoes = 2131100603;
-			
-			// aapt resource value: 0x7f0604a3
-			public const int ilsp_produce_sold_yes_sx_tomatoes = 2131100835;
-			
-			// aapt resource value: 0x7f06045e
-			public const int ilsp_production_quantity_sx_beans = 2131100766;
-			
-			// aapt resource value: 0x7f06047b
-			public const int ilsp_production_quantity_sx_cabbage = 2131100795;
-			
-			// aapt resource value: 0x7f0603ea
-			public const int ilsp_production_quantity_sx_cassava = 2131100650;
-			
-			// aapt resource value: 0x7f06050c
-			public const int ilsp_production_quantity_sx_cotton = 2131100940;
-			
-			// aapt resource value: 0x7f060424
-			public const int ilsp_production_quantity_sx_cowpeas = 2131100708;
-			
-			// aapt resource value: 0x7f0604d2
-			public const int ilsp_production_quantity_sx_eggplantimpwa = 2131100882;
-			
-			// aapt resource value: 0x7f060393
-			public const int ilsp_production_quantity_sx_groundnuts = 2131100563;
-			
-			// aapt resource value: 0x7f0604ef
-			public const int ilsp_production_quantity_sx_leafyvegetables = 2131100911;
-			
-			// aapt resource value: 0x7f060376
-			public const int ilsp_production_quantity_sx_maize = 2131100534;
-			
-			// aapt resource value: 0x7f060441
-			public const int ilsp_production_quantity_sx_mbambaranuts = 2131100737;
-			
-			// aapt resource value: 0x7f0604b5
-			public const int ilsp_production_quantity_sx_onion = 2131100853;
-			
-			// aapt resource value: 0x7f060529
-			public const int ilsp_production_quantity_sx_other = 2131100969;
-			
-			// aapt resource value: 0x7f0603cd
-			public const int ilsp_production_quantity_sx_potatoes = 2131100621;
-			
-			// aapt resource value: 0x7f060407
-			public const int ilsp_production_quantity_sx_soyabeans = 2131100679;
-			
-			// aapt resource value: 0x7f0603b0
-			public const int ilsp_production_quantity_sx_sweetpotatoes = 2131100592;
-			
-			// aapt resource value: 0x7f060498
-			public const int ilsp_production_quantity_sx_tomatoes = 2131100824;
-			
-			// aapt resource value: 0x7f060462
-			public const int ilsp_production_uom_box_sx_beans = 2131100770;
-			
-			// aapt resource value: 0x7f06047f
-			public const int ilsp_production_uom_box_sx_cabbage = 2131100799;
-			
-			// aapt resource value: 0x7f0603ee
-			public const int ilsp_production_uom_box_sx_cassava = 2131100654;
-			
-			// aapt resource value: 0x7f060510
-			public const int ilsp_production_uom_box_sx_cotton = 2131100944;
-			
-			// aapt resource value: 0x7f060428
-			public const int ilsp_production_uom_box_sx_cowpeas = 2131100712;
-			
-			// aapt resource value: 0x7f0604d6
-			public const int ilsp_production_uom_box_sx_eggplantimpwa = 2131100886;
-			
-			// aapt resource value: 0x7f060397
-			public const int ilsp_production_uom_box_sx_groundnuts = 2131100567;
-			
-			// aapt resource value: 0x7f0604f3
-			public const int ilsp_production_uom_box_sx_leafyvegetables = 2131100915;
-			
-			// aapt resource value: 0x7f06037a
-			public const int ilsp_production_uom_box_sx_maize = 2131100538;
-			
-			// aapt resource value: 0x7f060445
-			public const int ilsp_production_uom_box_sx_mbambaranuts = 2131100741;
-			
-			// aapt resource value: 0x7f0604b9
-			public const int ilsp_production_uom_box_sx_onion = 2131100857;
-			
-			// aapt resource value: 0x7f06052d
-			public const int ilsp_production_uom_box_sx_other = 2131100973;
-			
-			// aapt resource value: 0x7f0603d1
-			public const int ilsp_production_uom_box_sx_potatoes = 2131100625;
-			
-			// aapt resource value: 0x7f06040b
-			public const int ilsp_production_uom_box_sx_soyabeans = 2131100683;
-			
-			// aapt resource value: 0x7f0603b4
-			public const int ilsp_production_uom_box_sx_sweetpotatoes = 2131100596;
-			
-			// aapt resource value: 0x7f06049c
-			public const int ilsp_production_uom_box_sx_tomatoes = 2131100828;
-			
-			// aapt resource value: 0x7f060463
-			public const int ilsp_production_uom_bunch_sx_beans = 2131100771;
-			
-			// aapt resource value: 0x7f060480
-			public const int ilsp_production_uom_bunch_sx_cabbage = 2131100800;
-			
-			// aapt resource value: 0x7f0603ef
-			public const int ilsp_production_uom_bunch_sx_cassava = 2131100655;
-			
-			// aapt resource value: 0x7f060511
-			public const int ilsp_production_uom_bunch_sx_cotton = 2131100945;
-			
-			// aapt resource value: 0x7f060429
-			public const int ilsp_production_uom_bunch_sx_cowpeas = 2131100713;
-			
-			// aapt resource value: 0x7f0604d7
-			public const int ilsp_production_uom_bunch_sx_eggplantimpwa = 2131100887;
-			
-			// aapt resource value: 0x7f060398
-			public const int ilsp_production_uom_bunch_sx_groundnuts = 2131100568;
-			
-			// aapt resource value: 0x7f0604f4
-			public const int ilsp_production_uom_bunch_sx_leafyvegetables = 2131100916;
-			
-			// aapt resource value: 0x7f06037b
-			public const int ilsp_production_uom_bunch_sx_maize = 2131100539;
-			
-			// aapt resource value: 0x7f060446
-			public const int ilsp_production_uom_bunch_sx_mbambaranuts = 2131100742;
-			
-			// aapt resource value: 0x7f0604ba
-			public const int ilsp_production_uom_bunch_sx_onion = 2131100858;
-			
-			// aapt resource value: 0x7f06052e
-			public const int ilsp_production_uom_bunch_sx_other = 2131100974;
-			
-			// aapt resource value: 0x7f0603d2
-			public const int ilsp_production_uom_bunch_sx_potatoes = 2131100626;
-			
-			// aapt resource value: 0x7f06040c
-			public const int ilsp_production_uom_bunch_sx_soyabeans = 2131100684;
-			
-			// aapt resource value: 0x7f0603b5
-			public const int ilsp_production_uom_bunch_sx_sweetpotatoes = 2131100597;
-			
-			// aapt resource value: 0x7f06049d
-			public const int ilsp_production_uom_bunch_sx_tomatoes = 2131100829;
-			
-			// aapt resource value: 0x7f060464
-			public const int ilsp_production_uom_head_sx_beans = 2131100772;
-			
-			// aapt resource value: 0x7f060481
-			public const int ilsp_production_uom_head_sx_cabbage = 2131100801;
-			
-			// aapt resource value: 0x7f0603f0
-			public const int ilsp_production_uom_head_sx_cassava = 2131100656;
-			
-			// aapt resource value: 0x7f060512
-			public const int ilsp_production_uom_head_sx_cotton = 2131100946;
-			
-			// aapt resource value: 0x7f06042a
-			public const int ilsp_production_uom_head_sx_cowpeas = 2131100714;
-			
-			// aapt resource value: 0x7f0604d8
-			public const int ilsp_production_uom_head_sx_eggplantimpwa = 2131100888;
-			
-			// aapt resource value: 0x7f060399
-			public const int ilsp_production_uom_head_sx_groundnuts = 2131100569;
-			
-			// aapt resource value: 0x7f0604f5
-			public const int ilsp_production_uom_head_sx_leafyvegetables = 2131100917;
-			
-			// aapt resource value: 0x7f06037c
-			public const int ilsp_production_uom_head_sx_maize = 2131100540;
-			
-			// aapt resource value: 0x7f060447
-			public const int ilsp_production_uom_head_sx_mbambaranuts = 2131100743;
-			
-			// aapt resource value: 0x7f0604bb
-			public const int ilsp_production_uom_head_sx_onion = 2131100859;
-			
-			// aapt resource value: 0x7f06052f
-			public const int ilsp_production_uom_head_sx_other = 2131100975;
-			
-			// aapt resource value: 0x7f0603d3
-			public const int ilsp_production_uom_head_sx_potatoes = 2131100627;
-			
-			// aapt resource value: 0x7f06040d
-			public const int ilsp_production_uom_head_sx_soyabeans = 2131100685;
-			
-			// aapt resource value: 0x7f0603b6
-			public const int ilsp_production_uom_head_sx_sweetpotatoes = 2131100598;
-			
-			// aapt resource value: 0x7f06049e
-			public const int ilsp_production_uom_head_sx_tomatoes = 2131100830;
-			
-			// aapt resource value: 0x7f060460
-			public const int ilsp_production_uom_kilograms_sx_beans = 2131100768;
-			
-			// aapt resource value: 0x7f06047d
-			public const int ilsp_production_uom_kilograms_sx_cabbage = 2131100797;
-			
-			// aapt resource value: 0x7f0603ec
-			public const int ilsp_production_uom_kilograms_sx_cassava = 2131100652;
-			
-			// aapt resource value: 0x7f06050e
-			public const int ilsp_production_uom_kilograms_sx_cotton = 2131100942;
-			
-			// aapt resource value: 0x7f060426
-			public const int ilsp_production_uom_kilograms_sx_cowpeas = 2131100710;
-			
-			// aapt resource value: 0x7f0604d4
-			public const int ilsp_production_uom_kilograms_sx_eggplantimpwa = 2131100884;
-			
-			// aapt resource value: 0x7f060395
-			public const int ilsp_production_uom_kilograms_sx_groundnuts = 2131100565;
-			
-			// aapt resource value: 0x7f0604f1
-			public const int ilsp_production_uom_kilograms_sx_leafyvegetables = 2131100913;
-			
-			// aapt resource value: 0x7f060378
-			public const int ilsp_production_uom_kilograms_sx_maize = 2131100536;
-			
-			// aapt resource value: 0x7f060443
-			public const int ilsp_production_uom_kilograms_sx_mbambaranuts = 2131100739;
-			
-			// aapt resource value: 0x7f0604b7
-			public const int ilsp_production_uom_kilograms_sx_onion = 2131100855;
-			
-			// aapt resource value: 0x7f06052b
-			public const int ilsp_production_uom_kilograms_sx_other = 2131100971;
-			
-			// aapt resource value: 0x7f0603cf
-			public const int ilsp_production_uom_kilograms_sx_potatoes = 2131100623;
-			
-			// aapt resource value: 0x7f060409
-			public const int ilsp_production_uom_kilograms_sx_soyabeans = 2131100681;
+			// aapt resource value: 0x7f060452
+			public const int ilsp_produce_sold_no_sx_cabbage = 2131100754;
 			
 			// aapt resource value: 0x7f0603b2
-			public const int ilsp_production_uom_kilograms_sx_sweetpotatoes = 2131100594;
-			
-			// aapt resource value: 0x7f06049a
-			public const int ilsp_production_uom_kilograms_sx_tomatoes = 2131100826;
-			
-			// aapt resource value: 0x7f060461
-			public const int ilsp_production_uom_sack_sx_beans = 2131100769;
-			
-			// aapt resource value: 0x7f06047e
-			public const int ilsp_production_uom_sack_sx_cabbage = 2131100798;
-			
-			// aapt resource value: 0x7f0603ed
-			public const int ilsp_production_uom_sack_sx_cassava = 2131100653;
-			
-			// aapt resource value: 0x7f06050f
-			public const int ilsp_production_uom_sack_sx_cotton = 2131100943;
-			
-			// aapt resource value: 0x7f060427
-			public const int ilsp_production_uom_sack_sx_cowpeas = 2131100711;
-			
-			// aapt resource value: 0x7f0604d5
-			public const int ilsp_production_uom_sack_sx_eggplantimpwa = 2131100885;
-			
-			// aapt resource value: 0x7f060396
-			public const int ilsp_production_uom_sack_sx_groundnuts = 2131100566;
+			public const int ilsp_produce_sold_no_sx_cassava = 2131100594;
 			
 			// aapt resource value: 0x7f0604f2
-			public const int ilsp_production_uom_sack_sx_leafyvegetables = 2131100914;
+			public const int ilsp_produce_sold_no_sx_cotton = 2131100914;
 			
-			// aapt resource value: 0x7f060379
-			public const int ilsp_production_uom_sack_sx_maize = 2131100537;
+			// aapt resource value: 0x7f0603f2
+			public const int ilsp_produce_sold_no_sx_cowpeas = 2131100658;
 			
-			// aapt resource value: 0x7f060444
-			public const int ilsp_production_uom_sack_sx_mbambaranuts = 2131100740;
+			// aapt resource value: 0x7f0604b2
+			public const int ilsp_produce_sold_no_sx_eggplantimpwa = 2131100850;
 			
-			// aapt resource value: 0x7f0604b8
-			public const int ilsp_production_uom_sack_sx_onion = 2131100856;
+			// aapt resource value: 0x7f060352
+			public const int ilsp_produce_sold_no_sx_groundnuts = 2131100498;
 			
-			// aapt resource value: 0x7f06052c
-			public const int ilsp_production_uom_sack_sx_other = 2131100972;
+			// aapt resource value: 0x7f0604d2
+			public const int ilsp_produce_sold_no_sx_leafyvegetables = 2131100882;
 			
-			// aapt resource value: 0x7f0603d0
-			public const int ilsp_production_uom_sack_sx_potatoes = 2131100624;
+			// aapt resource value: 0x7f060332
+			public const int ilsp_produce_sold_no_sx_maize = 2131100466;
+			
+			// aapt resource value: 0x7f060412
+			public const int ilsp_produce_sold_no_sx_mbambaranuts = 2131100690;
+			
+			// aapt resource value: 0x7f060492
+			public const int ilsp_produce_sold_no_sx_onion = 2131100818;
+			
+			// aapt resource value: 0x7f060512
+			public const int ilsp_produce_sold_no_sx_other = 2131100946;
+			
+			// aapt resource value: 0x7f060392
+			public const int ilsp_produce_sold_no_sx_potatoes = 2131100562;
+			
+			// aapt resource value: 0x7f0603d2
+			public const int ilsp_produce_sold_no_sx_soyabeans = 2131100626;
+			
+			// aapt resource value: 0x7f060372
+			public const int ilsp_produce_sold_no_sx_sweetpotatoes = 2131100530;
+			
+			// aapt resource value: 0x7f060472
+			public const int ilsp_produce_sold_no_sx_tomatoes = 2131100786;
+			
+			// aapt resource value: 0x7f060431
+			public const int ilsp_produce_sold_yes_sx_beans = 2131100721;
+			
+			// aapt resource value: 0x7f060451
+			public const int ilsp_produce_sold_yes_sx_cabbage = 2131100753;
+			
+			// aapt resource value: 0x7f0603b1
+			public const int ilsp_produce_sold_yes_sx_cassava = 2131100593;
+			
+			// aapt resource value: 0x7f0604f1
+			public const int ilsp_produce_sold_yes_sx_cotton = 2131100913;
+			
+			// aapt resource value: 0x7f0603f1
+			public const int ilsp_produce_sold_yes_sx_cowpeas = 2131100657;
+			
+			// aapt resource value: 0x7f0604b1
+			public const int ilsp_produce_sold_yes_sx_eggplantimpwa = 2131100849;
+			
+			// aapt resource value: 0x7f060351
+			public const int ilsp_produce_sold_yes_sx_groundnuts = 2131100497;
+			
+			// aapt resource value: 0x7f0604d1
+			public const int ilsp_produce_sold_yes_sx_leafyvegetables = 2131100881;
+			
+			// aapt resource value: 0x7f060331
+			public const int ilsp_produce_sold_yes_sx_maize = 2131100465;
+			
+			// aapt resource value: 0x7f060411
+			public const int ilsp_produce_sold_yes_sx_mbambaranuts = 2131100689;
+			
+			// aapt resource value: 0x7f060491
+			public const int ilsp_produce_sold_yes_sx_onion = 2131100817;
+			
+			// aapt resource value: 0x7f060511
+			public const int ilsp_produce_sold_yes_sx_other = 2131100945;
+			
+			// aapt resource value: 0x7f060391
+			public const int ilsp_produce_sold_yes_sx_potatoes = 2131100561;
+			
+			// aapt resource value: 0x7f0603d1
+			public const int ilsp_produce_sold_yes_sx_soyabeans = 2131100625;
+			
+			// aapt resource value: 0x7f060371
+			public const int ilsp_produce_sold_yes_sx_sweetpotatoes = 2131100529;
+			
+			// aapt resource value: 0x7f060471
+			public const int ilsp_produce_sold_yes_sx_tomatoes = 2131100785;
+			
+			// aapt resource value: 0x7f060426
+			public const int ilsp_production_quantity_sx_beans = 2131100710;
+			
+			// aapt resource value: 0x7f060446
+			public const int ilsp_production_quantity_sx_cabbage = 2131100742;
+			
+			// aapt resource value: 0x7f0603a6
+			public const int ilsp_production_quantity_sx_cassava = 2131100582;
+			
+			// aapt resource value: 0x7f0604e6
+			public const int ilsp_production_quantity_sx_cotton = 2131100902;
+			
+			// aapt resource value: 0x7f0603e6
+			public const int ilsp_production_quantity_sx_cowpeas = 2131100646;
+			
+			// aapt resource value: 0x7f0604a6
+			public const int ilsp_production_quantity_sx_eggplantimpwa = 2131100838;
+			
+			// aapt resource value: 0x7f060346
+			public const int ilsp_production_quantity_sx_groundnuts = 2131100486;
+			
+			// aapt resource value: 0x7f0604c6
+			public const int ilsp_production_quantity_sx_leafyvegetables = 2131100870;
+			
+			// aapt resource value: 0x7f060326
+			public const int ilsp_production_quantity_sx_maize = 2131100454;
+			
+			// aapt resource value: 0x7f060406
+			public const int ilsp_production_quantity_sx_mbambaranuts = 2131100678;
+			
+			// aapt resource value: 0x7f060486
+			public const int ilsp_production_quantity_sx_onion = 2131100806;
+			
+			// aapt resource value: 0x7f060506
+			public const int ilsp_production_quantity_sx_other = 2131100934;
+			
+			// aapt resource value: 0x7f060386
+			public const int ilsp_production_quantity_sx_potatoes = 2131100550;
+			
+			// aapt resource value: 0x7f0603c6
+			public const int ilsp_production_quantity_sx_soyabeans = 2131100614;
+			
+			// aapt resource value: 0x7f060366
+			public const int ilsp_production_quantity_sx_sweetpotatoes = 2131100518;
+			
+			// aapt resource value: 0x7f060466
+			public const int ilsp_production_quantity_sx_tomatoes = 2131100774;
+			
+			// aapt resource value: 0x7f06042a
+			public const int ilsp_production_uom_box_sx_beans = 2131100714;
+			
+			// aapt resource value: 0x7f06044a
+			public const int ilsp_production_uom_box_sx_cabbage = 2131100746;
+			
+			// aapt resource value: 0x7f0603aa
+			public const int ilsp_production_uom_box_sx_cassava = 2131100586;
+			
+			// aapt resource value: 0x7f0604ea
+			public const int ilsp_production_uom_box_sx_cotton = 2131100906;
+			
+			// aapt resource value: 0x7f0603ea
+			public const int ilsp_production_uom_box_sx_cowpeas = 2131100650;
+			
+			// aapt resource value: 0x7f0604aa
+			public const int ilsp_production_uom_box_sx_eggplantimpwa = 2131100842;
+			
+			// aapt resource value: 0x7f06034a
+			public const int ilsp_production_uom_box_sx_groundnuts = 2131100490;
+			
+			// aapt resource value: 0x7f0604ca
+			public const int ilsp_production_uom_box_sx_leafyvegetables = 2131100874;
+			
+			// aapt resource value: 0x7f06032a
+			public const int ilsp_production_uom_box_sx_maize = 2131100458;
 			
 			// aapt resource value: 0x7f06040a
-			public const int ilsp_production_uom_sack_sx_soyabeans = 2131100682;
+			public const int ilsp_production_uom_box_sx_mbambaranuts = 2131100682;
 			
-			// aapt resource value: 0x7f0603b3
-			public const int ilsp_production_uom_sack_sx_sweetpotatoes = 2131100595;
+			// aapt resource value: 0x7f06048a
+			public const int ilsp_production_uom_box_sx_onion = 2131100810;
 			
-			// aapt resource value: 0x7f06049b
-			public const int ilsp_production_uom_sack_sx_tomatoes = 2131100827;
+			// aapt resource value: 0x7f06050a
+			public const int ilsp_production_uom_box_sx_other = 2131100938;
+			
+			// aapt resource value: 0x7f06038a
+			public const int ilsp_production_uom_box_sx_potatoes = 2131100554;
+			
+			// aapt resource value: 0x7f0603ca
+			public const int ilsp_production_uom_box_sx_soyabeans = 2131100618;
+			
+			// aapt resource value: 0x7f06036a
+			public const int ilsp_production_uom_box_sx_sweetpotatoes = 2131100522;
+			
+			// aapt resource value: 0x7f06046a
+			public const int ilsp_production_uom_box_sx_tomatoes = 2131100778;
+			
+			// aapt resource value: 0x7f06042b
+			public const int ilsp_production_uom_bunch_sx_beans = 2131100715;
+			
+			// aapt resource value: 0x7f06044b
+			public const int ilsp_production_uom_bunch_sx_cabbage = 2131100747;
+			
+			// aapt resource value: 0x7f0603ab
+			public const int ilsp_production_uom_bunch_sx_cassava = 2131100587;
+			
+			// aapt resource value: 0x7f0604eb
+			public const int ilsp_production_uom_bunch_sx_cotton = 2131100907;
+			
+			// aapt resource value: 0x7f0603eb
+			public const int ilsp_production_uom_bunch_sx_cowpeas = 2131100651;
+			
+			// aapt resource value: 0x7f0604ab
+			public const int ilsp_production_uom_bunch_sx_eggplantimpwa = 2131100843;
+			
+			// aapt resource value: 0x7f06034b
+			public const int ilsp_production_uom_bunch_sx_groundnuts = 2131100491;
+			
+			// aapt resource value: 0x7f0604cb
+			public const int ilsp_production_uom_bunch_sx_leafyvegetables = 2131100875;
+			
+			// aapt resource value: 0x7f06032b
+			public const int ilsp_production_uom_bunch_sx_maize = 2131100459;
+			
+			// aapt resource value: 0x7f06040b
+			public const int ilsp_production_uom_bunch_sx_mbambaranuts = 2131100683;
+			
+			// aapt resource value: 0x7f06048b
+			public const int ilsp_production_uom_bunch_sx_onion = 2131100811;
+			
+			// aapt resource value: 0x7f06050b
+			public const int ilsp_production_uom_bunch_sx_other = 2131100939;
+			
+			// aapt resource value: 0x7f06038b
+			public const int ilsp_production_uom_bunch_sx_potatoes = 2131100555;
+			
+			// aapt resource value: 0x7f0603cb
+			public const int ilsp_production_uom_bunch_sx_soyabeans = 2131100619;
+			
+			// aapt resource value: 0x7f06036b
+			public const int ilsp_production_uom_bunch_sx_sweetpotatoes = 2131100523;
+			
+			// aapt resource value: 0x7f06046b
+			public const int ilsp_production_uom_bunch_sx_tomatoes = 2131100779;
+			
+			// aapt resource value: 0x7f06042c
+			public const int ilsp_production_uom_head_sx_beans = 2131100716;
+			
+			// aapt resource value: 0x7f06044c
+			public const int ilsp_production_uom_head_sx_cabbage = 2131100748;
+			
+			// aapt resource value: 0x7f0603ac
+			public const int ilsp_production_uom_head_sx_cassava = 2131100588;
+			
+			// aapt resource value: 0x7f0604ec
+			public const int ilsp_production_uom_head_sx_cotton = 2131100908;
+			
+			// aapt resource value: 0x7f0603ec
+			public const int ilsp_production_uom_head_sx_cowpeas = 2131100652;
+			
+			// aapt resource value: 0x7f0604ac
+			public const int ilsp_production_uom_head_sx_eggplantimpwa = 2131100844;
+			
+			// aapt resource value: 0x7f06034c
+			public const int ilsp_production_uom_head_sx_groundnuts = 2131100492;
+			
+			// aapt resource value: 0x7f0604cc
+			public const int ilsp_production_uom_head_sx_leafyvegetables = 2131100876;
+			
+			// aapt resource value: 0x7f06032c
+			public const int ilsp_production_uom_head_sx_maize = 2131100460;
+			
+			// aapt resource value: 0x7f06040c
+			public const int ilsp_production_uom_head_sx_mbambaranuts = 2131100684;
+			
+			// aapt resource value: 0x7f06048c
+			public const int ilsp_production_uom_head_sx_onion = 2131100812;
+			
+			// aapt resource value: 0x7f06050c
+			public const int ilsp_production_uom_head_sx_other = 2131100940;
+			
+			// aapt resource value: 0x7f06038c
+			public const int ilsp_production_uom_head_sx_potatoes = 2131100556;
+			
+			// aapt resource value: 0x7f0603cc
+			public const int ilsp_production_uom_head_sx_soyabeans = 2131100620;
+			
+			// aapt resource value: 0x7f06036c
+			public const int ilsp_production_uom_head_sx_sweetpotatoes = 2131100524;
+			
+			// aapt resource value: 0x7f06046c
+			public const int ilsp_production_uom_head_sx_tomatoes = 2131100780;
+			
+			// aapt resource value: 0x7f060428
+			public const int ilsp_production_uom_kilograms_sx_beans = 2131100712;
+			
+			// aapt resource value: 0x7f060448
+			public const int ilsp_production_uom_kilograms_sx_cabbage = 2131100744;
+			
+			// aapt resource value: 0x7f0603a8
+			public const int ilsp_production_uom_kilograms_sx_cassava = 2131100584;
+			
+			// aapt resource value: 0x7f0604e8
+			public const int ilsp_production_uom_kilograms_sx_cotton = 2131100904;
+			
+			// aapt resource value: 0x7f0603e8
+			public const int ilsp_production_uom_kilograms_sx_cowpeas = 2131100648;
+			
+			// aapt resource value: 0x7f0604a8
+			public const int ilsp_production_uom_kilograms_sx_eggplantimpwa = 2131100840;
+			
+			// aapt resource value: 0x7f060348
+			public const int ilsp_production_uom_kilograms_sx_groundnuts = 2131100488;
+			
+			// aapt resource value: 0x7f0604c8
+			public const int ilsp_production_uom_kilograms_sx_leafyvegetables = 2131100872;
+			
+			// aapt resource value: 0x7f060328
+			public const int ilsp_production_uom_kilograms_sx_maize = 2131100456;
+			
+			// aapt resource value: 0x7f060408
+			public const int ilsp_production_uom_kilograms_sx_mbambaranuts = 2131100680;
+			
+			// aapt resource value: 0x7f060488
+			public const int ilsp_production_uom_kilograms_sx_onion = 2131100808;
+			
+			// aapt resource value: 0x7f060508
+			public const int ilsp_production_uom_kilograms_sx_other = 2131100936;
+			
+			// aapt resource value: 0x7f060388
+			public const int ilsp_production_uom_kilograms_sx_potatoes = 2131100552;
+			
+			// aapt resource value: 0x7f0603c8
+			public const int ilsp_production_uom_kilograms_sx_soyabeans = 2131100616;
+			
+			// aapt resource value: 0x7f060368
+			public const int ilsp_production_uom_kilograms_sx_sweetpotatoes = 2131100520;
+			
+			// aapt resource value: 0x7f060468
+			public const int ilsp_production_uom_kilograms_sx_tomatoes = 2131100776;
+			
+			// aapt resource value: 0x7f060429
+			public const int ilsp_production_uom_sack_sx_beans = 2131100713;
+			
+			// aapt resource value: 0x7f060449
+			public const int ilsp_production_uom_sack_sx_cabbage = 2131100745;
+			
+			// aapt resource value: 0x7f0603a9
+			public const int ilsp_production_uom_sack_sx_cassava = 2131100585;
+			
+			// aapt resource value: 0x7f0604e9
+			public const int ilsp_production_uom_sack_sx_cotton = 2131100905;
+			
+			// aapt resource value: 0x7f0603e9
+			public const int ilsp_production_uom_sack_sx_cowpeas = 2131100649;
+			
+			// aapt resource value: 0x7f0604a9
+			public const int ilsp_production_uom_sack_sx_eggplantimpwa = 2131100841;
+			
+			// aapt resource value: 0x7f060349
+			public const int ilsp_production_uom_sack_sx_groundnuts = 2131100489;
+			
+			// aapt resource value: 0x7f0604c9
+			public const int ilsp_production_uom_sack_sx_leafyvegetables = 2131100873;
+			
+			// aapt resource value: 0x7f060329
+			public const int ilsp_production_uom_sack_sx_maize = 2131100457;
+			
+			// aapt resource value: 0x7f060409
+			public const int ilsp_production_uom_sack_sx_mbambaranuts = 2131100681;
+			
+			// aapt resource value: 0x7f060489
+			public const int ilsp_production_uom_sack_sx_onion = 2131100809;
+			
+			// aapt resource value: 0x7f060509
+			public const int ilsp_production_uom_sack_sx_other = 2131100937;
+			
+			// aapt resource value: 0x7f060389
+			public const int ilsp_production_uom_sack_sx_potatoes = 2131100553;
+			
+			// aapt resource value: 0x7f0603c9
+			public const int ilsp_production_uom_sack_sx_soyabeans = 2131100617;
+			
+			// aapt resource value: 0x7f060369
+			public const int ilsp_production_uom_sack_sx_sweetpotatoes = 2131100521;
+			
+			// aapt resource value: 0x7f060469
+			public const int ilsp_production_uom_sack_sx_tomatoes = 2131100777;
 			
 			// aapt resource value: 0x7f060100
 			public const int ilsp_productive_land_size = 2131099904;
@@ -4925,830 +5009,782 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060106
 			public const int ilsp_productive_land_uom_sqmeter = 2131099910;
 			
-			// aapt resource value: 0x7f0605f0
-			public const int ilsp_proj_reltd_milk_prodn_no_sx_cowmilk = 2131101168;
+			// aapt resource value: 0x7f0605f9
+			public const int ilsp_proj_reltd_milk_prodn_no_sx_cowmilk = 2131101177;
 			
-			// aapt resource value: 0x7f0605ef
-			public const int ilsp_proj_reltd_milk_prodn_yes_sx_cowmilk = 2131101167;
-			
-			// aapt resource value: 0x7f0600a7
-			public const int ilsp_project_duration_1year = 2131099815;
-			
-			// aapt resource value: 0x7f0600a8
-			public const int ilsp_project_duration_2years = 2131099816;
-			
-			// aapt resource value: 0x7f0600a9
-			public const int ilsp_project_duration_3years = 2131099817;
-			
-			// aapt resource value: 0x7f0600aa
-			public const int ilsp_project_duration_4years = 2131099818;
-			
-			// aapt resource value: 0x7f0600ab
-			public const int ilsp_project_duration_5years = 2131099819;
+			// aapt resource value: 0x7f0605f8
+			public const int ilsp_proj_reltd_milk_prodn_yes_sx_cowmilk = 2131101176;
 			
 			// aapt resource value: 0x7f06009b
 			public const int ilsp_project_info = 2131099803;
 			
-			// aapt resource value: 0x7f0600ae
-			public const int ilsp_project_year_year1 = 2131099822;
+			// aapt resource value: 0x7f0600a3
+			public const int ilsp_project_year_year1 = 2131099811;
 			
-			// aapt resource value: 0x7f0600af
-			public const int ilsp_project_year_year2 = 2131099823;
+			// aapt resource value: 0x7f0600a4
+			public const int ilsp_project_year_year2 = 2131099812;
 			
-			// aapt resource value: 0x7f0600b0
-			public const int ilsp_project_year_year3 = 2131099824;
+			// aapt resource value: 0x7f0600a5
+			public const int ilsp_project_year_year3 = 2131099813;
 			
-			// aapt resource value: 0x7f0600b1
-			public const int ilsp_project_year_year4 = 2131099825;
+			// aapt resource value: 0x7f0600a6
+			public const int ilsp_project_year_year4 = 2131099814;
 			
-			// aapt resource value: 0x7f0600b2
-			public const int ilsp_project_year_year5 = 2131099826;
+			// aapt resource value: 0x7f0600a7
+			public const int ilsp_project_year_year5 = 2131099815;
 			
-			// aapt resource value: 0x7f0600c9
-			public const int ilsp_projected_recruited_from_ilasp = 2131099849;
+			// aapt resource value: 0x7f0600c8
+			public const int ilsp_projected_recruited_from_dontknow = 2131099848;
 			
-			// aapt resource value: 0x7f0600ca
-			public const int ilsp_projected_recruited_from_slwep = 2131099850;
+			// aapt resource value: 0x7f0600c6
+			public const int ilsp_projected_recruited_from_ilasp = 2131099846;
 			
-			// aapt resource value: 0x7f0605f2
-			public const int ilsp_qty_consumed_per_day_sx_cowmilk = 2131101170;
+			// aapt resource value: 0x7f0600c7
+			public const int ilsp_projected_recruited_from_slwep = 2131099847;
 			
-			// aapt resource value: 0x7f060465
-			public const int ilsp_quantity_consumed_sx_beans = 2131100773;
-			
-			// aapt resource value: 0x7f060482
-			public const int ilsp_quantity_consumed_sx_cabbage = 2131100802;
-			
-			// aapt resource value: 0x7f0603f1
-			public const int ilsp_quantity_consumed_sx_cassava = 2131100657;
-			
-			// aapt resource value: 0x7f060513
-			public const int ilsp_quantity_consumed_sx_cotton = 2131100947;
-			
-			// aapt resource value: 0x7f06042b
-			public const int ilsp_quantity_consumed_sx_cowpeas = 2131100715;
-			
-			// aapt resource value: 0x7f0604d9
-			public const int ilsp_quantity_consumed_sx_eggplantimpwa = 2131100889;
-			
-			// aapt resource value: 0x7f06039a
-			public const int ilsp_quantity_consumed_sx_groundnuts = 2131100570;
-			
-			// aapt resource value: 0x7f0604f6
-			public const int ilsp_quantity_consumed_sx_leafyvegetables = 2131100918;
-			
-			// aapt resource value: 0x7f06037d
-			public const int ilsp_quantity_consumed_sx_maize = 2131100541;
-			
-			// aapt resource value: 0x7f060448
-			public const int ilsp_quantity_consumed_sx_mbambaranuts = 2131100744;
-			
-			// aapt resource value: 0x7f0604bc
-			public const int ilsp_quantity_consumed_sx_onion = 2131100860;
-			
-			// aapt resource value: 0x7f060530
-			public const int ilsp_quantity_consumed_sx_other = 2131100976;
-			
-			// aapt resource value: 0x7f0603d4
-			public const int ilsp_quantity_consumed_sx_potatoes = 2131100628;
-			
-			// aapt resource value: 0x7f06040e
-			public const int ilsp_quantity_consumed_sx_soyabeans = 2131100686;
-			
-			// aapt resource value: 0x7f0603b7
-			public const int ilsp_quantity_consumed_sx_sweetpotatoes = 2131100599;
-			
-			// aapt resource value: 0x7f06049f
-			public const int ilsp_quantity_consumed_sx_tomatoes = 2131100831;
-			
-			// aapt resource value: 0x7f060467
-			public const int ilsp_quantity_gifted_sx_beans = 2131100775;
-			
-			// aapt resource value: 0x7f060484
-			public const int ilsp_quantity_gifted_sx_cabbage = 2131100804;
-			
-			// aapt resource value: 0x7f0603f3
-			public const int ilsp_quantity_gifted_sx_cassava = 2131100659;
-			
-			// aapt resource value: 0x7f060515
-			public const int ilsp_quantity_gifted_sx_cotton = 2131100949;
+			// aapt resource value: 0x7f0605fb
+			public const int ilsp_qty_consumed_per_day_sx_cowmilk = 2131101179;
 			
 			// aapt resource value: 0x7f06042d
-			public const int ilsp_quantity_gifted_sx_cowpeas = 2131100717;
+			public const int ilsp_quantity_consumed_sx_beans = 2131100717;
 			
-			// aapt resource value: 0x7f0604db
-			public const int ilsp_quantity_gifted_sx_eggplantimpwa = 2131100891;
+			// aapt resource value: 0x7f06044d
+			public const int ilsp_quantity_consumed_sx_cabbage = 2131100749;
 			
-			// aapt resource value: 0x7f06039c
-			public const int ilsp_quantity_gifted_sx_groundnuts = 2131100572;
+			// aapt resource value: 0x7f0603ad
+			public const int ilsp_quantity_consumed_sx_cassava = 2131100589;
 			
-			// aapt resource value: 0x7f0604f8
-			public const int ilsp_quantity_gifted_sx_leafyvegetables = 2131100920;
+			// aapt resource value: 0x7f0604ed
+			public const int ilsp_quantity_consumed_sx_cotton = 2131100909;
 			
-			// aapt resource value: 0x7f06037f
-			public const int ilsp_quantity_gifted_sx_maize = 2131100543;
+			// aapt resource value: 0x7f0603ed
+			public const int ilsp_quantity_consumed_sx_cowpeas = 2131100653;
 			
-			// aapt resource value: 0x7f06044a
-			public const int ilsp_quantity_gifted_sx_mbambaranuts = 2131100746;
+			// aapt resource value: 0x7f0604ad
+			public const int ilsp_quantity_consumed_sx_eggplantimpwa = 2131100845;
 			
-			// aapt resource value: 0x7f0604be
-			public const int ilsp_quantity_gifted_sx_onion = 2131100862;
+			// aapt resource value: 0x7f06034d
+			public const int ilsp_quantity_consumed_sx_groundnuts = 2131100493;
 			
-			// aapt resource value: 0x7f060532
-			public const int ilsp_quantity_gifted_sx_other = 2131100978;
+			// aapt resource value: 0x7f0604cd
+			public const int ilsp_quantity_consumed_sx_leafyvegetables = 2131100877;
 			
-			// aapt resource value: 0x7f0603d6
-			public const int ilsp_quantity_gifted_sx_potatoes = 2131100630;
+			// aapt resource value: 0x7f06032d
+			public const int ilsp_quantity_consumed_sx_maize = 2131100461;
 			
-			// aapt resource value: 0x7f060410
-			public const int ilsp_quantity_gifted_sx_soyabeans = 2131100688;
-			
-			// aapt resource value: 0x7f0603b9
-			public const int ilsp_quantity_gifted_sx_sweetpotatoes = 2131100601;
-			
-			// aapt resource value: 0x7f0604a1
-			public const int ilsp_quantity_gifted_sx_tomatoes = 2131100833;
-			
-			// aapt resource value: 0x7f060466
-			public const int ilsp_quantity_seed_sx_beans = 2131100774;
-			
-			// aapt resource value: 0x7f060483
-			public const int ilsp_quantity_seed_sx_cabbage = 2131100803;
-			
-			// aapt resource value: 0x7f0603f2
-			public const int ilsp_quantity_seed_sx_cassava = 2131100658;
-			
-			// aapt resource value: 0x7f060514
-			public const int ilsp_quantity_seed_sx_cotton = 2131100948;
-			
-			// aapt resource value: 0x7f06042c
-			public const int ilsp_quantity_seed_sx_cowpeas = 2131100716;
-			
-			// aapt resource value: 0x7f0604da
-			public const int ilsp_quantity_seed_sx_eggplantimpwa = 2131100890;
-			
-			// aapt resource value: 0x7f06039b
-			public const int ilsp_quantity_seed_sx_groundnuts = 2131100571;
-			
-			// aapt resource value: 0x7f0604f7
-			public const int ilsp_quantity_seed_sx_leafyvegetables = 2131100919;
-			
-			// aapt resource value: 0x7f06037e
-			public const int ilsp_quantity_seed_sx_maize = 2131100542;
-			
-			// aapt resource value: 0x7f060449
-			public const int ilsp_quantity_seed_sx_mbambaranuts = 2131100745;
-			
-			// aapt resource value: 0x7f0604bd
-			public const int ilsp_quantity_seed_sx_onion = 2131100861;
-			
-			// aapt resource value: 0x7f060531
-			public const int ilsp_quantity_seed_sx_other = 2131100977;
-			
-			// aapt resource value: 0x7f0603d5
-			public const int ilsp_quantity_seed_sx_potatoes = 2131100629;
-			
-			// aapt resource value: 0x7f06040f
-			public const int ilsp_quantity_seed_sx_soyabeans = 2131100687;
-			
-			// aapt resource value: 0x7f0603b8
-			public const int ilsp_quantity_seed_sx_sweetpotatoes = 2131100600;
-			
-			// aapt resource value: 0x7f0604a0
-			public const int ilsp_quantity_seed_sx_tomatoes = 2131100832;
-			
-			// aapt resource value: 0x7f0605f3
-			public const int ilsp_quantity_sold_per_day_sx_cowmilk = 2131101171;
-			
-			// aapt resource value: 0x7f06046b
-			public const int ilsp_quantity_sold_sx_beans = 2131100779;
-			
-			// aapt resource value: 0x7f060488
-			public const int ilsp_quantity_sold_sx_cabbage = 2131100808;
-			
-			// aapt resource value: 0x7f0603f7
-			public const int ilsp_quantity_sold_sx_cassava = 2131100663;
-			
-			// aapt resource value: 0x7f060519
-			public const int ilsp_quantity_sold_sx_cotton = 2131100953;
-			
-			// aapt resource value: 0x7f060431
-			public const int ilsp_quantity_sold_sx_cowpeas = 2131100721;
-			
-			// aapt resource value: 0x7f0604df
-			public const int ilsp_quantity_sold_sx_eggplantimpwa = 2131100895;
-			
-			// aapt resource value: 0x7f0603a0
-			public const int ilsp_quantity_sold_sx_groundnuts = 2131100576;
-			
-			// aapt resource value: 0x7f0604fc
-			public const int ilsp_quantity_sold_sx_leafyvegetables = 2131100924;
-			
-			// aapt resource value: 0x7f060383
-			public const int ilsp_quantity_sold_sx_maize = 2131100547;
-			
-			// aapt resource value: 0x7f06044e
-			public const int ilsp_quantity_sold_sx_mbambaranuts = 2131100750;
-			
-			// aapt resource value: 0x7f0604c2
-			public const int ilsp_quantity_sold_sx_onion = 2131100866;
-			
-			// aapt resource value: 0x7f060536
-			public const int ilsp_quantity_sold_sx_other = 2131100982;
-			
-			// aapt resource value: 0x7f0603da
-			public const int ilsp_quantity_sold_sx_potatoes = 2131100634;
-			
-			// aapt resource value: 0x7f060414
-			public const int ilsp_quantity_sold_sx_soyabeans = 2131100692;
-			
-			// aapt resource value: 0x7f0603bd
-			public const int ilsp_quantity_sold_sx_sweetpotatoes = 2131100605;
-			
-			// aapt resource value: 0x7f0604a5
-			public const int ilsp_quantity_sold_sx_tomatoes = 2131100837;
-			
-			// aapt resource value: 0x7f06046f
-			public const int ilsp_quantity_sold_uom_box_sx_beans = 2131100783;
-			
-			// aapt resource value: 0x7f06048c
-			public const int ilsp_quantity_sold_uom_box_sx_cabbage = 2131100812;
-			
-			// aapt resource value: 0x7f0603fb
-			public const int ilsp_quantity_sold_uom_box_sx_cassava = 2131100667;
-			
-			// aapt resource value: 0x7f06051d
-			public const int ilsp_quantity_sold_uom_box_sx_cotton = 2131100957;
-			
-			// aapt resource value: 0x7f060435
-			public const int ilsp_quantity_sold_uom_box_sx_cowpeas = 2131100725;
-			
-			// aapt resource value: 0x7f0604e3
-			public const int ilsp_quantity_sold_uom_box_sx_eggplantimpwa = 2131100899;
-			
-			// aapt resource value: 0x7f0603a4
-			public const int ilsp_quantity_sold_uom_box_sx_groundnuts = 2131100580;
-			
-			// aapt resource value: 0x7f060500
-			public const int ilsp_quantity_sold_uom_box_sx_leafyvegetables = 2131100928;
-			
-			// aapt resource value: 0x7f060387
-			public const int ilsp_quantity_sold_uom_box_sx_maize = 2131100551;
-			
-			// aapt resource value: 0x7f060452
-			public const int ilsp_quantity_sold_uom_box_sx_mbambaranuts = 2131100754;
-			
-			// aapt resource value: 0x7f0604c6
-			public const int ilsp_quantity_sold_uom_box_sx_onion = 2131100870;
-			
-			// aapt resource value: 0x7f06053a
-			public const int ilsp_quantity_sold_uom_box_sx_other = 2131100986;
-			
-			// aapt resource value: 0x7f0603de
-			public const int ilsp_quantity_sold_uom_box_sx_potatoes = 2131100638;
-			
-			// aapt resource value: 0x7f060418
-			public const int ilsp_quantity_sold_uom_box_sx_soyabeans = 2131100696;
-			
-			// aapt resource value: 0x7f0603c1
-			public const int ilsp_quantity_sold_uom_box_sx_sweetpotatoes = 2131100609;
-			
-			// aapt resource value: 0x7f0604a9
-			public const int ilsp_quantity_sold_uom_box_sx_tomatoes = 2131100841;
-			
-			// aapt resource value: 0x7f060470
-			public const int ilsp_quantity_sold_uom_bunch_sx_beans = 2131100784;
+			// aapt resource value: 0x7f06040d
+			public const int ilsp_quantity_consumed_sx_mbambaranuts = 2131100685;
 			
 			// aapt resource value: 0x7f06048d
-			public const int ilsp_quantity_sold_uom_bunch_sx_cabbage = 2131100813;
+			public const int ilsp_quantity_consumed_sx_onion = 2131100813;
 			
-			// aapt resource value: 0x7f0603fc
-			public const int ilsp_quantity_sold_uom_bunch_sx_cassava = 2131100668;
+			// aapt resource value: 0x7f06050d
+			public const int ilsp_quantity_consumed_sx_other = 2131100941;
 			
-			// aapt resource value: 0x7f06051e
-			public const int ilsp_quantity_sold_uom_bunch_sx_cotton = 2131100958;
+			// aapt resource value: 0x7f06038d
+			public const int ilsp_quantity_consumed_sx_potatoes = 2131100557;
 			
-			// aapt resource value: 0x7f060436
-			public const int ilsp_quantity_sold_uom_bunch_sx_cowpeas = 2131100726;
+			// aapt resource value: 0x7f0603cd
+			public const int ilsp_quantity_consumed_sx_soyabeans = 2131100621;
 			
-			// aapt resource value: 0x7f0604e4
-			public const int ilsp_quantity_sold_uom_bunch_sx_eggplantimpwa = 2131100900;
-			
-			// aapt resource value: 0x7f0603a5
-			public const int ilsp_quantity_sold_uom_bunch_sx_groundnuts = 2131100581;
-			
-			// aapt resource value: 0x7f060501
-			public const int ilsp_quantity_sold_uom_bunch_sx_leafyvegetables = 2131100929;
-			
-			// aapt resource value: 0x7f060388
-			public const int ilsp_quantity_sold_uom_bunch_sx_maize = 2131100552;
-			
-			// aapt resource value: 0x7f060453
-			public const int ilsp_quantity_sold_uom_bunch_sx_mbambaranuts = 2131100755;
-			
-			// aapt resource value: 0x7f0604c7
-			public const int ilsp_quantity_sold_uom_bunch_sx_onion = 2131100871;
-			
-			// aapt resource value: 0x7f06053b
-			public const int ilsp_quantity_sold_uom_bunch_sx_other = 2131100987;
-			
-			// aapt resource value: 0x7f0603df
-			public const int ilsp_quantity_sold_uom_bunch_sx_potatoes = 2131100639;
-			
-			// aapt resource value: 0x7f060419
-			public const int ilsp_quantity_sold_uom_bunch_sx_soyabeans = 2131100697;
-			
-			// aapt resource value: 0x7f0603c2
-			public const int ilsp_quantity_sold_uom_bunch_sx_sweetpotatoes = 2131100610;
-			
-			// aapt resource value: 0x7f0604aa
-			public const int ilsp_quantity_sold_uom_bunch_sx_tomatoes = 2131100842;
-			
-			// aapt resource value: 0x7f060471
-			public const int ilsp_quantity_sold_uom_head_sx_beans = 2131100785;
-			
-			// aapt resource value: 0x7f06048e
-			public const int ilsp_quantity_sold_uom_head_sx_cabbage = 2131100814;
-			
-			// aapt resource value: 0x7f0603fd
-			public const int ilsp_quantity_sold_uom_head_sx_cassava = 2131100669;
-			
-			// aapt resource value: 0x7f06051f
-			public const int ilsp_quantity_sold_uom_head_sx_cotton = 2131100959;
-			
-			// aapt resource value: 0x7f060437
-			public const int ilsp_quantity_sold_uom_head_sx_cowpeas = 2131100727;
-			
-			// aapt resource value: 0x7f0604e5
-			public const int ilsp_quantity_sold_uom_head_sx_eggplantimpwa = 2131100901;
-			
-			// aapt resource value: 0x7f0603a6
-			public const int ilsp_quantity_sold_uom_head_sx_groundnuts = 2131100582;
-			
-			// aapt resource value: 0x7f060502
-			public const int ilsp_quantity_sold_uom_head_sx_leafyvegetables = 2131100930;
-			
-			// aapt resource value: 0x7f060389
-			public const int ilsp_quantity_sold_uom_head_sx_maize = 2131100553;
-			
-			// aapt resource value: 0x7f060454
-			public const int ilsp_quantity_sold_uom_head_sx_mbambaranuts = 2131100756;
-			
-			// aapt resource value: 0x7f0604c8
-			public const int ilsp_quantity_sold_uom_head_sx_onion = 2131100872;
-			
-			// aapt resource value: 0x7f06053c
-			public const int ilsp_quantity_sold_uom_head_sx_other = 2131100988;
-			
-			// aapt resource value: 0x7f0603e0
-			public const int ilsp_quantity_sold_uom_head_sx_potatoes = 2131100640;
-			
-			// aapt resource value: 0x7f06041a
-			public const int ilsp_quantity_sold_uom_head_sx_soyabeans = 2131100698;
-			
-			// aapt resource value: 0x7f0603c3
-			public const int ilsp_quantity_sold_uom_head_sx_sweetpotatoes = 2131100611;
-			
-			// aapt resource value: 0x7f0604ab
-			public const int ilsp_quantity_sold_uom_head_sx_tomatoes = 2131100843;
+			// aapt resource value: 0x7f06036d
+			public const int ilsp_quantity_consumed_sx_sweetpotatoes = 2131100525;
 			
 			// aapt resource value: 0x7f06046d
-			public const int ilsp_quantity_sold_uom_kilograms_sx_beans = 2131100781;
+			public const int ilsp_quantity_consumed_sx_tomatoes = 2131100781;
 			
-			// aapt resource value: 0x7f06048a
-			public const int ilsp_quantity_sold_uom_kilograms_sx_cabbage = 2131100810;
+			// aapt resource value: 0x7f06042f
+			public const int ilsp_quantity_gifted_sx_beans = 2131100719;
 			
-			// aapt resource value: 0x7f0603f9
-			public const int ilsp_quantity_sold_uom_kilograms_sx_cassava = 2131100665;
+			// aapt resource value: 0x7f06044f
+			public const int ilsp_quantity_gifted_sx_cabbage = 2131100751;
 			
-			// aapt resource value: 0x7f06051b
-			public const int ilsp_quantity_sold_uom_kilograms_sx_cotton = 2131100955;
+			// aapt resource value: 0x7f0603af
+			public const int ilsp_quantity_gifted_sx_cassava = 2131100591;
 			
-			// aapt resource value: 0x7f060433
-			public const int ilsp_quantity_sold_uom_kilograms_sx_cowpeas = 2131100723;
+			// aapt resource value: 0x7f0604ef
+			public const int ilsp_quantity_gifted_sx_cotton = 2131100911;
 			
-			// aapt resource value: 0x7f0604e1
-			public const int ilsp_quantity_sold_uom_kilograms_sx_eggplantimpwa = 2131100897;
+			// aapt resource value: 0x7f0603ef
+			public const int ilsp_quantity_gifted_sx_cowpeas = 2131100655;
 			
-			// aapt resource value: 0x7f0603a2
-			public const int ilsp_quantity_sold_uom_kilograms_sx_groundnuts = 2131100578;
+			// aapt resource value: 0x7f0604af
+			public const int ilsp_quantity_gifted_sx_eggplantimpwa = 2131100847;
 			
-			// aapt resource value: 0x7f0604fe
-			public const int ilsp_quantity_sold_uom_kilograms_sx_leafyvegetables = 2131100926;
+			// aapt resource value: 0x7f06034f
+			public const int ilsp_quantity_gifted_sx_groundnuts = 2131100495;
 			
-			// aapt resource value: 0x7f060385
-			public const int ilsp_quantity_sold_uom_kilograms_sx_maize = 2131100549;
+			// aapt resource value: 0x7f0604cf
+			public const int ilsp_quantity_gifted_sx_leafyvegetables = 2131100879;
 			
-			// aapt resource value: 0x7f060450
-			public const int ilsp_quantity_sold_uom_kilograms_sx_mbambaranuts = 2131100752;
+			// aapt resource value: 0x7f06032f
+			public const int ilsp_quantity_gifted_sx_maize = 2131100463;
 			
-			// aapt resource value: 0x7f0604c4
-			public const int ilsp_quantity_sold_uom_kilograms_sx_onion = 2131100868;
+			// aapt resource value: 0x7f06040f
+			public const int ilsp_quantity_gifted_sx_mbambaranuts = 2131100687;
 			
-			// aapt resource value: 0x7f060538
-			public const int ilsp_quantity_sold_uom_kilograms_sx_other = 2131100984;
+			// aapt resource value: 0x7f06048f
+			public const int ilsp_quantity_gifted_sx_onion = 2131100815;
 			
-			// aapt resource value: 0x7f0603dc
-			public const int ilsp_quantity_sold_uom_kilograms_sx_potatoes = 2131100636;
+			// aapt resource value: 0x7f06050f
+			public const int ilsp_quantity_gifted_sx_other = 2131100943;
 			
-			// aapt resource value: 0x7f060416
-			public const int ilsp_quantity_sold_uom_kilograms_sx_soyabeans = 2131100694;
+			// aapt resource value: 0x7f06038f
+			public const int ilsp_quantity_gifted_sx_potatoes = 2131100559;
 			
-			// aapt resource value: 0x7f0603bf
-			public const int ilsp_quantity_sold_uom_kilograms_sx_sweetpotatoes = 2131100607;
+			// aapt resource value: 0x7f0603cf
+			public const int ilsp_quantity_gifted_sx_soyabeans = 2131100623;
 			
-			// aapt resource value: 0x7f0604a7
-			public const int ilsp_quantity_sold_uom_kilograms_sx_tomatoes = 2131100839;
+			// aapt resource value: 0x7f06036f
+			public const int ilsp_quantity_gifted_sx_sweetpotatoes = 2131100527;
+			
+			// aapt resource value: 0x7f06046f
+			public const int ilsp_quantity_gifted_sx_tomatoes = 2131100783;
+			
+			// aapt resource value: 0x7f06042e
+			public const int ilsp_quantity_seed_sx_beans = 2131100718;
+			
+			// aapt resource value: 0x7f06044e
+			public const int ilsp_quantity_seed_sx_cabbage = 2131100750;
+			
+			// aapt resource value: 0x7f0603ae
+			public const int ilsp_quantity_seed_sx_cassava = 2131100590;
+			
+			// aapt resource value: 0x7f0604ee
+			public const int ilsp_quantity_seed_sx_cotton = 2131100910;
+			
+			// aapt resource value: 0x7f0603ee
+			public const int ilsp_quantity_seed_sx_cowpeas = 2131100654;
+			
+			// aapt resource value: 0x7f0604ae
+			public const int ilsp_quantity_seed_sx_eggplantimpwa = 2131100846;
+			
+			// aapt resource value: 0x7f06034e
+			public const int ilsp_quantity_seed_sx_groundnuts = 2131100494;
+			
+			// aapt resource value: 0x7f0604ce
+			public const int ilsp_quantity_seed_sx_leafyvegetables = 2131100878;
+			
+			// aapt resource value: 0x7f06032e
+			public const int ilsp_quantity_seed_sx_maize = 2131100462;
+			
+			// aapt resource value: 0x7f06040e
+			public const int ilsp_quantity_seed_sx_mbambaranuts = 2131100686;
+			
+			// aapt resource value: 0x7f06048e
+			public const int ilsp_quantity_seed_sx_onion = 2131100814;
+			
+			// aapt resource value: 0x7f06050e
+			public const int ilsp_quantity_seed_sx_other = 2131100942;
+			
+			// aapt resource value: 0x7f06038e
+			public const int ilsp_quantity_seed_sx_potatoes = 2131100558;
+			
+			// aapt resource value: 0x7f0603ce
+			public const int ilsp_quantity_seed_sx_soyabeans = 2131100622;
+			
+			// aapt resource value: 0x7f06036e
+			public const int ilsp_quantity_seed_sx_sweetpotatoes = 2131100526;
 			
 			// aapt resource value: 0x7f06046e
-			public const int ilsp_quantity_sold_uom_sack_sx_beans = 2131100782;
+			public const int ilsp_quantity_seed_sx_tomatoes = 2131100782;
 			
-			// aapt resource value: 0x7f06048b
-			public const int ilsp_quantity_sold_uom_sack_sx_cabbage = 2131100811;
+			// aapt resource value: 0x7f0605fc
+			public const int ilsp_quantity_sold_per_day_sx_cowmilk = 2131101180;
 			
-			// aapt resource value: 0x7f0603fa
-			public const int ilsp_quantity_sold_uom_sack_sx_cassava = 2131100666;
+			// aapt resource value: 0x7f060433
+			public const int ilsp_quantity_sold_sx_beans = 2131100723;
 			
-			// aapt resource value: 0x7f06051c
-			public const int ilsp_quantity_sold_uom_sack_sx_cotton = 2131100956;
+			// aapt resource value: 0x7f060453
+			public const int ilsp_quantity_sold_sx_cabbage = 2131100755;
 			
-			// aapt resource value: 0x7f060434
-			public const int ilsp_quantity_sold_uom_sack_sx_cowpeas = 2131100724;
+			// aapt resource value: 0x7f0603b3
+			public const int ilsp_quantity_sold_sx_cassava = 2131100595;
 			
-			// aapt resource value: 0x7f0604e2
-			public const int ilsp_quantity_sold_uom_sack_sx_eggplantimpwa = 2131100898;
+			// aapt resource value: 0x7f0604f3
+			public const int ilsp_quantity_sold_sx_cotton = 2131100915;
 			
-			// aapt resource value: 0x7f0603a3
-			public const int ilsp_quantity_sold_uom_sack_sx_groundnuts = 2131100579;
+			// aapt resource value: 0x7f0603f3
+			public const int ilsp_quantity_sold_sx_cowpeas = 2131100659;
 			
-			// aapt resource value: 0x7f0604ff
-			public const int ilsp_quantity_sold_uom_sack_sx_leafyvegetables = 2131100927;
-			
-			// aapt resource value: 0x7f060386
-			public const int ilsp_quantity_sold_uom_sack_sx_maize = 2131100550;
-			
-			// aapt resource value: 0x7f060451
-			public const int ilsp_quantity_sold_uom_sack_sx_mbambaranuts = 2131100753;
-			
-			// aapt resource value: 0x7f0604c5
-			public const int ilsp_quantity_sold_uom_sack_sx_onion = 2131100869;
-			
-			// aapt resource value: 0x7f060539
-			public const int ilsp_quantity_sold_uom_sack_sx_other = 2131100985;
-			
-			// aapt resource value: 0x7f0603dd
-			public const int ilsp_quantity_sold_uom_sack_sx_potatoes = 2131100637;
-			
-			// aapt resource value: 0x7f060417
-			public const int ilsp_quantity_sold_uom_sack_sx_soyabeans = 2131100695;
-			
-			// aapt resource value: 0x7f0603c0
-			public const int ilsp_quantity_sold_uom_sack_sx_sweetpotatoes = 2131100608;
-			
-			// aapt resource value: 0x7f0604a8
-			public const int ilsp_quantity_sold_uom_sack_sx_tomatoes = 2131100840;
+			// aapt resource value: 0x7f0604b3
+			public const int ilsp_quantity_sold_sx_eggplantimpwa = 2131100851;
 			
 			// aapt resource value: 0x7f060353
-			public const int ilsp_rate_statement_below_agree = 2131100499;
+			public const int ilsp_quantity_sold_sx_groundnuts = 2131100499;
 			
-			// aapt resource value: 0x7f060355
-			public const int ilsp_rate_statement_below_disagree = 2131100501;
+			// aapt resource value: 0x7f0604d3
+			public const int ilsp_quantity_sold_sx_leafyvegetables = 2131100883;
 			
-			// aapt resource value: 0x7f060354
-			public const int ilsp_rate_statement_below_stronglyagree = 2131100500;
+			// aapt resource value: 0x7f060333
+			public const int ilsp_quantity_sold_sx_maize = 2131100467;
 			
-			// aapt resource value: 0x7f060356
-			public const int ilsp_rate_statement_below_stronglydisagree = 2131100502;
+			// aapt resource value: 0x7f060413
+			public const int ilsp_quantity_sold_sx_mbambaranuts = 2131100691;
 			
-			// aapt resource value: 0x7f0606e3
-			public const int ilsp_reas_food_not_last_yr_illnessinthefamily = 2131101411;
+			// aapt resource value: 0x7f060493
+			public const int ilsp_quantity_sold_sx_onion = 2131100819;
 			
-			// aapt resource value: 0x7f0606df
-			public const int ilsp_reas_food_not_last_yr_inadequateinput = 2131101407;
+			// aapt resource value: 0x7f060513
+			public const int ilsp_quantity_sold_sx_other = 2131100947;
 			
-			// aapt resource value: 0x7f0606e1
-			public const int ilsp_reas_food_not_last_yr_inadequatelabor = 2131101409;
+			// aapt resource value: 0x7f060393
+			public const int ilsp_quantity_sold_sx_potatoes = 2131100563;
 			
-			// aapt resource value: 0x7f0606e0
-			public const int ilsp_reas_food_not_last_yr_inadequateland = 2131101408;
+			// aapt resource value: 0x7f0603d3
+			public const int ilsp_quantity_sold_sx_soyabeans = 2131100627;
 			
-			// aapt resource value: 0x7f0606e4
-			public const int ilsp_reas_food_not_last_yr_latedeliveryofinputs = 2131101412;
+			// aapt resource value: 0x7f060373
+			public const int ilsp_quantity_sold_sx_sweetpotatoes = 2131100531;
 			
-			// aapt resource value: 0x7f0606e5
-			public const int ilsp_reas_food_not_last_yr_other = 2131101413;
+			// aapt resource value: 0x7f060473
+			public const int ilsp_quantity_sold_sx_tomatoes = 2131100787;
 			
-			// aapt resource value: 0x7f0606de
-			public const int ilsp_reas_food_not_last_yr_poorweatherconditions = 2131101406;
+			// aapt resource value: 0x7f060437
+			public const int ilsp_quantity_sold_uom_box_sx_beans = 2131100727;
 			
-			// aapt resource value: 0x7f0606e2
-			public const int ilsp_reas_food_not_last_yr_soldcroptoraisemone = 2131101410;
+			// aapt resource value: 0x7f060457
+			public const int ilsp_quantity_sold_uom_box_sx_cabbage = 2131100759;
 			
-			// aapt resource value: 0x7f060366
-			public const int ilsp_reason_not_pog = 2131100518;
+			// aapt resource value: 0x7f0603b7
+			public const int ilsp_quantity_sold_uom_box_sx_cassava = 2131100599;
 			
-			// aapt resource value: 0x7f060785
-			public const int ilsp_received_loan_past_year_no = 2131101573;
+			// aapt resource value: 0x7f0604f7
+			public const int ilsp_quantity_sold_uom_box_sx_cotton = 2131100919;
 			
-			// aapt resource value: 0x7f060784
-			public const int ilsp_received_loan_past_year_yes = 2131101572;
+			// aapt resource value: 0x7f0603f7
+			public const int ilsp_quantity_sold_uom_box_sx_cowpeas = 2131100663;
 			
-			// aapt resource value: 0x7f0600bc
-			public const int ilsp_respondent_info = 2131099836;
+			// aapt resource value: 0x7f0604b7
+			public const int ilsp_quantity_sold_uom_box_sx_eggplantimpwa = 2131100855;
 			
-			// aapt resource value: 0x7f060282
-			public const int ilsp_service_available_no_sx_education = 2131100290;
+			// aapt resource value: 0x7f060357
+			public const int ilsp_quantity_sold_uom_box_sx_groundnuts = 2131100503;
 			
-			// aapt resource value: 0x7f0602aa
-			public const int ilsp_service_available_no_sx_extensionservices = 2131100330;
+			// aapt resource value: 0x7f0604d7
+			public const int ilsp_quantity_sold_uom_box_sx_leafyvegetables = 2131100887;
 			
-			// aapt resource value: 0x7f0602c8
-			public const int ilsp_service_available_no_sx_financialservices = 2131100360;
+			// aapt resource value: 0x7f060337
+			public const int ilsp_quantity_sold_uom_box_sx_maize = 2131100471;
 			
-			// aapt resource value: 0x7f06028c
-			public const int ilsp_service_available_no_sx_healthservices = 2131100300;
+			// aapt resource value: 0x7f060417
+			public const int ilsp_quantity_sold_uom_box_sx_mbambaranuts = 2131100695;
 			
-			// aapt resource value: 0x7f0602a0
-			public const int ilsp_service_available_no_sx_justiceconflictresolution = 2131100320;
+			// aapt resource value: 0x7f060497
+			public const int ilsp_quantity_sold_uom_box_sx_onion = 2131100823;
 			
-			// aapt resource value: 0x7f0602b4
-			public const int ilsp_service_available_no_sx_marketingservices = 2131100340;
+			// aapt resource value: 0x7f060517
+			public const int ilsp_quantity_sold_uom_box_sx_other = 2131100951;
 			
-			// aapt resource value: 0x7f060296
-			public const int ilsp_service_available_no_sx_trainingandprofessionalservices = 2131100310;
+			// aapt resource value: 0x7f060397
+			public const int ilsp_quantity_sold_uom_box_sx_potatoes = 2131100567;
 			
-			// aapt resource value: 0x7f0602be
-			public const int ilsp_service_available_no_sx_veterinaryservices = 2131100350;
+			// aapt resource value: 0x7f0603d7
+			public const int ilsp_quantity_sold_uom_box_sx_soyabeans = 2131100631;
 			
-			// aapt resource value: 0x7f060281
-			public const int ilsp_service_available_yes_sx_education = 2131100289;
+			// aapt resource value: 0x7f060377
+			public const int ilsp_quantity_sold_uom_box_sx_sweetpotatoes = 2131100535;
 			
-			// aapt resource value: 0x7f0602a9
-			public const int ilsp_service_available_yes_sx_extensionservices = 2131100329;
+			// aapt resource value: 0x7f060477
+			public const int ilsp_quantity_sold_uom_box_sx_tomatoes = 2131100791;
 			
-			// aapt resource value: 0x7f0602c7
-			public const int ilsp_service_available_yes_sx_financialservices = 2131100359;
+			// aapt resource value: 0x7f060438
+			public const int ilsp_quantity_sold_uom_bunch_sx_beans = 2131100728;
 			
-			// aapt resource value: 0x7f06028b
-			public const int ilsp_service_available_yes_sx_healthservices = 2131100299;
+			// aapt resource value: 0x7f060458
+			public const int ilsp_quantity_sold_uom_bunch_sx_cabbage = 2131100760;
 			
-			// aapt resource value: 0x7f06029f
-			public const int ilsp_service_available_yes_sx_justiceconflictresolution = 2131100319;
+			// aapt resource value: 0x7f0603b8
+			public const int ilsp_quantity_sold_uom_bunch_sx_cassava = 2131100600;
 			
-			// aapt resource value: 0x7f0602b3
-			public const int ilsp_service_available_yes_sx_marketingservices = 2131100339;
+			// aapt resource value: 0x7f0604f8
+			public const int ilsp_quantity_sold_uom_bunch_sx_cotton = 2131100920;
 			
-			// aapt resource value: 0x7f060295
-			public const int ilsp_service_available_yes_sx_trainingandprofessionalservices = 2131100309;
+			// aapt resource value: 0x7f0603f8
+			public const int ilsp_quantity_sold_uom_bunch_sx_cowpeas = 2131100664;
 			
-			// aapt resource value: 0x7f0602bd
-			public const int ilsp_service_available_yes_sx_veterinaryservices = 2131100349;
+			// aapt resource value: 0x7f0604b8
+			public const int ilsp_quantity_sold_uom_bunch_sx_eggplantimpwa = 2131100856;
 			
-			// aapt resource value: 0x7f0602e8
-			public const int ilsp_social_capital = 2131100392;
+			// aapt resource value: 0x7f060358
+			public const int ilsp_quantity_sold_uom_bunch_sx_groundnuts = 2131100504;
 			
-			// aapt resource value: 0x7f060212
-			public const int ilsp_soil_conservation_pract_composting = 2131100178;
+			// aapt resource value: 0x7f0604d8
+			public const int ilsp_quantity_sold_uom_bunch_sx_leafyvegetables = 2131100888;
 			
-			// aapt resource value: 0x7f060216
-			public const int ilsp_soil_conservation_pract_contourfarming = 2131100182;
+			// aapt resource value: 0x7f060338
+			public const int ilsp_quantity_sold_uom_bunch_sx_maize = 2131100472;
 			
-			// aapt resource value: 0x7f060214
-			public const int ilsp_soil_conservation_pract_mulching = 2131100180;
+			// aapt resource value: 0x7f060418
+			public const int ilsp_quantity_sold_uom_bunch_sx_mbambaranuts = 2131100696;
 			
-			// aapt resource value: 0x7f060217
-			public const int ilsp_soil_conservation_pract_none = 2131100183;
+			// aapt resource value: 0x7f060498
+			public const int ilsp_quantity_sold_uom_bunch_sx_onion = 2131100824;
 			
-			// aapt resource value: 0x7f060218
-			public const int ilsp_soil_conservation_pract_other = 2131100184;
+			// aapt resource value: 0x7f060518
+			public const int ilsp_quantity_sold_uom_bunch_sx_other = 2131100952;
 			
-			// aapt resource value: 0x7f060213
-			public const int ilsp_soil_conservation_pract_raisedbedgardening = 2131100179;
+			// aapt resource value: 0x7f060398
+			public const int ilsp_quantity_sold_uom_bunch_sx_potatoes = 2131100568;
 			
-			// aapt resource value: 0x7f060210
-			public const int ilsp_soil_conservation_pract_reducedtillage = 2131100176;
+			// aapt resource value: 0x7f0603d8
+			public const int ilsp_quantity_sold_uom_bunch_sx_soyabeans = 2131100632;
 			
-			// aapt resource value: 0x7f06020f
-			public const int ilsp_soil_conservation_pract_stripcropping = 2131100175;
+			// aapt resource value: 0x7f060378
+			public const int ilsp_quantity_sold_uom_bunch_sx_sweetpotatoes = 2131100536;
 			
-			// aapt resource value: 0x7f060215
-			public const int ilsp_soil_conservation_pract_treeplanting = 2131100181;
+			// aapt resource value: 0x7f060478
+			public const int ilsp_quantity_sold_uom_bunch_sx_tomatoes = 2131100792;
 			
-			// aapt resource value: 0x7f060211
-			public const int ilsp_soil_conservation_pract_zerotillage = 2131100177;
+			// aapt resource value: 0x7f060439
+			public const int ilsp_quantity_sold_uom_head_sx_beans = 2131100729;
+			
+			// aapt resource value: 0x7f060459
+			public const int ilsp_quantity_sold_uom_head_sx_cabbage = 2131100761;
+			
+			// aapt resource value: 0x7f0603b9
+			public const int ilsp_quantity_sold_uom_head_sx_cassava = 2131100601;
+			
+			// aapt resource value: 0x7f0604f9
+			public const int ilsp_quantity_sold_uom_head_sx_cotton = 2131100921;
+			
+			// aapt resource value: 0x7f0603f9
+			public const int ilsp_quantity_sold_uom_head_sx_cowpeas = 2131100665;
+			
+			// aapt resource value: 0x7f0604b9
+			public const int ilsp_quantity_sold_uom_head_sx_eggplantimpwa = 2131100857;
 			
 			// aapt resource value: 0x7f060359
-			public const int ilsp_someone_will_help_agree = 2131100505;
+			public const int ilsp_quantity_sold_uom_head_sx_groundnuts = 2131100505;
 			
-			// aapt resource value: 0x7f06035b
-			public const int ilsp_someone_will_help_disagree = 2131100507;
+			// aapt resource value: 0x7f0604d9
+			public const int ilsp_quantity_sold_uom_head_sx_leafyvegetables = 2131100889;
 			
-			// aapt resource value: 0x7f06035a
-			public const int ilsp_someone_will_help_stronglyagree = 2131100506;
+			// aapt resource value: 0x7f060339
+			public const int ilsp_quantity_sold_uom_head_sx_maize = 2131100473;
 			
-			// aapt resource value: 0x7f06035c
-			public const int ilsp_someone_will_help_stronglydisagree = 2131100508;
+			// aapt resource value: 0x7f060419
+			public const int ilsp_quantity_sold_uom_head_sx_mbambaranuts = 2131100697;
 			
-			// aapt resource value: 0x7f0605e1
-			public const int ilsp_source_livestock_drugs_communityanimalhealthworkersparavets = 2131101153;
+			// aapt resource value: 0x7f060499
+			public const int ilsp_quantity_sold_uom_head_sx_onion = 2131100825;
 			
-			// aapt resource value: 0x7f0605e6
-			public const int ilsp_source_livestock_drugs_cooperatives = 2131101158;
+			// aapt resource value: 0x7f060519
+			public const int ilsp_quantity_sold_uom_head_sx_other = 2131100953;
 			
-			// aapt resource value: 0x7f0605e4
-			public const int ilsp_source_livestock_drugs_localagrovetshops = 2131101156;
+			// aapt resource value: 0x7f060399
+			public const int ilsp_quantity_sold_uom_head_sx_potatoes = 2131100569;
 			
-			// aapt resource value: 0x7f0605e9
-			public const int ilsp_source_livestock_drugs_na = 2131101161;
+			// aapt resource value: 0x7f0603d9
+			public const int ilsp_quantity_sold_uom_head_sx_soyabeans = 2131100633;
 			
-			// aapt resource value: 0x7f0605e8
-			public const int ilsp_source_livestock_drugs_neverbuy = 2131101160;
+			// aapt resource value: 0x7f060379
+			public const int ilsp_quantity_sold_uom_head_sx_sweetpotatoes = 2131100537;
 			
-			// aapt resource value: 0x7f0605ea
-			public const int ilsp_source_livestock_drugs_other = 2131101162;
+			// aapt resource value: 0x7f060479
+			public const int ilsp_quantity_sold_uom_head_sx_tomatoes = 2131100793;
 			
-			// aapt resource value: 0x7f0605e3
-			public const int ilsp_source_livestock_drugs_privateveterinaryclinics = 2131101155;
+			// aapt resource value: 0x7f060435
+			public const int ilsp_quantity_sold_uom_kilograms_sx_beans = 2131100725;
 			
-			// aapt resource value: 0x7f0605e2
-			public const int ilsp_source_livestock_drugs_publicvetcliniccamp = 2131101154;
+			// aapt resource value: 0x7f060455
+			public const int ilsp_quantity_sold_uom_kilograms_sx_cabbage = 2131100757;
 			
-			// aapt resource value: 0x7f0605e5
-			public const int ilsp_source_livestock_drugs_urbanagrovetshops = 2131101157;
+			// aapt resource value: 0x7f0603b5
+			public const int ilsp_quantity_sold_uom_kilograms_sx_cassava = 2131100597;
 			
-			// aapt resource value: 0x7f0605e7
-			public const int ilsp_source_livestock_drugs_usenaturalremedies = 2131101159;
+			// aapt resource value: 0x7f0604f5
+			public const int ilsp_quantity_sold_uom_kilograms_sx_cotton = 2131100917;
 			
-			// aapt resource value: 0x7f06078c
-			public const int ilsp_source_of_loan_commercialbank = 2131101580;
+			// aapt resource value: 0x7f0603f5
+			public const int ilsp_quantity_sold_uom_kilograms_sx_cowpeas = 2131100661;
 			
-			// aapt resource value: 0x7f060789
-			public const int ilsp_source_of_loan_loansharkskaloba = 2131101577;
+			// aapt resource value: 0x7f0604b5
+			public const int ilsp_quantity_sold_uom_kilograms_sx_eggplantimpwa = 2131100853;
 			
-			// aapt resource value: 0x7f06078b
-			public const int ilsp_source_of_loan_microfinanceinstitution = 2131101579;
+			// aapt resource value: 0x7f060355
+			public const int ilsp_quantity_sold_uom_kilograms_sx_groundnuts = 2131100501;
+			
+			// aapt resource value: 0x7f0604d5
+			public const int ilsp_quantity_sold_uom_kilograms_sx_leafyvegetables = 2131100885;
+			
+			// aapt resource value: 0x7f060335
+			public const int ilsp_quantity_sold_uom_kilograms_sx_maize = 2131100469;
+			
+			// aapt resource value: 0x7f060415
+			public const int ilsp_quantity_sold_uom_kilograms_sx_mbambaranuts = 2131100693;
+			
+			// aapt resource value: 0x7f060495
+			public const int ilsp_quantity_sold_uom_kilograms_sx_onion = 2131100821;
+			
+			// aapt resource value: 0x7f060515
+			public const int ilsp_quantity_sold_uom_kilograms_sx_other = 2131100949;
+			
+			// aapt resource value: 0x7f060395
+			public const int ilsp_quantity_sold_uom_kilograms_sx_potatoes = 2131100565;
+			
+			// aapt resource value: 0x7f0603d5
+			public const int ilsp_quantity_sold_uom_kilograms_sx_soyabeans = 2131100629;
+			
+			// aapt resource value: 0x7f060375
+			public const int ilsp_quantity_sold_uom_kilograms_sx_sweetpotatoes = 2131100533;
+			
+			// aapt resource value: 0x7f060475
+			public const int ilsp_quantity_sold_uom_kilograms_sx_tomatoes = 2131100789;
+			
+			// aapt resource value: 0x7f060436
+			public const int ilsp_quantity_sold_uom_sack_sx_beans = 2131100726;
+			
+			// aapt resource value: 0x7f060456
+			public const int ilsp_quantity_sold_uom_sack_sx_cabbage = 2131100758;
+			
+			// aapt resource value: 0x7f0603b6
+			public const int ilsp_quantity_sold_uom_sack_sx_cassava = 2131100598;
+			
+			// aapt resource value: 0x7f0604f6
+			public const int ilsp_quantity_sold_uom_sack_sx_cotton = 2131100918;
+			
+			// aapt resource value: 0x7f0603f6
+			public const int ilsp_quantity_sold_uom_sack_sx_cowpeas = 2131100662;
+			
+			// aapt resource value: 0x7f0604b6
+			public const int ilsp_quantity_sold_uom_sack_sx_eggplantimpwa = 2131100854;
+			
+			// aapt resource value: 0x7f060356
+			public const int ilsp_quantity_sold_uom_sack_sx_groundnuts = 2131100502;
+			
+			// aapt resource value: 0x7f0604d6
+			public const int ilsp_quantity_sold_uom_sack_sx_leafyvegetables = 2131100886;
+			
+			// aapt resource value: 0x7f060336
+			public const int ilsp_quantity_sold_uom_sack_sx_maize = 2131100470;
+			
+			// aapt resource value: 0x7f060416
+			public const int ilsp_quantity_sold_uom_sack_sx_mbambaranuts = 2131100694;
+			
+			// aapt resource value: 0x7f060496
+			public const int ilsp_quantity_sold_uom_sack_sx_onion = 2131100822;
+			
+			// aapt resource value: 0x7f060516
+			public const int ilsp_quantity_sold_uom_sack_sx_other = 2131100950;
+			
+			// aapt resource value: 0x7f060396
+			public const int ilsp_quantity_sold_uom_sack_sx_potatoes = 2131100566;
+			
+			// aapt resource value: 0x7f0603d6
+			public const int ilsp_quantity_sold_uom_sack_sx_soyabeans = 2131100630;
+			
+			// aapt resource value: 0x7f060376
+			public const int ilsp_quantity_sold_uom_sack_sx_sweetpotatoes = 2131100534;
+			
+			// aapt resource value: 0x7f060476
+			public const int ilsp_quantity_sold_uom_sack_sx_tomatoes = 2131100790;
+			
+			// aapt resource value: 0x7f060300
+			public const int ilsp_rate_statement_below_agree = 2131100416;
+			
+			// aapt resource value: 0x7f060302
+			public const int ilsp_rate_statement_below_disagree = 2131100418;
+			
+			// aapt resource value: 0x7f060301
+			public const int ilsp_rate_statement_below_stronglyagree = 2131100417;
+			
+			// aapt resource value: 0x7f060303
+			public const int ilsp_rate_statement_below_stronglydisagree = 2131100419;
+			
+			// aapt resource value: 0x7f0606ec
+			public const int ilsp_reas_food_not_last_yr_illnessinthefamily = 2131101420;
+			
+			// aapt resource value: 0x7f0606e8
+			public const int ilsp_reas_food_not_last_yr_inadequateinput = 2131101416;
+			
+			// aapt resource value: 0x7f0606ea
+			public const int ilsp_reas_food_not_last_yr_inadequatelabor = 2131101418;
+			
+			// aapt resource value: 0x7f0606e9
+			public const int ilsp_reas_food_not_last_yr_inadequateland = 2131101417;
+			
+			// aapt resource value: 0x7f0606ed
+			public const int ilsp_reas_food_not_last_yr_latedeliveryofinputs = 2131101421;
+			
+			// aapt resource value: 0x7f0606ee
+			public const int ilsp_reas_food_not_last_yr_other = 2131101422;
+			
+			// aapt resource value: 0x7f0606e7
+			public const int ilsp_reas_food_not_last_yr_poorweatherconditions = 2131101415;
+			
+			// aapt resource value: 0x7f0606eb
+			public const int ilsp_reas_food_not_last_yr_soldcroptoraisemone = 2131101419;
+			
+			// aapt resource value: 0x7f060313
+			public const int ilsp_reason_not_pog = 2131100435;
+			
+			// aapt resource value: 0x7f06078e
+			public const int ilsp_received_loan_past_year_no = 2131101582;
 			
 			// aapt resource value: 0x7f06078d
-			public const int ilsp_source_of_loan_other = 2131101581;
+			public const int ilsp_received_loan_past_year_yes = 2131101581;
 			
-			// aapt resource value: 0x7f06078a
-			public const int ilsp_source_of_loan_relativefriend = 2131101578;
+			// aapt resource value: 0x7f0600b9
+			public const int ilsp_respondent_info = 2131099833;
 			
-			// aapt resource value: 0x7f060788
-			public const int ilsp_source_of_loan_villagesavingsandcreditscheme = 2131101576;
+			// aapt resource value: 0x7f06022e
+			public const int ilsp_service_available_no_sx_education = 2131100206;
 			
-			// aapt resource value: 0x7f060746
-			public const int ilsp_source_of_money_sx_governmentassistanceunemploymentwelfareallowance = 2131101510;
+			// aapt resource value: 0x7f060256
+			public const int ilsp_service_available_no_sx_extensionservices = 2131100246;
 			
-			// aapt resource value: 0x7f06074b
-			public const int ilsp_source_of_money_sx_other = 2131101515;
+			// aapt resource value: 0x7f060274
+			public const int ilsp_service_available_no_sx_financialservices = 2131100276;
 			
-			// aapt resource value: 0x7f060741
-			public const int ilsp_source_of_money_sx_remittancessentfromchildrenrelatives = 2131101505;
+			// aapt resource value: 0x7f060238
+			public const int ilsp_service_available_no_sx_healthservices = 2131100216;
 			
-			// aapt resource value: 0x7f06073c
-			public const int ilsp_source_of_money_sx_rentsdraftpowerpropertymachineryinterests = 2131101500;
+			// aapt resource value: 0x7f06024c
+			public const int ilsp_service_available_no_sx_justiceconflictresolution = 2131100236;
 			
-			// aapt resource value: 0x7f06072d
-			public const int ilsp_source_of_money_sx_salarieswages = 2131101485;
+			// aapt resource value: 0x7f060260
+			public const int ilsp_service_available_no_sx_marketingservices = 2131100256;
 			
-			// aapt resource value: 0x7f060732
-			public const int ilsp_source_of_money_sx_salesfirewoodhomemadeproductscrafts = 2131101490;
+			// aapt resource value: 0x7f060242
+			public const int ilsp_service_available_no_sx_trainingandprofessionalservices = 2131100226;
 			
-			// aapt resource value: 0x7f060750
-			public const int ilsp_source_of_money_sx_total = 2131101520;
+			// aapt resource value: 0x7f06026a
+			public const int ilsp_service_available_no_sx_veterinaryservices = 2131100266;
 			
-			// aapt resource value: 0x7f060737
-			public const int ilsp_source_of_money_sx_trading = 2131101495;
+			// aapt resource value: 0x7f06022d
+			public const int ilsp_service_available_yes_sx_education = 2131100205;
 			
-			// aapt resource value: 0x7f0605af
-			public const int ilsp_store_and_preseve_fodder_no = 2131101103;
+			// aapt resource value: 0x7f060255
+			public const int ilsp_service_available_yes_sx_extensionservices = 2131100245;
 			
-			// aapt resource value: 0x7f0605ae
-			public const int ilsp_store_and_preseve_fodder_yes = 2131101102;
+			// aapt resource value: 0x7f060273
+			public const int ilsp_service_available_yes_sx_financialservices = 2131100275;
 			
-			// aapt resource value: 0x7f0600b3
-			public const int ilsp_survey_identifiers = 2131099827;
+			// aapt resource value: 0x7f060237
+			public const int ilsp_service_available_yes_sx_healthservices = 2131100215;
 			
-			// aapt resource value: 0x7f060252
-			public const int ilsp_tech_trng_work_land_maleandfemale = 2131100242;
+			// aapt resource value: 0x7f06024b
+			public const int ilsp_service_available_yes_sx_justiceconflictresolution = 2131100235;
 			
-			// aapt resource value: 0x7f060254
-			public const int ilsp_tech_trng_work_land_onlyfemale = 2131100244;
+			// aapt resource value: 0x7f06025f
+			public const int ilsp_service_available_yes_sx_marketingservices = 2131100255;
 			
-			// aapt resource value: 0x7f060253
-			public const int ilsp_tech_trng_work_land_onlymale = 2131100243;
+			// aapt resource value: 0x7f060241
+			public const int ilsp_service_available_yes_sx_trainingandprofessionalservices = 2131100225;
 			
-			// aapt resource value: 0x7f0605c5
-			public const int ilsp_tick_control_method_dipping = 2131101125;
+			// aapt resource value: 0x7f060269
+			public const int ilsp_service_available_yes_sx_veterinaryservices = 2131100265;
 			
-			// aapt resource value: 0x7f0605c8
-			public const int ilsp_tick_control_method_na = 2131101128;
-			
-			// aapt resource value: 0x7f0605c7
-			public const int ilsp_tick_control_method_none = 2131101127;
-			
-			// aapt resource value: 0x7f0605c9
-			public const int ilsp_tick_control_method_other = 2131101129;
-			
-			// aapt resource value: 0x7f0605c6
-			public const int ilsp_tick_control_method_spraying = 2131101126;
-			
-			// aapt resource value: 0x7f0601e8
-			public const int ilsp_tool_name_non_agric_sx_bed = 2131100136;
-			
-			// aapt resource value: 0x7f0601b2
-			public const int ilsp_tool_name_non_agric_sx_bicycle = 2131100082;
-			
-			// aapt resource value: 0x7f0601ee
-			public const int ilsp_tool_name_non_agric_sx_mattress = 2131100142;
-			
-			// aapt resource value: 0x7f0601c4
-			public const int ilsp_tool_name_non_agric_sx_mobilecellphone = 2131100100;
-			
-			// aapt resource value: 0x7f0601d0
-			public const int ilsp_tool_name_non_agric_sx_motorbike = 2131100112;
-			
-			// aapt resource value: 0x7f0601dc
-			public const int ilsp_tool_name_non_agric_sx_motorvehicle = 2131100124;
-			
-			// aapt resource value: 0x7f0601b8
-			public const int ilsp_tool_name_non_agric_sx_radio = 2131100088;
-			
-			// aapt resource value: 0x7f0601e2
-			public const int ilsp_tool_name_non_agric_sx_sofas = 2131100130;
-			
-			// aapt resource value: 0x7f0601f4
-			public const int ilsp_tool_name_non_agric_sx_solarlamps = 2131100148;
-			
-			// aapt resource value: 0x7f0601d6
-			public const int ilsp_tool_name_non_agric_sx_solarpanel = 2131100118;
-			
-			// aapt resource value: 0x7f0601ca
-			public const int ilsp_tool_name_non_agric_sx_stove = 2131100106;
+			// aapt resource value: 0x7f060295
+			public const int ilsp_social_capital = 2131100309;
 			
 			// aapt resource value: 0x7f0601be
-			public const int ilsp_tool_name_non_agric_sx_tv = 2131100094;
+			public const int ilsp_soil_conservation_pract_composting = 2131100094;
+			
+			// aapt resource value: 0x7f0601c2
+			public const int ilsp_soil_conservation_pract_contourfarming = 2131100098;
+			
+			// aapt resource value: 0x7f0601bb
+			public const int ilsp_soil_conservation_pract_intercropping = 2131100091;
+			
+			// aapt resource value: 0x7f0601c0
+			public const int ilsp_soil_conservation_pract_mulching = 2131100096;
+			
+			// aapt resource value: 0x7f0601c3
+			public const int ilsp_soil_conservation_pract_none = 2131100099;
+			
+			// aapt resource value: 0x7f0601c4
+			public const int ilsp_soil_conservation_pract_other = 2131100100;
+			
+			// aapt resource value: 0x7f0601bf
+			public const int ilsp_soil_conservation_pract_raisedbedgardening = 2131100095;
+			
+			// aapt resource value: 0x7f0601bc
+			public const int ilsp_soil_conservation_pract_reducedtillage = 2131100092;
+			
+			// aapt resource value: 0x7f0601c1
+			public const int ilsp_soil_conservation_pract_treeplanting = 2131100097;
+			
+			// aapt resource value: 0x7f0601bd
+			public const int ilsp_soil_conservation_pract_zerotillage = 2131100093;
+			
+			// aapt resource value: 0x7f060306
+			public const int ilsp_someone_will_help_agree = 2131100422;
+			
+			// aapt resource value: 0x7f060308
+			public const int ilsp_someone_will_help_disagree = 2131100424;
+			
+			// aapt resource value: 0x7f060307
+			public const int ilsp_someone_will_help_stronglyagree = 2131100423;
+			
+			// aapt resource value: 0x7f060309
+			public const int ilsp_someone_will_help_stronglydisagree = 2131100425;
+			
+			// aapt resource value: 0x7f0605ea
+			public const int ilsp_source_livestock_drugs_communityanimalhealthworkersparavets = 2131101162;
+			
+			// aapt resource value: 0x7f0605ef
+			public const int ilsp_source_livestock_drugs_cooperatives = 2131101167;
+			
+			// aapt resource value: 0x7f0605ed
+			public const int ilsp_source_livestock_drugs_localagrovetshops = 2131101165;
+			
+			// aapt resource value: 0x7f0605f2
+			public const int ilsp_source_livestock_drugs_na = 2131101170;
+			
+			// aapt resource value: 0x7f0605f1
+			public const int ilsp_source_livestock_drugs_neverbuy = 2131101169;
+			
+			// aapt resource value: 0x7f0605f3
+			public const int ilsp_source_livestock_drugs_other = 2131101171;
+			
+			// aapt resource value: 0x7f0605ec
+			public const int ilsp_source_livestock_drugs_privateveterinaryclinics = 2131101164;
+			
+			// aapt resource value: 0x7f0605eb
+			public const int ilsp_source_livestock_drugs_publicvetcliniccamp = 2131101163;
+			
+			// aapt resource value: 0x7f0605ee
+			public const int ilsp_source_livestock_drugs_urbanagrovetshops = 2131101166;
+			
+			// aapt resource value: 0x7f0605f0
+			public const int ilsp_source_livestock_drugs_usenaturalremedies = 2131101168;
+			
+			// aapt resource value: 0x7f060795
+			public const int ilsp_source_of_loan_commercialbank = 2131101589;
+			
+			// aapt resource value: 0x7f060792
+			public const int ilsp_source_of_loan_loansharkskaloba = 2131101586;
+			
+			// aapt resource value: 0x7f060794
+			public const int ilsp_source_of_loan_microfinanceinstitution = 2131101588;
+			
+			// aapt resource value: 0x7f060796
+			public const int ilsp_source_of_loan_other = 2131101590;
+			
+			// aapt resource value: 0x7f060793
+			public const int ilsp_source_of_loan_relativefriend = 2131101587;
+			
+			// aapt resource value: 0x7f060791
+			public const int ilsp_source_of_loan_villagesavingsandcreditscheme = 2131101585;
+			
+			// aapt resource value: 0x7f06074f
+			public const int ilsp_source_of_money_sx_governmentassistanceunemploymentwelfareallowance = 2131101519;
+			
+			// aapt resource value: 0x7f060754
+			public const int ilsp_source_of_money_sx_other = 2131101524;
+			
+			// aapt resource value: 0x7f06074a
+			public const int ilsp_source_of_money_sx_remittancessentfromchildrenrelatives = 2131101514;
+			
+			// aapt resource value: 0x7f060745
+			public const int ilsp_source_of_money_sx_rentsdraftpowerpropertymachineryinterests = 2131101509;
+			
+			// aapt resource value: 0x7f060736
+			public const int ilsp_source_of_money_sx_salarieswages = 2131101494;
+			
+			// aapt resource value: 0x7f06073b
+			public const int ilsp_source_of_money_sx_salesfirewoodhomemadeproductscrafts = 2131101499;
+			
+			// aapt resource value: 0x7f060759
+			public const int ilsp_source_of_money_sx_total = 2131101529;
+			
+			// aapt resource value: 0x7f060740
+			public const int ilsp_source_of_money_sx_trading = 2131101504;
+			
+			// aapt resource value: 0x7f0605b7
+			public const int ilsp_store_and_preseve_fodder_no = 2131101111;
+			
+			// aapt resource value: 0x7f0605b6
+			public const int ilsp_store_and_preseve_fodder_yes = 2131101110;
+			
+			// aapt resource value: 0x7f0600a8
+			public const int ilsp_survey_identifiers = 2131099816;
+			
+			// aapt resource value: 0x7f0601fe
+			public const int ilsp_tech_trng_work_land_maleandfemale = 2131100158;
+			
+			// aapt resource value: 0x7f060200
+			public const int ilsp_tech_trng_work_land_onlyfemale = 2131100160;
+			
+			// aapt resource value: 0x7f0601ff
+			public const int ilsp_tech_trng_work_land_onlymale = 2131100159;
+			
+			// aapt resource value: 0x7f0605ce
+			public const int ilsp_tick_control_method_dipping = 2131101134;
+			
+			// aapt resource value: 0x7f0605d1
+			public const int ilsp_tick_control_method_na = 2131101137;
+			
+			// aapt resource value: 0x7f0605d0
+			public const int ilsp_tick_control_method_none = 2131101136;
+			
+			// aapt resource value: 0x7f0605d2
+			public const int ilsp_tick_control_method_other = 2131101138;
+			
+			// aapt resource value: 0x7f0605cf
+			public const int ilsp_tick_control_method_spraying = 2131101135;
+			
+			// aapt resource value: 0x7f060194
+			public const int ilsp_tool_name_non_agric_sx_bed = 2131100052;
+			
+			// aapt resource value: 0x7f06015e
+			public const int ilsp_tool_name_non_agric_sx_bicycle = 2131099998;
+			
+			// aapt resource value: 0x7f06019a
+			public const int ilsp_tool_name_non_agric_sx_mattress = 2131100058;
+			
+			// aapt resource value: 0x7f060170
+			public const int ilsp_tool_name_non_agric_sx_mobilecellphone = 2131100016;
+			
+			// aapt resource value: 0x7f06017c
+			public const int ilsp_tool_name_non_agric_sx_motorbike = 2131100028;
+			
+			// aapt resource value: 0x7f060188
+			public const int ilsp_tool_name_non_agric_sx_motorvehicle = 2131100040;
+			
+			// aapt resource value: 0x7f060164
+			public const int ilsp_tool_name_non_agric_sx_radio = 2131100004;
+			
+			// aapt resource value: 0x7f06018e
+			public const int ilsp_tool_name_non_agric_sx_sofas = 2131100046;
+			
+			// aapt resource value: 0x7f0601a0
+			public const int ilsp_tool_name_non_agric_sx_solarlamps = 2131100064;
+			
+			// aapt resource value: 0x7f060182
+			public const int ilsp_tool_name_non_agric_sx_solarpanel = 2131100034;
+			
+			// aapt resource value: 0x7f060176
+			public const int ilsp_tool_name_non_agric_sx_stove = 2131100022;
+			
+			// aapt resource value: 0x7f06016a
+			public const int ilsp_tool_name_non_agric_sx_tv = 2131100010;
 			
 			// aapt resource value: 0x7f060116
 			public const int ilsp_tool_name_sx_axe = 2131099926;
 			
-			// aapt resource value: 0x7f0601a0
-			public const int ilsp_tool_name_sx_bed = 2131100064;
-			
-			// aapt resource value: 0x7f06016a
-			public const int ilsp_tool_name_sx_bicycle = 2131100010;
-			
-			// aapt resource value: 0x7f060152
-			public const int ilsp_tool_name_sx_grainmill = 2131099986;
+			// aapt resource value: 0x7f060146
+			public const int ilsp_tool_name_sx_grainmill = 2131099974;
 			
 			// aapt resource value: 0x7f060110
 			public const int ilsp_tool_name_sx_hoe = 2131099920;
 			
-			// aapt resource value: 0x7f0601a6
-			public const int ilsp_tool_name_sx_mattress = 2131100070;
-			
-			// aapt resource value: 0x7f06017c
-			public const int ilsp_tool_name_sx_mobilecellphone = 2131100028;
-			
-			// aapt resource value: 0x7f060188
-			public const int ilsp_tool_name_sx_motorbike = 2131100040;
-			
-			// aapt resource value: 0x7f060194
-			public const int ilsp_tool_name_sx_motorvehicle = 2131100052;
+			// aapt resource value: 0x7f060140
+			public const int ilsp_tool_name_sx_oilpress = 2131099968;
 			
 			// aapt resource value: 0x7f06014c
-			public const int ilsp_tool_name_sx_oilpress = 2131099980;
-			
-			// aapt resource value: 0x7f060158
-			public const int ilsp_tool_name_sx_oxcarts = 2131099992;
-			
-			// aapt resource value: 0x7f06013a
-			public const int ilsp_tool_name_sx_oxplough = 2131099962;
+			public const int ilsp_tool_name_sx_oxcarts = 2131099980;
 			
 			// aapt resource value: 0x7f060122
 			public const int ilsp_tool_name_sx_pangas = 2131099938;
 			
-			// aapt resource value: 0x7f0601ac
-			public const int ilsp_tool_name_sx_plough = 2131100076;
-			
-			// aapt resource value: 0x7f060170
-			public const int ilsp_tool_name_sx_radio = 2131100016;
-			
-			// aapt resource value: 0x7f060140
-			public const int ilsp_tool_name_sx_ridgeplough = 2131099968;
-			
-			// aapt resource value: 0x7f060146
-			public const int ilsp_tool_name_sx_ripper = 2131099974;
+			// aapt resource value: 0x7f06013a
+			public const int ilsp_tool_name_sx_plough = 2131099962;
 			
 			// aapt resource value: 0x7f060134
 			public const int ilsp_tool_name_sx_slasher = 2131099956;
-			
-			// aapt resource value: 0x7f06019a
-			public const int ilsp_tool_name_sx_sofas = 2131100058;
-			
-			// aapt resource value: 0x7f06018e
-			public const int ilsp_tool_name_sx_solarpanel = 2131100046;
 			
 			// aapt resource value: 0x7f06011c
 			public const int ilsp_tool_name_sx_spade = 2131099932;
@@ -5756,611 +5792,605 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06012e
 			public const int ilsp_tool_name_sx_sprayer = 2131099950;
 			
-			// aapt resource value: 0x7f060182
-			public const int ilsp_tool_name_sx_stove = 2131100034;
+			// aapt resource value: 0x7f060152
+			public const int ilsp_tool_name_sx_tractor = 2131099986;
 			
-			// aapt resource value: 0x7f06015e
-			public const int ilsp_tool_name_sx_tractor = 2131099998;
-			
-			// aapt resource value: 0x7f060164
-			public const int ilsp_tool_name_sx_trailor = 2131100004;
-			
-			// aapt resource value: 0x7f060176
-			public const int ilsp_tool_name_sx_tv = 2131100022;
+			// aapt resource value: 0x7f060158
+			public const int ilsp_tool_name_sx_trailor = 2131099992;
 			
 			// aapt resource value: 0x7f060128
 			public const int ilsp_tool_name_sx_wheelbarrow = 2131099944;
 			
-			// aapt resource value: 0x7f06078f
-			public const int ilsp_tools_owned_quant = 2131101583;
+			// aapt resource value: 0x7f060798
+			public const int ilsp_tools_owned_quant = 2131101592;
 			
-			// aapt resource value: 0x7f0605f5
-			public const int ilsp_total_annual_income_sx_cowmilk = 2131101173;
+			// aapt resource value: 0x7f0605fe
+			public const int ilsp_total_annual_income_sx_cowmilk = 2131101182;
 			
 			// aapt resource value: 0x7f0600f1
 			public const int ilsp_total_household_size = 2131099889;
 			
-			// aapt resource value: 0x7f060472
-			public const int ilsp_total_income_from_sales_sx_beans = 2131100786;
+			// aapt resource value: 0x7f06043a
+			public const int ilsp_total_income_from_sales_sx_beans = 2131100730;
 			
-			// aapt resource value: 0x7f06048f
-			public const int ilsp_total_income_from_sales_sx_cabbage = 2131100815;
+			// aapt resource value: 0x7f06045a
+			public const int ilsp_total_income_from_sales_sx_cabbage = 2131100762;
 			
-			// aapt resource value: 0x7f0603fe
-			public const int ilsp_total_income_from_sales_sx_cassava = 2131100670;
+			// aapt resource value: 0x7f0603ba
+			public const int ilsp_total_income_from_sales_sx_cassava = 2131100602;
 			
-			// aapt resource value: 0x7f060520
-			public const int ilsp_total_income_from_sales_sx_cotton = 2131100960;
+			// aapt resource value: 0x7f0604fa
+			public const int ilsp_total_income_from_sales_sx_cotton = 2131100922;
 			
-			// aapt resource value: 0x7f060438
-			public const int ilsp_total_income_from_sales_sx_cowpeas = 2131100728;
+			// aapt resource value: 0x7f0603fa
+			public const int ilsp_total_income_from_sales_sx_cowpeas = 2131100666;
 			
-			// aapt resource value: 0x7f0604e6
-			public const int ilsp_total_income_from_sales_sx_eggplantimpwa = 2131100902;
+			// aapt resource value: 0x7f0604ba
+			public const int ilsp_total_income_from_sales_sx_eggplantimpwa = 2131100858;
 			
-			// aapt resource value: 0x7f0603a7
-			public const int ilsp_total_income_from_sales_sx_groundnuts = 2131100583;
+			// aapt resource value: 0x7f06035a
+			public const int ilsp_total_income_from_sales_sx_groundnuts = 2131100506;
 			
-			// aapt resource value: 0x7f060503
-			public const int ilsp_total_income_from_sales_sx_leafyvegetables = 2131100931;
+			// aapt resource value: 0x7f0604da
+			public const int ilsp_total_income_from_sales_sx_leafyvegetables = 2131100890;
 			
-			// aapt resource value: 0x7f06038a
-			public const int ilsp_total_income_from_sales_sx_maize = 2131100554;
+			// aapt resource value: 0x7f06033a
+			public const int ilsp_total_income_from_sales_sx_maize = 2131100474;
 			
-			// aapt resource value: 0x7f060455
-			public const int ilsp_total_income_from_sales_sx_mbambaranuts = 2131100757;
+			// aapt resource value: 0x7f06041a
+			public const int ilsp_total_income_from_sales_sx_mbambaranuts = 2131100698;
 			
-			// aapt resource value: 0x7f0604c9
-			public const int ilsp_total_income_from_sales_sx_onion = 2131100873;
+			// aapt resource value: 0x7f06049a
+			public const int ilsp_total_income_from_sales_sx_onion = 2131100826;
 			
-			// aapt resource value: 0x7f06053d
-			public const int ilsp_total_income_from_sales_sx_other = 2131100989;
+			// aapt resource value: 0x7f06051a
+			public const int ilsp_total_income_from_sales_sx_other = 2131100954;
 			
-			// aapt resource value: 0x7f0603e1
-			public const int ilsp_total_income_from_sales_sx_potatoes = 2131100641;
+			// aapt resource value: 0x7f06039a
+			public const int ilsp_total_income_from_sales_sx_potatoes = 2131100570;
 			
-			// aapt resource value: 0x7f06041b
-			public const int ilsp_total_income_from_sales_sx_soyabeans = 2131100699;
+			// aapt resource value: 0x7f0603da
+			public const int ilsp_total_income_from_sales_sx_soyabeans = 2131100634;
 			
-			// aapt resource value: 0x7f0603c4
-			public const int ilsp_total_income_from_sales_sx_sweetpotatoes = 2131100612;
+			// aapt resource value: 0x7f06037a
+			public const int ilsp_total_income_from_sales_sx_sweetpotatoes = 2131100538;
 			
-			// aapt resource value: 0x7f0604ac
-			public const int ilsp_total_income_from_sales_sx_tomatoes = 2131100844;
+			// aapt resource value: 0x7f06047a
+			public const int ilsp_total_income_from_sales_sx_tomatoes = 2131100794;
 			
-			// aapt resource value: 0x7f0605f1
-			public const int ilsp_total_prod_qty_milk_sx_cowmilk = 2131101169;
+			// aapt resource value: 0x7f0605fa
+			public const int ilsp_total_prod_qty_milk_sx_cowmilk = 2131101178;
 			
-			// aapt resource value: 0x7f060321
-			public const int ilsp_training = 2131100449;
-			
-			// aapt resource value: 0x7f060632
-			public const int ilsp_type_of_farm_rec_kept_cropproduction = 2131101234;
-			
-			// aapt resource value: 0x7f060635
-			public const int ilsp_type_of_farm_rec_kept_cropsales = 2131101237;
-			
-			// aapt resource value: 0x7f060637
-			public const int ilsp_type_of_farm_rec_kept_expenditurerecords = 2131101239;
-			
-			// aapt resource value: 0x7f060638
-			public const int ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining = 2131101240;
-			
-			// aapt resource value: 0x7f060633
-			public const int ilsp_type_of_farm_rec_kept_livestockproduction = 2131101235;
-			
-			// aapt resource value: 0x7f060639
-			public const int ilsp_type_of_farm_rec_kept_livestocksales = 2131101241;
-			
-			// aapt resource value: 0x7f060634
-			public const int ilsp_type_of_farm_rec_kept_milkproduction = 2131101236;
-			
-			// aapt resource value: 0x7f060636
-			public const int ilsp_type_of_farm_rec_kept_milksales = 2131101238;
-			
-			// aapt resource value: 0x7f06063a
-			public const int ilsp_type_of_farm_rec_kept_none = 2131101242;
+			// aapt resource value: 0x7f0602ce
+			public const int ilsp_training = 2131100366;
 			
 			// aapt resource value: 0x7f06063b
-			public const int ilsp_type_of_farm_rec_kept_other = 2131101243;
+			public const int ilsp_type_of_farm_rec_kept_cropproduction = 2131101243;
 			
-			// aapt resource value: 0x7f0600bf
-			public const int ilsp_type_of_recipient_1_family = 2131099839;
+			// aapt resource value: 0x7f06063e
+			public const int ilsp_type_of_farm_rec_kept_cropsales = 2131101246;
+			
+			// aapt resource value: 0x7f060640
+			public const int ilsp_type_of_farm_rec_kept_expenditurerecords = 2131101248;
+			
+			// aapt resource value: 0x7f060641
+			public const int ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining = 2131101249;
+			
+			// aapt resource value: 0x7f06063c
+			public const int ilsp_type_of_farm_rec_kept_livestockproduction = 2131101244;
+			
+			// aapt resource value: 0x7f060642
+			public const int ilsp_type_of_farm_rec_kept_livestocksales = 2131101250;
+			
+			// aapt resource value: 0x7f06063d
+			public const int ilsp_type_of_farm_rec_kept_milkproduction = 2131101245;
+			
+			// aapt resource value: 0x7f06063f
+			public const int ilsp_type_of_farm_rec_kept_milksales = 2131101247;
+			
+			// aapt resource value: 0x7f060643
+			public const int ilsp_type_of_farm_rec_kept_none = 2131101251;
+			
+			// aapt resource value: 0x7f060644
+			public const int ilsp_type_of_farm_rec_kept_other = 2131101252;
+			
+			// aapt resource value: 0x7f0600bc
+			public const int ilsp_type_of_recipient_1_family = 2131099836;
+			
+			// aapt resource value: 0x7f0600bd
+			public const int ilsp_type_of_recipient_1_individual = 2131099837;
 			
 			// aapt resource value: 0x7f0600c0
-			public const int ilsp_type_of_recipient_1_individual = 2131099840;
+			public const int ilsp_type_of_recipient_2_original = 2131099840;
+			
+			// aapt resource value: 0x7f0600c2
+			public const int ilsp_type_of_recipient_2_originalnotyetreceivedanything = 2131099842;
+			
+			// aapt resource value: 0x7f0600c1
+			public const int ilsp_type_of_recipient_2_pog = 2131099841;
 			
 			// aapt resource value: 0x7f0600c3
-			public const int ilsp_type_of_recipient_2_original = 2131099843;
+			public const int ilsp_type_of_recipient_2_pognotyetreceived = 2131099843;
 			
-			// aapt resource value: 0x7f0600c5
-			public const int ilsp_type_of_recipient_2_originalnotyetreceivedanything = 2131099845;
+			// aapt resource value: 0x7f060612
+			public const int ilsp_value_addition_enterp_cassavaprocessing = 2131101202;
 			
-			// aapt resource value: 0x7f0600c4
-			public const int ilsp_type_of_recipient_2_pog = 2131099844;
+			// aapt resource value: 0x7f060610
+			public const int ilsp_value_addition_enterp_goatmeatprocessing = 2131101200;
 			
-			// aapt resource value: 0x7f0600c6
-			public const int ilsp_type_of_recipient_2_pognotyetreceived = 2131099846;
+			// aapt resource value: 0x7f060611
+			public const int ilsp_value_addition_enterp_groundnutprocessing = 2131101201;
 			
-			// aapt resource value: 0x7f060609
-			public const int ilsp_value_addition_enterp_cassavaprocessing = 2131101193;
+			// aapt resource value: 0x7f060613
+			public const int ilsp_value_addition_enterp_maizeprocessing = 2131101203;
 			
-			// aapt resource value: 0x7f060607
-			public const int ilsp_value_addition_enterp_goatmeatprocessing = 2131101191;
+			// aapt resource value: 0x7f06060f
+			public const int ilsp_value_addition_enterp_milkprocessing = 2131101199;
 			
-			// aapt resource value: 0x7f060608
-			public const int ilsp_value_addition_enterp_groundnutprocessing = 2131101192;
+			// aapt resource value: 0x7f060615
+			public const int ilsp_value_addition_enterp_none = 2131101205;
 			
-			// aapt resource value: 0x7f06060a
-			public const int ilsp_value_addition_enterp_maizeprocessing = 2131101194;
+			// aapt resource value: 0x7f060616
+			public const int ilsp_value_addition_enterp_other = 2131101206;
 			
-			// aapt resource value: 0x7f060606
-			public const int ilsp_value_addition_enterp_milkprocessing = 2131101190;
+			// aapt resource value: 0x7f060614
+			public const int ilsp_value_addition_enterp_vegetableprocessing = 2131101204;
 			
-			// aapt resource value: 0x7f06060c
-			public const int ilsp_value_addition_enterp_none = 2131101196;
+			// aapt resource value: 0x7f060312
+			public const int ilsp_when_passed_on_gift = 2131100434;
 			
-			// aapt resource value: 0x7f06060d
-			public const int ilsp_value_addition_enterp_other = 2131101197;
-			
-			// aapt resource value: 0x7f06060b
-			public const int ilsp_value_addition_enterp_vegetableprocessing = 2131101195;
-			
-			// aapt resource value: 0x7f060365
-			public const int ilsp_when_passed_on_gift = 2131100517;
-			
-			// aapt resource value: 0x7f0605ba
-			public const int ilsp_where_feed_is_bought_cooperatives = 2131101114;
-			
-			// aapt resource value: 0x7f0605b7
-			public const int ilsp_where_feed_is_bought_localagrovetshops = 2131101111;
-			
-			// aapt resource value: 0x7f0605b5
-			public const int ilsp_where_feed_is_bought_localmarket = 2131101109;
-			
-			// aapt resource value: 0x7f0605bc
-			public const int ilsp_where_feed_is_bought_localmillers = 2131101116;
-			
-			// aapt resource value: 0x7f0605b9
-			public const int ilsp_where_feed_is_bought_middlementraders = 2131101113;
-			
-			// aapt resource value: 0x7f0605bb
-			public const int ilsp_where_feed_is_bought_milkcollectioncentres = 2131101115;
+			// aapt resource value: 0x7f0605c3
+			public const int ilsp_where_feed_is_bought_cooperatives = 2131101123;
 			
 			// aapt resource value: 0x7f0605c0
-			public const int ilsp_where_feed_is_bought_na = 2131101120;
-			
-			// aapt resource value: 0x7f0605bf
-			public const int ilsp_where_feed_is_bought_neverbuy = 2131101119;
-			
-			// aapt resource value: 0x7f0605c1
-			public const int ilsp_where_feed_is_bought_other = 2131101121;
+			public const int ilsp_where_feed_is_bought_localagrovetshops = 2131101120;
 			
 			// aapt resource value: 0x7f0605be
-			public const int ilsp_where_feed_is_bought_ownproduction = 2131101118;
+			public const int ilsp_where_feed_is_bought_localmarket = 2131101118;
 			
-			// aapt resource value: 0x7f0605b8
-			public const int ilsp_where_feed_is_bought_urbanagrovetshops = 2131101112;
+			// aapt resource value: 0x7f0605c5
+			public const int ilsp_where_feed_is_bought_localmillers = 2131101125;
 			
-			// aapt resource value: 0x7f0605b6
-			public const int ilsp_where_feed_is_bought_urbanmarkets = 2131101110;
+			// aapt resource value: 0x7f0605c2
+			public const int ilsp_where_feed_is_bought_middlementraders = 2131101122;
 			
-			// aapt resource value: 0x7f0605bd
-			public const int ilsp_where_feed_is_bought_urbanmillers = 2131101117;
+			// aapt resource value: 0x7f0605c4
+			public const int ilsp_where_feed_is_bought_milkcollectioncentres = 2131101124;
 			
-			// aapt resource value: 0x7f0605fe
-			public const int ilsp_where_you_sell_your_milk_cooperatives = 2131101182;
+			// aapt resource value: 0x7f0605c9
+			public const int ilsp_where_feed_is_bought_na = 2131101129;
 			
-			// aapt resource value: 0x7f060601
-			public const int ilsp_where_you_sell_your_milk_donotsell = 2131101185;
+			// aapt resource value: 0x7f0605c8
+			public const int ilsp_where_feed_is_bought_neverbuy = 2131101128;
 			
-			// aapt resource value: 0x7f0605fc
-			public const int ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders = 2131101180;
+			// aapt resource value: 0x7f0605ca
+			public const int ilsp_where_feed_is_bought_other = 2131101130;
 			
-			// aapt resource value: 0x7f060602
-			public const int ilsp_where_you_sell_your_milk_na = 2131101186;
+			// aapt resource value: 0x7f0605c7
+			public const int ilsp_where_feed_is_bought_ownproduction = 2131101127;
 			
-			// aapt resource value: 0x7f060603
-			public const int ilsp_where_you_sell_your_milk_other = 2131101187;
+			// aapt resource value: 0x7f0605c1
+			public const int ilsp_where_feed_is_bought_urbanagrovetshops = 2131101121;
 			
-			// aapt resource value: 0x7f0605ff
-			public const int ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima = 2131101183;
+			// aapt resource value: 0x7f0605bf
+			public const int ilsp_where_feed_is_bought_urbanmarkets = 2131101119;
 			
-			// aapt resource value: 0x7f060600
-			public const int ilsp_where_you_sell_your_milk_processorsthroughmcc = 2131101184;
+			// aapt resource value: 0x7f0605c6
+			public const int ilsp_where_feed_is_bought_urbanmillers = 2131101126;
 			
-			// aapt resource value: 0x7f0605fd
-			public const int ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets = 2131101181;
+			// aapt resource value: 0x7f060607
+			public const int ilsp_where_you_sell_your_milk_cooperatives = 2131101191;
 			
-			// aapt resource value: 0x7f0602f5
-			public const int ilsp_who_has_access_maleandfemale_sx_cooperative = 2131100405;
+			// aapt resource value: 0x7f06060a
+			public const int ilsp_where_you_sell_your_milk_donotsell = 2131101194;
 			
-			// aapt resource value: 0x7f0602fd
-			public const int ilsp_who_has_access_maleandfemale_sx_creditfinancegroup = 2131100413;
+			// aapt resource value: 0x7f060605
+			public const int ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders = 2131101189;
 			
-			// aapt resource value: 0x7f060284
-			public const int ilsp_who_has_access_maleandfemale_sx_education = 2131100292;
+			// aapt resource value: 0x7f06060b
+			public const int ilsp_where_you_sell_your_milk_na = 2131101195;
 			
-			// aapt resource value: 0x7f0602ac
-			public const int ilsp_who_has_access_maleandfemale_sx_extensionservices = 2131100332;
+			// aapt resource value: 0x7f06060c
+			public const int ilsp_where_you_sell_your_milk_other = 2131101196;
 			
-			// aapt resource value: 0x7f0602ca
-			public const int ilsp_who_has_access_maleandfemale_sx_financialservices = 2131100362;
+			// aapt resource value: 0x7f060608
+			public const int ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima = 2131101192;
 			
-			// aapt resource value: 0x7f06028e
-			public const int ilsp_who_has_access_maleandfemale_sx_healthservices = 2131100302;
+			// aapt resource value: 0x7f060609
+			public const int ilsp_where_you_sell_your_milk_processorsthroughmcc = 2131101193;
+			
+			// aapt resource value: 0x7f060606
+			public const int ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets = 2131101190;
 			
 			// aapt resource value: 0x7f0602a2
-			public const int ilsp_who_has_access_maleandfemale_sx_justiceconflictresolution = 2131100322;
+			public const int ilsp_who_has_access_maleandfemale_sx_cooperative = 2131100322;
 			
-			// aapt resource value: 0x7f0602b6
-			public const int ilsp_who_has_access_maleandfemale_sx_marketingservices = 2131100342;
-			
-			// aapt resource value: 0x7f06030d
-			public const int ilsp_who_has_access_maleandfemale_sx_mensgroup = 2131100429;
-			
-			// aapt resource value: 0x7f06031d
-			public const int ilsp_who_has_access_maleandfemale_sx_other = 2131100445;
-			
-			// aapt resource value: 0x7f0602ed
-			public const int ilsp_who_has_access_maleandfemale_sx_producergroup = 2131100397;
-			
-			// aapt resource value: 0x7f060298
-			public const int ilsp_who_has_access_maleandfemale_sx_trainingandprofessionalservices = 2131100312;
-			
-			// aapt resource value: 0x7f0602c0
-			public const int ilsp_who_has_access_maleandfemale_sx_veterinaryservices = 2131100352;
-			
-			// aapt resource value: 0x7f060305
-			public const int ilsp_who_has_access_maleandfemale_sx_womensgroup = 2131100421;
-			
-			// aapt resource value: 0x7f060315
-			public const int ilsp_who_has_access_maleandfemale_sx_youthgroup = 2131100437;
-			
-			// aapt resource value: 0x7f0602f8
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_cooperative = 2131100408;
-			
-			// aapt resource value: 0x7f060300
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_creditfinancegroup = 2131100416;
-			
-			// aapt resource value: 0x7f060287
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_education = 2131100295;
-			
-			// aapt resource value: 0x7f0602af
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_extensionservices = 2131100335;
-			
-			// aapt resource value: 0x7f0602cd
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_financialservices = 2131100365;
-			
-			// aapt resource value: 0x7f060291
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_healthservices = 2131100305;
-			
-			// aapt resource value: 0x7f0602a5
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_justiceconflictresolution = 2131100325;
-			
-			// aapt resource value: 0x7f0602b9
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_marketingservices = 2131100345;
-			
-			// aapt resource value: 0x7f060310
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_mensgroup = 2131100432;
-			
-			// aapt resource value: 0x7f060320
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_other = 2131100448;
-			
-			// aapt resource value: 0x7f0602f0
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_producergroup = 2131100400;
-			
-			// aapt resource value: 0x7f06029b
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_trainingandprofessionalservices = 2131100315;
-			
-			// aapt resource value: 0x7f0602c3
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_veterinaryservices = 2131100355;
-			
-			// aapt resource value: 0x7f060308
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_womensgroup = 2131100424;
-			
-			// aapt resource value: 0x7f060318
-			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_youthgroup = 2131100440;
-			
-			// aapt resource value: 0x7f0602f7
-			public const int ilsp_who_has_access_onlyfemale_sx_cooperative = 2131100407;
-			
-			// aapt resource value: 0x7f0602ff
-			public const int ilsp_who_has_access_onlyfemale_sx_creditfinancegroup = 2131100415;
-			
-			// aapt resource value: 0x7f060286
-			public const int ilsp_who_has_access_onlyfemale_sx_education = 2131100294;
-			
-			// aapt resource value: 0x7f0602ae
-			public const int ilsp_who_has_access_onlyfemale_sx_extensionservices = 2131100334;
-			
-			// aapt resource value: 0x7f0602cc
-			public const int ilsp_who_has_access_onlyfemale_sx_financialservices = 2131100364;
-			
-			// aapt resource value: 0x7f060290
-			public const int ilsp_who_has_access_onlyfemale_sx_healthservices = 2131100304;
-			
-			// aapt resource value: 0x7f0602a4
-			public const int ilsp_who_has_access_onlyfemale_sx_justiceconflictresolution = 2131100324;
-			
-			// aapt resource value: 0x7f0602b8
-			public const int ilsp_who_has_access_onlyfemale_sx_marketingservices = 2131100344;
-			
-			// aapt resource value: 0x7f06030f
-			public const int ilsp_who_has_access_onlyfemale_sx_mensgroup = 2131100431;
-			
-			// aapt resource value: 0x7f06031f
-			public const int ilsp_who_has_access_onlyfemale_sx_other = 2131100447;
-			
-			// aapt resource value: 0x7f0602ef
-			public const int ilsp_who_has_access_onlyfemale_sx_producergroup = 2131100399;
-			
-			// aapt resource value: 0x7f06029a
-			public const int ilsp_who_has_access_onlyfemale_sx_trainingandprofessionalservices = 2131100314;
-			
-			// aapt resource value: 0x7f0602c2
-			public const int ilsp_who_has_access_onlyfemale_sx_veterinaryservices = 2131100354;
-			
-			// aapt resource value: 0x7f060307
-			public const int ilsp_who_has_access_onlyfemale_sx_womensgroup = 2131100423;
-			
-			// aapt resource value: 0x7f060317
-			public const int ilsp_who_has_access_onlyfemale_sx_youthgroup = 2131100439;
-			
-			// aapt resource value: 0x7f0602f6
-			public const int ilsp_who_has_access_onlymale_sx_cooperative = 2131100406;
-			
-			// aapt resource value: 0x7f0602fe
-			public const int ilsp_who_has_access_onlymale_sx_creditfinancegroup = 2131100414;
-			
-			// aapt resource value: 0x7f060285
-			public const int ilsp_who_has_access_onlymale_sx_education = 2131100293;
-			
-			// aapt resource value: 0x7f0602ad
-			public const int ilsp_who_has_access_onlymale_sx_extensionservices = 2131100333;
-			
-			// aapt resource value: 0x7f0602cb
-			public const int ilsp_who_has_access_onlymale_sx_financialservices = 2131100363;
-			
-			// aapt resource value: 0x7f06028f
-			public const int ilsp_who_has_access_onlymale_sx_healthservices = 2131100303;
-			
-			// aapt resource value: 0x7f0602a3
-			public const int ilsp_who_has_access_onlymale_sx_justiceconflictresolution = 2131100323;
-			
-			// aapt resource value: 0x7f0602b7
-			public const int ilsp_who_has_access_onlymale_sx_marketingservices = 2131100343;
-			
-			// aapt resource value: 0x7f06030e
-			public const int ilsp_who_has_access_onlymale_sx_mensgroup = 2131100430;
-			
-			// aapt resource value: 0x7f06031e
-			public const int ilsp_who_has_access_onlymale_sx_other = 2131100446;
-			
-			// aapt resource value: 0x7f0602ee
-			public const int ilsp_who_has_access_onlymale_sx_producergroup = 2131100398;
-			
-			// aapt resource value: 0x7f060299
-			public const int ilsp_who_has_access_onlymale_sx_trainingandprofessionalservices = 2131100313;
-			
-			// aapt resource value: 0x7f0602c1
-			public const int ilsp_who_has_access_onlymale_sx_veterinaryservices = 2131100353;
-			
-			// aapt resource value: 0x7f060306
-			public const int ilsp_who_has_access_onlymale_sx_womensgroup = 2131100422;
-			
-			// aapt resource value: 0x7f060316
-			public const int ilsp_who_has_access_onlymale_sx_youthgroup = 2131100438;
-			
-			// aapt resource value: 0x7f06022b
-			public const int ilsp_who_owns_assets = 2131100203;
-			
-			// aapt resource value: 0x7f06022f
-			public const int ilsp_who_owns_land_maleandfemale = 2131100207;
-			
-			// aapt resource value: 0x7f060232
-			public const int ilsp_who_owns_land_nobodyfromthefamily = 2131100210;
-			
-			// aapt resource value: 0x7f060231
-			public const int ilsp_who_owns_land_onlyfemale = 2131100209;
+			// aapt resource value: 0x7f0602aa
+			public const int ilsp_who_has_access_maleandfemale_sx_creditfinancegroup = 2131100330;
 			
 			// aapt resource value: 0x7f060230
-			public const int ilsp_who_owns_land_onlymale = 2131100208;
+			public const int ilsp_who_has_access_maleandfemale_sx_education = 2131100208;
 			
-			// aapt resource value: 0x7f060241
-			public const int ilsp_who_owns_large_animals_maleandfemale = 2131100225;
+			// aapt resource value: 0x7f060258
+			public const int ilsp_who_has_access_maleandfemale_sx_extensionservices = 2131100248;
+			
+			// aapt resource value: 0x7f060276
+			public const int ilsp_who_has_access_maleandfemale_sx_financialservices = 2131100278;
+			
+			// aapt resource value: 0x7f06023a
+			public const int ilsp_who_has_access_maleandfemale_sx_healthservices = 2131100218;
+			
+			// aapt resource value: 0x7f06024e
+			public const int ilsp_who_has_access_maleandfemale_sx_justiceconflictresolution = 2131100238;
+			
+			// aapt resource value: 0x7f060262
+			public const int ilsp_who_has_access_maleandfemale_sx_marketingservices = 2131100258;
+			
+			// aapt resource value: 0x7f0602ba
+			public const int ilsp_who_has_access_maleandfemale_sx_mensgroup = 2131100346;
+			
+			// aapt resource value: 0x7f0602ca
+			public const int ilsp_who_has_access_maleandfemale_sx_other = 2131100362;
+			
+			// aapt resource value: 0x7f06029a
+			public const int ilsp_who_has_access_maleandfemale_sx_producergroup = 2131100314;
 			
 			// aapt resource value: 0x7f060244
-			public const int ilsp_who_owns_large_animals_nobodyfromthefamily = 2131100228;
+			public const int ilsp_who_has_access_maleandfemale_sx_trainingandprofessionalservices = 2131100228;
 			
-			// aapt resource value: 0x7f060243
-			public const int ilsp_who_owns_large_animals_onlyfemale = 2131100227;
+			// aapt resource value: 0x7f06026c
+			public const int ilsp_who_has_access_maleandfemale_sx_veterinaryservices = 2131100268;
 			
-			// aapt resource value: 0x7f060242
-			public const int ilsp_who_owns_large_animals_onlymale = 2131100226;
+			// aapt resource value: 0x7f0602b2
+			public const int ilsp_who_has_access_maleandfemale_sx_womensgroup = 2131100338;
 			
-			// aapt resource value: 0x7f060235
-			public const int ilsp_who_owns_mach_work_land_maleandfemale = 2131100213;
+			// aapt resource value: 0x7f0602c2
+			public const int ilsp_who_has_access_maleandfemale_sx_youthgroup = 2131100354;
 			
-			// aapt resource value: 0x7f060238
-			public const int ilsp_who_owns_mach_work_land_nobodyfromthefamily = 2131100216;
+			// aapt resource value: 0x7f0602a5
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_cooperative = 2131100325;
 			
-			// aapt resource value: 0x7f060237
-			public const int ilsp_who_owns_mach_work_land_onlyfemale = 2131100215;
+			// aapt resource value: 0x7f0602ad
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_creditfinancegroup = 2131100333;
 			
-			// aapt resource value: 0x7f060236
-			public const int ilsp_who_owns_mach_work_land_onlymale = 2131100214;
+			// aapt resource value: 0x7f060233
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_education = 2131100211;
 			
-			// aapt resource value: 0x7f06023b
-			public const int ilsp_who_owns_small_ruminants_maleandfemale = 2131100219;
+			// aapt resource value: 0x7f06025b
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_extensionservices = 2131100251;
 			
-			// aapt resource value: 0x7f06023e
-			public const int ilsp_who_owns_small_ruminants_nobodyfromthefamily = 2131100222;
+			// aapt resource value: 0x7f060279
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_financialservices = 2131100281;
 			
 			// aapt resource value: 0x7f06023d
-			public const int ilsp_who_owns_small_ruminants_onlyfemale = 2131100221;
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_healthservices = 2131100221;
+			
+			// aapt resource value: 0x7f060251
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_justiceconflictresolution = 2131100241;
+			
+			// aapt resource value: 0x7f060265
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_marketingservices = 2131100261;
+			
+			// aapt resource value: 0x7f0602bd
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_mensgroup = 2131100349;
+			
+			// aapt resource value: 0x7f0602cd
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_other = 2131100365;
+			
+			// aapt resource value: 0x7f06029d
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_producergroup = 2131100317;
+			
+			// aapt resource value: 0x7f060247
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_trainingandprofessionalservices = 2131100231;
+			
+			// aapt resource value: 0x7f06026f
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_veterinaryservices = 2131100271;
+			
+			// aapt resource value: 0x7f0602b5
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_womensgroup = 2131100341;
+			
+			// aapt resource value: 0x7f0602c5
+			public const int ilsp_who_has_access_nobodyfromthehousehold_sx_youthgroup = 2131100357;
+			
+			// aapt resource value: 0x7f0602a4
+			public const int ilsp_who_has_access_onlyfemale_sx_cooperative = 2131100324;
+			
+			// aapt resource value: 0x7f0602ac
+			public const int ilsp_who_has_access_onlyfemale_sx_creditfinancegroup = 2131100332;
+			
+			// aapt resource value: 0x7f060232
+			public const int ilsp_who_has_access_onlyfemale_sx_education = 2131100210;
+			
+			// aapt resource value: 0x7f06025a
+			public const int ilsp_who_has_access_onlyfemale_sx_extensionservices = 2131100250;
+			
+			// aapt resource value: 0x7f060278
+			public const int ilsp_who_has_access_onlyfemale_sx_financialservices = 2131100280;
 			
 			// aapt resource value: 0x7f06023c
-			public const int ilsp_who_owns_small_ruminants_onlymale = 2131100220;
+			public const int ilsp_who_has_access_onlyfemale_sx_healthservices = 2131100220;
 			
-			// aapt resource value: 0x7f06061c
-			public const int ilsp_whr_agric_prod_sold_cooperatives = 2131101212;
+			// aapt resource value: 0x7f060250
+			public const int ilsp_who_has_access_onlyfemale_sx_justiceconflictresolution = 2131100240;
 			
-			// aapt resource value: 0x7f060620
-			public const int ilsp_whr_agric_prod_sold_exportmarkets = 2131101216;
+			// aapt resource value: 0x7f060264
+			public const int ilsp_who_has_access_onlyfemale_sx_marketingservices = 2131100260;
 			
-			// aapt resource value: 0x7f06061f
-			public const int ilsp_whr_agric_prod_sold_governmentfoodreserveagency = 2131101215;
+			// aapt resource value: 0x7f0602bc
+			public const int ilsp_who_has_access_onlyfemale_sx_mensgroup = 2131100348;
 			
-			// aapt resource value: 0x7f060619
-			public const int ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders = 2131101209;
+			// aapt resource value: 0x7f0602cc
+			public const int ilsp_who_has_access_onlyfemale_sx_other = 2131100364;
 			
-			// aapt resource value: 0x7f06061d
-			public const int ilsp_whr_agric_prod_sold_localprocessors = 2131101213;
+			// aapt resource value: 0x7f06029c
+			public const int ilsp_who_has_access_onlyfemale_sx_producergroup = 2131100316;
 			
-			// aapt resource value: 0x7f060621
-			public const int ilsp_whr_agric_prod_sold_na = 2131101217;
+			// aapt resource value: 0x7f060246
+			public const int ilsp_who_has_access_onlyfemale_sx_trainingandprofessionalservices = 2131100230;
+			
+			// aapt resource value: 0x7f06026e
+			public const int ilsp_who_has_access_onlyfemale_sx_veterinaryservices = 2131100270;
+			
+			// aapt resource value: 0x7f0602b4
+			public const int ilsp_who_has_access_onlyfemale_sx_womensgroup = 2131100340;
+			
+			// aapt resource value: 0x7f0602c4
+			public const int ilsp_who_has_access_onlyfemale_sx_youthgroup = 2131100356;
+			
+			// aapt resource value: 0x7f0602a3
+			public const int ilsp_who_has_access_onlymale_sx_cooperative = 2131100323;
+			
+			// aapt resource value: 0x7f0602ab
+			public const int ilsp_who_has_access_onlymale_sx_creditfinancegroup = 2131100331;
+			
+			// aapt resource value: 0x7f060231
+			public const int ilsp_who_has_access_onlymale_sx_education = 2131100209;
+			
+			// aapt resource value: 0x7f060259
+			public const int ilsp_who_has_access_onlymale_sx_extensionservices = 2131100249;
+			
+			// aapt resource value: 0x7f060277
+			public const int ilsp_who_has_access_onlymale_sx_financialservices = 2131100279;
+			
+			// aapt resource value: 0x7f06023b
+			public const int ilsp_who_has_access_onlymale_sx_healthservices = 2131100219;
+			
+			// aapt resource value: 0x7f06024f
+			public const int ilsp_who_has_access_onlymale_sx_justiceconflictresolution = 2131100239;
+			
+			// aapt resource value: 0x7f060263
+			public const int ilsp_who_has_access_onlymale_sx_marketingservices = 2131100259;
+			
+			// aapt resource value: 0x7f0602bb
+			public const int ilsp_who_has_access_onlymale_sx_mensgroup = 2131100347;
+			
+			// aapt resource value: 0x7f0602cb
+			public const int ilsp_who_has_access_onlymale_sx_other = 2131100363;
+			
+			// aapt resource value: 0x7f06029b
+			public const int ilsp_who_has_access_onlymale_sx_producergroup = 2131100315;
+			
+			// aapt resource value: 0x7f060245
+			public const int ilsp_who_has_access_onlymale_sx_trainingandprofessionalservices = 2131100229;
+			
+			// aapt resource value: 0x7f06026d
+			public const int ilsp_who_has_access_onlymale_sx_veterinaryservices = 2131100269;
+			
+			// aapt resource value: 0x7f0602b3
+			public const int ilsp_who_has_access_onlymale_sx_womensgroup = 2131100339;
+			
+			// aapt resource value: 0x7f0602c3
+			public const int ilsp_who_has_access_onlymale_sx_youthgroup = 2131100355;
+			
+			// aapt resource value: 0x7f0601d7
+			public const int ilsp_who_owns_assets = 2131100119;
+			
+			// aapt resource value: 0x7f0601db
+			public const int ilsp_who_owns_land_maleandfemale = 2131100123;
+			
+			// aapt resource value: 0x7f0601de
+			public const int ilsp_who_owns_land_nobodyfromthefamily = 2131100126;
+			
+			// aapt resource value: 0x7f0601dd
+			public const int ilsp_who_owns_land_onlyfemale = 2131100125;
+			
+			// aapt resource value: 0x7f0601dc
+			public const int ilsp_who_owns_land_onlymale = 2131100124;
+			
+			// aapt resource value: 0x7f0601ed
+			public const int ilsp_who_owns_large_animals_maleandfemale = 2131100141;
+			
+			// aapt resource value: 0x7f0601f0
+			public const int ilsp_who_owns_large_animals_nobodyfromthefamily = 2131100144;
+			
+			// aapt resource value: 0x7f0601ef
+			public const int ilsp_who_owns_large_animals_onlyfemale = 2131100143;
+			
+			// aapt resource value: 0x7f0601ee
+			public const int ilsp_who_owns_large_animals_onlymale = 2131100142;
+			
+			// aapt resource value: 0x7f0601e1
+			public const int ilsp_who_owns_mach_work_land_maleandfemale = 2131100129;
+			
+			// aapt resource value: 0x7f0601e4
+			public const int ilsp_who_owns_mach_work_land_nobodyfromthefamily = 2131100132;
+			
+			// aapt resource value: 0x7f0601e3
+			public const int ilsp_who_owns_mach_work_land_onlyfemale = 2131100131;
+			
+			// aapt resource value: 0x7f0601e2
+			public const int ilsp_who_owns_mach_work_land_onlymale = 2131100130;
+			
+			// aapt resource value: 0x7f0601e7
+			public const int ilsp_who_owns_small_ruminants_maleandfemale = 2131100135;
+			
+			// aapt resource value: 0x7f0601ea
+			public const int ilsp_who_owns_small_ruminants_nobodyfromthefamily = 2131100138;
+			
+			// aapt resource value: 0x7f0601e9
+			public const int ilsp_who_owns_small_ruminants_onlyfemale = 2131100137;
+			
+			// aapt resource value: 0x7f0601e8
+			public const int ilsp_who_owns_small_ruminants_onlymale = 2131100136;
+			
+			// aapt resource value: 0x7f060625
+			public const int ilsp_whr_agric_prod_sold_cooperatives = 2131101221;
+			
+			// aapt resource value: 0x7f060629
+			public const int ilsp_whr_agric_prod_sold_exportmarkets = 2131101225;
+			
+			// aapt resource value: 0x7f060628
+			public const int ilsp_whr_agric_prod_sold_governmentfoodreserveagency = 2131101224;
 			
 			// aapt resource value: 0x7f060622
-			public const int ilsp_whr_agric_prod_sold_other = 2131101218;
+			public const int ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders = 2131101218;
 			
-			// aapt resource value: 0x7f06061e
-			public const int ilsp_whr_agric_prod_sold_processorsmillersbutcheries = 2131101214;
+			// aapt resource value: 0x7f060626
+			public const int ilsp_whr_agric_prod_sold_localprocessors = 2131101222;
 			
-			// aapt resource value: 0x7f06061b
-			public const int ilsp_whr_agric_prod_sold_traders = 2131101211;
+			// aapt resource value: 0x7f06062a
+			public const int ilsp_whr_agric_prod_sold_na = 2131101226;
 			
-			// aapt resource value: 0x7f06061a
-			public const int ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets = 2131101210;
+			// aapt resource value: 0x7f06062b
+			public const int ilsp_whr_agric_prod_sold_other = 2131101227;
 			
-			// aapt resource value: 0x7f060705
-			public const int ilsp_wht_are_your_water_sourc_boreholewater = 2131101445;
+			// aapt resource value: 0x7f060627
+			public const int ilsp_whr_agric_prod_sold_processorsmillersbutcheries = 2131101223;
 			
-			// aapt resource value: 0x7f06070b
-			public const int ilsp_wht_are_your_water_sourc_other = 2131101451;
+			// aapt resource value: 0x7f060624
+			public const int ilsp_whr_agric_prod_sold_traders = 2131101220;
 			
-			// aapt resource value: 0x7f060704
-			public const int ilsp_wht_are_your_water_sourc_pipedwater = 2131101444;
+			// aapt resource value: 0x7f060623
+			public const int ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets = 2131101219;
 			
-			// aapt resource value: 0x7f060706
-			public const int ilsp_wht_are_your_water_sourc_protectedwellwater = 2131101446;
+			// aapt resource value: 0x7f06070e
+			public const int ilsp_wht_are_your_water_sourc_boreholewater = 2131101454;
 			
-			// aapt resource value: 0x7f06070a
-			public const int ilsp_wht_are_your_water_sourc_rainwater = 2131101450;
+			// aapt resource value: 0x7f060714
+			public const int ilsp_wht_are_your_water_sourc_other = 2131101460;
 			
-			// aapt resource value: 0x7f060709
-			public const int ilsp_wht_are_your_water_sourc_riverwater = 2131101449;
+			// aapt resource value: 0x7f06070d
+			public const int ilsp_wht_are_your_water_sourc_pipedwater = 2131101453;
 			
-			// aapt resource value: 0x7f060708
-			public const int ilsp_wht_are_your_water_sourc_shallowwells = 2131101448;
+			// aapt resource value: 0x7f06070f
+			public const int ilsp_wht_are_your_water_sourc_protectedwellwater = 2131101455;
 			
-			// aapt resource value: 0x7f060707
-			public const int ilsp_wht_are_your_water_sourc_unprotectedwellwater = 2131101447;
+			// aapt resource value: 0x7f060713
+			public const int ilsp_wht_are_your_water_sourc_rainwater = 2131101459;
 			
-			// aapt resource value: 0x7f0602d7
-			public const int ilsp_women_participation_average = 2131100375;
+			// aapt resource value: 0x7f060712
+			public const int ilsp_wht_are_your_water_sourc_riverwater = 2131101458;
 			
-			// aapt resource value: 0x7f0602d8
-			public const int ilsp_women_participation_high = 2131100376;
+			// aapt resource value: 0x7f060711
+			public const int ilsp_wht_are_your_water_sourc_shallowwells = 2131101457;
 			
-			// aapt resource value: 0x7f0602d6
-			public const int ilsp_women_participation_low = 2131100374;
+			// aapt resource value: 0x7f060710
+			public const int ilsp_wht_are_your_water_sourc_unprotectedwellwater = 2131101456;
 			
-			// aapt resource value: 0x7f0602e6
-			public const int ilsp_youths_participation_average = 2131100390;
+			// aapt resource value: 0x7f060284
+			public const int ilsp_women_participation_average = 2131100292;
 			
-			// aapt resource value: 0x7f0602e7
-			public const int ilsp_youths_participation_high = 2131100391;
+			// aapt resource value: 0x7f060285
+			public const int ilsp_women_participation_high = 2131100293;
 			
-			// aapt resource value: 0x7f0602e5
-			public const int ilsp_youths_participation_low = 2131100389;
+			// aapt resource value: 0x7f060283
+			public const int ilsp_women_participation_low = 2131100291;
+			
+			// aapt resource value: 0x7f060293
+			public const int ilsp_youths_participation_average = 2131100307;
+			
+			// aapt resource value: 0x7f060294
+			public const int ilsp_youths_participation_high = 2131100308;
+			
+			// aapt resource value: 0x7f060292
+			public const int ilsp_youths_participation_low = 2131100306;
 			
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f0607a5
-			public const int info = 2131101605;
+			// aapt resource value: 0x7f0607af
+			public const int info = 2131101615;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
-			// aapt resource value: 0x7f060624
-			public const int l_ilsp_access_market_info = 2131101220;
+			// aapt resource value: 0x7f06062d
+			public const int l_ilsp_access_market_info = 2131101229;
 			
 			// aapt resource value: 0x7f0600f3
 			public const int l_ilsp_access_to_prodtv_land = 2131099891;
 			
-			// aapt resource value: 0x7f060342
-			public const int l_ilsp_address_common_issue = 2131100482;
+			// aapt resource value: 0x7f0602ef
+			public const int l_ilsp_address_common_issue = 2131100399;
 			
-			// aapt resource value: 0x7f0600da
-			public const int l_ilsp_age_of_household_head = 2131099866;
+			// aapt resource value: 0x7f0600d8
+			public const int l_ilsp_age_of_household_head = 2131099864;
 			
-			// aapt resource value: 0x7f060745
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_governmentassistanceunemploymentwelfareallowance = 2131101509;
+			// aapt resource value: 0x7f06074e
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_governmentassistanceunemploymentwelfareallowance = 2131101518;
 			
-			// aapt resource value: 0x7f06074a
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_other = 2131101514;
+			// aapt resource value: 0x7f060753
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_other = 2131101523;
 			
-			// aapt resource value: 0x7f060740
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_remittancessentfromchildrenrelatives = 2131101504;
+			// aapt resource value: 0x7f060749
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_remittancessentfromchildrenrelatives = 2131101513;
 			
-			// aapt resource value: 0x7f06073b
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_rentsdraftpowerpropertymachineryinterests = 2131101499;
+			// aapt resource value: 0x7f060744
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_rentsdraftpowerpropertymachineryinterests = 2131101508;
 			
-			// aapt resource value: 0x7f06072c
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_salarieswages = 2131101484;
+			// aapt resource value: 0x7f060735
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_salarieswages = 2131101493;
 			
-			// aapt resource value: 0x7f060731
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_salesfirewoodhomemadeproductscrafts = 2131101489;
+			// aapt resource value: 0x7f06073a
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_salesfirewoodhomemadeproductscrafts = 2131101498;
 			
-			// aapt resource value: 0x7f06074f
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_total = 2131101519;
+			// aapt resource value: 0x7f060758
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_total = 2131101528;
 			
-			// aapt resource value: 0x7f060736
-			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_trading = 2131101494;
+			// aapt resource value: 0x7f06073f
+			public const int l_ilsp_amnt_recvd_by_hh_mbrs_sx_trading = 2131101503;
 			
-			// aapt resource value: 0x7f0605a6
-			public const int l_ilsp_area_cultivated_fodder = 2131101094;
+			// aapt resource value: 0x7f0605ad
+			public const int l_ilsp_area_cultivated_fodder_uom = 2131101101;
 			
-			// aapt resource value: 0x7f06063d
-			public const int l_ilsp_average_number_of_meals = 2131101245;
+			// aapt resource value: 0x7f060646
+			public const int l_ilsp_average_number_of_meals = 2131101254;
 			
-			// aapt resource value: 0x7f06070d
-			public const int l_ilsp_avg_tme_bring_water = 2131101453;
+			// aapt resource value: 0x7f060716
+			public const int l_ilsp_avg_tme_bring_water = 2131101462;
+			
+			// aapt resource value: 0x7f06021c
+			public const int l_ilsp_children_sch_attend_dec = 2131100188;
+			
+			// aapt resource value: 0x7f06022a
+			public const int l_ilsp_community_services_sx_education = 2131100202;
+			
+			// aapt resource value: 0x7f060252
+			public const int l_ilsp_community_services_sx_extensionservices = 2131100242;
 			
 			// aapt resource value: 0x7f060270
-			public const int l_ilsp_children_sch_attend_dec = 2131100272;
+			public const int l_ilsp_community_services_sx_financialservices = 2131100272;
 			
-			// aapt resource value: 0x7f06027e
-			public const int l_ilsp_community_services_sx_education = 2131100286;
+			// aapt resource value: 0x7f060234
+			public const int l_ilsp_community_services_sx_healthservices = 2131100212;
 			
-			// aapt resource value: 0x7f0602a6
-			public const int l_ilsp_community_services_sx_extensionservices = 2131100326;
+			// aapt resource value: 0x7f060248
+			public const int l_ilsp_community_services_sx_justiceconflictresolution = 2131100232;
 			
-			// aapt resource value: 0x7f0602c4
-			public const int l_ilsp_community_services_sx_financialservices = 2131100356;
+			// aapt resource value: 0x7f06025c
+			public const int l_ilsp_community_services_sx_marketingservices = 2131100252;
 			
-			// aapt resource value: 0x7f060288
-			public const int l_ilsp_community_services_sx_healthservices = 2131100296;
+			// aapt resource value: 0x7f06023e
+			public const int l_ilsp_community_services_sx_trainingandprofessionalservices = 2131100222;
 			
-			// aapt resource value: 0x7f06029c
-			public const int l_ilsp_community_services_sx_justiceconflictresolution = 2131100316;
+			// aapt resource value: 0x7f060266
+			public const int l_ilsp_community_services_sx_veterinaryservices = 2131100262;
 			
-			// aapt resource value: 0x7f0602b0
-			public const int l_ilsp_community_services_sx_marketingservices = 2131100336;
+			// aapt resource value: 0x7f060701
+			public const int l_ilsp_coping_strat_emp = 2131101441;
 			
-			// aapt resource value: 0x7f060292
-			public const int l_ilsp_community_services_sx_trainingandprofessionalservices = 2131100306;
-			
-			// aapt resource value: 0x7f0602ba
-			public const int l_ilsp_community_services_sx_veterinaryservices = 2131100346;
-			
-			// aapt resource value: 0x7f0606f8
-			public const int l_ilsp_coping_strat_emp = 2131101432;
-			
-			// aapt resource value: 0x7f06032f
-			public const int l_ilsp_crop_production_trng = 2131100463;
+			// aapt resource value: 0x7f0602dc
+			public const int l_ilsp_crop_production_trng = 2131100380;
 			
 			// aapt resource value: 0x7f060109
 			public const int l_ilsp_cultivated_uom = 2131099913;
@@ -6368,485 +6398,446 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06009c
 			public const int l_ilsp_data_coll_fiscal_yr = 2131099804;
 			
-			// aapt resource value: 0x7f0600a1
-			public const int l_ilsp_data_coll_rprt_period = 2131099809;
+			// aapt resource value: 0x7f0600b2
+			public const int l_ilsp_district_name = 2131099826;
 			
-			// aapt resource value: 0x7f0606d2
-			public const int l_ilsp_dur_food_stocks_lasted = 2131101394;
+			// aapt resource value: 0x7f0606db
+			public const int l_ilsp_dur_food_stocks_lasted = 2131101403;
 			
-			// aapt resource value: 0x7f0600e0
-			public const int l_ilsp_educ_household_head = 2131099872;
+			// aapt resource value: 0x7f0600de
+			public const int l_ilsp_educ_household_head = 2131099870;
 			
-			// aapt resource value: 0x7f0602df
-			public const int l_ilsp_elderly_participation = 2131100383;
+			// aapt resource value: 0x7f06028c
+			public const int l_ilsp_elderly_participation = 2131100300;
 			
-			// aapt resource value: 0x7f06021a
-			public const int l_ilsp_energy_type_used = 2131100186;
+			// aapt resource value: 0x7f0601c6
+			public const int l_ilsp_energy_type_used = 2131100102;
 			
-			// aapt resource value: 0x7f060327
-			public const int l_ilsp_enterp_dev_skills_trng = 2131100455;
+			// aapt resource value: 0x7f0602d4
+			public const int l_ilsp_enterp_dev_skills_trng = 2131100372;
 			
-			// aapt resource value: 0x7f060333
-			public const int l_ilsp_environ_nat_res_mgt_trng = 2131100467;
-			
-			// aapt resource value: 0x7f06075d
-			public const int l_ilsp_expenses_past_year_sx_clothing = 2131101533;
-			
-			// aapt resource value: 0x7f06075a
-			public const int l_ilsp_expenses_past_year_sx_educationschoolfeesuniformsbooks = 2131101530;
-			
-			// aapt resource value: 0x7f060775
-			public const int l_ilsp_expenses_past_year_sx_entertainmentegrecreationalcohol = 2131101557;
-			
-			// aapt resource value: 0x7f060769
-			public const int l_ilsp_expenses_past_year_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131101545;
-			
-			// aapt resource value: 0x7f060754
-			public const int l_ilsp_expenses_past_year_sx_food = 2131101524;
-			
-			// aapt resource value: 0x7f060760
-			public const int l_ilsp_expenses_past_year_sx_healthmedicalbillsmedicine = 2131101536;
-			
-			// aapt resource value: 0x7f06076f
-			public const int l_ilsp_expenses_past_year_sx_householdassetsegfurnituresolar = 2131101551;
-			
-			// aapt resource value: 0x7f060772
-			public const int l_ilsp_expenses_past_year_sx_otherinvestments = 2131101554;
-			
-			// aapt resource value: 0x7f06076c
-			public const int l_ilsp_expenses_past_year_sx_productiveassetsfarmassets = 2131101548;
-			
-			// aapt resource value: 0x7f06077b
-			public const int l_ilsp_expenses_past_year_sx_savings = 2131101563;
-			
-			// aapt resource value: 0x7f060757
-			public const int l_ilsp_expenses_past_year_sx_shelterhousingbuildingrenovations = 2131101527;
-			
-			// aapt resource value: 0x7f060778
-			public const int l_ilsp_expenses_past_year_sx_socialmembershipfeeschurchofferingfunctions = 2131101560;
+			// aapt resource value: 0x7f0602e0
+			public const int l_ilsp_environ_nat_res_mgt_trng = 2131100384;
 			
 			// aapt resource value: 0x7f060766
-			public const int l_ilsp_expenses_past_year_sx_transportation = 2131101542;
+			public const int l_ilsp_expenses_past_year_sx_clothing = 2131101542;
 			
 			// aapt resource value: 0x7f060763
-			public const int l_ilsp_expenses_past_year_sx_utilitieselectricitymobile = 2131101539;
-			
-			// aapt resource value: 0x7f06026b
-			public const int l_ilsp_family_size_dec = 2131100267;
-			
-			// aapt resource value: 0x7f060208
-			public const int l_ilsp_family_type = 2131100168;
-			
-			// aapt resource value: 0x7f060584
-			public const int l_ilsp_farm_prodn_livestock_sx_beefcattle = 2131101060;
-			
-			// aapt resource value: 0x7f060545
-			public const int l_ilsp_farm_prodn_livestock_sx_broilerchickens = 2131100997;
-			
-			// aapt resource value: 0x7f06057d
-			public const int l_ilsp_farm_prodn_livestock_sx_dairycattle = 2131101053;
-			
-			// aapt resource value: 0x7f06058b
-			public const int l_ilsp_farm_prodn_livestock_sx_draftcattle = 2131101067;
-			
-			// aapt resource value: 0x7f060553
-			public const int l_ilsp_farm_prodn_livestock_sx_ducks = 2131101011;
-			
-			// aapt resource value: 0x7f060568
-			public const int l_ilsp_farm_prodn_livestock_sx_goats = 2131101032;
-			
-			// aapt resource value: 0x7f06055a
-			public const int l_ilsp_farm_prodn_livestock_sx_guineafowls = 2131101018;
-			
-			// aapt resource value: 0x7f06053e
-			public const int l_ilsp_farm_prodn_livestock_sx_localchickens = 2131100990;
-			
-			// aapt resource value: 0x7f060599
-			public const int l_ilsp_farm_prodn_livestock_sx_other = 2131101081;
-			
-			// aapt resource value: 0x7f060561
-			public const int l_ilsp_farm_prodn_livestock_sx_pigeons = 2131101025;
-			
-			// aapt resource value: 0x7f06056f
-			public const int l_ilsp_farm_prodn_livestock_sx_pigs = 2131101039;
-			
-			// aapt resource value: 0x7f060592
-			public const int l_ilsp_farm_prodn_livestock_sx_quails = 2131101074;
-			
-			// aapt resource value: 0x7f060576
-			public const int l_ilsp_farm_prodn_livestock_sx_sheep = 2131101046;
-			
-			// aapt resource value: 0x7f06054c
-			public const int l_ilsp_farm_prodn_livestock_sx_turkeys = 2131101004;
-			
-			// aapt resource value: 0x7f060642
-			public const int l_ilsp_food_groups_consumed_sx_cerealsmilletricenshima = 2131101250;
-			
-			// aapt resource value: 0x7f06067e
-			public const int l_ilsp_food_groups_consumed_sx_eggs = 2131101310;
-			
-			// aapt resource value: 0x7f06068a
-			public const int l_ilsp_food_groups_consumed_sx_fishfishkapenta = 2131101322;
-			
-			// aapt resource value: 0x7f060666
-			public const int l_ilsp_food_groups_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101286;
-			
-			// aapt resource value: 0x7f060696
-			public const int l_ilsp_food_groups_consumed_sx_legumesgroundnutsbeanssoyapeas = 2131101334;
-			
-			// aapt resource value: 0x7f060672
-			public const int l_ilsp_food_groups_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101298;
-			
-			// aapt resource value: 0x7f0606a2
-			public const int l_ilsp_food_groups_consumed_sx_milkmilkyogurtsourmilk = 2131101346;
-			
-			// aapt resource value: 0x7f0606ae
-			public const int l_ilsp_food_groups_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101358;
-			
-			// aapt resource value: 0x7f0606c6
-			public const int l_ilsp_food_groups_consumed_sx_spicesandcondimentsgingerteacoffee = 2131101382;
-			
-			// aapt resource value: 0x7f0606ba
-			public const int l_ilsp_food_groups_consumed_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101370;
-			
-			// aapt resource value: 0x7f06064e
-			public const int l_ilsp_food_groups_consumed_sx_tuberssweetpotatoescassava = 2131101262;
-			
-			// aapt resource value: 0x7f06065a
-			public const int l_ilsp_food_groups_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101274;
-			
-			// aapt resource value: 0x7f060337
-			public const int l_ilsp_food_proc_utiliz_trng = 2131100471;
-			
-			// aapt resource value: 0x7f0605cb
-			public const int l_ilsp_frequency_livestock_dip = 2131101131;
-			
-			// aapt resource value: 0x7f0600cb
-			public const int l_ilsp_gender_of_beneficiary = 2131099851;
-			
-			// aapt resource value: 0x7f0600d6
-			public const int l_ilsp_gender_of_household_head = 2131099862;
-			
-			// aapt resource value: 0x7f06033b
-			public const int l_ilsp_gendr_eqty_wom_emp_trng = 2131100475;
-			
-			// aapt resource value: 0x7f060323
-			public const int l_ilsp_group_mgmnt_skills_trng = 2131100451;
-			
-			// aapt resource value: 0x7f0605a2
-			public const int l_ilsp_grow_fodder_livstck = 2131101090;
-			
-			// aapt resource value: 0x7f060714
-			public const int l_ilsp_had_mnths_no_water_anim = 2131101460;
-			
-			// aapt resource value: 0x7f0606e7
-			public const int l_ilsp_had_months_without_food = 2131101415;
+			public const int l_ilsp_expenses_past_year_sx_educationschoolfeesuniformsbooks = 2131101539;
 			
 			// aapt resource value: 0x7f06077e
-			public const int l_ilsp_have_a_bank_account = 2131101566;
+			public const int l_ilsp_expenses_past_year_sx_entertainmentegrecreationalcohol = 2131101566;
 			
-			// aapt resource value: 0x7f06035d
-			public const int l_ilsp_heard_or_practiced_pog = 2131100509;
+			// aapt resource value: 0x7f060772
+			public const int l_ilsp_expenses_past_year_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131101554;
 			
-			// aapt resource value: 0x7f06033f
-			public const int l_ilsp_hiv_aids_awareness_trng = 2131100479;
+			// aapt resource value: 0x7f06075d
+			public const int l_ilsp_expenses_past_year_sx_food = 2131101533;
 			
-			// aapt resource value: 0x7f060266
-			public const int l_ilsp_household_exp_dec = 2131100262;
+			// aapt resource value: 0x7f060769
+			public const int l_ilsp_expenses_past_year_sx_healthmedicalbillsmedicine = 2131101545;
 			
-			// aapt resource value: 0x7f060613
-			public const int l_ilsp_how_livestock_sold = 2131101203;
+			// aapt resource value: 0x7f060778
+			public const int l_ilsp_expenses_past_year_sx_householdassetsegfurnituresolar = 2131101560;
 			
-			// aapt resource value: 0x7f0605d7
-			public const int l_ilsp_how_often_vacc_livstck = 2131101143;
+			// aapt resource value: 0x7f06077b
+			public const int l_ilsp_expenses_past_year_sx_otherinvestments = 2131101563;
 			
-			// aapt resource value: 0x7f0605f6
-			public const int l_ilsp_how_you_sell_your_milk = 2131101174;
+			// aapt resource value: 0x7f060775
+			public const int l_ilsp_expenses_past_year_sx_productiveassetsfarmassets = 2131101557;
 			
-			// aapt resource value: 0x7f06060e
-			public const int l_ilsp_how_your_crops_are_sold = 2131101198;
+			// aapt resource value: 0x7f060784
+			public const int l_ilsp_expenses_past_year_sx_savings = 2131101572;
 			
-			// aapt resource value: 0x7f060201
-			public const int l_ilsp_hse_roof_princip_mater = 2131100161;
+			// aapt resource value: 0x7f060760
+			public const int l_ilsp_expenses_past_year_sx_shelterhousingbuildingrenovations = 2131101536;
 			
-			// aapt resource value: 0x7f060348
-			public const int l_ilsp_in_comm_labor_groups = 2131100488;
+			// aapt resource value: 0x7f060781
+			public const int l_ilsp_expenses_past_year_sx_socialmembershipfeeschurchofferingfunctions = 2131101569;
 			
-			// aapt resource value: 0x7f060456
-			public const int l_ilsp_infarm_prodn_details_sx_beans = 2131100758;
+			// aapt resource value: 0x7f06076f
+			public const int l_ilsp_expenses_past_year_sx_transportation = 2131101551;
 			
-			// aapt resource value: 0x7f060473
-			public const int l_ilsp_infarm_prodn_details_sx_cabbage = 2131100787;
+			// aapt resource value: 0x7f06076c
+			public const int l_ilsp_expenses_past_year_sx_utilitieselectricitymobile = 2131101548;
 			
-			// aapt resource value: 0x7f0603e2
-			public const int l_ilsp_infarm_prodn_details_sx_cassava = 2131100642;
+			// aapt resource value: 0x7f060217
+			public const int l_ilsp_family_size_dec = 2131100183;
 			
-			// aapt resource value: 0x7f060504
-			public const int l_ilsp_infarm_prodn_details_sx_cotton = 2131100932;
+			// aapt resource value: 0x7f0601b4
+			public const int l_ilsp_family_type = 2131100084;
 			
-			// aapt resource value: 0x7f06041c
-			public const int l_ilsp_infarm_prodn_details_sx_cowpeas = 2131100700;
+			// aapt resource value: 0x7f06057f
+			public const int l_ilsp_farm_prodn_livestock_sx_beefcattle = 2131101055;
 			
-			// aapt resource value: 0x7f0604ca
-			public const int l_ilsp_infarm_prodn_details_sx_eggplantimpwa = 2131100874;
+			// aapt resource value: 0x7f060525
+			public const int l_ilsp_farm_prodn_livestock_sx_broilerchickens = 2131100965;
 			
-			// aapt resource value: 0x7f06038b
-			public const int l_ilsp_infarm_prodn_details_sx_groundnuts = 2131100555;
+			// aapt resource value: 0x7f060575
+			public const int l_ilsp_farm_prodn_livestock_sx_dairycattle = 2131101045;
 			
-			// aapt resource value: 0x7f0604e7
-			public const int l_ilsp_infarm_prodn_details_sx_leafyvegetables = 2131100903;
+			// aapt resource value: 0x7f060589
+			public const int l_ilsp_farm_prodn_livestock_sx_draftcattle = 2131101065;
 			
-			// aapt resource value: 0x7f06036e
-			public const int l_ilsp_infarm_prodn_details_sx_maize = 2131100526;
+			// aapt resource value: 0x7f060539
+			public const int l_ilsp_farm_prodn_livestock_sx_ducks = 2131100985;
 			
-			// aapt resource value: 0x7f060439
-			public const int l_ilsp_infarm_prodn_details_sx_mbambaranuts = 2131100729;
+			// aapt resource value: 0x7f060557
+			public const int l_ilsp_farm_prodn_livestock_sx_goats = 2131101015;
 			
-			// aapt resource value: 0x7f0604ad
-			public const int l_ilsp_infarm_prodn_details_sx_onion = 2131100845;
+			// aapt resource value: 0x7f060543
+			public const int l_ilsp_farm_prodn_livestock_sx_guineafowls = 2131100995;
 			
-			// aapt resource value: 0x7f060521
-			public const int l_ilsp_infarm_prodn_details_sx_other = 2131100961;
+			// aapt resource value: 0x7f06051b
+			public const int l_ilsp_farm_prodn_livestock_sx_localchickens = 2131100955;
 			
-			// aapt resource value: 0x7f0603c5
-			public const int l_ilsp_infarm_prodn_details_sx_potatoes = 2131100613;
+			// aapt resource value: 0x7f06059d
+			public const int l_ilsp_farm_prodn_livestock_sx_other = 2131101085;
 			
-			// aapt resource value: 0x7f0603ff
-			public const int l_ilsp_infarm_prodn_details_sx_soyabeans = 2131100671;
+			// aapt resource value: 0x7f06054d
+			public const int l_ilsp_farm_prodn_livestock_sx_pigeons = 2131101005;
 			
-			// aapt resource value: 0x7f0603a8
-			public const int l_ilsp_infarm_prodn_details_sx_sweetpotatoes = 2131100584;
+			// aapt resource value: 0x7f060561
+			public const int l_ilsp_farm_prodn_livestock_sx_pigs = 2131101025;
 			
-			// aapt resource value: 0x7f060490
-			public const int l_ilsp_infarm_prodn_details_sx_tomatoes = 2131100816;
+			// aapt resource value: 0x7f060593
+			public const int l_ilsp_farm_prodn_livestock_sx_quails = 2131101075;
 			
-			// aapt resource value: 0x7f0606d9
-			public const int l_ilsp_is_this_pattern_usual = 2131101401;
+			// aapt resource value: 0x7f06056b
+			public const int l_ilsp_farm_prodn_livestock_sx_sheep = 2131101035;
 			
-			// aapt resource value: 0x7f060261
-			public const int l_ilsp_labor_hours_dec = 2131100257;
+			// aapt resource value: 0x7f06052f
+			public const int l_ilsp_farm_prodn_livestock_sx_turkeys = 2131100975;
 			
-			// aapt resource value: 0x7f060247
-			public const int l_ilsp_land = 2131100231;
+			// aapt resource value: 0x7f06064b
+			public const int l_ilsp_food_groups_consumed_sx_cerealsmilletricenshima = 2131101259;
+			
+			// aapt resource value: 0x7f060687
+			public const int l_ilsp_food_groups_consumed_sx_eggs = 2131101319;
+			
+			// aapt resource value: 0x7f060693
+			public const int l_ilsp_food_groups_consumed_sx_fishfishkapenta = 2131101331;
+			
+			// aapt resource value: 0x7f06066f
+			public const int l_ilsp_food_groups_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101295;
+			
+			// aapt resource value: 0x7f06069f
+			public const int l_ilsp_food_groups_consumed_sx_legumesgroundnutsbeanssoyapeas = 2131101343;
+			
+			// aapt resource value: 0x7f06067b
+			public const int l_ilsp_food_groups_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101307;
+			
+			// aapt resource value: 0x7f0606ab
+			public const int l_ilsp_food_groups_consumed_sx_milkmilkyogurtsourmilk = 2131101355;
+			
+			// aapt resource value: 0x7f0606b7
+			public const int l_ilsp_food_groups_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101367;
+			
+			// aapt resource value: 0x7f0606cf
+			public const int l_ilsp_food_groups_consumed_sx_spicesandcondimentsgingerteacoffee = 2131101391;
+			
+			// aapt resource value: 0x7f0606c3
+			public const int l_ilsp_food_groups_consumed_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101379;
+			
+			// aapt resource value: 0x7f060657
+			public const int l_ilsp_food_groups_consumed_sx_tuberssweetpotatoescassava = 2131101271;
+			
+			// aapt resource value: 0x7f060663
+			public const int l_ilsp_food_groups_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101283;
+			
+			// aapt resource value: 0x7f0602e4
+			public const int l_ilsp_food_proc_utiliz_trng = 2131100388;
+			
+			// aapt resource value: 0x7f0605d4
+			public const int l_ilsp_frequency_livestock_dip = 2131101140;
+			
+			// aapt resource value: 0x7f0600c9
+			public const int l_ilsp_gender_of_beneficiary = 2131099849;
+			
+			// aapt resource value: 0x7f0600d4
+			public const int l_ilsp_gender_of_household_head = 2131099860;
+			
+			// aapt resource value: 0x7f0602e8
+			public const int l_ilsp_gendr_eqty_wom_emp_trng = 2131100392;
+			
+			// aapt resource value: 0x7f0602d0
+			public const int l_ilsp_group_mgmnt_skills_trng = 2131100368;
+			
+			// aapt resource value: 0x7f0605a8
+			public const int l_ilsp_grow_fodder_livstck = 2131101096;
+			
+			// aapt resource value: 0x7f06071d
+			public const int l_ilsp_had_mnths_no_water_anim = 2131101469;
+			
+			// aapt resource value: 0x7f0606f0
+			public const int l_ilsp_had_months_without_food = 2131101424;
+			
+			// aapt resource value: 0x7f060787
+			public const int l_ilsp_have_a_bank_account = 2131101575;
+			
+			// aapt resource value: 0x7f06030a
+			public const int l_ilsp_heard_or_practiced_pog = 2131100426;
+			
+			// aapt resource value: 0x7f0602ec
+			public const int l_ilsp_hiv_aids_awareness_trng = 2131100396;
+			
+			// aapt resource value: 0x7f060212
+			public const int l_ilsp_household_exp_dec = 2131100178;
+			
+			// aapt resource value: 0x7f06061c
+			public const int l_ilsp_how_livestock_sold = 2131101212;
+			
+			// aapt resource value: 0x7f0605e0
+			public const int l_ilsp_how_often_vacc_livstck = 2131101152;
+			
+			// aapt resource value: 0x7f0605ff
+			public const int l_ilsp_how_you_sell_your_milk = 2131101183;
+			
+			// aapt resource value: 0x7f060617
+			public const int l_ilsp_how_your_crops_are_sold = 2131101207;
+			
+			// aapt resource value: 0x7f0601ad
+			public const int l_ilsp_hse_roof_princip_mater = 2131100077;
+			
+			// aapt resource value: 0x7f0602f5
+			public const int l_ilsp_in_comm_labor_groups = 2131100405;
+			
+			// aapt resource value: 0x7f06041b
+			public const int l_ilsp_infarm_prodn_details_sx_beans = 2131100699;
+			
+			// aapt resource value: 0x7f06043b
+			public const int l_ilsp_infarm_prodn_details_sx_cabbage = 2131100731;
+			
+			// aapt resource value: 0x7f06039b
+			public const int l_ilsp_infarm_prodn_details_sx_cassava = 2131100571;
+			
+			// aapt resource value: 0x7f0604db
+			public const int l_ilsp_infarm_prodn_details_sx_cotton = 2131100891;
+			
+			// aapt resource value: 0x7f0603db
+			public const int l_ilsp_infarm_prodn_details_sx_cowpeas = 2131100635;
+			
+			// aapt resource value: 0x7f06049b
+			public const int l_ilsp_infarm_prodn_details_sx_eggplantimpwa = 2131100827;
+			
+			// aapt resource value: 0x7f06033b
+			public const int l_ilsp_infarm_prodn_details_sx_groundnuts = 2131100475;
+			
+			// aapt resource value: 0x7f0604bb
+			public const int l_ilsp_infarm_prodn_details_sx_leafyvegetables = 2131100859;
+			
+			// aapt resource value: 0x7f06031b
+			public const int l_ilsp_infarm_prodn_details_sx_maize = 2131100443;
+			
+			// aapt resource value: 0x7f0603fb
+			public const int l_ilsp_infarm_prodn_details_sx_mbambaranuts = 2131100667;
+			
+			// aapt resource value: 0x7f06047b
+			public const int l_ilsp_infarm_prodn_details_sx_onion = 2131100795;
+			
+			// aapt resource value: 0x7f0604fb
+			public const int l_ilsp_infarm_prodn_details_sx_other = 2131100923;
+			
+			// aapt resource value: 0x7f06037b
+			public const int l_ilsp_infarm_prodn_details_sx_potatoes = 2131100539;
+			
+			// aapt resource value: 0x7f0603bb
+			public const int l_ilsp_infarm_prodn_details_sx_soyabeans = 2131100603;
+			
+			// aapt resource value: 0x7f06035b
+			public const int l_ilsp_infarm_prodn_details_sx_sweetpotatoes = 2131100507;
+			
+			// aapt resource value: 0x7f06045b
+			public const int l_ilsp_infarm_prodn_details_sx_tomatoes = 2131100763;
+			
+			// aapt resource value: 0x7f0606e2
+			public const int l_ilsp_is_this_pattern_usual = 2131101410;
+			
+			// aapt resource value: 0x7f06020d
+			public const int l_ilsp_labor_hours_dec = 2131100173;
+			
+			// aapt resource value: 0x7f0601f3
+			public const int l_ilsp_land = 2131100147;
 			
 			// aapt resource value: 0x7f0600f7
 			public const int l_ilsp_land_tenure_system_is = 2131099895;
 			
-			// aapt resource value: 0x7f060222
-			public const int l_ilsp_livestock_graztyp = 2131100194;
+			// aapt resource value: 0x7f0601ce
+			public const int l_ilsp_livestock_graztyp = 2131100110;
 			
-			// aapt resource value: 0x7f0605b1
-			public const int l_ilsp_livstck_enough_food = 2131101105;
+			// aapt resource value: 0x7f0605b8
+			public const int l_ilsp_livstck_enough_food = 2131101112;
 			
-			// aapt resource value: 0x7f06032b
-			public const int l_ilsp_livstck_mgmt_health_trng = 2131100459;
+			// aapt resource value: 0x7f0602d8
+			public const int l_ilsp_livstck_mgmt_health_trng = 2131100376;
 			
-			// aapt resource value: 0x7f06024c
-			public const int l_ilsp_machinery_work_land = 2131100236;
+			// aapt resource value: 0x7f0601f8
+			public const int l_ilsp_machinery_work_land = 2131100152;
 			
-			// aapt resource value: 0x7f0601f9
-			public const int l_ilsp_main_walls_material = 2131100153;
+			// aapt resource value: 0x7f0601a5
+			public const int l_ilsp_main_walls_material = 2131100069;
 			
-			// aapt resource value: 0x7f060275
-			public const int l_ilsp_manage_house_dec = 2131100277;
+			// aapt resource value: 0x7f060221
+			public const int l_ilsp_manage_house_dec = 2131100193;
 			
-			// aapt resource value: 0x7f0600cf
-			public const int l_ilsp_marital_status_beneficiary = 2131099855;
+			// aapt resource value: 0x7f0600cd
+			public const int l_ilsp_marital_status_beneficiary = 2131099853;
 			
-			// aapt resource value: 0x7f0602da
-			public const int l_ilsp_men_participation = 2131100378;
+			// aapt resource value: 0x7f060287
+			public const int l_ilsp_men_participation = 2131100295;
 			
-			// aapt resource value: 0x7f060256
-			public const int l_ilsp_microfinance_services = 2131100246;
+			// aapt resource value: 0x7f060202
+			public const int l_ilsp_microfinance_services = 2131100162;
 			
-			// aapt resource value: 0x7f0605ec
-			public const int l_ilsp_milk_production_sx_cowmilk = 2131101164;
+			// aapt resource value: 0x7f0605f5
+			public const int l_ilsp_milk_production_sx_cowmilk = 2131101173;
 			
-			// aapt resource value: 0x7f060719
-			public const int l_ilsp_mnths_water_scarcity = 2131101465;
+			// aapt resource value: 0x7f060722
+			public const int l_ilsp_mnths_water_scarcity = 2131101474;
 			
-			// aapt resource value: 0x7f0606eb
-			public const int l_ilsp_months_food_scarcity = 2131101419;
+			// aapt resource value: 0x7f0606f4
+			public const int l_ilsp_months_food_scarcity = 2131101428;
 			
-			// aapt resource value: 0x7f0601e7
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_bed = 2131100135;
+			// aapt resource value: 0x7f060193
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_bed = 2131100051;
 			
-			// aapt resource value: 0x7f0601b1
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_bicycle = 2131100081;
+			// aapt resource value: 0x7f06015d
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_bicycle = 2131099997;
 			
-			// aapt resource value: 0x7f0601ed
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_mattress = 2131100141;
+			// aapt resource value: 0x7f060199
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_mattress = 2131100057;
 			
-			// aapt resource value: 0x7f0601c3
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_mobilecellphone = 2131100099;
+			// aapt resource value: 0x7f06016f
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_mobilecellphone = 2131100015;
 			
-			// aapt resource value: 0x7f0601cf
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_motorbike = 2131100111;
+			// aapt resource value: 0x7f06017b
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_motorbike = 2131100027;
 			
-			// aapt resource value: 0x7f0601db
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_motorvehicle = 2131100123;
+			// aapt resource value: 0x7f060187
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_motorvehicle = 2131100039;
 			
-			// aapt resource value: 0x7f0601b7
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_radio = 2131100087;
+			// aapt resource value: 0x7f060163
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_radio = 2131100003;
 			
-			// aapt resource value: 0x7f0601e1
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_sofas = 2131100129;
+			// aapt resource value: 0x7f06018d
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_sofas = 2131100045;
 			
-			// aapt resource value: 0x7f0601f3
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_solarlamps = 2131100147;
+			// aapt resource value: 0x7f06019f
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_solarlamps = 2131100063;
 			
-			// aapt resource value: 0x7f0601d5
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_solarpanel = 2131100117;
+			// aapt resource value: 0x7f060181
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_solarpanel = 2131100033;
 			
-			// aapt resource value: 0x7f0601c9
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_stove = 2131100105;
+			// aapt resource value: 0x7f060175
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_stove = 2131100021;
 			
-			// aapt resource value: 0x7f0601bd
-			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_tv = 2131100093;
+			// aapt resource value: 0x7f060169
+			public const int l_ilsp_non_agric_tools_owned_and_quantity_sx_tv = 2131100009;
 			
-			// aapt resource value: 0x7f06025c
-			public const int l_ilsp_own_education_dec = 2131100252;
-			
-			// aapt resource value: 0x7f0602ce
-			public const int l_ilsp_particip_comm_groups = 2131100366;
+			// aapt resource value: 0x7f060208
+			public const int l_ilsp_own_education_dec = 2131100168;
 			
 			// aapt resource value: 0x7f06027a
-			public const int l_ilsp_particip_comm_org_dec = 2131100282;
+			public const int l_ilsp_particip_comm_groups = 2131100282;
 			
-			// aapt resource value: 0x7f060361
-			public const int l_ilsp_passed_on_gift = 2131100513;
+			// aapt resource value: 0x7f060226
+			public const int l_ilsp_particip_comm_org_dec = 2131100198;
 			
-			// aapt resource value: 0x7f06034c
-			public const int l_ilsp_people_trust_one_another = 2131100492;
+			// aapt resource value: 0x7f06030e
+			public const int l_ilsp_passed_on_gift = 2131100430;
 			
-			// aapt resource value: 0x7f060726
-			public const int l_ilsp_pit_latrines_accesssible = 2131101478;
+			// aapt resource value: 0x7f0602f9
+			public const int l_ilsp_people_trust_one_another = 2131100409;
 			
-			// aapt resource value: 0x7f060367
-			public const int l_ilsp_pog_contributes = 2131100519;
+			// aapt resource value: 0x7f06072f
+			public const int l_ilsp_pit_latrines_accesssible = 2131101487;
+			
+			// aapt resource value: 0x7f060314
+			public const int l_ilsp_pog_contributes = 2131100436;
 			
 			// aapt resource value: 0x7f060101
 			public const int l_ilsp_productive_land_uom = 2131099905;
 			
-			// aapt resource value: 0x7f0600a5
-			public const int l_ilsp_project_duration = 2131099813;
+			// aapt resource value: 0x7f0600a1
+			public const int l_ilsp_project_year = 2131099809;
 			
-			// aapt resource value: 0x7f0600ac
-			public const int l_ilsp_project_year = 2131099820;
+			// aapt resource value: 0x7f0600c4
+			public const int l_ilsp_projected_recruited_from = 2131099844;
 			
-			// aapt resource value: 0x7f0600c7
-			public const int l_ilsp_projected_recruited_from = 2131099847;
+			// aapt resource value: 0x7f0602fe
+			public const int l_ilsp_rate_statement_below = 2131100414;
 			
-			// aapt resource value: 0x7f060351
-			public const int l_ilsp_rate_statement_below = 2131100497;
+			// aapt resource value: 0x7f0606e6
+			public const int l_ilsp_reas_food_not_last_yr = 2131101414;
 			
-			// aapt resource value: 0x7f0606dd
-			public const int l_ilsp_reas_food_not_last_yr = 2131101405;
+			// aapt resource value: 0x7f06078b
+			public const int l_ilsp_received_loan_past_year = 2131101579;
 			
-			// aapt resource value: 0x7f060782
-			public const int l_ilsp_received_loan_past_year = 2131101570;
+			// aapt resource value: 0x7f06029e
+			public const int l_ilsp_social_capital_sx_cooperative = 2131100318;
 			
-			// aapt resource value: 0x7f0602f1
-			public const int l_ilsp_social_capital_sx_cooperative = 2131100401;
+			// aapt resource value: 0x7f0602a6
+			public const int l_ilsp_social_capital_sx_creditfinancegroup = 2131100326;
 			
-			// aapt resource value: 0x7f0602f9
-			public const int l_ilsp_social_capital_sx_creditfinancegroup = 2131100409;
+			// aapt resource value: 0x7f0602b6
+			public const int l_ilsp_social_capital_sx_mensgroup = 2131100342;
 			
-			// aapt resource value: 0x7f060309
-			public const int l_ilsp_social_capital_sx_mensgroup = 2131100425;
+			// aapt resource value: 0x7f0602c6
+			public const int l_ilsp_social_capital_sx_other = 2131100358;
 			
-			// aapt resource value: 0x7f060319
-			public const int l_ilsp_social_capital_sx_other = 2131100441;
+			// aapt resource value: 0x7f060296
+			public const int l_ilsp_social_capital_sx_producergroup = 2131100310;
 			
-			// aapt resource value: 0x7f0602e9
-			public const int l_ilsp_social_capital_sx_producergroup = 2131100393;
+			// aapt resource value: 0x7f0602ae
+			public const int l_ilsp_social_capital_sx_womensgroup = 2131100334;
 			
-			// aapt resource value: 0x7f060301
-			public const int l_ilsp_social_capital_sx_womensgroup = 2131100417;
+			// aapt resource value: 0x7f0602be
+			public const int l_ilsp_social_capital_sx_youthgroup = 2131100350;
 			
-			// aapt resource value: 0x7f060311
-			public const int l_ilsp_social_capital_sx_youthgroup = 2131100433;
+			// aapt resource value: 0x7f0601ba
+			public const int l_ilsp_soil_conservation_pract = 2131100090;
 			
-			// aapt resource value: 0x7f06020e
-			public const int l_ilsp_soil_conservation_pract = 2131100174;
+			// aapt resource value: 0x7f060304
+			public const int l_ilsp_someone_will_help = 2131100420;
 			
-			// aapt resource value: 0x7f060357
-			public const int l_ilsp_someone_will_help = 2131100503;
+			// aapt resource value: 0x7f0605e9
+			public const int l_ilsp_source_livestock_drugs = 2131101161;
 			
-			// aapt resource value: 0x7f0605e0
-			public const int l_ilsp_source_livestock_drugs = 2131101152;
+			// aapt resource value: 0x7f060790
+			public const int l_ilsp_source_of_loan = 2131101584;
 			
-			// aapt resource value: 0x7f060787
-			public const int l_ilsp_source_of_loan = 2131101575;
+			// aapt resource value: 0x7f0605b4
+			public const int l_ilsp_store_and_preseve_fodder = 2131101108;
 			
-			// aapt resource value: 0x7f0605ad
-			public const int l_ilsp_store_and_preseve_fodder = 2131101101;
+			// aapt resource value: 0x7f0601fd
+			public const int l_ilsp_tech_trng_work_land = 2131100157;
 			
-			// aapt resource value: 0x7f060251
-			public const int l_ilsp_tech_trng_work_land = 2131100241;
-			
-			// aapt resource value: 0x7f0605c3
-			public const int l_ilsp_tick_control_method = 2131101123;
+			// aapt resource value: 0x7f0605cc
+			public const int l_ilsp_tick_control_method = 2131101132;
 			
 			// aapt resource value: 0x7f060115
 			public const int l_ilsp_tools_owned_and_quantity_sx_axe = 2131099925;
 			
-			// aapt resource value: 0x7f06019f
-			public const int l_ilsp_tools_owned_and_quantity_sx_bed = 2131100063;
-			
-			// aapt resource value: 0x7f060169
-			public const int l_ilsp_tools_owned_and_quantity_sx_bicycle = 2131100009;
-			
-			// aapt resource value: 0x7f060151
-			public const int l_ilsp_tools_owned_and_quantity_sx_grainmill = 2131099985;
+			// aapt resource value: 0x7f060145
+			public const int l_ilsp_tools_owned_and_quantity_sx_grainmill = 2131099973;
 			
 			// aapt resource value: 0x7f06010f
 			public const int l_ilsp_tools_owned_and_quantity_sx_hoe = 2131099919;
 			
-			// aapt resource value: 0x7f0601a5
-			public const int l_ilsp_tools_owned_and_quantity_sx_mattress = 2131100069;
-			
-			// aapt resource value: 0x7f06017b
-			public const int l_ilsp_tools_owned_and_quantity_sx_mobilecellphone = 2131100027;
-			
-			// aapt resource value: 0x7f060187
-			public const int l_ilsp_tools_owned_and_quantity_sx_motorbike = 2131100039;
-			
-			// aapt resource value: 0x7f060193
-			public const int l_ilsp_tools_owned_and_quantity_sx_motorvehicle = 2131100051;
+			// aapt resource value: 0x7f06013f
+			public const int l_ilsp_tools_owned_and_quantity_sx_oilpress = 2131099967;
 			
 			// aapt resource value: 0x7f06014b
-			public const int l_ilsp_tools_owned_and_quantity_sx_oilpress = 2131099979;
-			
-			// aapt resource value: 0x7f060157
-			public const int l_ilsp_tools_owned_and_quantity_sx_oxcarts = 2131099991;
-			
-			// aapt resource value: 0x7f060139
-			public const int l_ilsp_tools_owned_and_quantity_sx_oxplough = 2131099961;
+			public const int l_ilsp_tools_owned_and_quantity_sx_oxcarts = 2131099979;
 			
 			// aapt resource value: 0x7f060121
 			public const int l_ilsp_tools_owned_and_quantity_sx_pangas = 2131099937;
 			
-			// aapt resource value: 0x7f0601ab
-			public const int l_ilsp_tools_owned_and_quantity_sx_plough = 2131100075;
-			
-			// aapt resource value: 0x7f06016f
-			public const int l_ilsp_tools_owned_and_quantity_sx_radio = 2131100015;
-			
-			// aapt resource value: 0x7f06013f
-			public const int l_ilsp_tools_owned_and_quantity_sx_ridgeplough = 2131099967;
-			
-			// aapt resource value: 0x7f060145
-			public const int l_ilsp_tools_owned_and_quantity_sx_ripper = 2131099973;
+			// aapt resource value: 0x7f060139
+			public const int l_ilsp_tools_owned_and_quantity_sx_plough = 2131099961;
 			
 			// aapt resource value: 0x7f060133
 			public const int l_ilsp_tools_owned_and_quantity_sx_slasher = 2131099955;
-			
-			// aapt resource value: 0x7f060199
-			public const int l_ilsp_tools_owned_and_quantity_sx_sofas = 2131100057;
-			
-			// aapt resource value: 0x7f06018d
-			public const int l_ilsp_tools_owned_and_quantity_sx_solarpanel = 2131100045;
 			
 			// aapt resource value: 0x7f06011b
 			public const int l_ilsp_tools_owned_and_quantity_sx_spade = 2131099931;
@@ -6854,62 +6845,56 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06012d
 			public const int l_ilsp_tools_owned_and_quantity_sx_sprayer = 2131099949;
 			
-			// aapt resource value: 0x7f060181
-			public const int l_ilsp_tools_owned_and_quantity_sx_stove = 2131100033;
+			// aapt resource value: 0x7f060151
+			public const int l_ilsp_tools_owned_and_quantity_sx_tractor = 2131099985;
 			
-			// aapt resource value: 0x7f06015d
-			public const int l_ilsp_tools_owned_and_quantity_sx_tractor = 2131099997;
-			
-			// aapt resource value: 0x7f060163
-			public const int l_ilsp_tools_owned_and_quantity_sx_trailor = 2131100003;
-			
-			// aapt resource value: 0x7f060175
-			public const int l_ilsp_tools_owned_and_quantity_sx_tv = 2131100021;
+			// aapt resource value: 0x7f060157
+			public const int l_ilsp_tools_owned_and_quantity_sx_trailor = 2131099991;
 			
 			// aapt resource value: 0x7f060127
 			public const int l_ilsp_tools_owned_and_quantity_sx_wheelbarrow = 2131099943;
 			
-			// aapt resource value: 0x7f060631
-			public const int l_ilsp_type_of_farm_rec_kept = 2131101233;
+			// aapt resource value: 0x7f06063a
+			public const int l_ilsp_type_of_farm_rec_kept = 2131101242;
 			
-			// aapt resource value: 0x7f0600bd
-			public const int l_ilsp_type_of_recipient_1 = 2131099837;
+			// aapt resource value: 0x7f0600ba
+			public const int l_ilsp_type_of_recipient_1 = 2131099834;
 			
-			// aapt resource value: 0x7f0600c1
-			public const int l_ilsp_type_of_recipient_2 = 2131099841;
+			// aapt resource value: 0x7f0600be
+			public const int l_ilsp_type_of_recipient_2 = 2131099838;
 			
-			// aapt resource value: 0x7f060605
-			public const int l_ilsp_value_addition_enterp = 2131101189;
+			// aapt resource value: 0x7f06060e
+			public const int l_ilsp_value_addition_enterp = 2131101198;
 			
-			// aapt resource value: 0x7f0605b4
-			public const int l_ilsp_where_feed_is_bought = 2131101108;
+			// aapt resource value: 0x7f0605bd
+			public const int l_ilsp_where_feed_is_bought = 2131101117;
 			
-			// aapt resource value: 0x7f0605fb
-			public const int l_ilsp_where_you_sell_your_milk = 2131101179;
+			// aapt resource value: 0x7f060604
+			public const int l_ilsp_where_you_sell_your_milk = 2131101188;
 			
-			// aapt resource value: 0x7f06022e
-			public const int l_ilsp_who_owns_land = 2131100206;
+			// aapt resource value: 0x7f0601da
+			public const int l_ilsp_who_owns_land = 2131100122;
 			
-			// aapt resource value: 0x7f060240
-			public const int l_ilsp_who_owns_large_animals = 2131100224;
+			// aapt resource value: 0x7f0601ec
+			public const int l_ilsp_who_owns_large_animals = 2131100140;
 			
-			// aapt resource value: 0x7f060234
-			public const int l_ilsp_who_owns_mach_work_land = 2131100212;
+			// aapt resource value: 0x7f0601e0
+			public const int l_ilsp_who_owns_mach_work_land = 2131100128;
 			
-			// aapt resource value: 0x7f06023a
-			public const int l_ilsp_who_owns_small_ruminants = 2131100218;
+			// aapt resource value: 0x7f0601e6
+			public const int l_ilsp_who_owns_small_ruminants = 2131100134;
 			
-			// aapt resource value: 0x7f060618
-			public const int l_ilsp_whr_agric_prod_sold = 2131101208;
+			// aapt resource value: 0x7f060621
+			public const int l_ilsp_whr_agric_prod_sold = 2131101217;
 			
-			// aapt resource value: 0x7f060703
-			public const int l_ilsp_wht_are_your_water_sourc = 2131101443;
+			// aapt resource value: 0x7f06070c
+			public const int l_ilsp_wht_are_your_water_sourc = 2131101452;
 			
-			// aapt resource value: 0x7f0602d5
-			public const int l_ilsp_women_participation = 2131100373;
+			// aapt resource value: 0x7f060282
+			public const int l_ilsp_women_participation = 2131100290;
 			
-			// aapt resource value: 0x7f0602e4
-			public const int l_ilsp_youths_participation = 2131100388;
+			// aapt resource value: 0x7f060291
+			public const int l_ilsp_youths_participation = 2131100305;
 			
 			// aapt resource value: 0x7f06008e
 			public const int layoutFinaliseOptions = 2131099790;
@@ -6917,11 +6902,11 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f06079f
-			public const int line1 = 2131101599;
+			// aapt resource value: 0x7f0607a9
+			public const int line1 = 2131101609;
 			
-			// aapt resource value: 0x7f0607a3
-			public const int line3 = 2131101603;
+			// aapt resource value: 0x7f0607ad
+			public const int line3 = 2131101613;
 			
 			// aapt resource value: 0x7f060074
 			public const int linearLayout1 = 2131099764;
@@ -6932,8 +6917,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060075
 			public const int linearLayout3 = 2131099765;
 			
-			// aapt resource value: 0x7f060797
-			public const int linearLayout4 = 2131101591;
+			// aapt resource value: 0x7f0607a1
+			public const int linearLayout4 = 2131101601;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
@@ -6947,8 +6932,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060082
 			public const int llayoutClientSummOptions = 2131099778;
 			
-			// aapt resource value: 0x7f06079d
-			public const int media_actions = 2131101597;
+			// aapt resource value: 0x7f0607a7
+			public const int media_actions = 2131101607;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -6959,8 +6944,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060016
 			public const int multiply = 2131099670;
 			
-			// aapt resource value: 0x7f060798
-			public const int mySpacer = 2131101592;
+			// aapt resource value: 0x7f0607a2
+			public const int mySpacer = 2131101602;
 			
 			// aapt resource value: 0x7f060096
 			public const int navigation_header_container = 2131099798;
@@ -6992,77 +6977,125 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060054
 			public const int radio = 2131099732;
 			
-			// aapt resource value: 0x7f0607b5
-			public const int recordVisitType = 2131101621;
+			// aapt resource value: 0x7f0607bf
+			public const int recordVisitType = 2131101631;
 			
 			// aapt resource value: 0x7f0600f4
 			public const int rg_ilsp_access_to_prodtv_land = 2131099892;
 			
-			// aapt resource value: 0x7f060343
-			public const int rg_ilsp_address_common_issue = 2131100483;
+			// aapt resource value: 0x7f0602f0
+			public const int rg_ilsp_address_common_issue = 2131100400;
 			
-			// aapt resource value: 0x7f0600db
-			public const int rg_ilsp_age_of_household_head = 2131099867;
+			// aapt resource value: 0x7f0600d9
+			public const int rg_ilsp_age_of_household_head = 2131099865;
 			
-			// aapt resource value: 0x7f0605a5
-			public const int rg_ilsp_area_cultivated_fodder = 2131101093;
+			// aapt resource value: 0x7f0605ae
+			public const int rg_ilsp_area_cultivated_fodder_uom = 2131101102;
 			
-			// aapt resource value: 0x7f060459
-			public const int rg_ilsp_area_cultivated_uom_sx_beans = 2131100761;
+			// aapt resource value: 0x7f060421
+			public const int rg_ilsp_area_cultivated_uom_sx_beans = 2131100705;
 			
-			// aapt resource value: 0x7f060476
-			public const int rg_ilsp_area_cultivated_uom_sx_cabbage = 2131100790;
+			// aapt resource value: 0x7f060441
+			public const int rg_ilsp_area_cultivated_uom_sx_cabbage = 2131100737;
 			
-			// aapt resource value: 0x7f0603e5
-			public const int rg_ilsp_area_cultivated_uom_sx_cassava = 2131100645;
+			// aapt resource value: 0x7f0603a1
+			public const int rg_ilsp_area_cultivated_uom_sx_cassava = 2131100577;
 			
-			// aapt resource value: 0x7f060507
-			public const int rg_ilsp_area_cultivated_uom_sx_cotton = 2131100935;
+			// aapt resource value: 0x7f0604e1
+			public const int rg_ilsp_area_cultivated_uom_sx_cotton = 2131100897;
 			
-			// aapt resource value: 0x7f06041f
-			public const int rg_ilsp_area_cultivated_uom_sx_cowpeas = 2131100703;
+			// aapt resource value: 0x7f0603e1
+			public const int rg_ilsp_area_cultivated_uom_sx_cowpeas = 2131100641;
 			
-			// aapt resource value: 0x7f0604cd
-			public const int rg_ilsp_area_cultivated_uom_sx_eggplantimpwa = 2131100877;
+			// aapt resource value: 0x7f0604a1
+			public const int rg_ilsp_area_cultivated_uom_sx_eggplantimpwa = 2131100833;
 			
-			// aapt resource value: 0x7f06038e
-			public const int rg_ilsp_area_cultivated_uom_sx_groundnuts = 2131100558;
+			// aapt resource value: 0x7f060341
+			public const int rg_ilsp_area_cultivated_uom_sx_groundnuts = 2131100481;
 			
-			// aapt resource value: 0x7f0604ea
-			public const int rg_ilsp_area_cultivated_uom_sx_leafyvegetables = 2131100906;
+			// aapt resource value: 0x7f0604c1
+			public const int rg_ilsp_area_cultivated_uom_sx_leafyvegetables = 2131100865;
 			
-			// aapt resource value: 0x7f060371
-			public const int rg_ilsp_area_cultivated_uom_sx_maize = 2131100529;
+			// aapt resource value: 0x7f060321
+			public const int rg_ilsp_area_cultivated_uom_sx_maize = 2131100449;
 			
-			// aapt resource value: 0x7f06043c
-			public const int rg_ilsp_area_cultivated_uom_sx_mbambaranuts = 2131100732;
+			// aapt resource value: 0x7f060401
+			public const int rg_ilsp_area_cultivated_uom_sx_mbambaranuts = 2131100673;
 			
-			// aapt resource value: 0x7f0604b0
-			public const int rg_ilsp_area_cultivated_uom_sx_onion = 2131100848;
+			// aapt resource value: 0x7f060481
+			public const int rg_ilsp_area_cultivated_uom_sx_onion = 2131100801;
 			
-			// aapt resource value: 0x7f060524
-			public const int rg_ilsp_area_cultivated_uom_sx_other = 2131100964;
+			// aapt resource value: 0x7f060501
+			public const int rg_ilsp_area_cultivated_uom_sx_other = 2131100929;
 			
-			// aapt resource value: 0x7f0603c8
-			public const int rg_ilsp_area_cultivated_uom_sx_potatoes = 2131100616;
+			// aapt resource value: 0x7f060381
+			public const int rg_ilsp_area_cultivated_uom_sx_potatoes = 2131100545;
 			
-			// aapt resource value: 0x7f060402
-			public const int rg_ilsp_area_cultivated_uom_sx_soyabeans = 2131100674;
+			// aapt resource value: 0x7f0603c1
+			public const int rg_ilsp_area_cultivated_uom_sx_soyabeans = 2131100609;
 			
-			// aapt resource value: 0x7f0603ab
-			public const int rg_ilsp_area_cultivated_uom_sx_sweetpotatoes = 2131100587;
+			// aapt resource value: 0x7f060361
+			public const int rg_ilsp_area_cultivated_uom_sx_sweetpotatoes = 2131100513;
 			
-			// aapt resource value: 0x7f060493
-			public const int rg_ilsp_area_cultivated_uom_sx_tomatoes = 2131100819;
+			// aapt resource value: 0x7f060461
+			public const int rg_ilsp_area_cultivated_uom_sx_tomatoes = 2131100769;
 			
-			// aapt resource value: 0x7f06063e
-			public const int rg_ilsp_average_number_of_meals = 2131101246;
+			// aapt resource value: 0x7f060647
+			public const int rg_ilsp_average_number_of_meals = 2131101255;
 			
-			// aapt resource value: 0x7f06026f
-			public const int rg_ilsp_children_sch_attend_dec = 2131100271;
+			// aapt resource value: 0x7f06021b
+			public const int rg_ilsp_children_sch_attend_dec = 2131100187;
 			
-			// aapt resource value: 0x7f06032e
-			public const int rg_ilsp_crop_production_trng = 2131100462;
+			// aapt resource value: 0x7f06041d
+			public const int rg_ilsp_crop_gown_sx_beans = 2131100701;
+			
+			// aapt resource value: 0x7f06043d
+			public const int rg_ilsp_crop_gown_sx_cabbage = 2131100733;
+			
+			// aapt resource value: 0x7f06039d
+			public const int rg_ilsp_crop_gown_sx_cassava = 2131100573;
+			
+			// aapt resource value: 0x7f0604dd
+			public const int rg_ilsp_crop_gown_sx_cotton = 2131100893;
+			
+			// aapt resource value: 0x7f0603dd
+			public const int rg_ilsp_crop_gown_sx_cowpeas = 2131100637;
+			
+			// aapt resource value: 0x7f06049d
+			public const int rg_ilsp_crop_gown_sx_eggplantimpwa = 2131100829;
+			
+			// aapt resource value: 0x7f06033d
+			public const int rg_ilsp_crop_gown_sx_groundnuts = 2131100477;
+			
+			// aapt resource value: 0x7f0604bd
+			public const int rg_ilsp_crop_gown_sx_leafyvegetables = 2131100861;
+			
+			// aapt resource value: 0x7f06031d
+			public const int rg_ilsp_crop_gown_sx_maize = 2131100445;
+			
+			// aapt resource value: 0x7f0603fd
+			public const int rg_ilsp_crop_gown_sx_mbambaranuts = 2131100669;
+			
+			// aapt resource value: 0x7f06047d
+			public const int rg_ilsp_crop_gown_sx_onion = 2131100797;
+			
+			// aapt resource value: 0x7f0604fd
+			public const int rg_ilsp_crop_gown_sx_other = 2131100925;
+			
+			// aapt resource value: 0x7f06037d
+			public const int rg_ilsp_crop_gown_sx_potatoes = 2131100541;
+			
+			// aapt resource value: 0x7f0603bd
+			public const int rg_ilsp_crop_gown_sx_soyabeans = 2131100605;
+			
+			// aapt resource value: 0x7f06035d
+			public const int rg_ilsp_crop_gown_sx_sweetpotatoes = 2131100509;
+			
+			// aapt resource value: 0x7f06045d
+			public const int rg_ilsp_crop_gown_sx_tomatoes = 2131100765;
+			
+			// aapt resource value: 0x7f0602db
+			public const int rg_ilsp_crop_production_trng = 2131100379;
 			
 			// aapt resource value: 0x7f06010a
 			public const int rg_ilsp_cultivated_uom = 2131099914;
@@ -7070,254 +7103,260 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06009d
 			public const int rg_ilsp_data_coll_fiscal_yr = 2131099805;
 			
-			// aapt resource value: 0x7f0600a2
-			public const int rg_ilsp_data_coll_rprt_period = 2131099810;
+			// aapt resource value: 0x7f0600b3
+			public const int rg_ilsp_district_name = 2131099827;
 			
-			// aapt resource value: 0x7f0606d3
-			public const int rg_ilsp_dur_food_stocks_lasted = 2131101395;
+			// aapt resource value: 0x7f0606dc
+			public const int rg_ilsp_dur_food_stocks_lasted = 2131101404;
 			
-			// aapt resource value: 0x7f0600e1
-			public const int rg_ilsp_educ_household_head = 2131099873;
+			// aapt resource value: 0x7f0600df
+			public const int rg_ilsp_educ_household_head = 2131099871;
 			
-			// aapt resource value: 0x7f0602de
-			public const int rg_ilsp_elderly_participation = 2131100382;
+			// aapt resource value: 0x7f06028b
+			public const int rg_ilsp_elderly_participation = 2131100299;
 			
-			// aapt resource value: 0x7f06021b
-			public const int rg_ilsp_energy_type_used = 2131100187;
+			// aapt resource value: 0x7f0601c7
+			public const int rg_ilsp_energy_type_used = 2131100103;
 			
-			// aapt resource value: 0x7f060326
-			public const int rg_ilsp_enterp_dev_skills_trng = 2131100454;
+			// aapt resource value: 0x7f0602d3
+			public const int rg_ilsp_enterp_dev_skills_trng = 2131100371;
 			
-			// aapt resource value: 0x7f060332
-			public const int rg_ilsp_environ_nat_res_mgt_trng = 2131100466;
+			// aapt resource value: 0x7f0602df
+			public const int rg_ilsp_environ_nat_res_mgt_trng = 2131100383;
 			
-			// aapt resource value: 0x7f06026a
-			public const int rg_ilsp_family_size_dec = 2131100266;
+			// aapt resource value: 0x7f060216
+			public const int rg_ilsp_family_size_dec = 2131100182;
 			
-			// aapt resource value: 0x7f060209
-			public const int rg_ilsp_family_type = 2131100169;
+			// aapt resource value: 0x7f0601b5
+			public const int rg_ilsp_family_type = 2131100085;
 			
-			// aapt resource value: 0x7f060644
-			public const int rg_ilsp_food_group_consumed_sx_cerealsmilletricenshima = 2131101252;
+			// aapt resource value: 0x7f06064d
+			public const int rg_ilsp_food_group_consumed_sx_cerealsmilletricenshima = 2131101261;
 			
-			// aapt resource value: 0x7f060680
-			public const int rg_ilsp_food_group_consumed_sx_eggs = 2131101312;
+			// aapt resource value: 0x7f060689
+			public const int rg_ilsp_food_group_consumed_sx_eggs = 2131101321;
 			
-			// aapt resource value: 0x7f06068c
-			public const int rg_ilsp_food_group_consumed_sx_fishfishkapenta = 2131101324;
+			// aapt resource value: 0x7f060695
+			public const int rg_ilsp_food_group_consumed_sx_fishfishkapenta = 2131101333;
 			
-			// aapt resource value: 0x7f060668
-			public const int rg_ilsp_food_group_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101288;
+			// aapt resource value: 0x7f060671
+			public const int rg_ilsp_food_group_consumed_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101297;
 			
-			// aapt resource value: 0x7f060698
-			public const int rg_ilsp_food_group_consumed_sx_legumesgroundnutsbeanssoyapeas = 2131101336;
+			// aapt resource value: 0x7f0606a1
+			public const int rg_ilsp_food_group_consumed_sx_legumesgroundnutsbeanssoyapeas = 2131101345;
 			
-			// aapt resource value: 0x7f060674
-			public const int rg_ilsp_food_group_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101300;
+			// aapt resource value: 0x7f06067d
+			public const int rg_ilsp_food_group_consumed_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101309;
 			
-			// aapt resource value: 0x7f0606a4
-			public const int rg_ilsp_food_group_consumed_sx_milkmilkyogurtsourmilk = 2131101348;
+			// aapt resource value: 0x7f0606ad
+			public const int rg_ilsp_food_group_consumed_sx_milkmilkyogurtsourmilk = 2131101357;
 			
-			// aapt resource value: 0x7f0606b0
-			public const int rg_ilsp_food_group_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101360;
+			// aapt resource value: 0x7f0606b9
+			public const int rg_ilsp_food_group_consumed_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101369;
 			
-			// aapt resource value: 0x7f0606c8
-			public const int rg_ilsp_food_group_consumed_sx_spicesandcondimentsgingerteacoffee = 2131101384;
+			// aapt resource value: 0x7f0606d1
+			public const int rg_ilsp_food_group_consumed_sx_spicesandcondimentsgingerteacoffee = 2131101393;
 			
-			// aapt resource value: 0x7f0606bc
-			public const int rg_ilsp_food_group_consumed_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101372;
+			// aapt resource value: 0x7f0606c5
+			public const int rg_ilsp_food_group_consumed_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101381;
 			
-			// aapt resource value: 0x7f060650
-			public const int rg_ilsp_food_group_consumed_sx_tuberssweetpotatoescassava = 2131101264;
+			// aapt resource value: 0x7f060659
+			public const int rg_ilsp_food_group_consumed_sx_tuberssweetpotatoescassava = 2131101273;
 			
-			// aapt resource value: 0x7f06065c
-			public const int rg_ilsp_food_group_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101276;
+			// aapt resource value: 0x7f060665
+			public const int rg_ilsp_food_group_consumed_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101285;
 			
-			// aapt resource value: 0x7f060336
-			public const int rg_ilsp_food_proc_utiliz_trng = 2131100470;
+			// aapt resource value: 0x7f0602e3
+			public const int rg_ilsp_food_proc_utiliz_trng = 2131100387;
 			
-			// aapt resource value: 0x7f0600cc
-			public const int rg_ilsp_gender_of_beneficiary = 2131099852;
+			// aapt resource value: 0x7f0600ca
+			public const int rg_ilsp_gender_of_beneficiary = 2131099850;
 			
-			// aapt resource value: 0x7f0600d7
-			public const int rg_ilsp_gender_of_household_head = 2131099863;
+			// aapt resource value: 0x7f0600d5
+			public const int rg_ilsp_gender_of_household_head = 2131099861;
 			
-			// aapt resource value: 0x7f06033a
-			public const int rg_ilsp_gendr_eqty_wom_emp_trng = 2131100474;
+			// aapt resource value: 0x7f0602e7
+			public const int rg_ilsp_gendr_eqty_wom_emp_trng = 2131100391;
 			
-			// aapt resource value: 0x7f060322
-			public const int rg_ilsp_group_mgmnt_skills_trng = 2131100450;
+			// aapt resource value: 0x7f0602cf
+			public const int rg_ilsp_group_mgmnt_skills_trng = 2131100367;
 			
-			// aapt resource value: 0x7f0605a1
-			public const int rg_ilsp_grow_fodder_livstck = 2131101089;
+			// aapt resource value: 0x7f0605a9
+			public const int rg_ilsp_grow_fodder_livstck = 2131101097;
 			
-			// aapt resource value: 0x7f060715
-			public const int rg_ilsp_had_mnths_no_water_anim = 2131101461;
+			// aapt resource value: 0x7f06071e
+			public const int rg_ilsp_had_mnths_no_water_anim = 2131101470;
 			
-			// aapt resource value: 0x7f0606e8
-			public const int rg_ilsp_had_months_without_food = 2131101416;
+			// aapt resource value: 0x7f0606f1
+			public const int rg_ilsp_had_months_without_food = 2131101425;
 			
-			// aapt resource value: 0x7f06077f
-			public const int rg_ilsp_have_a_bank_account = 2131101567;
+			// aapt resource value: 0x7f060788
+			public const int rg_ilsp_have_a_bank_account = 2131101576;
 			
-			// aapt resource value: 0x7f06035e
-			public const int rg_ilsp_heard_or_practiced_pog = 2131100510;
+			// aapt resource value: 0x7f06030b
+			public const int rg_ilsp_heard_or_practiced_pog = 2131100427;
 			
-			// aapt resource value: 0x7f06033e
-			public const int rg_ilsp_hiv_aids_awareness_trng = 2131100478;
+			// aapt resource value: 0x7f0602eb
+			public const int rg_ilsp_hiv_aids_awareness_trng = 2131100395;
 			
-			// aapt resource value: 0x7f060265
-			public const int rg_ilsp_household_exp_dec = 2131100261;
+			// aapt resource value: 0x7f060211
+			public const int rg_ilsp_household_exp_dec = 2131100177;
 			
-			// aapt resource value: 0x7f060614
-			public const int rg_ilsp_how_livestock_sold = 2131101204;
+			// aapt resource value: 0x7f06061d
+			public const int rg_ilsp_how_livestock_sold = 2131101213;
 			
-			// aapt resource value: 0x7f0605f7
-			public const int rg_ilsp_how_you_sell_your_milk = 2131101175;
+			// aapt resource value: 0x7f060600
+			public const int rg_ilsp_how_you_sell_your_milk = 2131101184;
 			
-			// aapt resource value: 0x7f06060f
-			public const int rg_ilsp_how_your_crops_are_sold = 2131101199;
+			// aapt resource value: 0x7f060618
+			public const int rg_ilsp_how_your_crops_are_sold = 2131101208;
 			
-			// aapt resource value: 0x7f060202
-			public const int rg_ilsp_hse_roof_princip_mater = 2131100162;
+			// aapt resource value: 0x7f0601ae
+			public const int rg_ilsp_hse_roof_princip_mater = 2131100078;
 			
-			// aapt resource value: 0x7f060349
-			public const int rg_ilsp_in_comm_labor_groups = 2131100489;
+			// aapt resource value: 0x7f0602f6
+			public const int rg_ilsp_in_comm_labor_groups = 2131100406;
 			
-			// aapt resource value: 0x7f0606da
-			public const int rg_ilsp_is_this_pattern_usual = 2131101402;
+			// aapt resource value: 0x7f0606e3
+			public const int rg_ilsp_is_this_pattern_usual = 2131101411;
 			
-			// aapt resource value: 0x7f060260
-			public const int rg_ilsp_labor_hours_dec = 2131100256;
+			// aapt resource value: 0x7f06020c
+			public const int rg_ilsp_labor_hours_dec = 2131100172;
 			
-			// aapt resource value: 0x7f060246
-			public const int rg_ilsp_land = 2131100230;
+			// aapt resource value: 0x7f0601f2
+			public const int rg_ilsp_land = 2131100146;
 			
-			// aapt resource value: 0x7f060223
-			public const int rg_ilsp_livestock_graztyp = 2131100195;
+			// aapt resource value: 0x7f0601cf
+			public const int rg_ilsp_livestock_graztyp = 2131100111;
 			
-			// aapt resource value: 0x7f0605b0
-			public const int rg_ilsp_livstck_enough_food = 2131101104;
+			// aapt resource value: 0x7f060581
+			public const int rg_ilsp_livestock_grown_sx_beefcattle = 2131101057;
 			
-			// aapt resource value: 0x7f06032a
-			public const int rg_ilsp_livstck_mgmt_health_trng = 2131100458;
+			// aapt resource value: 0x7f060527
+			public const int rg_ilsp_livestock_grown_sx_broilerchickens = 2131100967;
 			
-			// aapt resource value: 0x7f06024b
-			public const int rg_ilsp_machinery_work_land = 2131100235;
+			// aapt resource value: 0x7f060577
+			public const int rg_ilsp_livestock_grown_sx_dairycattle = 2131101047;
 			
-			// aapt resource value: 0x7f0601fa
-			public const int rg_ilsp_main_walls_material = 2131100154;
+			// aapt resource value: 0x7f06058b
+			public const int rg_ilsp_livestock_grown_sx_draftcattle = 2131101067;
 			
-			// aapt resource value: 0x7f060274
-			public const int rg_ilsp_manage_house_dec = 2131100276;
+			// aapt resource value: 0x7f06053b
+			public const int rg_ilsp_livestock_grown_sx_ducks = 2131100987;
 			
-			// aapt resource value: 0x7f0600d0
-			public const int rg_ilsp_marital_status_beneficiary = 2131099856;
+			// aapt resource value: 0x7f060559
+			public const int rg_ilsp_livestock_grown_sx_goats = 2131101017;
 			
-			// aapt resource value: 0x7f0602d9
-			public const int rg_ilsp_men_participation = 2131100377;
+			// aapt resource value: 0x7f060545
+			public const int rg_ilsp_livestock_grown_sx_guineafowls = 2131100997;
 			
-			// aapt resource value: 0x7f060255
-			public const int rg_ilsp_microfinance_services = 2131100245;
+			// aapt resource value: 0x7f06051d
+			public const int rg_ilsp_livestock_grown_sx_localchickens = 2131100957;
 			
-			// aapt resource value: 0x7f06025b
-			public const int rg_ilsp_own_education_dec = 2131100251;
+			// aapt resource value: 0x7f06059f
+			public const int rg_ilsp_livestock_grown_sx_other = 2131101087;
 			
-			// aapt resource value: 0x7f0601e9
-			public const int rg_ilsp_owned_non_agric_sx_bed = 2131100137;
+			// aapt resource value: 0x7f06054f
+			public const int rg_ilsp_livestock_grown_sx_pigeons = 2131101007;
 			
-			// aapt resource value: 0x7f0601b3
-			public const int rg_ilsp_owned_non_agric_sx_bicycle = 2131100083;
+			// aapt resource value: 0x7f060563
+			public const int rg_ilsp_livestock_grown_sx_pigs = 2131101027;
 			
-			// aapt resource value: 0x7f0601ef
-			public const int rg_ilsp_owned_non_agric_sx_mattress = 2131100143;
+			// aapt resource value: 0x7f060595
+			public const int rg_ilsp_livestock_grown_sx_quails = 2131101077;
 			
-			// aapt resource value: 0x7f0601c5
-			public const int rg_ilsp_owned_non_agric_sx_mobilecellphone = 2131100101;
+			// aapt resource value: 0x7f06056d
+			public const int rg_ilsp_livestock_grown_sx_sheep = 2131101037;
 			
-			// aapt resource value: 0x7f0601d1
-			public const int rg_ilsp_owned_non_agric_sx_motorbike = 2131100113;
+			// aapt resource value: 0x7f060531
+			public const int rg_ilsp_livestock_grown_sx_turkeys = 2131100977;
 			
-			// aapt resource value: 0x7f0601dd
-			public const int rg_ilsp_owned_non_agric_sx_motorvehicle = 2131100125;
+			// aapt resource value: 0x7f0605b9
+			public const int rg_ilsp_livstck_enough_food = 2131101113;
 			
-			// aapt resource value: 0x7f0601b9
-			public const int rg_ilsp_owned_non_agric_sx_radio = 2131100089;
+			// aapt resource value: 0x7f0602d7
+			public const int rg_ilsp_livstck_mgmt_health_trng = 2131100375;
 			
-			// aapt resource value: 0x7f0601e3
-			public const int rg_ilsp_owned_non_agric_sx_sofas = 2131100131;
+			// aapt resource value: 0x7f0601f7
+			public const int rg_ilsp_machinery_work_land = 2131100151;
 			
-			// aapt resource value: 0x7f0601f5
-			public const int rg_ilsp_owned_non_agric_sx_solarlamps = 2131100149;
+			// aapt resource value: 0x7f0601a6
+			public const int rg_ilsp_main_walls_material = 2131100070;
 			
-			// aapt resource value: 0x7f0601d7
-			public const int rg_ilsp_owned_non_agric_sx_solarpanel = 2131100119;
+			// aapt resource value: 0x7f060220
+			public const int rg_ilsp_manage_house_dec = 2131100192;
 			
-			// aapt resource value: 0x7f0601cb
-			public const int rg_ilsp_owned_non_agric_sx_stove = 2131100107;
+			// aapt resource value: 0x7f0600ce
+			public const int rg_ilsp_marital_status_beneficiary = 2131099854;
 			
-			// aapt resource value: 0x7f0601bf
-			public const int rg_ilsp_owned_non_agric_sx_tv = 2131100095;
+			// aapt resource value: 0x7f060286
+			public const int rg_ilsp_men_participation = 2131100294;
+			
+			// aapt resource value: 0x7f060201
+			public const int rg_ilsp_microfinance_services = 2131100161;
+			
+			// aapt resource value: 0x7f060207
+			public const int rg_ilsp_own_education_dec = 2131100167;
+			
+			// aapt resource value: 0x7f060195
+			public const int rg_ilsp_owned_non_agric_sx_bed = 2131100053;
+			
+			// aapt resource value: 0x7f06015f
+			public const int rg_ilsp_owned_non_agric_sx_bicycle = 2131099999;
+			
+			// aapt resource value: 0x7f06019b
+			public const int rg_ilsp_owned_non_agric_sx_mattress = 2131100059;
+			
+			// aapt resource value: 0x7f060171
+			public const int rg_ilsp_owned_non_agric_sx_mobilecellphone = 2131100017;
+			
+			// aapt resource value: 0x7f06017d
+			public const int rg_ilsp_owned_non_agric_sx_motorbike = 2131100029;
+			
+			// aapt resource value: 0x7f060189
+			public const int rg_ilsp_owned_non_agric_sx_motorvehicle = 2131100041;
+			
+			// aapt resource value: 0x7f060165
+			public const int rg_ilsp_owned_non_agric_sx_radio = 2131100005;
+			
+			// aapt resource value: 0x7f06018f
+			public const int rg_ilsp_owned_non_agric_sx_sofas = 2131100047;
+			
+			// aapt resource value: 0x7f0601a1
+			public const int rg_ilsp_owned_non_agric_sx_solarlamps = 2131100065;
+			
+			// aapt resource value: 0x7f060183
+			public const int rg_ilsp_owned_non_agric_sx_solarpanel = 2131100035;
+			
+			// aapt resource value: 0x7f060177
+			public const int rg_ilsp_owned_non_agric_sx_stove = 2131100023;
+			
+			// aapt resource value: 0x7f06016b
+			public const int rg_ilsp_owned_non_agric_sx_tv = 2131100011;
 			
 			// aapt resource value: 0x7f060117
 			public const int rg_ilsp_owned_sx_axe = 2131099927;
 			
-			// aapt resource value: 0x7f0601a1
-			public const int rg_ilsp_owned_sx_bed = 2131100065;
-			
-			// aapt resource value: 0x7f06016b
-			public const int rg_ilsp_owned_sx_bicycle = 2131100011;
-			
-			// aapt resource value: 0x7f060153
-			public const int rg_ilsp_owned_sx_grainmill = 2131099987;
+			// aapt resource value: 0x7f060147
+			public const int rg_ilsp_owned_sx_grainmill = 2131099975;
 			
 			// aapt resource value: 0x7f060111
 			public const int rg_ilsp_owned_sx_hoe = 2131099921;
 			
-			// aapt resource value: 0x7f0601a7
-			public const int rg_ilsp_owned_sx_mattress = 2131100071;
-			
-			// aapt resource value: 0x7f06017d
-			public const int rg_ilsp_owned_sx_mobilecellphone = 2131100029;
-			
-			// aapt resource value: 0x7f060189
-			public const int rg_ilsp_owned_sx_motorbike = 2131100041;
-			
-			// aapt resource value: 0x7f060195
-			public const int rg_ilsp_owned_sx_motorvehicle = 2131100053;
+			// aapt resource value: 0x7f060141
+			public const int rg_ilsp_owned_sx_oilpress = 2131099969;
 			
 			// aapt resource value: 0x7f06014d
-			public const int rg_ilsp_owned_sx_oilpress = 2131099981;
-			
-			// aapt resource value: 0x7f060159
-			public const int rg_ilsp_owned_sx_oxcarts = 2131099993;
-			
-			// aapt resource value: 0x7f06013b
-			public const int rg_ilsp_owned_sx_oxplough = 2131099963;
+			public const int rg_ilsp_owned_sx_oxcarts = 2131099981;
 			
 			// aapt resource value: 0x7f060123
 			public const int rg_ilsp_owned_sx_pangas = 2131099939;
 			
-			// aapt resource value: 0x7f0601ad
-			public const int rg_ilsp_owned_sx_plough = 2131100077;
-			
-			// aapt resource value: 0x7f060171
-			public const int rg_ilsp_owned_sx_radio = 2131100017;
-			
-			// aapt resource value: 0x7f060141
-			public const int rg_ilsp_owned_sx_ridgeplough = 2131099969;
-			
-			// aapt resource value: 0x7f060147
-			public const int rg_ilsp_owned_sx_ripper = 2131099975;
+			// aapt resource value: 0x7f06013b
+			public const int rg_ilsp_owned_sx_plough = 2131099963;
 			
 			// aapt resource value: 0x7f060135
 			public const int rg_ilsp_owned_sx_slasher = 2131099957;
-			
-			// aapt resource value: 0x7f06019b
-			public const int rg_ilsp_owned_sx_sofas = 2131100059;
-			
-			// aapt resource value: 0x7f06018f
-			public const int rg_ilsp_owned_sx_solarpanel = 2131100047;
 			
 			// aapt resource value: 0x7f06011d
 			public const int rg_ilsp_owned_sx_spade = 2131099933;
@@ -7325,344 +7364,335 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06012f
 			public const int rg_ilsp_owned_sx_sprayer = 2131099951;
 			
-			// aapt resource value: 0x7f060183
-			public const int rg_ilsp_owned_sx_stove = 2131100035;
+			// aapt resource value: 0x7f060153
+			public const int rg_ilsp_owned_sx_tractor = 2131099987;
 			
-			// aapt resource value: 0x7f06015f
-			public const int rg_ilsp_owned_sx_tractor = 2131099999;
-			
-			// aapt resource value: 0x7f060165
-			public const int rg_ilsp_owned_sx_trailor = 2131100005;
-			
-			// aapt resource value: 0x7f060177
-			public const int rg_ilsp_owned_sx_tv = 2131100023;
+			// aapt resource value: 0x7f060159
+			public const int rg_ilsp_owned_sx_trailor = 2131099993;
 			
 			// aapt resource value: 0x7f060129
 			public const int rg_ilsp_owned_sx_wheelbarrow = 2131099945;
 			
-			// aapt resource value: 0x7f0602cf
-			public const int rg_ilsp_particip_comm_groups = 2131100367;
+			// aapt resource value: 0x7f06027b
+			public const int rg_ilsp_particip_comm_groups = 2131100283;
 			
-			// aapt resource value: 0x7f060279
-			public const int rg_ilsp_particip_comm_org_dec = 2131100281;
+			// aapt resource value: 0x7f060225
+			public const int rg_ilsp_particip_comm_org_dec = 2131100197;
 			
-			// aapt resource value: 0x7f060362
-			public const int rg_ilsp_passed_on_gift = 2131100514;
+			// aapt resource value: 0x7f06030f
+			public const int rg_ilsp_passed_on_gift = 2131100431;
 			
-			// aapt resource value: 0x7f06034d
-			public const int rg_ilsp_people_trust_one_another = 2131100493;
+			// aapt resource value: 0x7f0602fa
+			public const int rg_ilsp_people_trust_one_another = 2131100410;
 			
-			// aapt resource value: 0x7f060727
-			public const int rg_ilsp_pit_latrines_accesssible = 2131101479;
+			// aapt resource value: 0x7f060730
+			public const int rg_ilsp_pit_latrines_accesssible = 2131101488;
 			
-			// aapt resource value: 0x7f060368
-			public const int rg_ilsp_pog_contributes = 2131100520;
+			// aapt resource value: 0x7f060315
+			public const int rg_ilsp_pog_contributes = 2131100437;
 			
-			// aapt resource value: 0x7f060647
-			public const int rg_ilsp_primary_source_sx_cerealsmilletricenshima = 2131101255;
+			// aapt resource value: 0x7f060650
+			public const int rg_ilsp_primary_source_sx_cerealsmilletricenshima = 2131101264;
 			
-			// aapt resource value: 0x7f060683
-			public const int rg_ilsp_primary_source_sx_eggs = 2131101315;
+			// aapt resource value: 0x7f06068c
+			public const int rg_ilsp_primary_source_sx_eggs = 2131101324;
 			
-			// aapt resource value: 0x7f06068f
-			public const int rg_ilsp_primary_source_sx_fishfishkapenta = 2131101327;
+			// aapt resource value: 0x7f060698
+			public const int rg_ilsp_primary_source_sx_fishfishkapenta = 2131101336;
 			
-			// aapt resource value: 0x7f06066b
-			public const int rg_ilsp_primary_source_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101291;
+			// aapt resource value: 0x7f060674
+			public const int rg_ilsp_primary_source_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131101300;
 			
-			// aapt resource value: 0x7f06069b
-			public const int rg_ilsp_primary_source_sx_legumesgroundnutsbeanssoyapeas = 2131101339;
+			// aapt resource value: 0x7f0606a4
+			public const int rg_ilsp_primary_source_sx_legumesgroundnutsbeanssoyapeas = 2131101348;
 			
-			// aapt resource value: 0x7f060677
-			public const int rg_ilsp_primary_source_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101303;
+			// aapt resource value: 0x7f060680
+			public const int rg_ilsp_primary_source_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131101312;
 			
-			// aapt resource value: 0x7f0606a7
-			public const int rg_ilsp_primary_source_sx_milkmilkyogurtsourmilk = 2131101351;
+			// aapt resource value: 0x7f0606b0
+			public const int rg_ilsp_primary_source_sx_milkmilkyogurtsourmilk = 2131101360;
 			
-			// aapt resource value: 0x7f0606b3
-			public const int rg_ilsp_primary_source_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101363;
+			// aapt resource value: 0x7f0606bc
+			public const int rg_ilsp_primary_source_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131101372;
 			
-			// aapt resource value: 0x7f0606cb
-			public const int rg_ilsp_primary_source_sx_spicesandcondimentsgingerteacoffee = 2131101387;
+			// aapt resource value: 0x7f0606d4
+			public const int rg_ilsp_primary_source_sx_spicesandcondimentsgingerteacoffee = 2131101396;
 			
-			// aapt resource value: 0x7f0606bf
-			public const int rg_ilsp_primary_source_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101375;
+			// aapt resource value: 0x7f0606c8
+			public const int rg_ilsp_primary_source_sx_sweetssugarhoneysugarcanesugaryfoods = 2131101384;
 			
-			// aapt resource value: 0x7f060653
-			public const int rg_ilsp_primary_source_sx_tuberssweetpotatoescassava = 2131101267;
+			// aapt resource value: 0x7f06065c
+			public const int rg_ilsp_primary_source_sx_tuberssweetpotatoescassava = 2131101276;
 			
-			// aapt resource value: 0x7f06065f
-			public const int rg_ilsp_primary_source_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101279;
+			// aapt resource value: 0x7f060668
+			public const int rg_ilsp_primary_source_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131101288;
 			
-			// aapt resource value: 0x7f060468
-			public const int rg_ilsp_produce_sold_sx_beans = 2131100776;
+			// aapt resource value: 0x7f060430
+			public const int rg_ilsp_produce_sold_sx_beans = 2131100720;
 			
-			// aapt resource value: 0x7f060485
-			public const int rg_ilsp_produce_sold_sx_cabbage = 2131100805;
+			// aapt resource value: 0x7f060450
+			public const int rg_ilsp_produce_sold_sx_cabbage = 2131100752;
 			
-			// aapt resource value: 0x7f0603f4
-			public const int rg_ilsp_produce_sold_sx_cassava = 2131100660;
-			
-			// aapt resource value: 0x7f060516
-			public const int rg_ilsp_produce_sold_sx_cotton = 2131100950;
-			
-			// aapt resource value: 0x7f06042e
-			public const int rg_ilsp_produce_sold_sx_cowpeas = 2131100718;
-			
-			// aapt resource value: 0x7f0604dc
-			public const int rg_ilsp_produce_sold_sx_eggplantimpwa = 2131100892;
-			
-			// aapt resource value: 0x7f06039d
-			public const int rg_ilsp_produce_sold_sx_groundnuts = 2131100573;
-			
-			// aapt resource value: 0x7f0604f9
-			public const int rg_ilsp_produce_sold_sx_leafyvegetables = 2131100921;
-			
-			// aapt resource value: 0x7f060380
-			public const int rg_ilsp_produce_sold_sx_maize = 2131100544;
-			
-			// aapt resource value: 0x7f06044b
-			public const int rg_ilsp_produce_sold_sx_mbambaranuts = 2131100747;
-			
-			// aapt resource value: 0x7f0604bf
-			public const int rg_ilsp_produce_sold_sx_onion = 2131100863;
-			
-			// aapt resource value: 0x7f060533
-			public const int rg_ilsp_produce_sold_sx_other = 2131100979;
-			
-			// aapt resource value: 0x7f0603d7
-			public const int rg_ilsp_produce_sold_sx_potatoes = 2131100631;
-			
-			// aapt resource value: 0x7f060411
-			public const int rg_ilsp_produce_sold_sx_soyabeans = 2131100689;
-			
-			// aapt resource value: 0x7f0603ba
-			public const int rg_ilsp_produce_sold_sx_sweetpotatoes = 2131100602;
-			
-			// aapt resource value: 0x7f0604a2
-			public const int rg_ilsp_produce_sold_sx_tomatoes = 2131100834;
-			
-			// aapt resource value: 0x7f06045f
-			public const int rg_ilsp_production_uom_sx_beans = 2131100767;
-			
-			// aapt resource value: 0x7f06047c
-			public const int rg_ilsp_production_uom_sx_cabbage = 2131100796;
-			
-			// aapt resource value: 0x7f0603eb
-			public const int rg_ilsp_production_uom_sx_cassava = 2131100651;
-			
-			// aapt resource value: 0x7f06050d
-			public const int rg_ilsp_production_uom_sx_cotton = 2131100941;
-			
-			// aapt resource value: 0x7f060425
-			public const int rg_ilsp_production_uom_sx_cowpeas = 2131100709;
-			
-			// aapt resource value: 0x7f0604d3
-			public const int rg_ilsp_production_uom_sx_eggplantimpwa = 2131100883;
-			
-			// aapt resource value: 0x7f060394
-			public const int rg_ilsp_production_uom_sx_groundnuts = 2131100564;
+			// aapt resource value: 0x7f0603b0
+			public const int rg_ilsp_produce_sold_sx_cassava = 2131100592;
 			
 			// aapt resource value: 0x7f0604f0
-			public const int rg_ilsp_production_uom_sx_leafyvegetables = 2131100912;
+			public const int rg_ilsp_produce_sold_sx_cotton = 2131100912;
 			
-			// aapt resource value: 0x7f060377
-			public const int rg_ilsp_production_uom_sx_maize = 2131100535;
+			// aapt resource value: 0x7f0603f0
+			public const int rg_ilsp_produce_sold_sx_cowpeas = 2131100656;
 			
-			// aapt resource value: 0x7f060442
-			public const int rg_ilsp_production_uom_sx_mbambaranuts = 2131100738;
+			// aapt resource value: 0x7f0604b0
+			public const int rg_ilsp_produce_sold_sx_eggplantimpwa = 2131100848;
 			
-			// aapt resource value: 0x7f0604b6
-			public const int rg_ilsp_production_uom_sx_onion = 2131100854;
+			// aapt resource value: 0x7f060350
+			public const int rg_ilsp_produce_sold_sx_groundnuts = 2131100496;
 			
-			// aapt resource value: 0x7f06052a
-			public const int rg_ilsp_production_uom_sx_other = 2131100970;
+			// aapt resource value: 0x7f0604d0
+			public const int rg_ilsp_produce_sold_sx_leafyvegetables = 2131100880;
 			
-			// aapt resource value: 0x7f0603ce
-			public const int rg_ilsp_production_uom_sx_potatoes = 2131100622;
+			// aapt resource value: 0x7f060330
+			public const int rg_ilsp_produce_sold_sx_maize = 2131100464;
 			
-			// aapt resource value: 0x7f060408
-			public const int rg_ilsp_production_uom_sx_soyabeans = 2131100680;
+			// aapt resource value: 0x7f060410
+			public const int rg_ilsp_produce_sold_sx_mbambaranuts = 2131100688;
 			
-			// aapt resource value: 0x7f0603b1
-			public const int rg_ilsp_production_uom_sx_sweetpotatoes = 2131100593;
+			// aapt resource value: 0x7f060490
+			public const int rg_ilsp_produce_sold_sx_onion = 2131100816;
 			
-			// aapt resource value: 0x7f060499
-			public const int rg_ilsp_production_uom_sx_tomatoes = 2131100825;
+			// aapt resource value: 0x7f060510
+			public const int rg_ilsp_produce_sold_sx_other = 2131100944;
+			
+			// aapt resource value: 0x7f060390
+			public const int rg_ilsp_produce_sold_sx_potatoes = 2131100560;
+			
+			// aapt resource value: 0x7f0603d0
+			public const int rg_ilsp_produce_sold_sx_soyabeans = 2131100624;
+			
+			// aapt resource value: 0x7f060370
+			public const int rg_ilsp_produce_sold_sx_sweetpotatoes = 2131100528;
+			
+			// aapt resource value: 0x7f060470
+			public const int rg_ilsp_produce_sold_sx_tomatoes = 2131100784;
+			
+			// aapt resource value: 0x7f060427
+			public const int rg_ilsp_production_uom_sx_beans = 2131100711;
+			
+			// aapt resource value: 0x7f060447
+			public const int rg_ilsp_production_uom_sx_cabbage = 2131100743;
+			
+			// aapt resource value: 0x7f0603a7
+			public const int rg_ilsp_production_uom_sx_cassava = 2131100583;
+			
+			// aapt resource value: 0x7f0604e7
+			public const int rg_ilsp_production_uom_sx_cotton = 2131100903;
+			
+			// aapt resource value: 0x7f0603e7
+			public const int rg_ilsp_production_uom_sx_cowpeas = 2131100647;
+			
+			// aapt resource value: 0x7f0604a7
+			public const int rg_ilsp_production_uom_sx_eggplantimpwa = 2131100839;
+			
+			// aapt resource value: 0x7f060347
+			public const int rg_ilsp_production_uom_sx_groundnuts = 2131100487;
+			
+			// aapt resource value: 0x7f0604c7
+			public const int rg_ilsp_production_uom_sx_leafyvegetables = 2131100871;
+			
+			// aapt resource value: 0x7f060327
+			public const int rg_ilsp_production_uom_sx_maize = 2131100455;
+			
+			// aapt resource value: 0x7f060407
+			public const int rg_ilsp_production_uom_sx_mbambaranuts = 2131100679;
+			
+			// aapt resource value: 0x7f060487
+			public const int rg_ilsp_production_uom_sx_onion = 2131100807;
+			
+			// aapt resource value: 0x7f060507
+			public const int rg_ilsp_production_uom_sx_other = 2131100935;
+			
+			// aapt resource value: 0x7f060387
+			public const int rg_ilsp_production_uom_sx_potatoes = 2131100551;
+			
+			// aapt resource value: 0x7f0603c7
+			public const int rg_ilsp_production_uom_sx_soyabeans = 2131100615;
+			
+			// aapt resource value: 0x7f060367
+			public const int rg_ilsp_production_uom_sx_sweetpotatoes = 2131100519;
+			
+			// aapt resource value: 0x7f060467
+			public const int rg_ilsp_production_uom_sx_tomatoes = 2131100775;
 			
 			// aapt resource value: 0x7f060102
 			public const int rg_ilsp_productive_land_uom = 2131099906;
 			
-			// aapt resource value: 0x7f0605ee
-			public const int rg_ilsp_proj_reltd_milk_prodn_sx_cowmilk = 2131101166;
+			// aapt resource value: 0x7f0605f7
+			public const int rg_ilsp_proj_reltd_milk_prodn_sx_cowmilk = 2131101175;
 			
-			// aapt resource value: 0x7f0600a6
-			public const int rg_ilsp_project_duration = 2131099814;
+			// aapt resource value: 0x7f0600a2
+			public const int rg_ilsp_project_year = 2131099810;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int rg_ilsp_project_year = 2131099821;
+			// aapt resource value: 0x7f0600c5
+			public const int rg_ilsp_projected_recruited_from = 2131099845;
 			
-			// aapt resource value: 0x7f0600c8
-			public const int rg_ilsp_projected_recruited_from = 2131099848;
+			// aapt resource value: 0x7f060434
+			public const int rg_ilsp_quantity_sold_uom_sx_beans = 2131100724;
 			
-			// aapt resource value: 0x7f06046c
-			public const int rg_ilsp_quantity_sold_uom_sx_beans = 2131100780;
+			// aapt resource value: 0x7f060454
+			public const int rg_ilsp_quantity_sold_uom_sx_cabbage = 2131100756;
 			
-			// aapt resource value: 0x7f060489
-			public const int rg_ilsp_quantity_sold_uom_sx_cabbage = 2131100809;
+			// aapt resource value: 0x7f0603b4
+			public const int rg_ilsp_quantity_sold_uom_sx_cassava = 2131100596;
 			
-			// aapt resource value: 0x7f0603f8
-			public const int rg_ilsp_quantity_sold_uom_sx_cassava = 2131100664;
+			// aapt resource value: 0x7f0604f4
+			public const int rg_ilsp_quantity_sold_uom_sx_cotton = 2131100916;
 			
-			// aapt resource value: 0x7f06051a
-			public const int rg_ilsp_quantity_sold_uom_sx_cotton = 2131100954;
+			// aapt resource value: 0x7f0603f4
+			public const int rg_ilsp_quantity_sold_uom_sx_cowpeas = 2131100660;
 			
-			// aapt resource value: 0x7f060432
-			public const int rg_ilsp_quantity_sold_uom_sx_cowpeas = 2131100722;
+			// aapt resource value: 0x7f0604b4
+			public const int rg_ilsp_quantity_sold_uom_sx_eggplantimpwa = 2131100852;
 			
-			// aapt resource value: 0x7f0604e0
-			public const int rg_ilsp_quantity_sold_uom_sx_eggplantimpwa = 2131100896;
+			// aapt resource value: 0x7f060354
+			public const int rg_ilsp_quantity_sold_uom_sx_groundnuts = 2131100500;
 			
-			// aapt resource value: 0x7f0603a1
-			public const int rg_ilsp_quantity_sold_uom_sx_groundnuts = 2131100577;
+			// aapt resource value: 0x7f0604d4
+			public const int rg_ilsp_quantity_sold_uom_sx_leafyvegetables = 2131100884;
 			
-			// aapt resource value: 0x7f0604fd
-			public const int rg_ilsp_quantity_sold_uom_sx_leafyvegetables = 2131100925;
+			// aapt resource value: 0x7f060334
+			public const int rg_ilsp_quantity_sold_uom_sx_maize = 2131100468;
 			
-			// aapt resource value: 0x7f060384
-			public const int rg_ilsp_quantity_sold_uom_sx_maize = 2131100548;
+			// aapt resource value: 0x7f060414
+			public const int rg_ilsp_quantity_sold_uom_sx_mbambaranuts = 2131100692;
 			
-			// aapt resource value: 0x7f06044f
-			public const int rg_ilsp_quantity_sold_uom_sx_mbambaranuts = 2131100751;
+			// aapt resource value: 0x7f060494
+			public const int rg_ilsp_quantity_sold_uom_sx_onion = 2131100820;
 			
-			// aapt resource value: 0x7f0604c3
-			public const int rg_ilsp_quantity_sold_uom_sx_onion = 2131100867;
+			// aapt resource value: 0x7f060514
+			public const int rg_ilsp_quantity_sold_uom_sx_other = 2131100948;
 			
-			// aapt resource value: 0x7f060537
-			public const int rg_ilsp_quantity_sold_uom_sx_other = 2131100983;
+			// aapt resource value: 0x7f060394
+			public const int rg_ilsp_quantity_sold_uom_sx_potatoes = 2131100564;
 			
-			// aapt resource value: 0x7f0603db
-			public const int rg_ilsp_quantity_sold_uom_sx_potatoes = 2131100635;
+			// aapt resource value: 0x7f0603d4
+			public const int rg_ilsp_quantity_sold_uom_sx_soyabeans = 2131100628;
 			
-			// aapt resource value: 0x7f060415
-			public const int rg_ilsp_quantity_sold_uom_sx_soyabeans = 2131100693;
+			// aapt resource value: 0x7f060374
+			public const int rg_ilsp_quantity_sold_uom_sx_sweetpotatoes = 2131100532;
 			
-			// aapt resource value: 0x7f0603be
-			public const int rg_ilsp_quantity_sold_uom_sx_sweetpotatoes = 2131100606;
+			// aapt resource value: 0x7f060474
+			public const int rg_ilsp_quantity_sold_uom_sx_tomatoes = 2131100788;
 			
-			// aapt resource value: 0x7f0604a6
-			public const int rg_ilsp_quantity_sold_uom_sx_tomatoes = 2131100838;
+			// aapt resource value: 0x7f0602ff
+			public const int rg_ilsp_rate_statement_below = 2131100415;
 			
-			// aapt resource value: 0x7f060352
-			public const int rg_ilsp_rate_statement_below = 2131100498;
+			// aapt resource value: 0x7f06078c
+			public const int rg_ilsp_received_loan_past_year = 2131101580;
 			
-			// aapt resource value: 0x7f060783
-			public const int rg_ilsp_received_loan_past_year = 2131101571;
+			// aapt resource value: 0x7f06022c
+			public const int rg_ilsp_service_available_sx_education = 2131100204;
 			
-			// aapt resource value: 0x7f060280
-			public const int rg_ilsp_service_available_sx_education = 2131100288;
+			// aapt resource value: 0x7f060254
+			public const int rg_ilsp_service_available_sx_extensionservices = 2131100244;
 			
-			// aapt resource value: 0x7f0602a8
-			public const int rg_ilsp_service_available_sx_extensionservices = 2131100328;
+			// aapt resource value: 0x7f060272
+			public const int rg_ilsp_service_available_sx_financialservices = 2131100274;
 			
-			// aapt resource value: 0x7f0602c6
-			public const int rg_ilsp_service_available_sx_financialservices = 2131100358;
+			// aapt resource value: 0x7f060236
+			public const int rg_ilsp_service_available_sx_healthservices = 2131100214;
 			
-			// aapt resource value: 0x7f06028a
-			public const int rg_ilsp_service_available_sx_healthservices = 2131100298;
+			// aapt resource value: 0x7f06024a
+			public const int rg_ilsp_service_available_sx_justiceconflictresolution = 2131100234;
 			
-			// aapt resource value: 0x7f06029e
-			public const int rg_ilsp_service_available_sx_justiceconflictresolution = 2131100318;
+			// aapt resource value: 0x7f06025e
+			public const int rg_ilsp_service_available_sx_marketingservices = 2131100254;
 			
-			// aapt resource value: 0x7f0602b2
-			public const int rg_ilsp_service_available_sx_marketingservices = 2131100338;
+			// aapt resource value: 0x7f060240
+			public const int rg_ilsp_service_available_sx_trainingandprofessionalservices = 2131100224;
 			
-			// aapt resource value: 0x7f060294
-			public const int rg_ilsp_service_available_sx_trainingandprofessionalservices = 2131100308;
+			// aapt resource value: 0x7f060268
+			public const int rg_ilsp_service_available_sx_veterinaryservices = 2131100264;
 			
-			// aapt resource value: 0x7f0602bc
-			public const int rg_ilsp_service_available_sx_veterinaryservices = 2131100348;
+			// aapt resource value: 0x7f060305
+			public const int rg_ilsp_someone_will_help = 2131100421;
 			
-			// aapt resource value: 0x7f060358
-			public const int rg_ilsp_someone_will_help = 2131100504;
+			// aapt resource value: 0x7f0605b5
+			public const int rg_ilsp_store_and_preseve_fodder = 2131101109;
 			
-			// aapt resource value: 0x7f0605ac
-			public const int rg_ilsp_store_and_preseve_fodder = 2131101100;
+			// aapt resource value: 0x7f0601fc
+			public const int rg_ilsp_tech_trng_work_land = 2131100156;
 			
-			// aapt resource value: 0x7f060250
-			public const int rg_ilsp_tech_trng_work_land = 2131100240;
+			// aapt resource value: 0x7f0605cd
+			public const int rg_ilsp_tick_control_method = 2131101133;
 			
-			// aapt resource value: 0x7f0605c4
-			public const int rg_ilsp_tick_control_method = 2131101124;
+			// aapt resource value: 0x7f0600bb
+			public const int rg_ilsp_type_of_recipient_1 = 2131099835;
 			
-			// aapt resource value: 0x7f0600be
-			public const int rg_ilsp_type_of_recipient_1 = 2131099838;
-			
-			// aapt resource value: 0x7f0600c2
-			public const int rg_ilsp_type_of_recipient_2 = 2131099842;
-			
-			// aapt resource value: 0x7f0602f4
-			public const int rg_ilsp_who_has_access_sx_cooperative = 2131100404;
-			
-			// aapt resource value: 0x7f0602fc
-			public const int rg_ilsp_who_has_access_sx_creditfinancegroup = 2131100412;
-			
-			// aapt resource value: 0x7f060283
-			public const int rg_ilsp_who_has_access_sx_education = 2131100291;
-			
-			// aapt resource value: 0x7f0602ab
-			public const int rg_ilsp_who_has_access_sx_extensionservices = 2131100331;
-			
-			// aapt resource value: 0x7f0602c9
-			public const int rg_ilsp_who_has_access_sx_financialservices = 2131100361;
-			
-			// aapt resource value: 0x7f06028d
-			public const int rg_ilsp_who_has_access_sx_healthservices = 2131100301;
+			// aapt resource value: 0x7f0600bf
+			public const int rg_ilsp_type_of_recipient_2 = 2131099839;
 			
 			// aapt resource value: 0x7f0602a1
-			public const int rg_ilsp_who_has_access_sx_justiceconflictresolution = 2131100321;
+			public const int rg_ilsp_who_has_access_sx_cooperative = 2131100321;
 			
-			// aapt resource value: 0x7f0602b5
-			public const int rg_ilsp_who_has_access_sx_marketingservices = 2131100341;
+			// aapt resource value: 0x7f0602a9
+			public const int rg_ilsp_who_has_access_sx_creditfinancegroup = 2131100329;
 			
-			// aapt resource value: 0x7f06030c
-			public const int rg_ilsp_who_has_access_sx_mensgroup = 2131100428;
+			// aapt resource value: 0x7f06022f
+			public const int rg_ilsp_who_has_access_sx_education = 2131100207;
 			
-			// aapt resource value: 0x7f06031c
-			public const int rg_ilsp_who_has_access_sx_other = 2131100444;
+			// aapt resource value: 0x7f060257
+			public const int rg_ilsp_who_has_access_sx_extensionservices = 2131100247;
 			
-			// aapt resource value: 0x7f0602ec
-			public const int rg_ilsp_who_has_access_sx_producergroup = 2131100396;
-			
-			// aapt resource value: 0x7f060297
-			public const int rg_ilsp_who_has_access_sx_trainingandprofessionalservices = 2131100311;
-			
-			// aapt resource value: 0x7f0602bf
-			public const int rg_ilsp_who_has_access_sx_veterinaryservices = 2131100351;
-			
-			// aapt resource value: 0x7f060304
-			public const int rg_ilsp_who_has_access_sx_womensgroup = 2131100420;
-			
-			// aapt resource value: 0x7f060314
-			public const int rg_ilsp_who_has_access_sx_youthgroup = 2131100436;
-			
-			// aapt resource value: 0x7f06022d
-			public const int rg_ilsp_who_owns_land = 2131100205;
-			
-			// aapt resource value: 0x7f06023f
-			public const int rg_ilsp_who_owns_large_animals = 2131100223;
-			
-			// aapt resource value: 0x7f060233
-			public const int rg_ilsp_who_owns_mach_work_land = 2131100211;
+			// aapt resource value: 0x7f060275
+			public const int rg_ilsp_who_has_access_sx_financialservices = 2131100277;
 			
 			// aapt resource value: 0x7f060239
-			public const int rg_ilsp_who_owns_small_ruminants = 2131100217;
+			public const int rg_ilsp_who_has_access_sx_healthservices = 2131100217;
 			
-			// aapt resource value: 0x7f0602d4
-			public const int rg_ilsp_women_participation = 2131100372;
+			// aapt resource value: 0x7f06024d
+			public const int rg_ilsp_who_has_access_sx_justiceconflictresolution = 2131100237;
 			
-			// aapt resource value: 0x7f0602e3
-			public const int rg_ilsp_youths_participation = 2131100387;
+			// aapt resource value: 0x7f060261
+			public const int rg_ilsp_who_has_access_sx_marketingservices = 2131100257;
+			
+			// aapt resource value: 0x7f0602b9
+			public const int rg_ilsp_who_has_access_sx_mensgroup = 2131100345;
+			
+			// aapt resource value: 0x7f0602c9
+			public const int rg_ilsp_who_has_access_sx_other = 2131100361;
+			
+			// aapt resource value: 0x7f060299
+			public const int rg_ilsp_who_has_access_sx_producergroup = 2131100313;
+			
+			// aapt resource value: 0x7f060243
+			public const int rg_ilsp_who_has_access_sx_trainingandprofessionalservices = 2131100227;
+			
+			// aapt resource value: 0x7f06026b
+			public const int rg_ilsp_who_has_access_sx_veterinaryservices = 2131100267;
+			
+			// aapt resource value: 0x7f0602b1
+			public const int rg_ilsp_who_has_access_sx_womensgroup = 2131100337;
+			
+			// aapt resource value: 0x7f0602c1
+			public const int rg_ilsp_who_has_access_sx_youthgroup = 2131100353;
+			
+			// aapt resource value: 0x7f0601d9
+			public const int rg_ilsp_who_owns_land = 2131100121;
+			
+			// aapt resource value: 0x7f0601eb
+			public const int rg_ilsp_who_owns_large_animals = 2131100139;
+			
+			// aapt resource value: 0x7f0601df
+			public const int rg_ilsp_who_owns_mach_work_land = 2131100127;
+			
+			// aapt resource value: 0x7f0601e5
+			public const int rg_ilsp_who_owns_small_ruminants = 2131100133;
+			
+			// aapt resource value: 0x7f060281
+			public const int rg_ilsp_women_participation = 2131100289;
+			
+			// aapt resource value: 0x7f060290
+			public const int rg_ilsp_youths_participation = 2131100304;
 			
 			// aapt resource value: 0x7f060083
 			public const int rgroupCSOptions = 2131099779;
@@ -7742,8 +7772,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060027
 			public const int snap = 2131099687;
 			
-			// aapt resource value: 0x7f0607b9
-			public const int space1 = 2131101625;
+			// aapt resource value: 0x7f0607c3
+			public const int space1 = 2131101635;
 			
 			// aapt resource value: 0x7f060045
 			public const int spacer = 2131099717;
@@ -7763,8 +7793,8 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f06079c
-			public const int status_bar_latest_event_content = 2131101596;
+			// aapt resource value: 0x7f0607a6
+			public const int status_bar_latest_event_content = 2131101606;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
@@ -7778,11 +7808,11 @@ namespace MobileCollector
 			// aapt resource value: 0x7f060072
 			public const int tDeviceUUID = 2131099762;
 			
-			// aapt resource value: 0x7f060791
-			public const int tLoggedInUser = 2131101585;
+			// aapt resource value: 0x7f06079a
+			public const int tLoggedInUser = 2131101594;
 			
-			// aapt resource value: 0x7f0607b8
-			public const int tPassCode = 2131101624;
+			// aapt resource value: 0x7f0607c2
+			public const int tPassCode = 2131101634;
 			
 			// aapt resource value: 0x7f06006c
 			public const int tUserName = 2131099756;
@@ -7802,17 +7832,17 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f0607a4
-			public const int text = 2131101604;
+			// aapt resource value: 0x7f0607ae
+			public const int text = 2131101614;
 			
-			// aapt resource value: 0x7f0607a2
-			public const int text2 = 2131101602;
+			// aapt resource value: 0x7f0607ac
+			public const int text2 = 2131101612;
 			
 			// aapt resource value: 0x7f06008b
 			public const int textCSummOptionsLabel = 2131099787;
 			
-			// aapt resource value: 0x7f0607b3
-			public const int textRecordSummaries = 2131101619;
+			// aapt resource value: 0x7f0607bd
+			public const int textRecordSummaries = 2131101629;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
@@ -7820,11 +7850,11 @@ namespace MobileCollector
 			// aapt resource value: 0x7f06008d
 			public const int textView1 = 2131099789;
 			
-			// aapt resource value: 0x7f0607b7
-			public const int textView2 = 2131101623;
+			// aapt resource value: 0x7f0607c1
+			public const int textView2 = 2131101633;
 			
-			// aapt resource value: 0x7f0607a0
-			public const int time = 2131101600;
+			// aapt resource value: 0x7f0607aa
+			public const int time = 2131101610;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
@@ -8225,314 +8255,338 @@ namespace MobileCollector
 			// aapt resource value: 0x7f090020
 			public const int confirm_action = 2131296288;
 			
-			// aapt resource value: 0x7f090089
-			public const int ilsp_ = 2131296393;
+			// aapt resource value: 0x7f09008a
+			public const int ilsp_ = 2131296394;
 			
-			// aapt resource value: 0x7f090144
-			public const int ilsp_access_market_info = 2131296580;
-			
-			// aapt resource value: 0x7f09014c
-			public const int ilsp_access_market_info_communitygatheringsegchurchesmosquesetc = 2131296588;
-			
-			// aapt resource value: 0x7f09014e
-			public const int ilsp_access_market_info_farmertofarmer = 2131296590;
-			
-			// aapt resource value: 0x7f09014b
-			public const int ilsp_access_market_info_governmentextensionservices = 2131296587;
-			
-			// aapt resource value: 0x7f090146
-			public const int ilsp_access_market_info_mobilephonessmsmisinternet = 2131296582;
-			
-			// aapt resource value: 0x7f09014d
-			public const int ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc = 2131296589;
-			
-			// aapt resource value: 0x7f09014f
-			public const int ilsp_access_market_info_other = 2131296591;
-			
-			// aapt resource value: 0x7f090147
-			public const int ilsp_access_market_info_throughbuyerstradersfromurbanmarkets = 2131296583;
-			
-			// aapt resource value: 0x7f09014a
-			public const int ilsp_access_market_info_throughcooperatives = 2131296586;
-			
-			// aapt resource value: 0x7f090145
-			public const int ilsp_access_market_info_throughmediaradiostv = 2131296581;
-			
-			// aapt resource value: 0x7f090149
-			public const int ilsp_access_market_info_throughproducergroups = 2131296585;
-			
-			// aapt resource value: 0x7f090148
-			public const int ilsp_access_market_info_villagenoticeboards = 2131296584;
-			
-			// aapt resource value: 0x7f090077
-			public const int ilsp_access_to_prodtv_land = 2131296375;
-			
-			// aapt resource value: 0x7f090079
-			public const int ilsp_access_to_prodtv_land_no = 2131296377;
-			
-			// aapt resource value: 0x7f090078
-			public const int ilsp_access_to_prodtv_land_yes = 2131296376;
-			
-			// aapt resource value: 0x7f0902ab
-			public const int ilsp_address_common_issue = 2131296939;
-			
-			// aapt resource value: 0x7f0902af
-			public const int ilsp_address_common_issue_frequently = 2131296943;
-			
-			// aapt resource value: 0x7f0902ac
-			public const int ilsp_address_common_issue_never = 2131296940;
-			
-			// aapt resource value: 0x7f0902ae
-			public const int ilsp_address_common_issue_ocassionally = 2131296942;
-			
-			// aapt resource value: 0x7f0902ad
-			public const int ilsp_address_common_issue_veryrarely = 2131296941;
-			
-			// aapt resource value: 0x7f090044
-			public const int ilsp_age_of_beneficiary = 2131296324;
-			
-			// aapt resource value: 0x7f090060
-			public const int ilsp_age_of_household_head = 2131296352;
-			
-			// aapt resource value: 0x7f090064
-			public const int ilsp_age_of_household_head_65andabove = 2131296356;
-			
-			// aapt resource value: 0x7f090062
-			public const int ilsp_age_of_household_head_between18to35 = 2131296354;
-			
-			// aapt resource value: 0x7f090063
-			public const int ilsp_age_of_household_head_between36to64 = 2131296355;
-			
-			// aapt resource value: 0x7f090061
-			public const int ilsp_age_of_household_head_under18 = 2131296353;
-			
-			// aapt resource value: 0x7f0901cd
-			public const int ilsp_amnt_recvd_by_hh_mbrs = 2131296717;
-			
-			// aapt resource value: 0x7f0901db
-			public const int ilsp_amount_of_expense = 2131296731;
-			
-			// aapt resource value: 0x7f09016c
-			public const int ilsp_amt_spent_food_past_7d = 2131296620;
-			
-			// aapt resource value: 0x7f090092
-			public const int ilsp_area_cultivated = 2131296402;
-			
-			// aapt resource value: 0x7f0900d4
-			public const int ilsp_area_cultivated_fodder = 2131296468;
-			
-			// aapt resource value: 0x7f090093
-			public const int ilsp_area_cultivated_uom = 2131296403;
-			
-			// aapt resource value: 0x7f090094
-			public const int ilsp_area_cultivated_uom_acres = 2131296404;
-			
-			// aapt resource value: 0x7f090095
-			public const int ilsp_area_cultivated_uom_hectares = 2131296405;
-			
-			// aapt resource value: 0x7f090096
-			public const int ilsp_area_cultivated_uom_lima = 2131296406;
-			
-			// aapt resource value: 0x7f090097
-			public const int ilsp_area_cultivated_uom_sqmeter = 2131296407;
-			
-			// aapt resource value: 0x7f09025c
-			public const int ilsp_asset_ownership_label = 2131296860;
-			
-			// aapt resource value: 0x7f090258
-			public const int ilsp_asset_ownership_label_maleandfemale = 2131296856;
-			
-			// aapt resource value: 0x7f09025b
-			public const int ilsp_asset_ownership_label_nobodyfromthefamily = 2131296859;
-			
-			// aapt resource value: 0x7f09025a
-			public const int ilsp_asset_ownership_label_onlyfemale = 2131296858;
-			
-			// aapt resource value: 0x7f090259
-			public const int ilsp_asset_ownership_label_onlymale = 2131296857;
+			// aapt resource value: 0x7f090155
+			public const int ilsp_access_market_info = 2131296597;
 			
 			// aapt resource value: 0x7f09015d
-			public const int ilsp_average_number_of_meals = 2131296605;
-			
-			// aapt resource value: 0x7f09015e
-			public const int ilsp_average_number_of_meals_1meal = 2131296606;
+			public const int ilsp_access_market_info_communitygatheringsegchurchesmosquesetc = 2131296605;
 			
 			// aapt resource value: 0x7f09015f
-			public const int ilsp_average_number_of_meals_2meals = 2131296607;
+			public const int ilsp_access_market_info_farmertofarmer = 2131296607;
+			
+			// aapt resource value: 0x7f09015c
+			public const int ilsp_access_market_info_governmentextensionservices = 2131296604;
+			
+			// aapt resource value: 0x7f090157
+			public const int ilsp_access_market_info_mobilephonessmsmisinternet = 2131296599;
+			
+			// aapt resource value: 0x7f09015e
+			public const int ilsp_access_market_info_opinionleaderscouncillorsculturalleadersetc = 2131296606;
 			
 			// aapt resource value: 0x7f090160
-			public const int ilsp_average_number_of_meals_3meals = 2131296608;
+			public const int ilsp_access_market_info_other = 2131296608;
 			
-			// aapt resource value: 0x7f0901b0
-			public const int ilsp_avg_tme_bring_water = 2131296688;
+			// aapt resource value: 0x7f090158
+			public const int ilsp_access_market_info_throughbuyerstradersfromurbanmarkets = 2131296600;
 			
-			// aapt resource value: 0x7f0901b2
-			public const int ilsp_avg_tme_bring_water_between30minto1hr = 2131296690;
+			// aapt resource value: 0x7f09015b
+			public const int ilsp_access_market_info_throughcooperatives = 2131296603;
 			
-			// aapt resource value: 0x7f0901b1
-			public const int ilsp_avg_tme_bring_water_lessthan30min = 2131296689;
+			// aapt resource value: 0x7f090156
+			public const int ilsp_access_market_info_throughmediaradiostv = 2131296598;
 			
-			// aapt resource value: 0x7f0901b3
-			public const int ilsp_avg_tme_bring_water_morethan1hr = 2131296691;
+			// aapt resource value: 0x7f09015a
+			public const int ilsp_access_market_info_throughproducergroups = 2131296602;
 			
-			// aapt resource value: 0x7f0901b4
-			public const int ilsp_avg_tme_bring_water_na = 2131296692;
+			// aapt resource value: 0x7f090159
+			public const int ilsp_access_market_info_villagenoticeboards = 2131296601;
 			
-			// aapt resource value: 0x7f0901b5
-			public const int ilsp_avg_tme_bring_water_other = 2131296693;
+			// aapt resource value: 0x7f090078
+			public const int ilsp_access_to_prodtv_land = 2131296376;
 			
-			// aapt resource value: 0x7f090271
-			public const int ilsp_children_sch_attend_dec = 2131296881;
+			// aapt resource value: 0x7f09007a
+			public const int ilsp_access_to_prodtv_land_no = 2131296378;
 			
-			// aapt resource value: 0x7f090294
-			public const int ilsp_community_group_name_sx_cooperative = 2131296916;
+			// aapt resource value: 0x7f090079
+			public const int ilsp_access_to_prodtv_land_yes = 2131296377;
 			
-			// aapt resource value: 0x7f090296
-			public const int ilsp_community_group_name_sx_creditfinancegroup = 2131296918;
+			// aapt resource value: 0x7f0902af
+			public const int ilsp_address_common_issue = 2131296943;
 			
-			// aapt resource value: 0x7f09029a
-			public const int ilsp_community_group_name_sx_mensgroup = 2131296922;
+			// aapt resource value: 0x7f0902b3
+			public const int ilsp_address_common_issue_frequently = 2131296947;
 			
-			// aapt resource value: 0x7f09029e
-			public const int ilsp_community_group_name_sx_other = 2131296926;
+			// aapt resource value: 0x7f0902b0
+			public const int ilsp_address_common_issue_never = 2131296944;
 			
-			// aapt resource value: 0x7f090292
-			public const int ilsp_community_group_name_sx_producergroup = 2131296914;
+			// aapt resource value: 0x7f0902b2
+			public const int ilsp_address_common_issue_ocassionally = 2131296946;
 			
-			// aapt resource value: 0x7f090298
-			public const int ilsp_community_group_name_sx_womensgroup = 2131296920;
+			// aapt resource value: 0x7f0902b1
+			public const int ilsp_address_common_issue_veryrarely = 2131296945;
 			
-			// aapt resource value: 0x7f09029c
-			public const int ilsp_community_group_name_sx_youthgroup = 2131296924;
+			// aapt resource value: 0x7f09003d
+			public const int ilsp_age_of_beneficiary = 2131296317;
 			
-			// aapt resource value: 0x7f090275
-			public const int ilsp_community_service_name_sx_education = 2131296885;
+			// aapt resource value: 0x7f09005f
+			public const int ilsp_age_of_household_head = 2131296351;
 			
-			// aapt resource value: 0x7f090281
-			public const int ilsp_community_service_name_sx_extensionservices = 2131296897;
+			// aapt resource value: 0x7f090063
+			public const int ilsp_age_of_household_head_65andabove = 2131296355;
 			
-			// aapt resource value: 0x7f090284
-			public const int ilsp_community_service_name_sx_financialservices = 2131296900;
+			// aapt resource value: 0x7f090061
+			public const int ilsp_age_of_household_head_between18to35 = 2131296353;
 			
-			// aapt resource value: 0x7f09027e
-			public const int ilsp_community_service_name_sx_healthservices = 2131296894;
+			// aapt resource value: 0x7f090062
+			public const int ilsp_age_of_household_head_between36to64 = 2131296354;
 			
-			// aapt resource value: 0x7f090280
-			public const int ilsp_community_service_name_sx_justiceconflictresolution = 2131296896;
+			// aapt resource value: 0x7f090060
+			public const int ilsp_age_of_household_head_under18 = 2131296352;
 			
-			// aapt resource value: 0x7f090282
-			public const int ilsp_community_service_name_sx_marketingservices = 2131296898;
+			// aapt resource value: 0x7f0901de
+			public const int ilsp_amnt_recvd_by_hh_mbrs = 2131296734;
 			
-			// aapt resource value: 0x7f09027f
-			public const int ilsp_community_service_name_sx_trainingandprofessionalservices = 2131296895;
+			// aapt resource value: 0x7f0901ec
+			public const int ilsp_amount_of_expense = 2131296748;
 			
-			// aapt resource value: 0x7f090283
-			public const int ilsp_community_service_name_sx_veterinaryservices = 2131296899;
+			// aapt resource value: 0x7f09017d
+			public const int ilsp_amt_spent_food_past_7d = 2131296637;
+			
+			// aapt resource value: 0x7f090096
+			public const int ilsp_area_cultivated = 2131296406;
+			
+			// aapt resource value: 0x7f0900db
+			public const int ilsp_area_cultivated_fodder = 2131296475;
+			
+			// aapt resource value: 0x7f0900dc
+			public const int ilsp_area_cultivated_fodder_uom = 2131296476;
+			
+			// aapt resource value: 0x7f0900dd
+			public const int ilsp_area_cultivated_fodder_uom_acres = 2131296477;
+			
+			// aapt resource value: 0x7f0900de
+			public const int ilsp_area_cultivated_fodder_uom_hectares = 2131296478;
+			
+			// aapt resource value: 0x7f0900df
+			public const int ilsp_area_cultivated_fodder_uom_lima = 2131296479;
+			
+			// aapt resource value: 0x7f0900e0
+			public const int ilsp_area_cultivated_fodder_uom_sqmeter = 2131296480;
+			
+			// aapt resource value: 0x7f090097
+			public const int ilsp_area_cultivated_uom = 2131296407;
+			
+			// aapt resource value: 0x7f090098
+			public const int ilsp_area_cultivated_uom_acres = 2131296408;
+			
+			// aapt resource value: 0x7f090099
+			public const int ilsp_area_cultivated_uom_hectares = 2131296409;
+			
+			// aapt resource value: 0x7f09009a
+			public const int ilsp_area_cultivated_uom_lima = 2131296410;
+			
+			// aapt resource value: 0x7f09009b
+			public const int ilsp_area_cultivated_uom_sqmeter = 2131296411;
+			
+			// aapt resource value: 0x7f09025f
+			public const int ilsp_asset_ownership_label = 2131296863;
+			
+			// aapt resource value: 0x7f09025b
+			public const int ilsp_asset_ownership_label_maleandfemale = 2131296859;
+			
+			// aapt resource value: 0x7f09025e
+			public const int ilsp_asset_ownership_label_nobodyfromthefamily = 2131296862;
+			
+			// aapt resource value: 0x7f09025d
+			public const int ilsp_asset_ownership_label_onlyfemale = 2131296861;
+			
+			// aapt resource value: 0x7f09025c
+			public const int ilsp_asset_ownership_label_onlymale = 2131296860;
+			
+			// aapt resource value: 0x7f09016e
+			public const int ilsp_average_number_of_meals = 2131296622;
+			
+			// aapt resource value: 0x7f09016f
+			public const int ilsp_average_number_of_meals_1meal = 2131296623;
+			
+			// aapt resource value: 0x7f090170
+			public const int ilsp_average_number_of_meals_2meals = 2131296624;
+			
+			// aapt resource value: 0x7f090171
+			public const int ilsp_average_number_of_meals_3meals = 2131296625;
+			
+			// aapt resource value: 0x7f0901c1
+			public const int ilsp_avg_tme_bring_water = 2131296705;
+			
+			// aapt resource value: 0x7f0901c3
+			public const int ilsp_avg_tme_bring_water_between30minto1hr = 2131296707;
+			
+			// aapt resource value: 0x7f0901c2
+			public const int ilsp_avg_tme_bring_water_lessthan30min = 2131296706;
+			
+			// aapt resource value: 0x7f0901c4
+			public const int ilsp_avg_tme_bring_water_morethan1hr = 2131296708;
+			
+			// aapt resource value: 0x7f0901c5
+			public const int ilsp_avg_tme_bring_water_na = 2131296709;
+			
+			// aapt resource value: 0x7f0901c6
+			public const int ilsp_avg_tme_bring_water_other = 2131296710;
 			
 			// aapt resource value: 0x7f090274
-			public const int ilsp_community_services = 2131296884;
+			public const int ilsp_children_sch_attend_dec = 2131296884;
 			
-			// aapt resource value: 0x7f09019b
-			public const int ilsp_coping_strat_emp = 2131296667;
+			// aapt resource value: 0x7f090298
+			public const int ilsp_community_group_name_sx_cooperative = 2131296920;
 			
-			// aapt resource value: 0x7f09019d
-			public const int ilsp_coping_strat_emp_begging = 2131296669;
+			// aapt resource value: 0x7f09029a
+			public const int ilsp_community_group_name_sx_creditfinancegroup = 2131296922;
 			
-			// aapt resource value: 0x7f09019c
-			public const int ilsp_coping_strat_emp_borrowingfoodmoney = 2131296668;
+			// aapt resource value: 0x7f09029e
+			public const int ilsp_community_group_name_sx_mensgroup = 2131296926;
 			
-			// aapt resource value: 0x7f0901a0
-			public const int ilsp_coping_strat_emp_eatingwildfruits = 2131296672;
+			// aapt resource value: 0x7f0902a2
+			public const int ilsp_community_group_name_sx_other = 2131296930;
 			
-			// aapt resource value: 0x7f0901a4
-			public const int ilsp_coping_strat_emp_other = 2131296676;
+			// aapt resource value: 0x7f090296
+			public const int ilsp_community_group_name_sx_producergroup = 2131296918;
 			
-			// aapt resource value: 0x7f0901a3
-			public const int ilsp_coping_strat_emp_purchasefoodoncredit = 2131296675;
+			// aapt resource value: 0x7f09029c
+			public const int ilsp_community_group_name_sx_womensgroup = 2131296924;
 			
-			// aapt resource value: 0x7f09019f
-			public const int ilsp_coping_strat_emp_reducingthenumberofmeals = 2131296671;
+			// aapt resource value: 0x7f0902a0
+			public const int ilsp_community_group_name_sx_youthgroup = 2131296928;
 			
-			// aapt resource value: 0x7f0901a1
-			public const int ilsp_coping_strat_emp_sellinglivestocktobuyfood = 2131296673;
+			// aapt resource value: 0x7f090278
+			public const int ilsp_community_service_name_sx_education = 2131296888;
 			
-			// aapt resource value: 0x7f0901a2
-			public const int ilsp_coping_strat_emp_skippingdayswithoutmeals = 2131296674;
+			// aapt resource value: 0x7f090284
+			public const int ilsp_community_service_name_sx_extensionservices = 2131296900;
 			
-			// aapt resource value: 0x7f09019e
-			public const int ilsp_coping_strat_emp_workingforfood = 2131296670;
+			// aapt resource value: 0x7f090287
+			public const int ilsp_community_service_name_sx_financialservices = 2131296903;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int ilsp_crop_name_sx_beans = 2131296436;
+			// aapt resource value: 0x7f090281
+			public const int ilsp_community_service_name_sx_healthservices = 2131296897;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int ilsp_crop_name_sx_cabbage = 2131296437;
+			// aapt resource value: 0x7f090283
+			public const int ilsp_community_service_name_sx_justiceconflictresolution = 2131296899;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int ilsp_crop_name_sx_cassava = 2131296432;
+			// aapt resource value: 0x7f090285
+			public const int ilsp_community_service_name_sx_marketingservices = 2131296901;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int ilsp_crop_name_sx_cotton = 2131296442;
+			// aapt resource value: 0x7f090282
+			public const int ilsp_community_service_name_sx_trainingandprofessionalservices = 2131296898;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int ilsp_crop_name_sx_cowpeas = 2131296434;
+			// aapt resource value: 0x7f090286
+			public const int ilsp_community_service_name_sx_veterinaryservices = 2131296902;
+			
+			// aapt resource value: 0x7f090277
+			public const int ilsp_community_services = 2131296887;
+			
+			// aapt resource value: 0x7f0901ac
+			public const int ilsp_coping_strat_emp = 2131296684;
+			
+			// aapt resource value: 0x7f0901ae
+			public const int ilsp_coping_strat_emp_begging = 2131296686;
+			
+			// aapt resource value: 0x7f0901ad
+			public const int ilsp_coping_strat_emp_borrowingfoodmoney = 2131296685;
+			
+			// aapt resource value: 0x7f0901b1
+			public const int ilsp_coping_strat_emp_eatingwildfruits = 2131296689;
+			
+			// aapt resource value: 0x7f0901b5
+			public const int ilsp_coping_strat_emp_other = 2131296693;
+			
+			// aapt resource value: 0x7f0901b4
+			public const int ilsp_coping_strat_emp_purchasefoodoncredit = 2131296692;
+			
+			// aapt resource value: 0x7f0901b0
+			public const int ilsp_coping_strat_emp_reducingthenumberofmeals = 2131296688;
+			
+			// aapt resource value: 0x7f0901b2
+			public const int ilsp_coping_strat_emp_sellinglivestocktobuyfood = 2131296690;
+			
+			// aapt resource value: 0x7f0901b3
+			public const int ilsp_coping_strat_emp_skippingdayswithoutmeals = 2131296691;
+			
+			// aapt resource value: 0x7f0901af
+			public const int ilsp_coping_strat_emp_workingforfood = 2131296687;
+			
+			// aapt resource value: 0x7f090093
+			public const int ilsp_crop_gown = 2131296403;
+			
+			// aapt resource value: 0x7f090095
+			public const int ilsp_crop_gown_no = 2131296405;
+			
+			// aapt resource value: 0x7f090094
+			public const int ilsp_crop_gown_yes = 2131296404;
 			
 			// aapt resource value: 0x7f0900b8
-			public const int ilsp_crop_name_sx_eggplantimpwa = 2131296440;
-			
-			// aapt resource value: 0x7f0900ad
-			public const int ilsp_crop_name_sx_groundnuts = 2131296429;
+			public const int ilsp_crop_name_sx_beans = 2131296440;
 			
 			// aapt resource value: 0x7f0900b9
-			public const int ilsp_crop_name_sx_leafyvegetables = 2131296441;
+			public const int ilsp_crop_name_sx_cabbage = 2131296441;
 			
-			// aapt resource value: 0x7f090091
-			public const int ilsp_crop_name_sx_maize = 2131296401;
-			
-			// aapt resource value: 0x7f0900b3
-			public const int ilsp_crop_name_sx_mbambaranuts = 2131296435;
-			
-			// aapt resource value: 0x7f0900b7
-			public const int ilsp_crop_name_sx_onion = 2131296439;
-			
-			// aapt resource value: 0x7f0900bb
-			public const int ilsp_crop_name_sx_other = 2131296443;
-			
-			// aapt resource value: 0x7f0900af
-			public const int ilsp_crop_name_sx_potatoes = 2131296431;
-			
-			// aapt resource value: 0x7f0900b1
-			public const int ilsp_crop_name_sx_soyabeans = 2131296433;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int ilsp_crop_name_sx_sweetpotatoes = 2131296430;
-			
-			// aapt resource value: 0x7f0900b6
-			public const int ilsp_crop_name_sx_tomatoes = 2131296438;
-			
-			// aapt resource value: 0x7f0902a6
-			public const int ilsp_crop_production_trng = 2131296934;
-			
-			// aapt resource value: 0x7f09008a
-			public const int ilsp_cultivated_land_size = 2131296394;
-			
-			// aapt resource value: 0x7f09008b
-			public const int ilsp_cultivated_uom = 2131296395;
-			
-			// aapt resource value: 0x7f09008c
-			public const int ilsp_cultivated_uom_acres = 2131296396;
-			
-			// aapt resource value: 0x7f09008d
-			public const int ilsp_cultivated_uom_hectares = 2131296397;
-			
-			// aapt resource value: 0x7f09008e
-			public const int ilsp_cultivated_uom_lima = 2131296398;
-			
-			// aapt resource value: 0x7f09008f
-			public const int ilsp_cultivated_uom_sqmeter = 2131296399;
+			// aapt resource value: 0x7f0900b4
+			public const int ilsp_crop_name_sx_cassava = 2131296436;
 			
 			// aapt resource value: 0x7f0900be
-			public const int ilsp_curr_numb_animals_for_hh = 2131296446;
+			public const int ilsp_crop_name_sx_cotton = 2131296446;
+			
+			// aapt resource value: 0x7f0900b6
+			public const int ilsp_crop_name_sx_cowpeas = 2131296438;
+			
+			// aapt resource value: 0x7f0900bc
+			public const int ilsp_crop_name_sx_eggplantimpwa = 2131296444;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int ilsp_crop_name_sx_groundnuts = 2131296433;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int ilsp_crop_name_sx_leafyvegetables = 2131296445;
+			
+			// aapt resource value: 0x7f090092
+			public const int ilsp_crop_name_sx_maize = 2131296402;
+			
+			// aapt resource value: 0x7f0900b7
+			public const int ilsp_crop_name_sx_mbambaranuts = 2131296439;
+			
+			// aapt resource value: 0x7f0900bb
+			public const int ilsp_crop_name_sx_onion = 2131296443;
+			
+			// aapt resource value: 0x7f0900bf
+			public const int ilsp_crop_name_sx_other = 2131296447;
+			
+			// aapt resource value: 0x7f0900b3
+			public const int ilsp_crop_name_sx_potatoes = 2131296435;
+			
+			// aapt resource value: 0x7f0900b5
+			public const int ilsp_crop_name_sx_soyabeans = 2131296437;
+			
+			// aapt resource value: 0x7f0900b2
+			public const int ilsp_crop_name_sx_sweetpotatoes = 2131296434;
+			
+			// aapt resource value: 0x7f0900ba
+			public const int ilsp_crop_name_sx_tomatoes = 2131296442;
+			
+			// aapt resource value: 0x7f0902aa
+			public const int ilsp_crop_production_trng = 2131296938;
+			
+			// aapt resource value: 0x7f09008b
+			public const int ilsp_cultivated_land_size = 2131296395;
+			
+			// aapt resource value: 0x7f09008c
+			public const int ilsp_cultivated_uom = 2131296396;
+			
+			// aapt resource value: 0x7f09008d
+			public const int ilsp_cultivated_uom_acres = 2131296397;
+			
+			// aapt resource value: 0x7f09008e
+			public const int ilsp_cultivated_uom_hectares = 2131296398;
+			
+			// aapt resource value: 0x7f09008f
+			public const int ilsp_cultivated_uom_lima = 2131296399;
+			
+			// aapt resource value: 0x7f090090
+			public const int ilsp_cultivated_uom_sqmeter = 2131296400;
+			
+			// aapt resource value: 0x7f0900c5
+			public const int ilsp_curr_numb_animals_for_hh = 2131296453;
 			
 			// aapt resource value: 0x7f09002d
 			public const int ilsp_data_coll_fiscal_yr = 2131296301;
@@ -8546,1709 +8600,1697 @@ namespace MobileCollector
 			// aapt resource value: 0x7f090030
 			public const int ilsp_data_coll_fiscal_yr_2016 = 2131296304;
 			
-			// aapt resource value: 0x7f090031
-			public const int ilsp_data_coll_rprt_period = 2131296305;
-			
-			// aapt resource value: 0x7f090033
-			public const int ilsp_data_coll_rprt_period_januaryjune = 2131296307;
-			
-			// aapt resource value: 0x7f090032
-			public const int ilsp_data_coll_rprt_period_julydecember = 2131296306;
-			
-			// aapt resource value: 0x7f090042
-			public const int ilsp_date_of_interview = 2131296322;
-			
-			// aapt resource value: 0x7f09026c
-			public const int ilsp_decisions_made_by = 2131296876;
-			
-			// aapt resource value: 0x7f09028b
-			public const int ilsp_decisions_made_by_average = 2131296907;
-			
-			// aapt resource value: 0x7f09028c
-			public const int ilsp_decisions_made_by_high = 2131296908;
-			
-			// aapt resource value: 0x7f09028a
-			public const int ilsp_decisions_made_by_low = 2131296906;
-			
-			// aapt resource value: 0x7f090269
-			public const int ilsp_decisions_made_by_maleandfemale = 2131296873;
-			
-			// aapt resource value: 0x7f09026b
-			public const int ilsp_decisions_made_by_onlyfemale = 2131296875;
-			
-			// aapt resource value: 0x7f09026a
-			public const int ilsp_decisions_made_by_onlymale = 2131296874;
-			
-			// aapt resource value: 0x7f090047
-			public const int ilsp_district = 2131296327;
-			
-			// aapt resource value: 0x7f090178
-			public const int ilsp_dur_food_stocks_lasted = 2131296632;
-			
-			// aapt resource value: 0x7f09017c
-			public const int ilsp_dur_food_stocks_lasted_1012months = 2131296636;
-			
-			// aapt resource value: 0x7f09017a
-			public const int ilsp_dur_food_stocks_lasted_36months = 2131296634;
-			
-			// aapt resource value: 0x7f09017b
-			public const int ilsp_dur_food_stocks_lasted_79months = 2131296635;
-			
-			// aapt resource value: 0x7f090179
-			public const int ilsp_dur_food_stocks_lasted_lessthan3months = 2131296633;
-			
-			// aapt resource value: 0x7f09017d
-			public const int ilsp_dur_food_stocks_lasted_morethan12months = 2131296637;
-			
-			// aapt resource value: 0x7f090065
-			public const int ilsp_educ_household_head = 2131296357;
-			
-			// aapt resource value: 0x7f090067
-			public const int ilsp_educ_household_head_juniorsecondary8to9 = 2131296359;
-			
-			// aapt resource value: 0x7f090066
-			public const int ilsp_educ_household_head_primary = 2131296358;
-			
-			// aapt resource value: 0x7f090068
-			public const int ilsp_educ_household_head_seniorsecondary10to12 = 2131296360;
-			
-			// aapt resource value: 0x7f090069
-			public const int ilsp_educ_household_head_tertiarycollegeuniversity = 2131296361;
-			
-			// aapt resource value: 0x7f09028f
-			public const int ilsp_elderly_participation = 2131296911;
-			
-			// aapt resource value: 0x7f090248
-			public const int ilsp_energy_type_used = 2131296840;
-			
-			// aapt resource value: 0x7f09024a
-			public const int ilsp_energy_type_used_charcoal = 2131296842;
-			
-			// aapt resource value: 0x7f09024c
-			public const int ilsp_energy_type_used_electric = 2131296844;
-			
-			// aapt resource value: 0x7f090249
-			public const int ilsp_energy_type_used_firewood = 2131296841;
-			
-			// aapt resource value: 0x7f09024b
-			public const int ilsp_energy_type_used_gas = 2131296843;
-			
-			// aapt resource value: 0x7f09024d
-			public const int ilsp_energy_type_used_other = 2131296845;
-			
-			// aapt resource value: 0x7f0902a4
-			public const int ilsp_enterp_dev_skills_trng = 2131296932;
-			
-			// aapt resource value: 0x7f0902a7
-			public const int ilsp_environ_nat_res_mgt_trng = 2131296935;
-			
-			// aapt resource value: 0x7f0901d9
-			public const int ilsp_expenses_past_year = 2131296729;
-			
-			// aapt resource value: 0x7f0901de
-			public const int ilsp_expenses_sx_clothing = 2131296734;
-			
-			// aapt resource value: 0x7f0901dd
-			public const int ilsp_expenses_sx_educationschoolfeesuniformsbooks = 2131296733;
-			
-			// aapt resource value: 0x7f0901e6
-			public const int ilsp_expenses_sx_entertainmentegrecreationalcohol = 2131296742;
-			
-			// aapt resource value: 0x7f0901e2
-			public const int ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131296738;
-			
-			// aapt resource value: 0x7f0901da
-			public const int ilsp_expenses_sx_food = 2131296730;
-			
-			// aapt resource value: 0x7f0901df
-			public const int ilsp_expenses_sx_healthmedicalbillsmedicine = 2131296735;
-			
-			// aapt resource value: 0x7f0901e4
-			public const int ilsp_expenses_sx_householdassetsegfurnituresolar = 2131296740;
-			
-			// aapt resource value: 0x7f0901e5
-			public const int ilsp_expenses_sx_otherinvestments = 2131296741;
-			
-			// aapt resource value: 0x7f0901e3
-			public const int ilsp_expenses_sx_productiveassetsfarmassets = 2131296739;
-			
-			// aapt resource value: 0x7f0901e8
-			public const int ilsp_expenses_sx_savings = 2131296744;
-			
-			// aapt resource value: 0x7f0901dc
-			public const int ilsp_expenses_sx_shelterhousingbuildingrenovations = 2131296732;
-			
-			// aapt resource value: 0x7f0901e7
-			public const int ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions = 2131296743;
-			
-			// aapt resource value: 0x7f0901e1
-			public const int ilsp_expenses_sx_transportation = 2131296737;
-			
-			// aapt resource value: 0x7f0901e0
-			public const int ilsp_expenses_sx_utilitieselectricitymobile = 2131296736;
-			
-			// aapt resource value: 0x7f090264
-			public const int ilsp_factors_controlled_by = 2131296868;
-			
-			// aapt resource value: 0x7f090261
-			public const int ilsp_factors_controlled_by_maleandfemale = 2131296865;
-			
-			// aapt resource value: 0x7f090263
-			public const int ilsp_factors_controlled_by_onlyfemale = 2131296867;
-			
-			// aapt resource value: 0x7f090262
-			public const int ilsp_factors_controlled_by_onlymale = 2131296866;
-			
-			// aapt resource value: 0x7f09006a
-			public const int ilsp_family_size = 2131296362;
-			
-			// aapt resource value: 0x7f090270
-			public const int ilsp_family_size_dec = 2131296880;
-			
-			// aapt resource value: 0x7f090237
-			public const int ilsp_family_type = 2131296823;
-			
-			// aapt resource value: 0x7f090238
-			public const int ilsp_family_type_a = 2131296824;
-			
-			// aapt resource value: 0x7f090239
-			public const int ilsp_family_type_b = 2131296825;
-			
-			// aapt resource value: 0x7f09023a
-			public const int ilsp_family_type_c = 2131296826;
-			
-			// aapt resource value: 0x7f0900bc
-			public const int ilsp_farm_prodn_livestock = 2131296444;
-			
-			// aapt resource value: 0x7f090071
-			public const int ilsp_female_adult_36_to_64 = 2131296369;
-			
-			// aapt resource value: 0x7f09006d
-			public const int ilsp_female_children_5_to_17 = 2131296365;
-			
-			// aapt resource value: 0x7f09006b
-			public const int ilsp_female_children_under_5 = 2131296363;
-			
-			// aapt resource value: 0x7f090073
-			public const int ilsp_female_elderly_65 = 2131296371;
-			
-			// aapt resource value: 0x7f0901d0
-			public const int ilsp_female_household_member = 2131296720;
-			
-			// aapt resource value: 0x7f09006f
-			public const int ilsp_female_youth_18_to_35 = 2131296367;
-			
-			// aapt resource value: 0x7f0900d5
-			public const int ilsp_fodder_produced = 2131296469;
-			
-			// aapt resource value: 0x7f090163
-			public const int ilsp_food_group_consumed = 2131296611;
-			
-			// aapt resource value: 0x7f090165
-			public const int ilsp_food_group_consumed_no = 2131296613;
-			
-			// aapt resource value: 0x7f090164
-			public const int ilsp_food_group_consumed_yes = 2131296612;
-			
-			// aapt resource value: 0x7f090162
-			public const int ilsp_food_group_name_sx_cerealsmilletricenshima = 2131296610;
-			
-			// aapt resource value: 0x7f090171
-			public const int ilsp_food_group_name_sx_eggs = 2131296625;
-			
-			// aapt resource value: 0x7f090172
-			public const int ilsp_food_group_name_sx_fishfishkapenta = 2131296626;
-			
-			// aapt resource value: 0x7f09016f
-			public const int ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131296623;
-			
-			// aapt resource value: 0x7f090173
-			public const int ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas = 2131296627;
-			
-			// aapt resource value: 0x7f090170
-			public const int ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131296624;
-			
-			// aapt resource value: 0x7f090174
-			public const int ilsp_food_group_name_sx_milkmilkyogurtsourmilk = 2131296628;
-			
-			// aapt resource value: 0x7f090175
-			public const int ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131296629;
-			
-			// aapt resource value: 0x7f090177
-			public const int ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee = 2131296631;
-			
-			// aapt resource value: 0x7f090176
-			public const int ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods = 2131296630;
-			
-			// aapt resource value: 0x7f09016d
-			public const int ilsp_food_group_name_sx_tuberssweetpotatoescassava = 2131296621;
-			
-			// aapt resource value: 0x7f09016e
-			public const int ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131296622;
-			
-			// aapt resource value: 0x7f090161
-			public const int ilsp_food_groups_consumed = 2131296609;
-			
-			// aapt resource value: 0x7f0902a8
-			public const int ilsp_food_proc_utiliz_trng = 2131296936;
-			
-			// aapt resource value: 0x7f090076
-			public const int ilsp_food_sec_and_nutrition = 2131296374;
-			
-			// aapt resource value: 0x7f0900ee
-			public const int ilsp_frequency_livestock_dip = 2131296494;
-			
-			// aapt resource value: 0x7f0900f5
-			public const int ilsp_frequency_livestock_dip_accordingtoschedule = 2131296501;
-			
-			// aapt resource value: 0x7f0900f4
-			public const int ilsp_frequency_livestock_dip_annually = 2131296500;
-			
-			// aapt resource value: 0x7f0900f3
-			public const int ilsp_frequency_livestock_dip_biannuallyevery6months = 2131296499;
-			
-			// aapt resource value: 0x7f0900f0
-			public const int ilsp_frequency_livestock_dip_every2weeks = 2131296496;
-			
-			// aapt resource value: 0x7f0900f1
-			public const int ilsp_frequency_livestock_dip_monthly = 2131296497;
-			
-			// aapt resource value: 0x7f0900f7
-			public const int ilsp_frequency_livestock_dip_never = 2131296503;
-			
-			// aapt resource value: 0x7f0900f8
-			public const int ilsp_frequency_livestock_dip_other = 2131296504;
-			
-			// aapt resource value: 0x7f0900f2
-			public const int ilsp_frequency_livestock_dip_quarterlyevery3months = 2131296498;
-			
-			// aapt resource value: 0x7f0900ef
-			public const int ilsp_frequency_livestock_dip_weekly = 2131296495;
-			
-			// aapt resource value: 0x7f0900f6
-			public const int ilsp_frequency_livestock_dip_whenthereisadiseaseoutbreak = 2131296502;
-			
-			// aapt resource value: 0x7f090054
-			public const int ilsp_gender_of_beneficiary = 2131296340;
-			
-			// aapt resource value: 0x7f090056
-			public const int ilsp_gender_of_beneficiary_female = 2131296342;
-			
-			// aapt resource value: 0x7f090055
-			public const int ilsp_gender_of_beneficiary_male = 2131296341;
-			
-			// aapt resource value: 0x7f09005d
-			public const int ilsp_gender_of_household_head = 2131296349;
-			
-			// aapt resource value: 0x7f09005f
-			public const int ilsp_gender_of_household_head_female = 2131296351;
-			
-			// aapt resource value: 0x7f09005e
-			public const int ilsp_gender_of_household_head_male = 2131296350;
-			
-			// aapt resource value: 0x7f0902a9
-			public const int ilsp_gendr_eqty_wom_emp_trng = 2131296937;
-			
-			// aapt resource value: 0x7f0902b6
-			public const int ilsp_general_statement = 2131296950;
-			
-			// aapt resource value: 0x7f090295
-			public const int ilsp_group_available_sx_cooperative = 2131296917;
-			
-			// aapt resource value: 0x7f090297
-			public const int ilsp_group_available_sx_creditfinancegroup = 2131296919;
-			
-			// aapt resource value: 0x7f09029b
-			public const int ilsp_group_available_sx_mensgroup = 2131296923;
-			
-			// aapt resource value: 0x7f09029f
-			public const int ilsp_group_available_sx_other = 2131296927;
-			
-			// aapt resource value: 0x7f090293
-			public const int ilsp_group_available_sx_producergroup = 2131296915;
-			
-			// aapt resource value: 0x7f090299
-			public const int ilsp_group_available_sx_womensgroup = 2131296921;
-			
-			// aapt resource value: 0x7f09029d
-			public const int ilsp_group_available_sx_youthgroup = 2131296925;
-			
-			// aapt resource value: 0x7f0902a3
-			public const int ilsp_group_mgmnt_skills_trng = 2131296931;
-			
-			// aapt resource value: 0x7f0900d3
-			public const int ilsp_grow_fodder_livstck = 2131296467;
-			
-			// aapt resource value: 0x7f0901b7
-			public const int ilsp_had_mnths_no_water_anim = 2131296695;
-			
-			// aapt resource value: 0x7f0901ba
-			public const int ilsp_had_mnths_no_water_anim_na = 2131296698;
-			
-			// aapt resource value: 0x7f0901b9
-			public const int ilsp_had_mnths_no_water_anim_no = 2131296697;
-			
-			// aapt resource value: 0x7f0901b8
-			public const int ilsp_had_mnths_no_water_anim_yes = 2131296696;
-			
-			// aapt resource value: 0x7f09018b
-			public const int ilsp_had_months_without_food = 2131296651;
-			
-			// aapt resource value: 0x7f09018d
-			public const int ilsp_had_months_without_food_no = 2131296653;
-			
-			// aapt resource value: 0x7f09018c
-			public const int ilsp_had_months_without_food_yes = 2131296652;
-			
-			// aapt resource value: 0x7f0901e9
-			public const int ilsp_have_a_bank_account = 2131296745;
-			
-			// aapt resource value: 0x7f0901eb
-			public const int ilsp_have_a_bank_account_no = 2131296747;
-			
-			// aapt resource value: 0x7f0901ea
-			public const int ilsp_have_a_bank_account_yes = 2131296746;
-			
-			// aapt resource value: 0x7f0902c1
-			public const int ilsp_heard_or_practiced_pog = 2131296961;
-			
-			// aapt resource value: 0x7f0902c3
-			public const int ilsp_heard_or_practiced_pog_no = 2131296963;
-			
-			// aapt resource value: 0x7f0902c2
-			public const int ilsp_heard_or_practiced_pog_yes = 2131296962;
-			
-			// aapt resource value: 0x7f0902aa
-			public const int ilsp_hiv_aids_awareness_trng = 2131296938;
+			// aapt resource value: 0x7f090039
+			public const int ilsp_date_of_interview = 2131296313;
 			
 			// aapt resource value: 0x7f09026f
-			public const int ilsp_household_exp_dec = 2131296879;
+			public const int ilsp_decisions_made_by = 2131296879;
 			
-			// aapt resource value: 0x7f090134
-			public const int ilsp_how_livestock_sold = 2131296564;
-			
-			// aapt resource value: 0x7f090136
-			public const int ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup = 2131296566;
-			
-			// aapt resource value: 0x7f090135
-			public const int ilsp_how_livestock_sold_individually = 2131296565;
-			
-			// aapt resource value: 0x7f090137
-			public const int ilsp_how_livestock_sold_na = 2131296567;
-			
-			// aapt resource value: 0x7f0900fa
-			public const int ilsp_how_often_vacc_livstck = 2131296506;
-			
-			// aapt resource value: 0x7f0900fb
-			public const int ilsp_how_often_vacc_livstck_accordingtovaccinationschedule = 2131296507;
-			
-			// aapt resource value: 0x7f0900fe
-			public const int ilsp_how_often_vacc_livstck_annually = 2131296510;
-			
-			// aapt resource value: 0x7f090100
-			public const int ilsp_how_often_vacc_livstck_na = 2131296512;
-			
-			// aapt resource value: 0x7f0900ff
-			public const int ilsp_how_often_vacc_livstck_never = 2131296511;
-			
-			// aapt resource value: 0x7f090101
-			public const int ilsp_how_often_vacc_livstck_other = 2131296513;
-			
-			// aapt resource value: 0x7f0900fc
-			public const int ilsp_how_often_vacc_livstck_whenanimalsaresick = 2131296508;
-			
-			// aapt resource value: 0x7f0900fd
-			public const int ilsp_how_often_vacc_livstck_whenthereisadiseaseoutbreak = 2131296509;
-			
-			// aapt resource value: 0x7f090119
-			public const int ilsp_how_you_sell_your_milk = 2131296537;
-			
-			// aapt resource value: 0x7f09011b
-			public const int ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup = 2131296539;
-			
-			// aapt resource value: 0x7f09011a
-			public const int ilsp_how_you_sell_your_milk_individually = 2131296538;
-			
-			// aapt resource value: 0x7f09011c
-			public const int ilsp_how_you_sell_your_milk_na = 2131296540;
-			
-			// aapt resource value: 0x7f090130
-			public const int ilsp_how_your_crops_are_sold = 2131296560;
-			
-			// aapt resource value: 0x7f090132
-			public const int ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup = 2131296562;
-			
-			// aapt resource value: 0x7f090131
-			public const int ilsp_how_your_crops_are_sold_individually = 2131296561;
-			
-			// aapt resource value: 0x7f090133
-			public const int ilsp_how_your_crops_are_sold_na = 2131296563;
-			
-			// aapt resource value: 0x7f090231
-			public const int ilsp_hse_roof_princip_mater = 2131296817;
-			
-			// aapt resource value: 0x7f090232
-			public const int ilsp_hse_roof_princip_mater_grassthatched = 2131296818;
-			
-			// aapt resource value: 0x7f090233
-			public const int ilsp_hse_roof_princip_mater_ironsheet = 2131296819;
-			
-			// aapt resource value: 0x7f090235
-			public const int ilsp_hse_roof_princip_mater_other = 2131296821;
-			
-			// aapt resource value: 0x7f090234
-			public const int ilsp_hse_roof_princip_mater_plastics = 2131296820;
-			
-			// aapt resource value: 0x7f09023b
-			public const int ilsp_improved_environment = 2131296827;
-			
-			// aapt resource value: 0x7f0902b0
-			public const int ilsp_in_comm_labor_groups = 2131296944;
-			
-			// aapt resource value: 0x7f0902b2
-			public const int ilsp_in_comm_labor_groups_no = 2131296946;
-			
-			// aapt resource value: 0x7f0902b1
-			public const int ilsp_in_comm_labor_groups_yes = 2131296945;
-			
-			// aapt resource value: 0x7f0901cc
-			public const int ilsp_income_and_assets = 2131296716;
-			
-			// aapt resource value: 0x7f0900c2
-			public const int ilsp_income_realised = 2131296450;
-			
-			// aapt resource value: 0x7f090090
-			public const int ilsp_infarm_prodn_details = 2131296400;
-			
-			// aapt resource value: 0x7f09017e
-			public const int ilsp_is_this_pattern_usual = 2131296638;
-			
-			// aapt resource value: 0x7f090180
-			public const int ilsp_is_this_pattern_usual_no = 2131296640;
-			
-			// aapt resource value: 0x7f09017f
-			public const int ilsp_is_this_pattern_usual_yes = 2131296639;
+			// aapt resource value: 0x7f09026c
+			public const int ilsp_decisions_made_by_maleandfemale = 2131296876;
 			
 			// aapt resource value: 0x7f09026e
-			public const int ilsp_labor_hours_dec = 2131296878;
-			
-			// aapt resource value: 0x7f090265
-			public const int ilsp_land = 2131296869;
-			
-			// aapt resource value: 0x7f09007a
-			public const int ilsp_land_tenure_system_is = 2131296378;
-			
-			// aapt resource value: 0x7f09007e
-			public const int ilsp_land_tenure_system_is_borrowed = 2131296382;
-			
-			// aapt resource value: 0x7f090081
-			public const int ilsp_land_tenure_system_is_dontknow = 2131296385;
-			
-			// aapt resource value: 0x7f09007d
-			public const int ilsp_land_tenure_system_is_hiredrented = 2131296381;
-			
-			// aapt resource value: 0x7f09007c
-			public const int ilsp_land_tenure_system_is_leasehold = 2131296380;
-			
-			// aapt resource value: 0x7f090080
-			public const int ilsp_land_tenure_system_is_municipallandcouncil = 2131296384;
-			
-			// aapt resource value: 0x7f09007f
-			public const int ilsp_land_tenure_system_is_squating = 2131296383;
-			
-			// aapt resource value: 0x7f09007b
-			public const int ilsp_land_tenure_system_is_traditional = 2131296379;
-			
-			// aapt resource value: 0x7f0900d2
-			public const int ilsp_livestock_fodder = 2131296466;
-			
-			// aapt resource value: 0x7f0900d1
-			public const int ilsp_livestock_fodder_no = 2131296465;
-			
-			// aapt resource value: 0x7f0900d0
-			public const int ilsp_livestock_fodder_yes = 2131296464;
-			
-			// aapt resource value: 0x7f09024f
-			public const int ilsp_livestock_graztyp = 2131296847;
-			
-			// aapt resource value: 0x7f090253
-			public const int ilsp_livestock_graztyp_communalgrazing = 2131296851;
-			
-			// aapt resource value: 0x7f090252
-			public const int ilsp_livestock_graztyp_controlledgrazing = 2131296850;
-			
-			// aapt resource value: 0x7f090254
-			public const int ilsp_livestock_graztyp_freerangegrazing = 2131296852;
-			
-			// aapt resource value: 0x7f090255
-			public const int ilsp_livestock_graztyp_other = 2131296853;
-			
-			// aapt resource value: 0x7f090251
-			public const int ilsp_livestock_graztyp_semizerograzing = 2131296849;
-			
-			// aapt resource value: 0x7f090250
-			public const int ilsp_livestock_graztyp_zerograzing = 2131296848;
-			
-			// aapt resource value: 0x7f0900cc
-			public const int ilsp_livestock_name_sx_beefcattle = 2131296460;
-			
-			// aapt resource value: 0x7f0900c3
-			public const int ilsp_livestock_name_sx_broilerchickens = 2131296451;
-			
-			// aapt resource value: 0x7f0900cb
-			public const int ilsp_livestock_name_sx_dairycattle = 2131296459;
-			
-			// aapt resource value: 0x7f0900cd
-			public const int ilsp_livestock_name_sx_draftcattle = 2131296461;
-			
-			// aapt resource value: 0x7f0900c5
-			public const int ilsp_livestock_name_sx_ducks = 2131296453;
-			
-			// aapt resource value: 0x7f0900c8
-			public const int ilsp_livestock_name_sx_goats = 2131296456;
-			
-			// aapt resource value: 0x7f0900c6
-			public const int ilsp_livestock_name_sx_guineafowls = 2131296454;
-			
-			// aapt resource value: 0x7f0900bd
-			public const int ilsp_livestock_name_sx_localchickens = 2131296445;
-			
-			// aapt resource value: 0x7f0900cf
-			public const int ilsp_livestock_name_sx_other = 2131296463;
-			
-			// aapt resource value: 0x7f0900c7
-			public const int ilsp_livestock_name_sx_pigeons = 2131296455;
-			
-			// aapt resource value: 0x7f0900c9
-			public const int ilsp_livestock_name_sx_pigs = 2131296457;
-			
-			// aapt resource value: 0x7f0900ce
-			public const int ilsp_livestock_name_sx_quails = 2131296462;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int ilsp_livestock_name_sx_sheep = 2131296458;
-			
-			// aapt resource value: 0x7f0900c4
-			public const int ilsp_livestock_name_sx_turkeys = 2131296452;
-			
-			// aapt resource value: 0x7f0900d7
-			public const int ilsp_livstck_enough_food = 2131296471;
-			
-			// aapt resource value: 0x7f0902a5
-			public const int ilsp_livstck_mgmt_health_trng = 2131296933;
-			
-			// aapt resource value: 0x7f0901ef
-			public const int ilsp_loan_amount_received = 2131296751;
-			
-			// aapt resource value: 0x7f090266
-			public const int ilsp_machinery_work_land = 2131296870;
-			
-			// aapt resource value: 0x7f09022a
-			public const int ilsp_main_walls_material = 2131296810;
-			
-			// aapt resource value: 0x7f09022c
-			public const int ilsp_main_walls_material_clayburntbricks = 2131296812;
-			
-			// aapt resource value: 0x7f09022d
-			public const int ilsp_main_walls_material_concreteblocks = 2131296813;
-			
-			// aapt resource value: 0x7f09022e
-			public const int ilsp_main_walls_material_grassthatched = 2131296814;
-			
-			// aapt resource value: 0x7f09022b
-			public const int ilsp_main_walls_material_mud = 2131296811;
-			
-			// aapt resource value: 0x7f09022f
-			public const int ilsp_main_walls_material_other = 2131296815;
-			
-			// aapt resource value: 0x7f090072
-			public const int ilsp_male_adult_36_to_64 = 2131296370;
-			
-			// aapt resource value: 0x7f09006e
-			public const int ilsp_male_children_5_to_17 = 2131296366;
-			
-			// aapt resource value: 0x7f09006c
-			public const int ilsp_male_children_under_5 = 2131296364;
-			
-			// aapt resource value: 0x7f090074
-			public const int ilsp_male_elderly_65 = 2131296372;
-			
-			// aapt resource value: 0x7f0901cf
-			public const int ilsp_male_household_member = 2131296719;
-			
-			// aapt resource value: 0x7f090070
-			public const int ilsp_male_youth_18_to_35 = 2131296368;
-			
-			// aapt resource value: 0x7f090272
-			public const int ilsp_manage_house_dec = 2131296882;
-			
-			// aapt resource value: 0x7f090057
-			public const int ilsp_marital_status_beneficiary = 2131296343;
-			
-			// aapt resource value: 0x7f09005b
-			public const int ilsp_marital_status_beneficiary_divorced = 2131296347;
-			
-			// aapt resource value: 0x7f090059
-			public const int ilsp_marital_status_beneficiary_married = 2131296345;
-			
-			// aapt resource value: 0x7f09005a
-			public const int ilsp_marital_status_beneficiary_separated = 2131296346;
-			
-			// aapt resource value: 0x7f090058
-			public const int ilsp_marital_status_beneficiary_single = 2131296344;
-			
-			// aapt resource value: 0x7f09005c
-			public const int ilsp_marital_status_beneficiary_widowed = 2131296348;
-			
-			// aapt resource value: 0x7f09028e
-			public const int ilsp_men_participation = 2131296910;
-			
-			// aapt resource value: 0x7f090268
-			public const int ilsp_microfinance_services = 2131296872;
-			
-			// aapt resource value: 0x7f09010f
-			public const int ilsp_milk_production = 2131296527;
-			
-			// aapt resource value: 0x7f090110
-			public const int ilsp_milk_type_name_sx_cowmilk = 2131296528;
-			
-			// aapt resource value: 0x7f0901bb
-			public const int ilsp_mnths_water_scarcity = 2131296699;
-			
-			// aapt resource value: 0x7f0901bf
-			public const int ilsp_mnths_water_scarcity_april = 2131296703;
-			
-			// aapt resource value: 0x7f0901c3
-			public const int ilsp_mnths_water_scarcity_august = 2131296707;
-			
-			// aapt resource value: 0x7f0901c7
-			public const int ilsp_mnths_water_scarcity_december = 2131296711;
-			
-			// aapt resource value: 0x7f0901bd
-			public const int ilsp_mnths_water_scarcity_february = 2131296701;
-			
-			// aapt resource value: 0x7f0901bc
-			public const int ilsp_mnths_water_scarcity_january = 2131296700;
-			
-			// aapt resource value: 0x7f0901c2
-			public const int ilsp_mnths_water_scarcity_july = 2131296706;
-			
-			// aapt resource value: 0x7f0901c1
-			public const int ilsp_mnths_water_scarcity_june = 2131296705;
-			
-			// aapt resource value: 0x7f0901be
-			public const int ilsp_mnths_water_scarcity_march = 2131296702;
-			
-			// aapt resource value: 0x7f0901c0
-			public const int ilsp_mnths_water_scarcity_may = 2131296704;
-			
-			// aapt resource value: 0x7f0901c6
-			public const int ilsp_mnths_water_scarcity_november = 2131296710;
-			
-			// aapt resource value: 0x7f0901c5
-			public const int ilsp_mnths_water_scarcity_october = 2131296709;
-			
-			// aapt resource value: 0x7f0901c4
-			public const int ilsp_mnths_water_scarcity_september = 2131296708;
-			
-			// aapt resource value: 0x7f09018e
-			public const int ilsp_months_food_scarcity = 2131296654;
-			
-			// aapt resource value: 0x7f090192
-			public const int ilsp_months_food_scarcity_april = 2131296658;
-			
-			// aapt resource value: 0x7f090196
-			public const int ilsp_months_food_scarcity_august = 2131296662;
-			
-			// aapt resource value: 0x7f09019a
-			public const int ilsp_months_food_scarcity_december = 2131296666;
-			
-			// aapt resource value: 0x7f090190
-			public const int ilsp_months_food_scarcity_february = 2131296656;
-			
-			// aapt resource value: 0x7f09018f
-			public const int ilsp_months_food_scarcity_january = 2131296655;
-			
-			// aapt resource value: 0x7f090195
-			public const int ilsp_months_food_scarcity_july = 2131296661;
-			
-			// aapt resource value: 0x7f090194
-			public const int ilsp_months_food_scarcity_june = 2131296660;
-			
-			// aapt resource value: 0x7f090191
-			public const int ilsp_months_food_scarcity_march = 2131296657;
-			
-			// aapt resource value: 0x7f090193
-			public const int ilsp_months_food_scarcity_may = 2131296659;
-			
-			// aapt resource value: 0x7f090199
-			public const int ilsp_months_food_scarcity_november = 2131296665;
-			
-			// aapt resource value: 0x7f090198
-			public const int ilsp_months_food_scarcity_october = 2131296664;
-			
-			// aapt resource value: 0x7f090197
-			public const int ilsp_months_food_scarcity_september = 2131296663;
-			
-			// aapt resource value: 0x7f0900c0
-			public const int ilsp_mortality_last_year = 2131296448;
-			
-			// aapt resource value: 0x7f090043
-			public const int ilsp_name_of_beneficiary = 2131296323;
-			
-			// aapt resource value: 0x7f090045
-			public const int ilsp_name_of_group = 2131296325;
-			
-			// aapt resource value: 0x7f090041
-			public const int ilsp_name_of_interviewer = 2131296321;
-			
-			// aapt resource value: 0x7f090046
-			public const int ilsp_name_of_village = 2131296326;
-			
-			// aapt resource value: 0x7f090219
-			public const int ilsp_non_agric_tools_owned_and_quantity = 2131296793;
-			
-			// aapt resource value: 0x7f0901fe
-			public const int ilsp_number_owned = 2131296766;
-			
-			// aapt resource value: 0x7f09021e
-			public const int ilsp_number_owned_non_agric = 2131296798;
-			
-			// aapt resource value: 0x7f0900c1
-			public const int ilsp_number_sold_last_year = 2131296449;
-			
-			// aapt resource value: 0x7f0900bf
-			public const int ilsp_offspring_born_last_year = 2131296447;
-			
-			// aapt resource value: 0x7f0901b6
-			public const int ilsp_other_avg_tme_bring_wtr = 2131296694;
-			
-			// aapt resource value: 0x7f0901a5
-			public const int ilsp_other_coping_strat_emp = 2131296677;
-			
-			// aapt resource value: 0x7f09024e
-			public const int ilsp_other_energy_type_used = 2131296846;
-			
-			// aapt resource value: 0x7f0900e6
-			public const int ilsp_other_feed_source = 2131296486;
-			
-			// aapt resource value: 0x7f0900f9
-			public const int ilsp_other_freq_livstck_dip = 2131296505;
-			
-			// aapt resource value: 0x7f0901d1
-			public const int ilsp_other_household_member = 2131296721;
-			
-			// aapt resource value: 0x7f090256
-			public const int ilsp_other_livestock_graztyp = 2131296854;
-			
-			// aapt resource value: 0x7f090230
-			public const int ilsp_other_main_wall_mater = 2131296816;
-			
-			// aapt resource value: 0x7f090236
-			public const int ilsp_other_material_hse_roof = 2131296822;
-			
-			// aapt resource value: 0x7f09018a
-			public const int ilsp_other_reas_food_scarcity = 2131296650;
-			
-			// aapt resource value: 0x7f090247
-			public const int ilsp_other_soil_conserv_pract = 2131296839;
-			
-			// aapt resource value: 0x7f09010e
-			public const int ilsp_other_souce_livstck_drgs = 2131296526;
-			
-			// aapt resource value: 0x7f090150
-			public const int ilsp_other_source_market_info = 2131296592;
-			
-			// aapt resource value: 0x7f0901f7
-			public const int ilsp_other_source_of_loan = 2131296759;
-			
-			// aapt resource value: 0x7f0900ed
-			public const int ilsp_other_tick_control = 2131296493;
-			
-			// aapt resource value: 0x7f09015c
-			public const int ilsp_other_type_farm_rec_kept = 2131296604;
-			
-			// aapt resource value: 0x7f090102
-			public const int ilsp_other_vacc_livstck = 2131296514;
-			
-			// aapt resource value: 0x7f0901af
-			public const int ilsp_other_water_sources = 2131296687;
-			
-			// aapt resource value: 0x7f090126
-			public const int ilsp_other_where_milk_is_sold = 2131296550;
-			
-			// aapt resource value: 0x7f090143
-			public const int ilsp_other_whr_agric_prod_sld = 2131296579;
+			public const int ilsp_decisions_made_by_onlyfemale = 2131296878;
 			
 			// aapt resource value: 0x7f09026d
-			public const int ilsp_own_education_dec = 2131296877;
+			public const int ilsp_decisions_made_by_onlymale = 2131296877;
 			
-			// aapt resource value: 0x7f0901fb
-			public const int ilsp_owned = 2131296763;
+			// aapt resource value: 0x7f090040
+			public const int ilsp_district_name = 2131296320;
 			
-			// aapt resource value: 0x7f0901fd
-			public const int ilsp_owned_no = 2131296765;
+			// aapt resource value: 0x7f090044
+			public const int ilsp_district_name_chibombo = 2131296324;
 			
-			// aapt resource value: 0x7f09021b
-			public const int ilsp_owned_non_agric = 2131296795;
+			// aapt resource value: 0x7f090043
+			public const int ilsp_district_name_chisamba = 2131296323;
 			
-			// aapt resource value: 0x7f09021d
-			public const int ilsp_owned_non_agric_no = 2131296797;
+			// aapt resource value: 0x7f090042
+			public const int ilsp_district_name_kabwe = 2131296322;
 			
-			// aapt resource value: 0x7f09021c
-			public const int ilsp_owned_non_agric_yes = 2131296796;
+			// aapt resource value: 0x7f090041
+			public const int ilsp_district_name_kaprimposhi = 2131296321;
 			
-			// aapt resource value: 0x7f0901fc
-			public const int ilsp_owned_yes = 2131296764;
+			// aapt resource value: 0x7f090045
+			public const int ilsp_district_name_other = 2131296325;
 			
-			// aapt resource value: 0x7f090285
-			public const int ilsp_particip_comm_groups = 2131296901;
+			// aapt resource value: 0x7f090189
+			public const int ilsp_dur_food_stocks_lasted = 2131296649;
 			
-			// aapt resource value: 0x7f090289
-			public const int ilsp_particip_comm_groups_dontparticipate = 2131296905;
+			// aapt resource value: 0x7f09018d
+			public const int ilsp_dur_food_stocks_lasted_1012months = 2131296653;
 			
-			// aapt resource value: 0x7f090288
-			public const int ilsp_particip_comm_groups_maleandfemale = 2131296904;
+			// aapt resource value: 0x7f09018b
+			public const int ilsp_dur_food_stocks_lasted_36months = 2131296651;
 			
-			// aapt resource value: 0x7f090287
-			public const int ilsp_particip_comm_groups_onlyfemale = 2131296903;
+			// aapt resource value: 0x7f09018c
+			public const int ilsp_dur_food_stocks_lasted_79months = 2131296652;
 			
-			// aapt resource value: 0x7f090286
-			public const int ilsp_particip_comm_groups_onlymale = 2131296902;
+			// aapt resource value: 0x7f09018a
+			public const int ilsp_dur_food_stocks_lasted_lessthan3months = 2131296650;
+			
+			// aapt resource value: 0x7f09018e
+			public const int ilsp_dur_food_stocks_lasted_morethan12months = 2131296654;
+			
+			// aapt resource value: 0x7f090064
+			public const int ilsp_educ_household_head = 2131296356;
+			
+			// aapt resource value: 0x7f09006a
+			public const int ilsp_educ_household_head_dontknow = 2131296362;
+			
+			// aapt resource value: 0x7f090066
+			public const int ilsp_educ_household_head_juniorsecondary8to9 = 2131296358;
+			
+			// aapt resource value: 0x7f090069
+			public const int ilsp_educ_household_head_none = 2131296361;
+			
+			// aapt resource value: 0x7f090065
+			public const int ilsp_educ_household_head_primary = 2131296357;
+			
+			// aapt resource value: 0x7f090067
+			public const int ilsp_educ_household_head_seniorsecondary10to12 = 2131296359;
+			
+			// aapt resource value: 0x7f090068
+			public const int ilsp_educ_household_head_tertiarycollegeuniversity = 2131296360;
+			
+			// aapt resource value: 0x7f090293
+			public const int ilsp_elderly_participation = 2131296915;
+			
+			// aapt resource value: 0x7f09024b
+			public const int ilsp_energy_type_used = 2131296843;
+			
+			// aapt resource value: 0x7f09024d
+			public const int ilsp_energy_type_used_charcoal = 2131296845;
+			
+			// aapt resource value: 0x7f09024f
+			public const int ilsp_energy_type_used_electric = 2131296847;
+			
+			// aapt resource value: 0x7f09024c
+			public const int ilsp_energy_type_used_firewood = 2131296844;
+			
+			// aapt resource value: 0x7f09024e
+			public const int ilsp_energy_type_used_gas = 2131296846;
+			
+			// aapt resource value: 0x7f090250
+			public const int ilsp_energy_type_used_other = 2131296848;
+			
+			// aapt resource value: 0x7f0902a8
+			public const int ilsp_enterp_dev_skills_trng = 2131296936;
+			
+			// aapt resource value: 0x7f0902ab
+			public const int ilsp_environ_nat_res_mgt_trng = 2131296939;
+			
+			// aapt resource value: 0x7f0901ea
+			public const int ilsp_expenses_past_year = 2131296746;
+			
+			// aapt resource value: 0x7f0901ef
+			public const int ilsp_expenses_sx_clothing = 2131296751;
+			
+			// aapt resource value: 0x7f0901ee
+			public const int ilsp_expenses_sx_educationschoolfeesuniformsbooks = 2131296750;
+			
+			// aapt resource value: 0x7f0901f7
+			public const int ilsp_expenses_sx_entertainmentegrecreationalcohol = 2131296759;
+			
+			// aapt resource value: 0x7f0901f3
+			public const int ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed = 2131296755;
+			
+			// aapt resource value: 0x7f0901eb
+			public const int ilsp_expenses_sx_food = 2131296747;
+			
+			// aapt resource value: 0x7f0901f0
+			public const int ilsp_expenses_sx_healthmedicalbillsmedicine = 2131296752;
+			
+			// aapt resource value: 0x7f0901f5
+			public const int ilsp_expenses_sx_householdassetsegfurnituresolar = 2131296757;
+			
+			// aapt resource value: 0x7f0901f6
+			public const int ilsp_expenses_sx_otherinvestments = 2131296758;
+			
+			// aapt resource value: 0x7f0901f4
+			public const int ilsp_expenses_sx_productiveassetsfarmassets = 2131296756;
+			
+			// aapt resource value: 0x7f0901f9
+			public const int ilsp_expenses_sx_savings = 2131296761;
+			
+			// aapt resource value: 0x7f0901ed
+			public const int ilsp_expenses_sx_shelterhousingbuildingrenovations = 2131296749;
+			
+			// aapt resource value: 0x7f0901f8
+			public const int ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions = 2131296760;
+			
+			// aapt resource value: 0x7f0901f2
+			public const int ilsp_expenses_sx_transportation = 2131296754;
+			
+			// aapt resource value: 0x7f0901f1
+			public const int ilsp_expenses_sx_utilitieselectricitymobile = 2131296753;
+			
+			// aapt resource value: 0x7f090267
+			public const int ilsp_factors_controlled_by = 2131296871;
+			
+			// aapt resource value: 0x7f090264
+			public const int ilsp_factors_controlled_by_maleandfemale = 2131296868;
+			
+			// aapt resource value: 0x7f090266
+			public const int ilsp_factors_controlled_by_onlyfemale = 2131296870;
+			
+			// aapt resource value: 0x7f090265
+			public const int ilsp_factors_controlled_by_onlymale = 2131296869;
+			
+			// aapt resource value: 0x7f09006b
+			public const int ilsp_family_size = 2131296363;
 			
 			// aapt resource value: 0x7f090273
-			public const int ilsp_particip_comm_org_dec = 2131296883;
+			public const int ilsp_family_size_dec = 2131296883;
 			
-			// aapt resource value: 0x7f0902c4
-			public const int ilsp_passed_on_gift = 2131296964;
+			// aapt resource value: 0x7f09023a
+			public const int ilsp_family_type = 2131296826;
 			
-			// aapt resource value: 0x7f0902c6
-			public const int ilsp_passed_on_gift_no = 2131296966;
+			// aapt resource value: 0x7f09023b
+			public const int ilsp_family_type_a = 2131296827;
 			
-			// aapt resource value: 0x7f0902c5
-			public const int ilsp_passed_on_gift_yes = 2131296965;
+			// aapt resource value: 0x7f09023c
+			public const int ilsp_family_type_b = 2131296828;
 			
-			// aapt resource value: 0x7f0902b3
-			public const int ilsp_people_trust_one_another = 2131296947;
+			// aapt resource value: 0x7f09023d
+			public const int ilsp_family_type_c = 2131296829;
 			
-			// aapt resource value: 0x7f0902b5
-			public const int ilsp_people_trust_one_another_no = 2131296949;
+			// aapt resource value: 0x7f0900c0
+			public const int ilsp_farm_prodn_livestock = 2131296448;
 			
-			// aapt resource value: 0x7f0902b4
-			public const int ilsp_people_trust_one_another_yes = 2131296948;
+			// aapt resource value: 0x7f090072
+			public const int ilsp_female_adult_36_to_64 = 2131296370;
+			
+			// aapt resource value: 0x7f09006e
+			public const int ilsp_female_children_5_to_17 = 2131296366;
+			
+			// aapt resource value: 0x7f09006c
+			public const int ilsp_female_children_under_5 = 2131296364;
+			
+			// aapt resource value: 0x7f090074
+			public const int ilsp_female_elderly_65 = 2131296372;
+			
+			// aapt resource value: 0x7f0901e1
+			public const int ilsp_female_household_member = 2131296737;
+			
+			// aapt resource value: 0x7f090070
+			public const int ilsp_female_youth_18_to_35 = 2131296368;
+			
+			// aapt resource value: 0x7f0900e1
+			public const int ilsp_fodder_produced = 2131296481;
+			
+			// aapt resource value: 0x7f090174
+			public const int ilsp_food_group_consumed = 2131296628;
+			
+			// aapt resource value: 0x7f090176
+			public const int ilsp_food_group_consumed_no = 2131296630;
+			
+			// aapt resource value: 0x7f090175
+			public const int ilsp_food_group_consumed_yes = 2131296629;
+			
+			// aapt resource value: 0x7f090173
+			public const int ilsp_food_group_name_sx_cerealsmilletricenshima = 2131296627;
+			
+			// aapt resource value: 0x7f090182
+			public const int ilsp_food_group_name_sx_eggs = 2131296642;
+			
+			// aapt resource value: 0x7f090183
+			public const int ilsp_food_group_name_sx_fishfishkapenta = 2131296643;
+			
+			// aapt resource value: 0x7f090180
+			public const int ilsp_food_group_name_sx_fruitspineapplesmangoesorangesapplespawpawswatermelon = 2131296640;
+			
+			// aapt resource value: 0x7f090184
+			public const int ilsp_food_group_name_sx_legumesgroundnutsbeanssoyapeas = 2131296644;
+			
+			// aapt resource value: 0x7f090181
+			public const int ilsp_food_group_name_sx_meatbeefporklambgoatrabbitwildgamechickenduckotherbirds = 2131296641;
+			
+			// aapt resource value: 0x7f090185
+			public const int ilsp_food_group_name_sx_milkmilkyogurtsourmilk = 2131296645;
+			
+			// aapt resource value: 0x7f090186
+			public const int ilsp_food_group_name_sx_oilsandfatsoilfatsorbutteraddedtofoodorusedforcooking = 2131296646;
+			
+			// aapt resource value: 0x7f090188
+			public const int ilsp_food_group_name_sx_spicesandcondimentsgingerteacoffee = 2131296648;
+			
+			// aapt resource value: 0x7f090187
+			public const int ilsp_food_group_name_sx_sweetssugarhoneysugarcanesugaryfoods = 2131296647;
+			
+			// aapt resource value: 0x7f09017e
+			public const int ilsp_food_group_name_sx_tuberssweetpotatoescassava = 2131296638;
+			
+			// aapt resource value: 0x7f09017f
+			public const int ilsp_food_group_name_sx_vegetablestomatoesonionsgreenpeppercabbageeggplants = 2131296639;
+			
+			// aapt resource value: 0x7f090172
+			public const int ilsp_food_groups_consumed = 2131296626;
+			
+			// aapt resource value: 0x7f0902ac
+			public const int ilsp_food_proc_utiliz_trng = 2131296940;
+			
+			// aapt resource value: 0x7f090077
+			public const int ilsp_food_sec_and_nutrition = 2131296375;
+			
+			// aapt resource value: 0x7f0900ff
+			public const int ilsp_frequency_livestock_dip = 2131296511;
+			
+			// aapt resource value: 0x7f090106
+			public const int ilsp_frequency_livestock_dip_accordingtoschedule = 2131296518;
+			
+			// aapt resource value: 0x7f090105
+			public const int ilsp_frequency_livestock_dip_annually = 2131296517;
+			
+			// aapt resource value: 0x7f090104
+			public const int ilsp_frequency_livestock_dip_biannuallyevery6months = 2131296516;
+			
+			// aapt resource value: 0x7f090101
+			public const int ilsp_frequency_livestock_dip_every2weeks = 2131296513;
+			
+			// aapt resource value: 0x7f090102
+			public const int ilsp_frequency_livestock_dip_monthly = 2131296514;
+			
+			// aapt resource value: 0x7f090108
+			public const int ilsp_frequency_livestock_dip_never = 2131296520;
+			
+			// aapt resource value: 0x7f090109
+			public const int ilsp_frequency_livestock_dip_other = 2131296521;
+			
+			// aapt resource value: 0x7f090103
+			public const int ilsp_frequency_livestock_dip_quarterlyevery3months = 2131296515;
+			
+			// aapt resource value: 0x7f090100
+			public const int ilsp_frequency_livestock_dip_weekly = 2131296512;
+			
+			// aapt resource value: 0x7f090107
+			public const int ilsp_frequency_livestock_dip_whenthereisadiseaseoutbreak = 2131296519;
+			
+			// aapt resource value: 0x7f090053
+			public const int ilsp_gender_of_beneficiary = 2131296339;
+			
+			// aapt resource value: 0x7f090055
+			public const int ilsp_gender_of_beneficiary_female = 2131296341;
+			
+			// aapt resource value: 0x7f090054
+			public const int ilsp_gender_of_beneficiary_male = 2131296340;
+			
+			// aapt resource value: 0x7f09005c
+			public const int ilsp_gender_of_household_head = 2131296348;
+			
+			// aapt resource value: 0x7f09005e
+			public const int ilsp_gender_of_household_head_female = 2131296350;
+			
+			// aapt resource value: 0x7f09005d
+			public const int ilsp_gender_of_household_head_male = 2131296349;
+			
+			// aapt resource value: 0x7f0902ad
+			public const int ilsp_gendr_eqty_wom_emp_trng = 2131296941;
+			
+			// aapt resource value: 0x7f0902ba
+			public const int ilsp_general_statement = 2131296954;
+			
+			// aapt resource value: 0x7f09003a
+			public const int ilsp_gps_latitude = 2131296314;
+			
+			// aapt resource value: 0x7f09003b
+			public const int ilsp_gps_longitude = 2131296315;
+			
+			// aapt resource value: 0x7f090299
+			public const int ilsp_group_available_sx_cooperative = 2131296921;
+			
+			// aapt resource value: 0x7f09029b
+			public const int ilsp_group_available_sx_creditfinancegroup = 2131296923;
+			
+			// aapt resource value: 0x7f09029f
+			public const int ilsp_group_available_sx_mensgroup = 2131296927;
+			
+			// aapt resource value: 0x7f0902a3
+			public const int ilsp_group_available_sx_other = 2131296931;
+			
+			// aapt resource value: 0x7f090297
+			public const int ilsp_group_available_sx_producergroup = 2131296919;
+			
+			// aapt resource value: 0x7f09029d
+			public const int ilsp_group_available_sx_womensgroup = 2131296925;
+			
+			// aapt resource value: 0x7f0902a1
+			public const int ilsp_group_available_sx_youthgroup = 2131296929;
+			
+			// aapt resource value: 0x7f0902a7
+			public const int ilsp_group_mgmnt_skills_trng = 2131296935;
+			
+			// aapt resource value: 0x7f0900d8
+			public const int ilsp_grow_fodder_livstck = 2131296472;
+			
+			// aapt resource value: 0x7f0900da
+			public const int ilsp_grow_fodder_livstck_no = 2131296474;
+			
+			// aapt resource value: 0x7f0900d9
+			public const int ilsp_grow_fodder_livstck_yes = 2131296473;
 			
 			// aapt resource value: 0x7f0901c8
-			public const int ilsp_pit_latrines_accesssible = 2131296712;
-			
-			// aapt resource value: 0x7f0901c9
-			public const int ilsp_pit_latrines_accesssible_ordinarypitlatrines = 2131296713;
-			
-			// aapt resource value: 0x7f0901ca
-			public const int ilsp_pit_latrines_accesssible_viplatrines = 2131296714;
+			public const int ilsp_had_mnths_no_water_anim = 2131296712;
 			
 			// aapt resource value: 0x7f0901cb
-			public const int ilsp_pit_latrines_accesssible_watercloset = 2131296715;
+			public const int ilsp_had_mnths_no_water_anim_na = 2131296715;
 			
-			// aapt resource value: 0x7f090082
-			public const int ilsp_plot_size_labeel = 2131296386;
+			// aapt resource value: 0x7f0901ca
+			public const int ilsp_had_mnths_no_water_anim_no = 2131296714;
 			
-			// aapt resource value: 0x7f0902c9
-			public const int ilsp_pog_contributes = 2131296969;
+			// aapt resource value: 0x7f0901c9
+			public const int ilsp_had_mnths_no_water_anim_yes = 2131296713;
 			
-			// aapt resource value: 0x7f0902ca
-			public const int ilsp_pog_contributes_agree = 2131296970;
+			// aapt resource value: 0x7f09019c
+			public const int ilsp_had_months_without_food = 2131296668;
 			
-			// aapt resource value: 0x7f0902cc
-			public const int ilsp_pog_contributes_disagree = 2131296972;
+			// aapt resource value: 0x7f09019e
+			public const int ilsp_had_months_without_food_no = 2131296670;
 			
-			// aapt resource value: 0x7f0902ce
-			public const int ilsp_pog_contributes_neutral = 2131296974;
+			// aapt resource value: 0x7f09019d
+			public const int ilsp_had_months_without_food_yes = 2131296669;
 			
-			// aapt resource value: 0x7f0902cb
-			public const int ilsp_pog_contributes_stronglyagree = 2131296971;
+			// aapt resource value: 0x7f0901fa
+			public const int ilsp_have_a_bank_account = 2131296762;
 			
-			// aapt resource value: 0x7f0902cd
-			public const int ilsp_pog_contributes_stronglydisagree = 2131296973;
+			// aapt resource value: 0x7f0901fc
+			public const int ilsp_have_a_bank_account_no = 2131296764;
 			
-			// aapt resource value: 0x7f090117
-			public const int ilsp_price_per_litre = 2131296535;
+			// aapt resource value: 0x7f0901fb
+			public const int ilsp_have_a_bank_account_yes = 2131296763;
 			
-			// aapt resource value: 0x7f090166
-			public const int ilsp_primary_source = 2131296614;
+			// aapt resource value: 0x7f0902c5
+			public const int ilsp_heard_or_practiced_pog = 2131296965;
 			
-			// aapt resource value: 0x7f090169
-			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives = 2131296617;
+			// aapt resource value: 0x7f0902c7
+			public const int ilsp_heard_or_practiced_pog_no = 2131296967;
 			
-			// aapt resource value: 0x7f09016a
-			public const int ilsp_primary_source_foodaid = 2131296618;
+			// aapt resource value: 0x7f0902c6
+			public const int ilsp_heard_or_practiced_pog_yes = 2131296966;
 			
-			// aapt resource value: 0x7f09016b
-			public const int ilsp_primary_source_other = 2131296619;
+			// aapt resource value: 0x7f0902ae
+			public const int ilsp_hiv_aids_awareness_trng = 2131296942;
 			
-			// aapt resource value: 0x7f090167
-			public const int ilsp_primary_source_ownproduction = 2131296615;
+			// aapt resource value: 0x7f090272
+			public const int ilsp_household_exp_dec = 2131296882;
 			
-			// aapt resource value: 0x7f090168
-			public const int ilsp_primary_source_purchased = 2131296616;
+			// aapt resource value: 0x7f090145
+			public const int ilsp_how_livestock_sold = 2131296581;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int ilsp_produce_sold = 2131296418;
+			// aapt resource value: 0x7f090147
+			public const int ilsp_how_livestock_sold_aggregatingbulkingasaproducergroup = 2131296583;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int ilsp_produce_sold_no = 2131296420;
+			// aapt resource value: 0x7f090146
+			public const int ilsp_how_livestock_sold_individually = 2131296582;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int ilsp_produce_sold_yes = 2131296419;
+			// aapt resource value: 0x7f090148
+			public const int ilsp_how_livestock_sold_na = 2131296584;
 			
-			// aapt resource value: 0x7f090098
-			public const int ilsp_production_quantity = 2131296408;
+			// aapt resource value: 0x7f09010b
+			public const int ilsp_how_often_vacc_livstck = 2131296523;
 			
-			// aapt resource value: 0x7f090099
-			public const int ilsp_production_uom = 2131296409;
+			// aapt resource value: 0x7f09010c
+			public const int ilsp_how_often_vacc_livstck_accordingtovaccinationschedule = 2131296524;
 			
-			// aapt resource value: 0x7f09009c
-			public const int ilsp_production_uom_box = 2131296412;
-			
-			// aapt resource value: 0x7f09009d
-			public const int ilsp_production_uom_bunch = 2131296413;
-			
-			// aapt resource value: 0x7f09009e
-			public const int ilsp_production_uom_head = 2131296414;
-			
-			// aapt resource value: 0x7f09009a
-			public const int ilsp_production_uom_kilograms = 2131296410;
-			
-			// aapt resource value: 0x7f09009b
-			public const int ilsp_production_uom_sack = 2131296411;
-			
-			// aapt resource value: 0x7f090083
-			public const int ilsp_productive_land_size = 2131296387;
-			
-			// aapt resource value: 0x7f090084
-			public const int ilsp_productive_land_uom = 2131296388;
-			
-			// aapt resource value: 0x7f090085
-			public const int ilsp_productive_land_uom_acres = 2131296389;
-			
-			// aapt resource value: 0x7f090086
-			public const int ilsp_productive_land_uom_hectares = 2131296390;
-			
-			// aapt resource value: 0x7f090087
-			public const int ilsp_productive_land_uom_lima = 2131296391;
-			
-			// aapt resource value: 0x7f090088
-			public const int ilsp_productive_land_uom_sqmeter = 2131296392;
+			// aapt resource value: 0x7f09010f
+			public const int ilsp_how_often_vacc_livstck_annually = 2131296527;
 			
 			// aapt resource value: 0x7f090111
-			public const int ilsp_proj_reltd_milk_prodn = 2131296529;
+			public const int ilsp_how_often_vacc_livstck_na = 2131296529;
 			
-			// aapt resource value: 0x7f090113
-			public const int ilsp_proj_reltd_milk_prodn_no = 2131296531;
+			// aapt resource value: 0x7f090110
+			public const int ilsp_how_often_vacc_livstck_never = 2131296528;
 			
 			// aapt resource value: 0x7f090112
-			public const int ilsp_proj_reltd_milk_prodn_yes = 2131296530;
+			public const int ilsp_how_often_vacc_livstck_other = 2131296530;
 			
-			// aapt resource value: 0x7f090034
-			public const int ilsp_project_duration = 2131296308;
+			// aapt resource value: 0x7f09010d
+			public const int ilsp_how_often_vacc_livstck_whenanimalsaresick = 2131296525;
 			
-			// aapt resource value: 0x7f090035
-			public const int ilsp_project_duration_1year = 2131296309;
+			// aapt resource value: 0x7f09010e
+			public const int ilsp_how_often_vacc_livstck_whenthereisadiseaseoutbreak = 2131296526;
 			
-			// aapt resource value: 0x7f090036
-			public const int ilsp_project_duration_2years = 2131296310;
+			// aapt resource value: 0x7f09012a
+			public const int ilsp_how_you_sell_your_milk = 2131296554;
 			
-			// aapt resource value: 0x7f090037
-			public const int ilsp_project_duration_3years = 2131296311;
+			// aapt resource value: 0x7f09012c
+			public const int ilsp_how_you_sell_your_milk_aggregatingbulkingasaproducergroup = 2131296556;
+			
+			// aapt resource value: 0x7f09012b
+			public const int ilsp_how_you_sell_your_milk_individually = 2131296555;
+			
+			// aapt resource value: 0x7f09012d
+			public const int ilsp_how_you_sell_your_milk_na = 2131296557;
+			
+			// aapt resource value: 0x7f090141
+			public const int ilsp_how_your_crops_are_sold = 2131296577;
+			
+			// aapt resource value: 0x7f090143
+			public const int ilsp_how_your_crops_are_sold_aggregatingbulkingasaproducergroup = 2131296579;
+			
+			// aapt resource value: 0x7f090142
+			public const int ilsp_how_your_crops_are_sold_individually = 2131296578;
+			
+			// aapt resource value: 0x7f090144
+			public const int ilsp_how_your_crops_are_sold_na = 2131296580;
+			
+			// aapt resource value: 0x7f090234
+			public const int ilsp_hse_roof_princip_mater = 2131296820;
+			
+			// aapt resource value: 0x7f090235
+			public const int ilsp_hse_roof_princip_mater_grassthatched = 2131296821;
+			
+			// aapt resource value: 0x7f090236
+			public const int ilsp_hse_roof_princip_mater_ironsheet = 2131296822;
+			
+			// aapt resource value: 0x7f090238
+			public const int ilsp_hse_roof_princip_mater_other = 2131296824;
+			
+			// aapt resource value: 0x7f090237
+			public const int ilsp_hse_roof_princip_mater_plastics = 2131296823;
+			
+			// aapt resource value: 0x7f09023e
+			public const int ilsp_improved_environment = 2131296830;
+			
+			// aapt resource value: 0x7f0902b4
+			public const int ilsp_in_comm_labor_groups = 2131296948;
+			
+			// aapt resource value: 0x7f0902b6
+			public const int ilsp_in_comm_labor_groups_no = 2131296950;
+			
+			// aapt resource value: 0x7f0902b5
+			public const int ilsp_in_comm_labor_groups_yes = 2131296949;
+			
+			// aapt resource value: 0x7f0901dd
+			public const int ilsp_income_and_assets = 2131296733;
+			
+			// aapt resource value: 0x7f0900c9
+			public const int ilsp_income_realised = 2131296457;
+			
+			// aapt resource value: 0x7f090091
+			public const int ilsp_infarm_prodn_details = 2131296401;
+			
+			// aapt resource value: 0x7f09018f
+			public const int ilsp_is_this_pattern_usual = 2131296655;
+			
+			// aapt resource value: 0x7f090191
+			public const int ilsp_is_this_pattern_usual_no = 2131296657;
+			
+			// aapt resource value: 0x7f090190
+			public const int ilsp_is_this_pattern_usual_yes = 2131296656;
+			
+			// aapt resource value: 0x7f090271
+			public const int ilsp_labor_hours_dec = 2131296881;
+			
+			// aapt resource value: 0x7f090268
+			public const int ilsp_land = 2131296872;
+			
+			// aapt resource value: 0x7f09007b
+			public const int ilsp_land_tenure_system_is = 2131296379;
+			
+			// aapt resource value: 0x7f09007f
+			public const int ilsp_land_tenure_system_is_borrowed = 2131296383;
+			
+			// aapt resource value: 0x7f090082
+			public const int ilsp_land_tenure_system_is_dontknow = 2131296386;
+			
+			// aapt resource value: 0x7f09007e
+			public const int ilsp_land_tenure_system_is_hiredrented = 2131296382;
+			
+			// aapt resource value: 0x7f09007d
+			public const int ilsp_land_tenure_system_is_leasehold = 2131296381;
+			
+			// aapt resource value: 0x7f090081
+			public const int ilsp_land_tenure_system_is_municipallandcouncil = 2131296385;
+			
+			// aapt resource value: 0x7f090080
+			public const int ilsp_land_tenure_system_is_squating = 2131296384;
+			
+			// aapt resource value: 0x7f09007c
+			public const int ilsp_land_tenure_system_is_traditional = 2131296380;
+			
+			// aapt resource value: 0x7f090290
+			public const int ilsp_level_community_participation = 2131296912;
+			
+			// aapt resource value: 0x7f09028e
+			public const int ilsp_level_community_participation_average = 2131296910;
+			
+			// aapt resource value: 0x7f09028f
+			public const int ilsp_level_community_participation_high = 2131296911;
+			
+			// aapt resource value: 0x7f09028d
+			public const int ilsp_level_community_participation_low = 2131296909;
+			
+			// aapt resource value: 0x7f0900d7
+			public const int ilsp_livestock_fodder = 2131296471;
+			
+			// aapt resource value: 0x7f090252
+			public const int ilsp_livestock_graztyp = 2131296850;
+			
+			// aapt resource value: 0x7f090256
+			public const int ilsp_livestock_graztyp_communalgrazing = 2131296854;
+			
+			// aapt resource value: 0x7f090255
+			public const int ilsp_livestock_graztyp_controlledgrazing = 2131296853;
+			
+			// aapt resource value: 0x7f090257
+			public const int ilsp_livestock_graztyp_freerangegrazing = 2131296855;
+			
+			// aapt resource value: 0x7f090258
+			public const int ilsp_livestock_graztyp_other = 2131296856;
+			
+			// aapt resource value: 0x7f090254
+			public const int ilsp_livestock_graztyp_semizerograzing = 2131296852;
+			
+			// aapt resource value: 0x7f090253
+			public const int ilsp_livestock_graztyp_zerograzing = 2131296851;
+			
+			// aapt resource value: 0x7f0900c2
+			public const int ilsp_livestock_grown = 2131296450;
+			
+			// aapt resource value: 0x7f0900c4
+			public const int ilsp_livestock_grown_no = 2131296452;
+			
+			// aapt resource value: 0x7f0900c3
+			public const int ilsp_livestock_grown_yes = 2131296451;
+			
+			// aapt resource value: 0x7f0900d3
+			public const int ilsp_livestock_name_sx_beefcattle = 2131296467;
+			
+			// aapt resource value: 0x7f0900ca
+			public const int ilsp_livestock_name_sx_broilerchickens = 2131296458;
+			
+			// aapt resource value: 0x7f0900d2
+			public const int ilsp_livestock_name_sx_dairycattle = 2131296466;
+			
+			// aapt resource value: 0x7f0900d4
+			public const int ilsp_livestock_name_sx_draftcattle = 2131296468;
+			
+			// aapt resource value: 0x7f0900cc
+			public const int ilsp_livestock_name_sx_ducks = 2131296460;
+			
+			// aapt resource value: 0x7f0900cf
+			public const int ilsp_livestock_name_sx_goats = 2131296463;
+			
+			// aapt resource value: 0x7f0900cd
+			public const int ilsp_livestock_name_sx_guineafowls = 2131296461;
+			
+			// aapt resource value: 0x7f0900c1
+			public const int ilsp_livestock_name_sx_localchickens = 2131296449;
+			
+			// aapt resource value: 0x7f0900d6
+			public const int ilsp_livestock_name_sx_other = 2131296470;
+			
+			// aapt resource value: 0x7f0900ce
+			public const int ilsp_livestock_name_sx_pigeons = 2131296462;
+			
+			// aapt resource value: 0x7f0900d0
+			public const int ilsp_livestock_name_sx_pigs = 2131296464;
+			
+			// aapt resource value: 0x7f0900d5
+			public const int ilsp_livestock_name_sx_quails = 2131296469;
+			
+			// aapt resource value: 0x7f0900d1
+			public const int ilsp_livestock_name_sx_sheep = 2131296465;
+			
+			// aapt resource value: 0x7f0900cb
+			public const int ilsp_livestock_name_sx_turkeys = 2131296459;
+			
+			// aapt resource value: 0x7f0900e5
+			public const int ilsp_livstck_enough_food = 2131296485;
+			
+			// aapt resource value: 0x7f0900e7
+			public const int ilsp_livstck_enough_food_no = 2131296487;
+			
+			// aapt resource value: 0x7f0900e6
+			public const int ilsp_livstck_enough_food_yes = 2131296486;
+			
+			// aapt resource value: 0x7f0902a9
+			public const int ilsp_livstck_mgmt_health_trng = 2131296937;
+			
+			// aapt resource value: 0x7f090200
+			public const int ilsp_loan_amount_received = 2131296768;
+			
+			// aapt resource value: 0x7f090269
+			public const int ilsp_machinery_work_land = 2131296873;
+			
+			// aapt resource value: 0x7f09022d
+			public const int ilsp_main_walls_material = 2131296813;
+			
+			// aapt resource value: 0x7f09022f
+			public const int ilsp_main_walls_material_clayburntbricks = 2131296815;
+			
+			// aapt resource value: 0x7f090230
+			public const int ilsp_main_walls_material_concreteblocks = 2131296816;
+			
+			// aapt resource value: 0x7f090231
+			public const int ilsp_main_walls_material_grassthatched = 2131296817;
+			
+			// aapt resource value: 0x7f09022e
+			public const int ilsp_main_walls_material_mud = 2131296814;
+			
+			// aapt resource value: 0x7f090232
+			public const int ilsp_main_walls_material_other = 2131296818;
+			
+			// aapt resource value: 0x7f090073
+			public const int ilsp_male_adult_36_to_64 = 2131296371;
+			
+			// aapt resource value: 0x7f09006f
+			public const int ilsp_male_children_5_to_17 = 2131296367;
+			
+			// aapt resource value: 0x7f09006d
+			public const int ilsp_male_children_under_5 = 2131296365;
+			
+			// aapt resource value: 0x7f090075
+			public const int ilsp_male_elderly_65 = 2131296373;
+			
+			// aapt resource value: 0x7f0901e0
+			public const int ilsp_male_household_member = 2131296736;
+			
+			// aapt resource value: 0x7f090071
+			public const int ilsp_male_youth_18_to_35 = 2131296369;
+			
+			// aapt resource value: 0x7f090275
+			public const int ilsp_manage_house_dec = 2131296885;
+			
+			// aapt resource value: 0x7f090056
+			public const int ilsp_marital_status_beneficiary = 2131296342;
+			
+			// aapt resource value: 0x7f09005a
+			public const int ilsp_marital_status_beneficiary_divorced = 2131296346;
+			
+			// aapt resource value: 0x7f090058
+			public const int ilsp_marital_status_beneficiary_married = 2131296344;
+			
+			// aapt resource value: 0x7f090059
+			public const int ilsp_marital_status_beneficiary_separated = 2131296345;
+			
+			// aapt resource value: 0x7f090057
+			public const int ilsp_marital_status_beneficiary_single = 2131296343;
+			
+			// aapt resource value: 0x7f09005b
+			public const int ilsp_marital_status_beneficiary_widowed = 2131296347;
+			
+			// aapt resource value: 0x7f090292
+			public const int ilsp_men_participation = 2131296914;
+			
+			// aapt resource value: 0x7f09026b
+			public const int ilsp_microfinance_services = 2131296875;
+			
+			// aapt resource value: 0x7f090120
+			public const int ilsp_milk_production = 2131296544;
+			
+			// aapt resource value: 0x7f090121
+			public const int ilsp_milk_type_name_sx_cowmilk = 2131296545;
+			
+			// aapt resource value: 0x7f0901cc
+			public const int ilsp_mnths_water_scarcity = 2131296716;
+			
+			// aapt resource value: 0x7f0901d0
+			public const int ilsp_mnths_water_scarcity_april = 2131296720;
+			
+			// aapt resource value: 0x7f0901d4
+			public const int ilsp_mnths_water_scarcity_august = 2131296724;
+			
+			// aapt resource value: 0x7f0901d8
+			public const int ilsp_mnths_water_scarcity_december = 2131296728;
+			
+			// aapt resource value: 0x7f0901ce
+			public const int ilsp_mnths_water_scarcity_february = 2131296718;
+			
+			// aapt resource value: 0x7f0901cd
+			public const int ilsp_mnths_water_scarcity_january = 2131296717;
+			
+			// aapt resource value: 0x7f0901d3
+			public const int ilsp_mnths_water_scarcity_july = 2131296723;
+			
+			// aapt resource value: 0x7f0901d2
+			public const int ilsp_mnths_water_scarcity_june = 2131296722;
+			
+			// aapt resource value: 0x7f0901cf
+			public const int ilsp_mnths_water_scarcity_march = 2131296719;
+			
+			// aapt resource value: 0x7f0901d1
+			public const int ilsp_mnths_water_scarcity_may = 2131296721;
+			
+			// aapt resource value: 0x7f0901d7
+			public const int ilsp_mnths_water_scarcity_november = 2131296727;
+			
+			// aapt resource value: 0x7f0901d6
+			public const int ilsp_mnths_water_scarcity_october = 2131296726;
+			
+			// aapt resource value: 0x7f0901d5
+			public const int ilsp_mnths_water_scarcity_september = 2131296725;
+			
+			// aapt resource value: 0x7f09019f
+			public const int ilsp_months_food_scarcity = 2131296671;
+			
+			// aapt resource value: 0x7f0901a3
+			public const int ilsp_months_food_scarcity_april = 2131296675;
+			
+			// aapt resource value: 0x7f0901a7
+			public const int ilsp_months_food_scarcity_august = 2131296679;
+			
+			// aapt resource value: 0x7f0901ab
+			public const int ilsp_months_food_scarcity_december = 2131296683;
+			
+			// aapt resource value: 0x7f0901a1
+			public const int ilsp_months_food_scarcity_february = 2131296673;
+			
+			// aapt resource value: 0x7f0901a0
+			public const int ilsp_months_food_scarcity_january = 2131296672;
+			
+			// aapt resource value: 0x7f0901a6
+			public const int ilsp_months_food_scarcity_july = 2131296678;
+			
+			// aapt resource value: 0x7f0901a5
+			public const int ilsp_months_food_scarcity_june = 2131296677;
+			
+			// aapt resource value: 0x7f0901a2
+			public const int ilsp_months_food_scarcity_march = 2131296674;
+			
+			// aapt resource value: 0x7f0901a4
+			public const int ilsp_months_food_scarcity_may = 2131296676;
+			
+			// aapt resource value: 0x7f0901aa
+			public const int ilsp_months_food_scarcity_november = 2131296682;
+			
+			// aapt resource value: 0x7f0901a9
+			public const int ilsp_months_food_scarcity_october = 2131296681;
+			
+			// aapt resource value: 0x7f0901a8
+			public const int ilsp_months_food_scarcity_september = 2131296680;
+			
+			// aapt resource value: 0x7f0900e8
+			public const int ilsp_months_without_feed = 2131296488;
+			
+			// aapt resource value: 0x7f0900c7
+			public const int ilsp_mortality_last_year = 2131296455;
+			
+			// aapt resource value: 0x7f09003c
+			public const int ilsp_name_of_beneficiary = 2131296316;
+			
+			// aapt resource value: 0x7f09003e
+			public const int ilsp_name_of_group = 2131296318;
 			
 			// aapt resource value: 0x7f090038
-			public const int ilsp_project_duration_4years = 2131296312;
+			public const int ilsp_name_of_interviewer = 2131296312;
 			
-			// aapt resource value: 0x7f090039
-			public const int ilsp_project_duration_5years = 2131296313;
+			// aapt resource value: 0x7f09003f
+			public const int ilsp_name_of_village = 2131296319;
+			
+			// aapt resource value: 0x7f09021c
+			public const int ilsp_non_agric_tools_owned_and_quantity = 2131296796;
+			
+			// aapt resource value: 0x7f09020f
+			public const int ilsp_number_owned = 2131296783;
+			
+			// aapt resource value: 0x7f090221
+			public const int ilsp_number_owned_non_agric = 2131296801;
+			
+			// aapt resource value: 0x7f0900c8
+			public const int ilsp_number_sold_last_year = 2131296456;
+			
+			// aapt resource value: 0x7f0900c6
+			public const int ilsp_offspring_born_last_year = 2131296454;
+			
+			// aapt resource value: 0x7f0901c7
+			public const int ilsp_other_avg_tme_bring_wtr = 2131296711;
+			
+			// aapt resource value: 0x7f0901b6
+			public const int ilsp_other_coping_strat_emp = 2131296694;
+			
+			// aapt resource value: 0x7f090251
+			public const int ilsp_other_energy_type_used = 2131296849;
+			
+			// aapt resource value: 0x7f0900f7
+			public const int ilsp_other_feed_source = 2131296503;
+			
+			// aapt resource value: 0x7f09010a
+			public const int ilsp_other_freq_livstck_dip = 2131296522;
+			
+			// aapt resource value: 0x7f0901e2
+			public const int ilsp_other_household_member = 2131296738;
+			
+			// aapt resource value: 0x7f090259
+			public const int ilsp_other_livestock_graztyp = 2131296857;
+			
+			// aapt resource value: 0x7f090233
+			public const int ilsp_other_main_wall_mater = 2131296819;
+			
+			// aapt resource value: 0x7f090239
+			public const int ilsp_other_material_hse_roof = 2131296825;
+			
+			// aapt resource value: 0x7f09019b
+			public const int ilsp_other_reas_food_scarcity = 2131296667;
+			
+			// aapt resource value: 0x7f09024a
+			public const int ilsp_other_soil_conserv_pract = 2131296842;
+			
+			// aapt resource value: 0x7f09011f
+			public const int ilsp_other_souce_livstck_drgs = 2131296543;
+			
+			// aapt resource value: 0x7f090161
+			public const int ilsp_other_source_market_info = 2131296609;
+			
+			// aapt resource value: 0x7f090208
+			public const int ilsp_other_source_of_loan = 2131296776;
+			
+			// aapt resource value: 0x7f0900fe
+			public const int ilsp_other_tick_control = 2131296510;
+			
+			// aapt resource value: 0x7f09016d
+			public const int ilsp_other_type_farm_rec_kept = 2131296621;
+			
+			// aapt resource value: 0x7f090113
+			public const int ilsp_other_vacc_livstck = 2131296531;
+			
+			// aapt resource value: 0x7f0901c0
+			public const int ilsp_other_water_sources = 2131296704;
+			
+			// aapt resource value: 0x7f090137
+			public const int ilsp_other_where_milk_is_sold = 2131296567;
+			
+			// aapt resource value: 0x7f090154
+			public const int ilsp_other_whr_agric_prod_sld = 2131296596;
+			
+			// aapt resource value: 0x7f090270
+			public const int ilsp_own_education_dec = 2131296880;
+			
+			// aapt resource value: 0x7f09020c
+			public const int ilsp_owned = 2131296780;
+			
+			// aapt resource value: 0x7f09020e
+			public const int ilsp_owned_no = 2131296782;
+			
+			// aapt resource value: 0x7f09021e
+			public const int ilsp_owned_non_agric = 2131296798;
+			
+			// aapt resource value: 0x7f090220
+			public const int ilsp_owned_non_agric_no = 2131296800;
+			
+			// aapt resource value: 0x7f09021f
+			public const int ilsp_owned_non_agric_yes = 2131296799;
+			
+			// aapt resource value: 0x7f09020d
+			public const int ilsp_owned_yes = 2131296781;
+			
+			// aapt resource value: 0x7f090288
+			public const int ilsp_particip_comm_groups = 2131296904;
+			
+			// aapt resource value: 0x7f09028c
+			public const int ilsp_particip_comm_groups_dontparticipate = 2131296908;
+			
+			// aapt resource value: 0x7f09028b
+			public const int ilsp_particip_comm_groups_maleandfemale = 2131296907;
+			
+			// aapt resource value: 0x7f09028a
+			public const int ilsp_particip_comm_groups_onlyfemale = 2131296906;
+			
+			// aapt resource value: 0x7f090289
+			public const int ilsp_particip_comm_groups_onlymale = 2131296905;
+			
+			// aapt resource value: 0x7f090276
+			public const int ilsp_particip_comm_org_dec = 2131296886;
+			
+			// aapt resource value: 0x7f0902c8
+			public const int ilsp_passed_on_gift = 2131296968;
+			
+			// aapt resource value: 0x7f0902ca
+			public const int ilsp_passed_on_gift_no = 2131296970;
+			
+			// aapt resource value: 0x7f0902c9
+			public const int ilsp_passed_on_gift_yes = 2131296969;
+			
+			// aapt resource value: 0x7f0902b7
+			public const int ilsp_people_trust_one_another = 2131296951;
+			
+			// aapt resource value: 0x7f0902b9
+			public const int ilsp_people_trust_one_another_no = 2131296953;
+			
+			// aapt resource value: 0x7f0902b8
+			public const int ilsp_people_trust_one_another_yes = 2131296952;
+			
+			// aapt resource value: 0x7f0901d9
+			public const int ilsp_pit_latrines_accesssible = 2131296729;
+			
+			// aapt resource value: 0x7f0901da
+			public const int ilsp_pit_latrines_accesssible_ordinarypitlatrines = 2131296730;
+			
+			// aapt resource value: 0x7f0901db
+			public const int ilsp_pit_latrines_accesssible_viplatrines = 2131296731;
+			
+			// aapt resource value: 0x7f0901dc
+			public const int ilsp_pit_latrines_accesssible_watercloset = 2131296732;
+			
+			// aapt resource value: 0x7f090083
+			public const int ilsp_plot_size_label = 2131296387;
+			
+			// aapt resource value: 0x7f0902cd
+			public const int ilsp_pog_contributes = 2131296973;
+			
+			// aapt resource value: 0x7f0902ce
+			public const int ilsp_pog_contributes_agree = 2131296974;
+			
+			// aapt resource value: 0x7f0902d0
+			public const int ilsp_pog_contributes_disagree = 2131296976;
+			
+			// aapt resource value: 0x7f0902d2
+			public const int ilsp_pog_contributes_neutral = 2131296978;
+			
+			// aapt resource value: 0x7f0902cf
+			public const int ilsp_pog_contributes_stronglyagree = 2131296975;
+			
+			// aapt resource value: 0x7f0902d1
+			public const int ilsp_pog_contributes_stronglydisagree = 2131296977;
+			
+			// aapt resource value: 0x7f090128
+			public const int ilsp_price_per_litre = 2131296552;
+			
+			// aapt resource value: 0x7f090177
+			public const int ilsp_primary_source = 2131296631;
+			
+			// aapt resource value: 0x7f09017a
+			public const int ilsp_primary_source_borrowedgiftfromfriendsorrelatives = 2131296634;
+			
+			// aapt resource value: 0x7f09017b
+			public const int ilsp_primary_source_foodaid = 2131296635;
+			
+			// aapt resource value: 0x7f09017c
+			public const int ilsp_primary_source_other = 2131296636;
+			
+			// aapt resource value: 0x7f090178
+			public const int ilsp_primary_source_ownproduction = 2131296632;
+			
+			// aapt resource value: 0x7f090179
+			public const int ilsp_primary_source_purchased = 2131296633;
+			
+			// aapt resource value: 0x7f0900a6
+			public const int ilsp_produce_sold = 2131296422;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int ilsp_produce_sold_no = 2131296424;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int ilsp_produce_sold_yes = 2131296423;
+			
+			// aapt resource value: 0x7f09009c
+			public const int ilsp_production_quantity = 2131296412;
+			
+			// aapt resource value: 0x7f09009d
+			public const int ilsp_production_uom = 2131296413;
+			
+			// aapt resource value: 0x7f0900a0
+			public const int ilsp_production_uom_box = 2131296416;
+			
+			// aapt resource value: 0x7f0900a1
+			public const int ilsp_production_uom_bunch = 2131296417;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int ilsp_production_uom_head = 2131296418;
+			
+			// aapt resource value: 0x7f09009e
+			public const int ilsp_production_uom_kilograms = 2131296414;
+			
+			// aapt resource value: 0x7f09009f
+			public const int ilsp_production_uom_sack = 2131296415;
+			
+			// aapt resource value: 0x7f090084
+			public const int ilsp_productive_land_size = 2131296388;
+			
+			// aapt resource value: 0x7f090085
+			public const int ilsp_productive_land_uom = 2131296389;
+			
+			// aapt resource value: 0x7f090086
+			public const int ilsp_productive_land_uom_acres = 2131296390;
+			
+			// aapt resource value: 0x7f090087
+			public const int ilsp_productive_land_uom_hectares = 2131296391;
+			
+			// aapt resource value: 0x7f090088
+			public const int ilsp_productive_land_uom_lima = 2131296392;
+			
+			// aapt resource value: 0x7f090089
+			public const int ilsp_productive_land_uom_sqmeter = 2131296393;
+			
+			// aapt resource value: 0x7f090122
+			public const int ilsp_proj_reltd_milk_prodn = 2131296546;
+			
+			// aapt resource value: 0x7f090124
+			public const int ilsp_proj_reltd_milk_prodn_no = 2131296548;
+			
+			// aapt resource value: 0x7f090123
+			public const int ilsp_proj_reltd_milk_prodn_yes = 2131296547;
 			
 			// aapt resource value: 0x7f09002c
 			public const int ilsp_project_info = 2131296300;
 			
-			// aapt resource value: 0x7f09003a
-			public const int ilsp_project_year = 2131296314;
+			// aapt resource value: 0x7f090031
+			public const int ilsp_project_year = 2131296305;
 			
-			// aapt resource value: 0x7f09003b
-			public const int ilsp_project_year_year1 = 2131296315;
+			// aapt resource value: 0x7f090032
+			public const int ilsp_project_year_year1 = 2131296306;
 			
-			// aapt resource value: 0x7f09003c
-			public const int ilsp_project_year_year2 = 2131296316;
+			// aapt resource value: 0x7f090033
+			public const int ilsp_project_year_year2 = 2131296307;
 			
-			// aapt resource value: 0x7f09003d
-			public const int ilsp_project_year_year3 = 2131296317;
+			// aapt resource value: 0x7f090034
+			public const int ilsp_project_year_year3 = 2131296308;
 			
-			// aapt resource value: 0x7f09003e
-			public const int ilsp_project_year_year4 = 2131296318;
+			// aapt resource value: 0x7f090035
+			public const int ilsp_project_year_year4 = 2131296309;
 			
-			// aapt resource value: 0x7f09003f
-			public const int ilsp_project_year_year5 = 2131296319;
-			
-			// aapt resource value: 0x7f090051
-			public const int ilsp_projected_recruited_from = 2131296337;
-			
-			// aapt resource value: 0x7f090052
-			public const int ilsp_projected_recruited_from_ilasp = 2131296338;
-			
-			// aapt resource value: 0x7f090053
-			public const int ilsp_projected_recruited_from_slwep = 2131296339;
-			
-			// aapt resource value: 0x7f090115
-			public const int ilsp_qty_consumed_per_day = 2131296533;
-			
-			// aapt resource value: 0x7f09009f
-			public const int ilsp_quantity_consumed = 2131296415;
-			
-			// aapt resource value: 0x7f0900a1
-			public const int ilsp_quantity_gifted = 2131296417;
-			
-			// aapt resource value: 0x7f0900a0
-			public const int ilsp_quantity_seed = 2131296416;
-			
-			// aapt resource value: 0x7f0900a5
-			public const int ilsp_quantity_sold = 2131296421;
-			
-			// aapt resource value: 0x7f090116
-			public const int ilsp_quantity_sold_per_day = 2131296534;
-			
-			// aapt resource value: 0x7f0900a6
-			public const int ilsp_quantity_sold_uom = 2131296422;
-			
-			// aapt resource value: 0x7f0900a9
-			public const int ilsp_quantity_sold_uom_box = 2131296425;
-			
-			// aapt resource value: 0x7f0900aa
-			public const int ilsp_quantity_sold_uom_bunch = 2131296426;
-			
-			// aapt resource value: 0x7f0900ab
-			public const int ilsp_quantity_sold_uom_head = 2131296427;
-			
-			// aapt resource value: 0x7f0900a7
-			public const int ilsp_quantity_sold_uom_kilograms = 2131296423;
-			
-			// aapt resource value: 0x7f0900a8
-			public const int ilsp_quantity_sold_uom_sack = 2131296424;
-			
-			// aapt resource value: 0x7f0902b7
-			public const int ilsp_rate_statement_below = 2131296951;
-			
-			// aapt resource value: 0x7f0902b8
-			public const int ilsp_rate_statement_below_agree = 2131296952;
-			
-			// aapt resource value: 0x7f0902ba
-			public const int ilsp_rate_statement_below_disagree = 2131296954;
-			
-			// aapt resource value: 0x7f0902b9
-			public const int ilsp_rate_statement_below_stronglyagree = 2131296953;
-			
-			// aapt resource value: 0x7f0902bb
-			public const int ilsp_rate_statement_below_stronglydisagree = 2131296955;
-			
-			// aapt resource value: 0x7f090181
-			public const int ilsp_reas_food_not_last_yr = 2131296641;
-			
-			// aapt resource value: 0x7f090187
-			public const int ilsp_reas_food_not_last_yr_illnessinthefamily = 2131296647;
-			
-			// aapt resource value: 0x7f090183
-			public const int ilsp_reas_food_not_last_yr_inadequateinput = 2131296643;
-			
-			// aapt resource value: 0x7f090185
-			public const int ilsp_reas_food_not_last_yr_inadequatelabor = 2131296645;
-			
-			// aapt resource value: 0x7f090184
-			public const int ilsp_reas_food_not_last_yr_inadequateland = 2131296644;
-			
-			// aapt resource value: 0x7f090188
-			public const int ilsp_reas_food_not_last_yr_latedeliveryofinputs = 2131296648;
-			
-			// aapt resource value: 0x7f090189
-			public const int ilsp_reas_food_not_last_yr_other = 2131296649;
-			
-			// aapt resource value: 0x7f090182
-			public const int ilsp_reas_food_not_last_yr_poorweatherconditions = 2131296642;
-			
-			// aapt resource value: 0x7f090186
-			public const int ilsp_reas_food_not_last_yr_soldcroptoraisemone = 2131296646;
-			
-			// aapt resource value: 0x7f0902c8
-			public const int ilsp_reason_not_pog = 2131296968;
-			
-			// aapt resource value: 0x7f0901ec
-			public const int ilsp_received_loan_past_year = 2131296748;
-			
-			// aapt resource value: 0x7f0901ee
-			public const int ilsp_received_loan_past_year_no = 2131296750;
-			
-			// aapt resource value: 0x7f0901ed
-			public const int ilsp_received_loan_past_year_yes = 2131296749;
-			
-			// aapt resource value: 0x7f090048
-			public const int ilsp_respondent_info = 2131296328;
-			
-			// aapt resource value: 0x7f090276
-			public const int ilsp_service_available = 2131296886;
-			
-			// aapt resource value: 0x7f090278
-			public const int ilsp_service_available_no = 2131296888;
-			
-			// aapt resource value: 0x7f090277
-			public const int ilsp_service_available_yes = 2131296887;
-			
-			// aapt resource value: 0x7f090291
-			public const int ilsp_social_capital = 2131296913;
-			
-			// aapt resource value: 0x7f09023c
-			public const int ilsp_soil_conservation_pract = 2131296828;
-			
-			// aapt resource value: 0x7f090240
-			public const int ilsp_soil_conservation_pract_composting = 2131296832;
-			
-			// aapt resource value: 0x7f090244
-			public const int ilsp_soil_conservation_pract_contourfarming = 2131296836;
-			
-			// aapt resource value: 0x7f090242
-			public const int ilsp_soil_conservation_pract_mulching = 2131296834;
-			
-			// aapt resource value: 0x7f090245
-			public const int ilsp_soil_conservation_pract_none = 2131296837;
-			
-			// aapt resource value: 0x7f090246
-			public const int ilsp_soil_conservation_pract_other = 2131296838;
-			
-			// aapt resource value: 0x7f090241
-			public const int ilsp_soil_conservation_pract_raisedbedgardening = 2131296833;
-			
-			// aapt resource value: 0x7f09023e
-			public const int ilsp_soil_conservation_pract_reducedtillage = 2131296830;
-			
-			// aapt resource value: 0x7f09023d
-			public const int ilsp_soil_conservation_pract_stripcropping = 2131296829;
-			
-			// aapt resource value: 0x7f090243
-			public const int ilsp_soil_conservation_pract_treeplanting = 2131296835;
-			
-			// aapt resource value: 0x7f09023f
-			public const int ilsp_soil_conservation_pract_zerotillage = 2131296831;
-			
-			// aapt resource value: 0x7f0902bc
-			public const int ilsp_someone_will_help = 2131296956;
-			
-			// aapt resource value: 0x7f0902bd
-			public const int ilsp_someone_will_help_agree = 2131296957;
-			
-			// aapt resource value: 0x7f0902bf
-			public const int ilsp_someone_will_help_disagree = 2131296959;
-			
-			// aapt resource value: 0x7f0902be
-			public const int ilsp_someone_will_help_stronglyagree = 2131296958;
-			
-			// aapt resource value: 0x7f0902c0
-			public const int ilsp_someone_will_help_stronglydisagree = 2131296960;
-			
-			// aapt resource value: 0x7f090103
-			public const int ilsp_source_livestock_drugs = 2131296515;
-			
-			// aapt resource value: 0x7f090104
-			public const int ilsp_source_livestock_drugs_communityanimalhealthworkersparavets = 2131296516;
-			
-			// aapt resource value: 0x7f090109
-			public const int ilsp_source_livestock_drugs_cooperatives = 2131296521;
-			
-			// aapt resource value: 0x7f090107
-			public const int ilsp_source_livestock_drugs_localagrovetshops = 2131296519;
-			
-			// aapt resource value: 0x7f09010c
-			public const int ilsp_source_livestock_drugs_na = 2131296524;
-			
-			// aapt resource value: 0x7f09010b
-			public const int ilsp_source_livestock_drugs_neverbuy = 2131296523;
-			
-			// aapt resource value: 0x7f09010d
-			public const int ilsp_source_livestock_drugs_other = 2131296525;
-			
-			// aapt resource value: 0x7f090106
-			public const int ilsp_source_livestock_drugs_privateveterinaryclinics = 2131296518;
-			
-			// aapt resource value: 0x7f090105
-			public const int ilsp_source_livestock_drugs_publicvetcliniccamp = 2131296517;
-			
-			// aapt resource value: 0x7f090108
-			public const int ilsp_source_livestock_drugs_urbanagrovetshops = 2131296520;
-			
-			// aapt resource value: 0x7f09010a
-			public const int ilsp_source_livestock_drugs_usenaturalremedies = 2131296522;
-			
-			// aapt resource value: 0x7f0901f0
-			public const int ilsp_source_of_loan = 2131296752;
-			
-			// aapt resource value: 0x7f0901f5
-			public const int ilsp_source_of_loan_commercialbank = 2131296757;
-			
-			// aapt resource value: 0x7f0901f2
-			public const int ilsp_source_of_loan_loansharkskaloba = 2131296754;
-			
-			// aapt resource value: 0x7f0901f4
-			public const int ilsp_source_of_loan_microfinanceinstitution = 2131296756;
-			
-			// aapt resource value: 0x7f0901f6
-			public const int ilsp_source_of_loan_other = 2131296758;
-			
-			// aapt resource value: 0x7f0901f3
-			public const int ilsp_source_of_loan_relativefriend = 2131296755;
-			
-			// aapt resource value: 0x7f0901f1
-			public const int ilsp_source_of_loan_villagesavingsandcreditscheme = 2131296753;
-			
-			// aapt resource value: 0x7f0901d6
-			public const int ilsp_source_of_money_sx_governmentassistanceunemploymentwelfareallowance = 2131296726;
-			
-			// aapt resource value: 0x7f0901d7
-			public const int ilsp_source_of_money_sx_other = 2131296727;
-			
-			// aapt resource value: 0x7f0901d5
-			public const int ilsp_source_of_money_sx_remittancessentfromchildrenrelatives = 2131296725;
-			
-			// aapt resource value: 0x7f0901d4
-			public const int ilsp_source_of_money_sx_rentsdraftpowerpropertymachineryinterests = 2131296724;
-			
-			// aapt resource value: 0x7f0901ce
-			public const int ilsp_source_of_money_sx_salarieswages = 2131296718;
-			
-			// aapt resource value: 0x7f0901d2
-			public const int ilsp_source_of_money_sx_salesfirewoodhomemadeproductscrafts = 2131296722;
-			
-			// aapt resource value: 0x7f0901d8
-			public const int ilsp_source_of_money_sx_total = 2131296728;
-			
-			// aapt resource value: 0x7f0901d3
-			public const int ilsp_source_of_money_sx_trading = 2131296723;
-			
-			// aapt resource value: 0x7f0900d6
-			public const int ilsp_store_and_preseve_fodder = 2131296470;
-			
-			// aapt resource value: 0x7f090040
-			public const int ilsp_survey_identifiers = 2131296320;
-			
-			// aapt resource value: 0x7f090267
-			public const int ilsp_tech_trng_work_land = 2131296871;
-			
-			// aapt resource value: 0x7f0900e7
-			public const int ilsp_tick_control_method = 2131296487;
-			
-			// aapt resource value: 0x7f0900e8
-			public const int ilsp_tick_control_method_dipping = 2131296488;
-			
-			// aapt resource value: 0x7f0900eb
-			public const int ilsp_tick_control_method_na = 2131296491;
-			
-			// aapt resource value: 0x7f0900ea
-			public const int ilsp_tick_control_method_none = 2131296490;
-			
-			// aapt resource value: 0x7f0900ec
-			public const int ilsp_tick_control_method_other = 2131296492;
-			
-			// aapt resource value: 0x7f0900e9
-			public const int ilsp_tick_control_method_spraying = 2131296489;
-			
-			// aapt resource value: 0x7f090227
-			public const int ilsp_tool_name_non_agric_sx_bed = 2131296807;
-			
-			// aapt resource value: 0x7f09021a
-			public const int ilsp_tool_name_non_agric_sx_bicycle = 2131296794;
-			
-			// aapt resource value: 0x7f090228
-			public const int ilsp_tool_name_non_agric_sx_mattress = 2131296808;
-			
-			// aapt resource value: 0x7f090221
-			public const int ilsp_tool_name_non_agric_sx_mobilecellphone = 2131296801;
-			
-			// aapt resource value: 0x7f090223
-			public const int ilsp_tool_name_non_agric_sx_motorbike = 2131296803;
-			
-			// aapt resource value: 0x7f090225
-			public const int ilsp_tool_name_non_agric_sx_motorvehicle = 2131296805;
-			
-			// aapt resource value: 0x7f09021f
-			public const int ilsp_tool_name_non_agric_sx_radio = 2131296799;
-			
-			// aapt resource value: 0x7f090226
-			public const int ilsp_tool_name_non_agric_sx_sofas = 2131296806;
-			
-			// aapt resource value: 0x7f090229
-			public const int ilsp_tool_name_non_agric_sx_solarlamps = 2131296809;
-			
-			// aapt resource value: 0x7f090224
-			public const int ilsp_tool_name_non_agric_sx_solarpanel = 2131296804;
-			
-			// aapt resource value: 0x7f090222
-			public const int ilsp_tool_name_non_agric_sx_stove = 2131296802;
-			
-			// aapt resource value: 0x7f090220
-			public const int ilsp_tool_name_non_agric_sx_tv = 2131296800;
-			
-			// aapt resource value: 0x7f0901ff
-			public const int ilsp_tool_name_sx_axe = 2131296767;
-			
-			// aapt resource value: 0x7f090216
-			public const int ilsp_tool_name_sx_bed = 2131296790;
-			
-			// aapt resource value: 0x7f09020d
-			public const int ilsp_tool_name_sx_bicycle = 2131296781;
-			
-			// aapt resource value: 0x7f090209
-			public const int ilsp_tool_name_sx_grainmill = 2131296777;
-			
-			// aapt resource value: 0x7f0901fa
-			public const int ilsp_tool_name_sx_hoe = 2131296762;
-			
-			// aapt resource value: 0x7f090217
-			public const int ilsp_tool_name_sx_mattress = 2131296791;
-			
-			// aapt resource value: 0x7f090210
-			public const int ilsp_tool_name_sx_mobilecellphone = 2131296784;
-			
-			// aapt resource value: 0x7f090212
-			public const int ilsp_tool_name_sx_motorbike = 2131296786;
-			
-			// aapt resource value: 0x7f090214
-			public const int ilsp_tool_name_sx_motorvehicle = 2131296788;
-			
-			// aapt resource value: 0x7f090208
-			public const int ilsp_tool_name_sx_oilpress = 2131296776;
-			
-			// aapt resource value: 0x7f09020a
-			public const int ilsp_tool_name_sx_oxcarts = 2131296778;
-			
-			// aapt resource value: 0x7f090205
-			public const int ilsp_tool_name_sx_oxplough = 2131296773;
-			
-			// aapt resource value: 0x7f090201
-			public const int ilsp_tool_name_sx_pangas = 2131296769;
-			
-			// aapt resource value: 0x7f090218
-			public const int ilsp_tool_name_sx_plough = 2131296792;
-			
-			// aapt resource value: 0x7f09020e
-			public const int ilsp_tool_name_sx_radio = 2131296782;
-			
-			// aapt resource value: 0x7f090206
-			public const int ilsp_tool_name_sx_ridgeplough = 2131296774;
-			
-			// aapt resource value: 0x7f090207
-			public const int ilsp_tool_name_sx_ripper = 2131296775;
-			
-			// aapt resource value: 0x7f090204
-			public const int ilsp_tool_name_sx_slasher = 2131296772;
-			
-			// aapt resource value: 0x7f090215
-			public const int ilsp_tool_name_sx_sofas = 2131296789;
-			
-			// aapt resource value: 0x7f090213
-			public const int ilsp_tool_name_sx_solarpanel = 2131296787;
-			
-			// aapt resource value: 0x7f090200
-			public const int ilsp_tool_name_sx_spade = 2131296768;
-			
-			// aapt resource value: 0x7f090203
-			public const int ilsp_tool_name_sx_sprayer = 2131296771;
-			
-			// aapt resource value: 0x7f090211
-			public const int ilsp_tool_name_sx_stove = 2131296785;
-			
-			// aapt resource value: 0x7f09020b
-			public const int ilsp_tool_name_sx_tractor = 2131296779;
-			
-			// aapt resource value: 0x7f09020c
-			public const int ilsp_tool_name_sx_trailor = 2131296780;
-			
-			// aapt resource value: 0x7f09020f
-			public const int ilsp_tool_name_sx_tv = 2131296783;
-			
-			// aapt resource value: 0x7f090202
-			public const int ilsp_tool_name_sx_wheelbarrow = 2131296770;
-			
-			// aapt resource value: 0x7f0901f9
-			public const int ilsp_tools_owned_and_quantity = 2131296761;
-			
-			// aapt resource value: 0x7f0901f8
-			public const int ilsp_tools_owned_quant = 2131296760;
-			
-			// aapt resource value: 0x7f090118
-			public const int ilsp_total_annual_income = 2131296536;
-			
-			// aapt resource value: 0x7f090075
-			public const int ilsp_total_household_size = 2131296373;
-			
-			// aapt resource value: 0x7f0900ac
-			public const int ilsp_total_income_from_sales = 2131296428;
-			
-			// aapt resource value: 0x7f090114
-			public const int ilsp_total_prod_qty_milk = 2131296532;
-			
-			// aapt resource value: 0x7f0902a2
-			public const int ilsp_training = 2131296930;
-			
-			// aapt resource value: 0x7f0902a1
-			public const int ilsp_training_no = 2131296929;
-			
-			// aapt resource value: 0x7f0902a0
-			public const int ilsp_training_yes = 2131296928;
-			
-			// aapt resource value: 0x7f090151
-			public const int ilsp_type_of_farm_rec_kept = 2131296593;
-			
-			// aapt resource value: 0x7f090152
-			public const int ilsp_type_of_farm_rec_kept_cropproduction = 2131296594;
-			
-			// aapt resource value: 0x7f090155
-			public const int ilsp_type_of_farm_rec_kept_cropsales = 2131296597;
-			
-			// aapt resource value: 0x7f090157
-			public const int ilsp_type_of_farm_rec_kept_expenditurerecords = 2131296599;
-			
-			// aapt resource value: 0x7f090158
-			public const int ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining = 2131296600;
-			
-			// aapt resource value: 0x7f090153
-			public const int ilsp_type_of_farm_rec_kept_livestockproduction = 2131296595;
-			
-			// aapt resource value: 0x7f090159
-			public const int ilsp_type_of_farm_rec_kept_livestocksales = 2131296601;
-			
-			// aapt resource value: 0x7f090154
-			public const int ilsp_type_of_farm_rec_kept_milkproduction = 2131296596;
-			
-			// aapt resource value: 0x7f090156
-			public const int ilsp_type_of_farm_rec_kept_milksales = 2131296598;
-			
-			// aapt resource value: 0x7f09015a
-			public const int ilsp_type_of_farm_rec_kept_none = 2131296602;
-			
-			// aapt resource value: 0x7f09015b
-			public const int ilsp_type_of_farm_rec_kept_other = 2131296603;
-			
-			// aapt resource value: 0x7f090049
-			public const int ilsp_type_of_recipient_1 = 2131296329;
-			
-			// aapt resource value: 0x7f09004a
-			public const int ilsp_type_of_recipient_1_family = 2131296330;
-			
-			// aapt resource value: 0x7f09004b
-			public const int ilsp_type_of_recipient_1_individual = 2131296331;
-			
-			// aapt resource value: 0x7f09004c
-			public const int ilsp_type_of_recipient_2 = 2131296332;
-			
-			// aapt resource value: 0x7f09004d
-			public const int ilsp_type_of_recipient_2_original = 2131296333;
+			// aapt resource value: 0x7f090036
+			public const int ilsp_project_year_year5 = 2131296310;
 			
 			// aapt resource value: 0x7f09004f
-			public const int ilsp_type_of_recipient_2_originalnotyetreceivedanything = 2131296335;
+			public const int ilsp_projected_recruited_from = 2131296335;
 			
-			// aapt resource value: 0x7f09004e
-			public const int ilsp_type_of_recipient_2_pog = 2131296334;
+			// aapt resource value: 0x7f090052
+			public const int ilsp_projected_recruited_from_dontknow = 2131296338;
 			
 			// aapt resource value: 0x7f090050
-			public const int ilsp_type_of_recipient_2_pognotyetreceived = 2131296336;
+			public const int ilsp_projected_recruited_from_ilasp = 2131296336;
+			
+			// aapt resource value: 0x7f090051
+			public const int ilsp_projected_recruited_from_slwep = 2131296337;
+			
+			// aapt resource value: 0x7f090126
+			public const int ilsp_qty_consumed_per_day = 2131296550;
+			
+			// aapt resource value: 0x7f0900a3
+			public const int ilsp_quantity_consumed = 2131296419;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int ilsp_quantity_gifted = 2131296421;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int ilsp_quantity_seed = 2131296420;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int ilsp_quantity_sold = 2131296425;
 			
 			// aapt resource value: 0x7f090127
-			public const int ilsp_value_addition_enterp = 2131296551;
+			public const int ilsp_quantity_sold_per_day = 2131296551;
 			
-			// aapt resource value: 0x7f09012b
-			public const int ilsp_value_addition_enterp_cassavaprocessing = 2131296555;
+			// aapt resource value: 0x7f0900aa
+			public const int ilsp_quantity_sold_uom = 2131296426;
 			
-			// aapt resource value: 0x7f090129
-			public const int ilsp_value_addition_enterp_goatmeatprocessing = 2131296553;
+			// aapt resource value: 0x7f0900ad
+			public const int ilsp_quantity_sold_uom_box = 2131296429;
 			
-			// aapt resource value: 0x7f09012a
-			public const int ilsp_value_addition_enterp_groundnutprocessing = 2131296554;
+			// aapt resource value: 0x7f0900ae
+			public const int ilsp_quantity_sold_uom_bunch = 2131296430;
 			
-			// aapt resource value: 0x7f09012c
-			public const int ilsp_value_addition_enterp_maizeprocessing = 2131296556;
+			// aapt resource value: 0x7f0900af
+			public const int ilsp_quantity_sold_uom_head = 2131296431;
 			
-			// aapt resource value: 0x7f090128
-			public const int ilsp_value_addition_enterp_milkprocessing = 2131296552;
+			// aapt resource value: 0x7f0900ab
+			public const int ilsp_quantity_sold_uom_kilograms = 2131296427;
 			
-			// aapt resource value: 0x7f09012e
-			public const int ilsp_value_addition_enterp_none = 2131296558;
+			// aapt resource value: 0x7f0900ac
+			public const int ilsp_quantity_sold_uom_sack = 2131296428;
 			
-			// aapt resource value: 0x7f09012f
-			public const int ilsp_value_addition_enterp_other = 2131296559;
+			// aapt resource value: 0x7f0902bb
+			public const int ilsp_rate_statement_below = 2131296955;
 			
-			// aapt resource value: 0x7f09012d
-			public const int ilsp_value_addition_enterp_vegetableprocessing = 2131296557;
+			// aapt resource value: 0x7f0902bc
+			public const int ilsp_rate_statement_below_agree = 2131296956;
 			
-			// aapt resource value: 0x7f0902c7
-			public const int ilsp_when_passed_on_gift = 2131296967;
+			// aapt resource value: 0x7f0902be
+			public const int ilsp_rate_statement_below_disagree = 2131296958;
 			
-			// aapt resource value: 0x7f0900d8
-			public const int ilsp_where_feed_is_bought = 2131296472;
+			// aapt resource value: 0x7f0902bd
+			public const int ilsp_rate_statement_below_stronglyagree = 2131296957;
 			
-			// aapt resource value: 0x7f0900de
-			public const int ilsp_where_feed_is_bought_cooperatives = 2131296478;
+			// aapt resource value: 0x7f0902bf
+			public const int ilsp_rate_statement_below_stronglydisagree = 2131296959;
 			
-			// aapt resource value: 0x7f0900db
-			public const int ilsp_where_feed_is_bought_localagrovetshops = 2131296475;
+			// aapt resource value: 0x7f090192
+			public const int ilsp_reas_food_not_last_yr = 2131296658;
 			
-			// aapt resource value: 0x7f0900d9
-			public const int ilsp_where_feed_is_bought_localmarket = 2131296473;
+			// aapt resource value: 0x7f090198
+			public const int ilsp_reas_food_not_last_yr_illnessinthefamily = 2131296664;
 			
-			// aapt resource value: 0x7f0900e0
-			public const int ilsp_where_feed_is_bought_localmillers = 2131296480;
+			// aapt resource value: 0x7f090194
+			public const int ilsp_reas_food_not_last_yr_inadequateinput = 2131296660;
 			
-			// aapt resource value: 0x7f0900dd
-			public const int ilsp_where_feed_is_bought_middlementraders = 2131296477;
+			// aapt resource value: 0x7f090196
+			public const int ilsp_reas_food_not_last_yr_inadequatelabor = 2131296662;
 			
-			// aapt resource value: 0x7f0900df
-			public const int ilsp_where_feed_is_bought_milkcollectioncentres = 2131296479;
+			// aapt resource value: 0x7f090195
+			public const int ilsp_reas_food_not_last_yr_inadequateland = 2131296661;
 			
-			// aapt resource value: 0x7f0900e4
-			public const int ilsp_where_feed_is_bought_na = 2131296484;
+			// aapt resource value: 0x7f090199
+			public const int ilsp_reas_food_not_last_yr_latedeliveryofinputs = 2131296665;
 			
-			// aapt resource value: 0x7f0900e3
-			public const int ilsp_where_feed_is_bought_neverbuy = 2131296483;
+			// aapt resource value: 0x7f09019a
+			public const int ilsp_reas_food_not_last_yr_other = 2131296666;
 			
-			// aapt resource value: 0x7f0900e5
-			public const int ilsp_where_feed_is_bought_other = 2131296485;
+			// aapt resource value: 0x7f090193
+			public const int ilsp_reas_food_not_last_yr_poorweatherconditions = 2131296659;
 			
-			// aapt resource value: 0x7f0900e2
-			public const int ilsp_where_feed_is_bought_ownproduction = 2131296482;
+			// aapt resource value: 0x7f090197
+			public const int ilsp_reas_food_not_last_yr_soldcroptoraisemone = 2131296663;
 			
-			// aapt resource value: 0x7f0900dc
-			public const int ilsp_where_feed_is_bought_urbanagrovetshops = 2131296476;
+			// aapt resource value: 0x7f0902cc
+			public const int ilsp_reason_not_pog = 2131296972;
 			
-			// aapt resource value: 0x7f0900da
-			public const int ilsp_where_feed_is_bought_urbanmarkets = 2131296474;
+			// aapt resource value: 0x7f0901fd
+			public const int ilsp_received_loan_past_year = 2131296765;
 			
-			// aapt resource value: 0x7f0900e1
-			public const int ilsp_where_feed_is_bought_urbanmillers = 2131296481;
+			// aapt resource value: 0x7f0901ff
+			public const int ilsp_received_loan_past_year_no = 2131296767;
 			
-			// aapt resource value: 0x7f09011d
-			public const int ilsp_where_you_sell_your_milk = 2131296541;
+			// aapt resource value: 0x7f0901fe
+			public const int ilsp_received_loan_past_year_yes = 2131296766;
 			
-			// aapt resource value: 0x7f090120
-			public const int ilsp_where_you_sell_your_milk_cooperatives = 2131296544;
-			
-			// aapt resource value: 0x7f090123
-			public const int ilsp_where_you_sell_your_milk_donotsell = 2131296547;
-			
-			// aapt resource value: 0x7f09011e
-			public const int ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders = 2131296542;
-			
-			// aapt resource value: 0x7f090124
-			public const int ilsp_where_you_sell_your_milk_na = 2131296548;
-			
-			// aapt resource value: 0x7f090125
-			public const int ilsp_where_you_sell_your_milk_other = 2131296549;
-			
-			// aapt resource value: 0x7f090121
-			public const int ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima = 2131296545;
-			
-			// aapt resource value: 0x7f090122
-			public const int ilsp_where_you_sell_your_milk_processorsthroughmcc = 2131296546;
-			
-			// aapt resource value: 0x7f09011f
-			public const int ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets = 2131296543;
+			// aapt resource value: 0x7f090046
+			public const int ilsp_respondent_info = 2131296326;
 			
 			// aapt resource value: 0x7f090279
-			public const int ilsp_who_has_access = 2131296889;
-			
-			// aapt resource value: 0x7f09027a
-			public const int ilsp_who_has_access_maleandfemale = 2131296890;
-			
-			// aapt resource value: 0x7f09027d
-			public const int ilsp_who_has_access_nobodyfromthehousehold = 2131296893;
-			
-			// aapt resource value: 0x7f09027c
-			public const int ilsp_who_has_access_onlyfemale = 2131296892;
+			public const int ilsp_service_available = 2131296889;
 			
 			// aapt resource value: 0x7f09027b
-			public const int ilsp_who_has_access_onlymale = 2131296891;
+			public const int ilsp_service_available_no = 2131296891;
 			
-			// aapt resource value: 0x7f090257
-			public const int ilsp_who_owns_assets = 2131296855;
+			// aapt resource value: 0x7f09027a
+			public const int ilsp_service_available_yes = 2131296890;
 			
-			// aapt resource value: 0x7f09025d
-			public const int ilsp_who_owns_land = 2131296861;
+			// aapt resource value: 0x7f090295
+			public const int ilsp_social_capital = 2131296917;
 			
-			// aapt resource value: 0x7f090260
-			public const int ilsp_who_owns_large_animals = 2131296864;
+			// aapt resource value: 0x7f09023f
+			public const int ilsp_soil_conservation_pract = 2131296831;
 			
-			// aapt resource value: 0x7f09025e
-			public const int ilsp_who_owns_mach_work_land = 2131296862;
+			// aapt resource value: 0x7f090243
+			public const int ilsp_soil_conservation_pract_composting = 2131296835;
 			
-			// aapt resource value: 0x7f09025f
-			public const int ilsp_who_owns_small_ruminants = 2131296863;
+			// aapt resource value: 0x7f090247
+			public const int ilsp_soil_conservation_pract_contourfarming = 2131296839;
+			
+			// aapt resource value: 0x7f090240
+			public const int ilsp_soil_conservation_pract_intercropping = 2131296832;
+			
+			// aapt resource value: 0x7f090245
+			public const int ilsp_soil_conservation_pract_mulching = 2131296837;
+			
+			// aapt resource value: 0x7f090248
+			public const int ilsp_soil_conservation_pract_none = 2131296840;
+			
+			// aapt resource value: 0x7f090249
+			public const int ilsp_soil_conservation_pract_other = 2131296841;
+			
+			// aapt resource value: 0x7f090244
+			public const int ilsp_soil_conservation_pract_raisedbedgardening = 2131296836;
+			
+			// aapt resource value: 0x7f090241
+			public const int ilsp_soil_conservation_pract_reducedtillage = 2131296833;
+			
+			// aapt resource value: 0x7f090246
+			public const int ilsp_soil_conservation_pract_treeplanting = 2131296838;
+			
+			// aapt resource value: 0x7f090242
+			public const int ilsp_soil_conservation_pract_zerotillage = 2131296834;
+			
+			// aapt resource value: 0x7f0902c0
+			public const int ilsp_someone_will_help = 2131296960;
+			
+			// aapt resource value: 0x7f0902c1
+			public const int ilsp_someone_will_help_agree = 2131296961;
+			
+			// aapt resource value: 0x7f0902c3
+			public const int ilsp_someone_will_help_disagree = 2131296963;
+			
+			// aapt resource value: 0x7f0902c2
+			public const int ilsp_someone_will_help_stronglyagree = 2131296962;
+			
+			// aapt resource value: 0x7f0902c4
+			public const int ilsp_someone_will_help_stronglydisagree = 2131296964;
+			
+			// aapt resource value: 0x7f090114
+			public const int ilsp_source_livestock_drugs = 2131296532;
+			
+			// aapt resource value: 0x7f090115
+			public const int ilsp_source_livestock_drugs_communityanimalhealthworkersparavets = 2131296533;
+			
+			// aapt resource value: 0x7f09011a
+			public const int ilsp_source_livestock_drugs_cooperatives = 2131296538;
+			
+			// aapt resource value: 0x7f090118
+			public const int ilsp_source_livestock_drugs_localagrovetshops = 2131296536;
+			
+			// aapt resource value: 0x7f09011d
+			public const int ilsp_source_livestock_drugs_na = 2131296541;
+			
+			// aapt resource value: 0x7f09011c
+			public const int ilsp_source_livestock_drugs_neverbuy = 2131296540;
+			
+			// aapt resource value: 0x7f09011e
+			public const int ilsp_source_livestock_drugs_other = 2131296542;
+			
+			// aapt resource value: 0x7f090117
+			public const int ilsp_source_livestock_drugs_privateveterinaryclinics = 2131296535;
+			
+			// aapt resource value: 0x7f090116
+			public const int ilsp_source_livestock_drugs_publicvetcliniccamp = 2131296534;
+			
+			// aapt resource value: 0x7f090119
+			public const int ilsp_source_livestock_drugs_urbanagrovetshops = 2131296537;
+			
+			// aapt resource value: 0x7f09011b
+			public const int ilsp_source_livestock_drugs_usenaturalremedies = 2131296539;
+			
+			// aapt resource value: 0x7f090201
+			public const int ilsp_source_of_loan = 2131296769;
+			
+			// aapt resource value: 0x7f090206
+			public const int ilsp_source_of_loan_commercialbank = 2131296774;
+			
+			// aapt resource value: 0x7f090203
+			public const int ilsp_source_of_loan_loansharkskaloba = 2131296771;
+			
+			// aapt resource value: 0x7f090205
+			public const int ilsp_source_of_loan_microfinanceinstitution = 2131296773;
+			
+			// aapt resource value: 0x7f090207
+			public const int ilsp_source_of_loan_other = 2131296775;
+			
+			// aapt resource value: 0x7f090204
+			public const int ilsp_source_of_loan_relativefriend = 2131296772;
+			
+			// aapt resource value: 0x7f090202
+			public const int ilsp_source_of_loan_villagesavingsandcreditscheme = 2131296770;
+			
+			// aapt resource value: 0x7f0901e7
+			public const int ilsp_source_of_money_sx_governmentassistanceunemploymentwelfareallowance = 2131296743;
+			
+			// aapt resource value: 0x7f0901e8
+			public const int ilsp_source_of_money_sx_other = 2131296744;
+			
+			// aapt resource value: 0x7f0901e6
+			public const int ilsp_source_of_money_sx_remittancessentfromchildrenrelatives = 2131296742;
+			
+			// aapt resource value: 0x7f0901e5
+			public const int ilsp_source_of_money_sx_rentsdraftpowerpropertymachineryinterests = 2131296741;
+			
+			// aapt resource value: 0x7f0901df
+			public const int ilsp_source_of_money_sx_salarieswages = 2131296735;
+			
+			// aapt resource value: 0x7f0901e3
+			public const int ilsp_source_of_money_sx_salesfirewoodhomemadeproductscrafts = 2131296739;
+			
+			// aapt resource value: 0x7f0901e9
+			public const int ilsp_source_of_money_sx_total = 2131296745;
+			
+			// aapt resource value: 0x7f0901e4
+			public const int ilsp_source_of_money_sx_trading = 2131296740;
+			
+			// aapt resource value: 0x7f0900e2
+			public const int ilsp_store_and_preseve_fodder = 2131296482;
+			
+			// aapt resource value: 0x7f0900e4
+			public const int ilsp_store_and_preseve_fodder_no = 2131296484;
+			
+			// aapt resource value: 0x7f0900e3
+			public const int ilsp_store_and_preseve_fodder_yes = 2131296483;
+			
+			// aapt resource value: 0x7f090037
+			public const int ilsp_survey_identifiers = 2131296311;
+			
+			// aapt resource value: 0x7f09026a
+			public const int ilsp_tech_trng_work_land = 2131296874;
+			
+			// aapt resource value: 0x7f0900f8
+			public const int ilsp_tick_control_method = 2131296504;
+			
+			// aapt resource value: 0x7f0900f9
+			public const int ilsp_tick_control_method_dipping = 2131296505;
+			
+			// aapt resource value: 0x7f0900fc
+			public const int ilsp_tick_control_method_na = 2131296508;
+			
+			// aapt resource value: 0x7f0900fb
+			public const int ilsp_tick_control_method_none = 2131296507;
+			
+			// aapt resource value: 0x7f0900fd
+			public const int ilsp_tick_control_method_other = 2131296509;
+			
+			// aapt resource value: 0x7f0900fa
+			public const int ilsp_tick_control_method_spraying = 2131296506;
+			
+			// aapt resource value: 0x7f09022a
+			public const int ilsp_tool_name_non_agric_sx_bed = 2131296810;
+			
+			// aapt resource value: 0x7f09021d
+			public const int ilsp_tool_name_non_agric_sx_bicycle = 2131296797;
+			
+			// aapt resource value: 0x7f09022b
+			public const int ilsp_tool_name_non_agric_sx_mattress = 2131296811;
+			
+			// aapt resource value: 0x7f090224
+			public const int ilsp_tool_name_non_agric_sx_mobilecellphone = 2131296804;
+			
+			// aapt resource value: 0x7f090226
+			public const int ilsp_tool_name_non_agric_sx_motorbike = 2131296806;
+			
+			// aapt resource value: 0x7f090228
+			public const int ilsp_tool_name_non_agric_sx_motorvehicle = 2131296808;
+			
+			// aapt resource value: 0x7f090222
+			public const int ilsp_tool_name_non_agric_sx_radio = 2131296802;
+			
+			// aapt resource value: 0x7f090229
+			public const int ilsp_tool_name_non_agric_sx_sofas = 2131296809;
+			
+			// aapt resource value: 0x7f09022c
+			public const int ilsp_tool_name_non_agric_sx_solarlamps = 2131296812;
+			
+			// aapt resource value: 0x7f090227
+			public const int ilsp_tool_name_non_agric_sx_solarpanel = 2131296807;
+			
+			// aapt resource value: 0x7f090225
+			public const int ilsp_tool_name_non_agric_sx_stove = 2131296805;
+			
+			// aapt resource value: 0x7f090223
+			public const int ilsp_tool_name_non_agric_sx_tv = 2131296803;
+			
+			// aapt resource value: 0x7f090210
+			public const int ilsp_tool_name_sx_axe = 2131296784;
+			
+			// aapt resource value: 0x7f090218
+			public const int ilsp_tool_name_sx_grainmill = 2131296792;
+			
+			// aapt resource value: 0x7f09020b
+			public const int ilsp_tool_name_sx_hoe = 2131296779;
+			
+			// aapt resource value: 0x7f090217
+			public const int ilsp_tool_name_sx_oilpress = 2131296791;
+			
+			// aapt resource value: 0x7f090219
+			public const int ilsp_tool_name_sx_oxcarts = 2131296793;
+			
+			// aapt resource value: 0x7f090212
+			public const int ilsp_tool_name_sx_pangas = 2131296786;
+			
+			// aapt resource value: 0x7f090216
+			public const int ilsp_tool_name_sx_plough = 2131296790;
+			
+			// aapt resource value: 0x7f090215
+			public const int ilsp_tool_name_sx_slasher = 2131296789;
+			
+			// aapt resource value: 0x7f090211
+			public const int ilsp_tool_name_sx_spade = 2131296785;
+			
+			// aapt resource value: 0x7f090214
+			public const int ilsp_tool_name_sx_sprayer = 2131296788;
+			
+			// aapt resource value: 0x7f09021a
+			public const int ilsp_tool_name_sx_tractor = 2131296794;
+			
+			// aapt resource value: 0x7f09021b
+			public const int ilsp_tool_name_sx_trailor = 2131296795;
+			
+			// aapt resource value: 0x7f090213
+			public const int ilsp_tool_name_sx_wheelbarrow = 2131296787;
+			
+			// aapt resource value: 0x7f09020a
+			public const int ilsp_tools_owned_and_quantity = 2131296778;
+			
+			// aapt resource value: 0x7f090209
+			public const int ilsp_tools_owned_quant = 2131296777;
+			
+			// aapt resource value: 0x7f090129
+			public const int ilsp_total_annual_income = 2131296553;
+			
+			// aapt resource value: 0x7f090076
+			public const int ilsp_total_household_size = 2131296374;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int ilsp_total_income_from_sales = 2131296432;
+			
+			// aapt resource value: 0x7f090125
+			public const int ilsp_total_prod_qty_milk = 2131296549;
+			
+			// aapt resource value: 0x7f0902a6
+			public const int ilsp_training = 2131296934;
+			
+			// aapt resource value: 0x7f0902a5
+			public const int ilsp_training_no = 2131296933;
+			
+			// aapt resource value: 0x7f0902a4
+			public const int ilsp_training_yes = 2131296932;
+			
+			// aapt resource value: 0x7f090162
+			public const int ilsp_type_of_farm_rec_kept = 2131296610;
+			
+			// aapt resource value: 0x7f090163
+			public const int ilsp_type_of_farm_rec_kept_cropproduction = 2131296611;
+			
+			// aapt resource value: 0x7f090166
+			public const int ilsp_type_of_farm_rec_kept_cropsales = 2131296614;
+			
+			// aapt resource value: 0x7f090168
+			public const int ilsp_type_of_farm_rec_kept_expenditurerecords = 2131296616;
+			
+			// aapt resource value: 0x7f090169
+			public const int ilsp_type_of_farm_rec_kept_livestockhealthrecordstraining = 2131296617;
+			
+			// aapt resource value: 0x7f090164
+			public const int ilsp_type_of_farm_rec_kept_livestockproduction = 2131296612;
+			
+			// aapt resource value: 0x7f09016a
+			public const int ilsp_type_of_farm_rec_kept_livestocksales = 2131296618;
+			
+			// aapt resource value: 0x7f090165
+			public const int ilsp_type_of_farm_rec_kept_milkproduction = 2131296613;
+			
+			// aapt resource value: 0x7f090167
+			public const int ilsp_type_of_farm_rec_kept_milksales = 2131296615;
+			
+			// aapt resource value: 0x7f09016b
+			public const int ilsp_type_of_farm_rec_kept_none = 2131296619;
+			
+			// aapt resource value: 0x7f09016c
+			public const int ilsp_type_of_farm_rec_kept_other = 2131296620;
+			
+			// aapt resource value: 0x7f090047
+			public const int ilsp_type_of_recipient_1 = 2131296327;
+			
+			// aapt resource value: 0x7f090048
+			public const int ilsp_type_of_recipient_1_family = 2131296328;
+			
+			// aapt resource value: 0x7f090049
+			public const int ilsp_type_of_recipient_1_individual = 2131296329;
+			
+			// aapt resource value: 0x7f09004a
+			public const int ilsp_type_of_recipient_2 = 2131296330;
+			
+			// aapt resource value: 0x7f09004b
+			public const int ilsp_type_of_recipient_2_original = 2131296331;
+			
+			// aapt resource value: 0x7f09004d
+			public const int ilsp_type_of_recipient_2_originalnotyetreceivedanything = 2131296333;
+			
+			// aapt resource value: 0x7f09004c
+			public const int ilsp_type_of_recipient_2_pog = 2131296332;
+			
+			// aapt resource value: 0x7f09004e
+			public const int ilsp_type_of_recipient_2_pognotyetreceived = 2131296334;
 			
 			// aapt resource value: 0x7f090138
-			public const int ilsp_whr_agric_prod_sold = 2131296568;
+			public const int ilsp_value_addition_enterp = 2131296568;
 			
 			// aapt resource value: 0x7f09013c
-			public const int ilsp_whr_agric_prod_sold_cooperatives = 2131296572;
-			
-			// aapt resource value: 0x7f090140
-			public const int ilsp_whr_agric_prod_sold_exportmarkets = 2131296576;
-			
-			// aapt resource value: 0x7f09013f
-			public const int ilsp_whr_agric_prod_sold_governmentfoodreserveagency = 2131296575;
-			
-			// aapt resource value: 0x7f090139
-			public const int ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders = 2131296569;
-			
-			// aapt resource value: 0x7f09013d
-			public const int ilsp_whr_agric_prod_sold_localprocessors = 2131296573;
-			
-			// aapt resource value: 0x7f090141
-			public const int ilsp_whr_agric_prod_sold_na = 2131296577;
-			
-			// aapt resource value: 0x7f090142
-			public const int ilsp_whr_agric_prod_sold_other = 2131296578;
-			
-			// aapt resource value: 0x7f09013e
-			public const int ilsp_whr_agric_prod_sold_processorsmillersbutcheries = 2131296574;
-			
-			// aapt resource value: 0x7f09013b
-			public const int ilsp_whr_agric_prod_sold_traders = 2131296571;
+			public const int ilsp_value_addition_enterp_cassavaprocessing = 2131296572;
 			
 			// aapt resource value: 0x7f09013a
-			public const int ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets = 2131296570;
+			public const int ilsp_value_addition_enterp_goatmeatprocessing = 2131296570;
 			
-			// aapt resource value: 0x7f0901a6
-			public const int ilsp_wht_are_your_water_sourc = 2131296678;
+			// aapt resource value: 0x7f09013b
+			public const int ilsp_value_addition_enterp_groundnutprocessing = 2131296571;
 			
-			// aapt resource value: 0x7f0901a8
-			public const int ilsp_wht_are_your_water_sourc_boreholewater = 2131296680;
+			// aapt resource value: 0x7f09013d
+			public const int ilsp_value_addition_enterp_maizeprocessing = 2131296573;
 			
-			// aapt resource value: 0x7f0901ae
-			public const int ilsp_wht_are_your_water_sourc_other = 2131296686;
+			// aapt resource value: 0x7f090139
+			public const int ilsp_value_addition_enterp_milkprocessing = 2131296569;
 			
-			// aapt resource value: 0x7f0901a7
-			public const int ilsp_wht_are_your_water_sourc_pipedwater = 2131296679;
+			// aapt resource value: 0x7f09013f
+			public const int ilsp_value_addition_enterp_none = 2131296575;
 			
-			// aapt resource value: 0x7f0901a9
-			public const int ilsp_wht_are_your_water_sourc_protectedwellwater = 2131296681;
+			// aapt resource value: 0x7f090140
+			public const int ilsp_value_addition_enterp_other = 2131296576;
 			
-			// aapt resource value: 0x7f0901ad
-			public const int ilsp_wht_are_your_water_sourc_rainwater = 2131296685;
+			// aapt resource value: 0x7f09013e
+			public const int ilsp_value_addition_enterp_vegetableprocessing = 2131296574;
 			
-			// aapt resource value: 0x7f0901ac
-			public const int ilsp_wht_are_your_water_sourc_riverwater = 2131296684;
+			// aapt resource value: 0x7f0902cb
+			public const int ilsp_when_passed_on_gift = 2131296971;
 			
-			// aapt resource value: 0x7f0901ab
-			public const int ilsp_wht_are_your_water_sourc_shallowwells = 2131296683;
+			// aapt resource value: 0x7f0900e9
+			public const int ilsp_where_feed_is_bought = 2131296489;
 			
-			// aapt resource value: 0x7f0901aa
-			public const int ilsp_wht_are_your_water_sourc_unprotectedwellwater = 2131296682;
+			// aapt resource value: 0x7f0900ef
+			public const int ilsp_where_feed_is_bought_cooperatives = 2131296495;
 			
-			// aapt resource value: 0x7f09028d
-			public const int ilsp_women_participation = 2131296909;
+			// aapt resource value: 0x7f0900ec
+			public const int ilsp_where_feed_is_bought_localagrovetshops = 2131296492;
 			
-			// aapt resource value: 0x7f090290
-			public const int ilsp_youths_participation = 2131296912;
+			// aapt resource value: 0x7f0900ea
+			public const int ilsp_where_feed_is_bought_localmarket = 2131296490;
+			
+			// aapt resource value: 0x7f0900f1
+			public const int ilsp_where_feed_is_bought_localmillers = 2131296497;
+			
+			// aapt resource value: 0x7f0900ee
+			public const int ilsp_where_feed_is_bought_middlementraders = 2131296494;
+			
+			// aapt resource value: 0x7f0900f0
+			public const int ilsp_where_feed_is_bought_milkcollectioncentres = 2131296496;
+			
+			// aapt resource value: 0x7f0900f5
+			public const int ilsp_where_feed_is_bought_na = 2131296501;
+			
+			// aapt resource value: 0x7f0900f4
+			public const int ilsp_where_feed_is_bought_neverbuy = 2131296500;
+			
+			// aapt resource value: 0x7f0900f6
+			public const int ilsp_where_feed_is_bought_other = 2131296502;
+			
+			// aapt resource value: 0x7f0900f3
+			public const int ilsp_where_feed_is_bought_ownproduction = 2131296499;
+			
+			// aapt resource value: 0x7f0900ed
+			public const int ilsp_where_feed_is_bought_urbanagrovetshops = 2131296493;
+			
+			// aapt resource value: 0x7f0900eb
+			public const int ilsp_where_feed_is_bought_urbanmarkets = 2131296491;
+			
+			// aapt resource value: 0x7f0900f2
+			public const int ilsp_where_feed_is_bought_urbanmillers = 2131296498;
+			
+			// aapt resource value: 0x7f09012e
+			public const int ilsp_where_you_sell_your_milk = 2131296558;
+			
+			// aapt resource value: 0x7f090131
+			public const int ilsp_where_you_sell_your_milk_cooperatives = 2131296561;
+			
+			// aapt resource value: 0x7f090134
+			public const int ilsp_where_you_sell_your_milk_donotsell = 2131296564;
+			
+			// aapt resource value: 0x7f09012f
+			public const int ilsp_where_you_sell_your_milk_localmarketswithincommunityneighborslocaltraders = 2131296559;
+			
+			// aapt resource value: 0x7f090135
+			public const int ilsp_where_you_sell_your_milk_na = 2131296565;
+			
+			// aapt resource value: 0x7f090136
+			public const int ilsp_where_you_sell_your_milk_other = 2131296566;
+			
+			// aapt resource value: 0x7f090132
+			public const int ilsp_where_you_sell_your_milk_processorsdirectlyegparmalatmpima = 2131296562;
+			
+			// aapt resource value: 0x7f090133
+			public const int ilsp_where_you_sell_your_milk_processorsthroughmcc = 2131296563;
+			
+			// aapt resource value: 0x7f090130
+			public const int ilsp_where_you_sell_your_milk_urbanmarketsdistrictmarkets = 2131296560;
+			
+			// aapt resource value: 0x7f09027c
+			public const int ilsp_who_has_access = 2131296892;
+			
+			// aapt resource value: 0x7f09027d
+			public const int ilsp_who_has_access_maleandfemale = 2131296893;
+			
+			// aapt resource value: 0x7f090280
+			public const int ilsp_who_has_access_nobodyfromthehousehold = 2131296896;
+			
+			// aapt resource value: 0x7f09027f
+			public const int ilsp_who_has_access_onlyfemale = 2131296895;
+			
+			// aapt resource value: 0x7f09027e
+			public const int ilsp_who_has_access_onlymale = 2131296894;
+			
+			// aapt resource value: 0x7f09025a
+			public const int ilsp_who_owns_assets = 2131296858;
+			
+			// aapt resource value: 0x7f090260
+			public const int ilsp_who_owns_land = 2131296864;
+			
+			// aapt resource value: 0x7f090263
+			public const int ilsp_who_owns_large_animals = 2131296867;
+			
+			// aapt resource value: 0x7f090261
+			public const int ilsp_who_owns_mach_work_land = 2131296865;
+			
+			// aapt resource value: 0x7f090262
+			public const int ilsp_who_owns_small_ruminants = 2131296866;
+			
+			// aapt resource value: 0x7f090149
+			public const int ilsp_whr_agric_prod_sold = 2131296585;
+			
+			// aapt resource value: 0x7f09014d
+			public const int ilsp_whr_agric_prod_sold_cooperatives = 2131296589;
+			
+			// aapt resource value: 0x7f090151
+			public const int ilsp_whr_agric_prod_sold_exportmarkets = 2131296593;
+			
+			// aapt resource value: 0x7f090150
+			public const int ilsp_whr_agric_prod_sold_governmentfoodreserveagency = 2131296592;
+			
+			// aapt resource value: 0x7f09014a
+			public const int ilsp_whr_agric_prod_sold_localmarketswithincommunityneighborslocaltraders = 2131296586;
+			
+			// aapt resource value: 0x7f09014e
+			public const int ilsp_whr_agric_prod_sold_localprocessors = 2131296590;
+			
+			// aapt resource value: 0x7f090152
+			public const int ilsp_whr_agric_prod_sold_na = 2131296594;
+			
+			// aapt resource value: 0x7f090153
+			public const int ilsp_whr_agric_prod_sold_other = 2131296595;
+			
+			// aapt resource value: 0x7f09014f
+			public const int ilsp_whr_agric_prod_sold_processorsmillersbutcheries = 2131296591;
+			
+			// aapt resource value: 0x7f09014c
+			public const int ilsp_whr_agric_prod_sold_traders = 2131296588;
+			
+			// aapt resource value: 0x7f09014b
+			public const int ilsp_whr_agric_prod_sold_urbanmarketsdistrictmarkets = 2131296587;
+			
+			// aapt resource value: 0x7f0901b7
+			public const int ilsp_wht_are_your_water_sourc = 2131296695;
+			
+			// aapt resource value: 0x7f0901b9
+			public const int ilsp_wht_are_your_water_sourc_boreholewater = 2131296697;
+			
+			// aapt resource value: 0x7f0901bf
+			public const int ilsp_wht_are_your_water_sourc_other = 2131296703;
+			
+			// aapt resource value: 0x7f0901b8
+			public const int ilsp_wht_are_your_water_sourc_pipedwater = 2131296696;
+			
+			// aapt resource value: 0x7f0901ba
+			public const int ilsp_wht_are_your_water_sourc_protectedwellwater = 2131296698;
+			
+			// aapt resource value: 0x7f0901be
+			public const int ilsp_wht_are_your_water_sourc_rainwater = 2131296702;
+			
+			// aapt resource value: 0x7f0901bd
+			public const int ilsp_wht_are_your_water_sourc_riverwater = 2131296701;
+			
+			// aapt resource value: 0x7f0901bc
+			public const int ilsp_wht_are_your_water_sourc_shallowwells = 2131296700;
+			
+			// aapt resource value: 0x7f0901bb
+			public const int ilsp_wht_are_your_water_sourc_unprotectedwellwater = 2131296699;
+			
+			// aapt resource value: 0x7f090291
+			public const int ilsp_women_participation = 2131296913;
+			
+			// aapt resource value: 0x7f090294
+			public const int ilsp_youths_participation = 2131296916;
 			
 			// aapt resource value: 0x7f09001b
 			public const int login = 2131296283;

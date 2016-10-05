@@ -38,7 +38,7 @@ namespace MobileCollector.projects.ilsp
             myNavController = new lspMainControl();
         }
     }
-    [Activity(Label = "ILASP - Page 4 of 11")]
+    [Activity(Label = "ILASP - Page 4 of 15")]
     public class IlaspMain4 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -49,7 +49,7 @@ namespace MobileCollector.projects.ilsp
         }
     }
 
-    [Activity(Label = "ILASP - Page 5 of 11")]
+    [Activity(Label = "ILASP - Page 5 of 15")]
     public class IlaspMain5 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -59,7 +59,7 @@ namespace MobileCollector.projects.ilsp
             myNavController = new lspMainControl();
         }
     }
-    [Activity(Label = "ILASP - Page 6 of 11")]
+    [Activity(Label = "ILASP - Page 6 of 15")]
     public class IlaspMain6 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -70,7 +70,7 @@ namespace MobileCollector.projects.ilsp
         }
     }
 
-    [Activity(Label = "ILASP - Page 7 of 11")]
+    [Activity(Label = "ILASP - Page 7 of 15")]
     public class IlaspMain7 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -80,7 +80,7 @@ namespace MobileCollector.projects.ilsp
             myNavController = new lspMainControl();
         }
     }
-    [Activity(Label = "ILASP - Page 8 of 11")]
+    [Activity(Label = "ILASP - Page 8 of 15")]
     public class IlaspMain8 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -91,7 +91,7 @@ namespace MobileCollector.projects.ilsp
         }
     }
 
-    [Activity(Label = "ILASP - Page 9 of 11")]
+    [Activity(Label = "ILASP - Page 9 of 15")]
     public class IlaspMain9 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -101,7 +101,7 @@ namespace MobileCollector.projects.ilsp
             myNavController = new lspMainControl();
         }
     }
-    [Activity(Label = "ILASP - Page 10 of 11")]
+    [Activity(Label = "ILASP - Page 10 of 15")]
     public class IlaspMain10 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)
@@ -122,7 +122,7 @@ namespace MobileCollector.projects.ilsp
             myNavController = new lspMainControl();
         }
     }
-    [Activity(Label = "ILASP - Page 12 of 11")]
+    [Activity(Label = "ILASP - Page 12 of 15")]
     public class IlaspMain12 : lspFormsBase
     {
         protected override void doPreCreate(Bundle savedInstanceState)

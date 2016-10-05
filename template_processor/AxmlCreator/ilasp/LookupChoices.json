@@ -510,7 +510,7 @@
     "Name": "ilsp_loan_sources",
     "Values": [
       "Village Savings and Credit Scheme",
-      "Loan Sharks-Kaloba",
+      "Loan Sharks - Kaloba",
       "Relative/Friend",
       "Micro-Finance Institution",
       "Commercial Bank",
@@ -527,33 +527,7 @@
       "Wheelbarrow",
       "Sprayer",
       "Slasher",
-      "Ox-plough",
-      "Ridge-Plough",
-      "Ripper",
-      "Oil press",
-      "Grain mill",
-      "Ox-carts",
-      "Tractor",
-      "Trailor",
-      "Bicycle",
-      "Radio",
-      "TV",
-      "Mobile (cellphone)",
-      "Stove",
-      "Motorbike",
-      "Solar Panel",
-      "Motor Vehicle",
-      "Sofas",
-      "Bed",
-      "Mattress",
-      "Hoe",
-      "Axe",
-      "Spade",
-      "Pangas",
-      "Wheelbarrow",
-      "Sprayer",
-      "Slasher",
-      "plough",
+      "Plough",
       "Oil press",
       "Grain mill",
       "Ox-carts",
@@ -608,7 +582,7 @@
   {
     "Name": "ilsp_soil_conservation_practices",
     "Values": [
-      "Strip cropping",
+      "Intercropping",
       "Reduced tillage",
       "Zero tillage",
       "Composting",
@@ -763,7 +737,8 @@
     "Name": "ilsp_beneficiary_project",
     "Values": [
       "ILASP",
-      "SLWEP"
+      "SLWEP",
+      "Don\\’t Know"
     ]
   },
   {
@@ -772,7 +747,19 @@
       "Primary ",
       "Junior Secondary (8 to 9)",
       "Senior Secondary (10 to 12) ",
-      "Tertiary (college/university)"
+      "Tertiary (college/university)",
+      "None",
+      "Don\\’t Know"
+    ]
+  },
+  {
+    "Name": "ilsp_project_districts",
+    "Values": [
+      "Kapri Mposhi",
+      "Kabwe",
+      "Chisamba",
+      "Chibombo",
+      "Other"
     ]
   }
 ]

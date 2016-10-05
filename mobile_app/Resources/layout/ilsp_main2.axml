@@ -25,6 +25,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_maize" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_maize" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_maize" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_maize" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -322,6 +352,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_maize" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_groundnuts" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_groundnuts" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_groundnuts" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_groundnuts" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -621,6 +681,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_groundnuts" /></RadioGroup >
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_sweetpotatoes" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_sweetpotatoes" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_sweetpotatoes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_sweetpotatoes" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -918,6 +1008,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_sweetpotatoes" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_potatoes" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_potatoes" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_potatoes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_potatoes" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -1217,6 +1337,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_potatoes" /></RadioGroup >
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_cassava" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_cassava" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_cassava" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_cassava" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -1514,6 +1664,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_cassava" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_soyabeans" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_soyabeans" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_soyabeans" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_soyabeans" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -1813,6 +1993,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_soyabeans" /></RadioGroup >
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_cowpeas" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_cowpeas" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_cowpeas" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_cowpeas" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -2110,6 +2320,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_cowpeas" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_mbambaranuts" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_mbambaranuts" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_mbambaranuts" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_mbambaranuts" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -2409,6 +2649,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_mbambaranuts" /></RadioGroup >
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_beans" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_beans" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_beans" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_beans" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -2706,6 +2976,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_beans" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_cabbage" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_cabbage" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_cabbage" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_cabbage" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -3005,6 +3305,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_cabbage" /></RadioGroup >
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_tomatoes" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_tomatoes" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_tomatoes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_tomatoes" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -3302,6 +3632,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_tomatoes" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_onion" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_onion" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_onion" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_onion" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -3601,6 +3961,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_onion" /></RadioGroup >
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_eggplantimpwa" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_eggplantimpwa" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_eggplantimpwa" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_eggplantimpwa" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -3898,6 +4288,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_eggplantimpwa" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_leafyvegetables" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_leafyvegetables" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_leafyvegetables" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_leafyvegetables" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
@@ -4197,6 +4617,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_leafyvegetables" /></RadioGroup 
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_cotton" />
     <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_cotton" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_cotton" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_cotton" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -4494,6 +4944,36 @@ android:id="@+id/ilsp_quantity_sold_uom_head_sx_cotton" /></RadioGroup >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_crop_name_sx_other" />
+    <TextView
+android:text="@string/ilsp_crop_gown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_crop_gown_sx_other" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_yes"
+android:id="@+id/ilsp_crop_gown_yes_sx_other" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_crop_gown_no"
+android:id="@+id/ilsp_crop_gown_no_sx_other" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_area_cultivated"
         android:textColor="@android:color/holo_blue_dark"

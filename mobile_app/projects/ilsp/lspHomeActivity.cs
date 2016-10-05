@@ -3,6 +3,8 @@ using Android.App;
 using Android.Widget;
 using MobileCollector.projects.ilsp.activity;
 using MobileCollector.projects.ilsp.workflow;
+using Android.Locations;
+using System.Linq;
 
 namespace MobileCollector.projects.ilsp
 {
@@ -22,7 +24,6 @@ namespace MobileCollector.projects.ilsp
                                     //new VmmcPostOperationControl(),
                             };
         }
-
         void showPPXHome()
         {
             SetContentView(Resource.Layout.PrepexHome);
@@ -56,8 +57,11 @@ namespace MobileCollector.projects.ilsp
             //buttonViewList
             var buttonViewList = FindViewById<Button>(Resource.Id.buttonViewList);
             buttonViewList.Click += (sender, e) => {
-                StartActivity(typeof(lspFilteredGridDisplayActivity));
+                //StartActivity(typeof(lspFilteredGridDisplayActivity));
+                //InitializeLocationManager();
             };
+            buttonViewList.Text = "Get GPS";
+            buttonViewList.Visibility = Android.Views.ViewStates.Invisible;
 
             //buttonEditRecords
             var buttonEditRecords = FindViewById<Button>(Resource.Id.buttonEditRecords);
@@ -73,6 +77,7 @@ namespace MobileCollector.projects.ilsp
             {
                 await getClientSummaryReport(new lspProvider(), Constants.LSP_KIND_DISPLAYNAMES);
             };
+            buttonViewRecordSummaries.Visibility = Android.Views.ViewStates.Invisible;
         }
     }
 }

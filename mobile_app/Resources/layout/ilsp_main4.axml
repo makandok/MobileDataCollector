@@ -16,31 +16,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_fodder" />
-    <LinearLayout
-        android:background="@color/colorTableHeader"
-        android:orientation="horizontal"
+
+    <TextView
+android:text="@string/ilsp_grow_fodder_livstck"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        
-        <TextView
-            android:textColor="@android:color/holo_blue_dark"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="350dp"
-            android:text="@string/ilsp_livestock_fodder_yes"
-            android:layout_height="wrap_content"
-            android:layout_width="100dp"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <TextView
-            android:textColor="@android:color/holo_blue_dark"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="10dp"
-            android:text="@string/ilsp_livestock_fodder_no"
-            android:layout_height="wrap_content"
-            android:layout_width="100dp"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-    </LinearLayout>
-
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_grow_fodder_livstck" />
 <RadioGroup
 android:orientation="horizontal"
         android:minWidth="25dp"
@@ -48,78 +33,83 @@ android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rg_ilsp_grow_fodder_livstck" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_grow_fodder_livstck_yes"
+android:id="@+id/ilsp_grow_fodder_livstck_yes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_grow_fodder_livstck_no"
+android:id="@+id/ilsp_grow_fodder_livstck_no" /></RadioGroup >
+
     <TextView
-android:text="@string/ilsp_grow_fodder_livstck"
+        android:text="@string/ilsp_area_cultivated_fodder"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_area_cultivated_fodder" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:id="@+id/ilsp_area_cultivated_fodder"
+        android:hint="@string/ilsp_area_cultivated_fodder" />
+
+    <TextView
+android:text="@string/ilsp_area_cultivated_fodder_uom"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/l_ilsp_grow_fodder_livstck" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_grow_fodder_livstck_yes" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_grow_fodder_livstck_no" /></RadioGroup >
-
+        android:id="@+id/l_ilsp_area_cultivated_fodder_uom" />
 <RadioGroup
 android:orientation="horizontal"
         android:minWidth="25dp"
         android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rg_ilsp_area_cultivated_fodder" >
-    <TextView
-android:text="@string/ilsp_area_cultivated_fodder"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_ilsp_area_cultivated_fodder" />
+        android:id="@+id/rg_ilsp_area_cultivated_fodder_uom" >
 <RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_area_cultivated_fodder_acres" />
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_area_cultivated_fodder_uom_acres"
+android:id="@+id/ilsp_area_cultivated_fodder_uom_acres" />
 
 <RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_area_cultivated_fodder_hectares" />
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_area_cultivated_fodder_uom_hectares"
+android:id="@+id/ilsp_area_cultivated_fodder_uom_hectares" />
 
 <RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_area_cultivated_fodder_lima" />
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_area_cultivated_fodder_uom_lima"
+android:id="@+id/ilsp_area_cultivated_fodder_uom_lima" />
 
 <RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_area_cultivated_fodder_sqmeter" /></RadioGroup >
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_area_cultivated_fodder_uom_sqmeter"
+android:id="@+id/ilsp_area_cultivated_fodder_uom_sqmeter" /></RadioGroup >
 
     <TextView
         android:text="@string/ilsp_fodder_produced"
@@ -135,6 +125,15 @@ android:id="@+id/ilsp_area_cultivated_fodder_sqmeter" /></RadioGroup >
         android:id="@+id/ilsp_fodder_produced"
         android:hint="@string/ilsp_fodder_produced" />
 
+    <TextView
+android:text="@string/ilsp_store_and_preseve_fodder"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_store_and_preseve_fodder" />
 <RadioGroup
 android:orientation="horizontal"
         android:minWidth="25dp"
@@ -142,31 +141,31 @@ android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rg_ilsp_store_and_preseve_fodder" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_store_and_preseve_fodder_yes"
+android:id="@+id/ilsp_store_and_preseve_fodder_yes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_store_and_preseve_fodder_no"
+android:id="@+id/ilsp_store_and_preseve_fodder_no" /></RadioGroup >
+
     <TextView
-android:text="@string/ilsp_store_and_preseve_fodder"
+android:text="@string/ilsp_livstck_enough_food"
 android:textColor="@android:color/holo_blue_dark"
 android:textAppearance="?android:attr/textAppearanceMedium"
         android:minWidth="25dp"
         android:minHeight="25dp"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/l_ilsp_store_and_preseve_fodder" />
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_store_and_preseve_fodder_yes" />
-
-<RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
-android:id="@+id/ilsp_store_and_preseve_fodder_no" /></RadioGroup >
-
+        android:id="@+id/l_ilsp_livstck_enough_food" />
 <RadioGroup
 android:orientation="horizontal"
         android:minWidth="25dp"
@@ -174,30 +173,35 @@ android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rg_ilsp_livstck_enough_food" >
-    <TextView
-android:text="@string/ilsp_livstck_enough_food"
-android:textColor="@android:color/holo_blue_dark"
-android:textAppearance="?android:attr/textAppearanceMedium"
-        android:minWidth="25dp"
-        android:minHeight="25dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/l_ilsp_livstck_enough_food" />
 <RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livstck_enough_food_yes"
 android:id="@+id/ilsp_livstck_enough_food_yes" />
 
 <RadioButton
-    android:layout_marginStart="10dp"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:checked="false"
-android:text=""
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livstck_enough_food_no"
 android:id="@+id/ilsp_livstck_enough_food_no" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_months_without_feed"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_months_without_feed" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:id="@+id/ilsp_months_without_feed"
+        android:hint="@string/ilsp_months_without_feed" />
 
     <TextView
 android:text="@string/ilsp_where_feed_is_bought"

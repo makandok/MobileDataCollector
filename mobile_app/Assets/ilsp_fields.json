@@ -27,69 +27,6 @@
     "fieldType": "Single Select"
   },
   {
-    "name": "ilsp_data_coll_rprt_period_julydecember",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Data Collection Reporting Period  [July - December]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_data_coll_rprt_period_januaryjune",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Data Collection Reporting Period  [January - June]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_project_duration_1year",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Project Duration [1 Year]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_project_duration_2years",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Project Duration [2 Years]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_project_duration_3years",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Project Duration [3 Years]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_project_duration_4years",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Project Duration [4 Years]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_project_duration_5years",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main1",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Project Duration [5 Years]",
-    "fieldType": "Single Select"
-  },
-  {
     "name": "ilsp_project_year_year1",
     "dataType": "RadioButton",
     "pageName": "ilsp_main1",
@@ -153,6 +90,24 @@
     "fieldType": "Date"
   },
   {
+    "name": "ilsp_gps_latitude",
+    "dataType": "EditText",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Coordinates - Latitude",
+    "fieldType": "Text"
+  },
+  {
+    "name": "ilsp_gps_longitude",
+    "dataType": "EditText",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Coordinates - Longitude",
+    "fieldType": "Text"
+  },
+  {
     "name": "ilsp_name_of_beneficiary",
     "dataType": "EditText",
     "pageName": "ilsp_main1",
@@ -189,13 +144,49 @@
     "fieldType": "Text"
   },
   {
-    "name": "ilsp_district",
-    "dataType": "EditText",
+    "name": "ilsp_district_name_kaprimposhi",
+    "dataType": "RadioButton",
     "pageName": "ilsp_main1",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "District",
-    "fieldType": "Text"
+    "Label": "Select District [Kapri Mposhi]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_district_name_kabwe",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Select District [Kabwe]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_district_name_chisamba",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Select District [Chisamba]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_district_name_chibombo",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Select District [Chibombo]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_district_name_other",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Select District [Other]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_type_of_recipient_1_family",
@@ -267,6 +258,15 @@
     "IsIndexed": false,
     "IsRequired": false,
     "Label": "From which project was beneficiary recruited? [SLWEP]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_projected_recruited_from_dontknow",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "From which project was beneficiary recruited? [Don\\’t Know]",
     "fieldType": "Single Select"
   },
   {
@@ -420,6 +420,24 @@
     "IsIndexed": false,
     "IsRequired": false,
     "Label": "Head of the household Education Attainment [Tertiary (college/university)]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_educ_household_head_none",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Head of the household Education Attainment [None]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_educ_household_head_dontknow",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main1",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Head of the household Education Attainment [Don\\’t Know]",
     "fieldType": "Single Select"
   },
   {
@@ -702,6 +720,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_maize",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_maize",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_maize",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -916,6 +952,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_groundnuts",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_groundnuts",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_groundnuts",
@@ -1134,6 +1188,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_sweetpotatoes",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_sweetpotatoes",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_sweetpotatoes",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -1348,6 +1420,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_potatoes",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_potatoes",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_potatoes",
@@ -1566,6 +1656,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_cassava",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_cassava",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_cassava",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -1780,6 +1888,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_soyabeans",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_soyabeans",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_soyabeans",
@@ -1998,6 +2124,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_cowpeas",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_cowpeas",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_cowpeas",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -2212,6 +2356,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_mbambaranuts",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_mbambaranuts",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_mbambaranuts",
@@ -2430,6 +2592,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_beans",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_beans",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_beans",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -2644,6 +2824,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_cabbage",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_cabbage",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_cabbage",
@@ -2862,6 +3060,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_tomatoes",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_tomatoes",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_tomatoes",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -3076,6 +3292,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_onion",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_onion",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_onion",
@@ -3294,6 +3528,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_eggplantimpwa",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_eggplantimpwa",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_eggplantimpwa",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -3508,6 +3760,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_leafyvegetables",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_leafyvegetables",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_leafyvegetables",
@@ -3726,6 +3996,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_crop_gown_yes_sx_cotton",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_cotton",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_area_cultivated_sx_cotton",
     "dataType": "EditText",
     "pageName": "ilsp_main2",
@@ -3940,6 +4228,24 @@
     "IsRequired": false,
     "Label": "Crop Name",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_crop_gown_yes_sx_other",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_crop_gown_no_sx_other",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main2",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Was this Crop Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_area_cultivated_sx_other",
@@ -4158,6 +4464,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_localchickens",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_localchickens",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_localchickens",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4210,6 +4534,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_broilerchickens",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_broilerchickens",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_broilerchickens",
@@ -4266,6 +4608,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_turkeys",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_turkeys",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_turkeys",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4318,6 +4678,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_ducks",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_ducks",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_ducks",
@@ -4374,6 +4752,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_guineafowls",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_guineafowls",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_guineafowls",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4426,6 +4822,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_pigeons",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_pigeons",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_pigeons",
@@ -4482,6 +4896,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_goats",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_goats",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_goats",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4534,6 +4966,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_pigs",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_pigs",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_pigs",
@@ -4590,6 +5040,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_sheep",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_sheep",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_sheep",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4642,6 +5110,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_dairycattle",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_dairycattle",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_dairycattle",
@@ -4698,6 +5184,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_beefcattle",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_beefcattle",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_beefcattle",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4750,6 +5254,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_draftcattle",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_draftcattle",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_draftcattle",
@@ -4806,6 +5328,24 @@
     "fieldType": "Label"
   },
   {
+    "name": "ilsp_livestock_grown_yes_sx_quails",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_quails",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
+  },
+  {
     "name": "ilsp_curr_numb_animals_for_hh_sx_quails",
     "dataType": "EditText",
     "pageName": "ilsp_main3",
@@ -4858,6 +5398,24 @@
     "IsRequired": false,
     "Label": "Livestock",
     "fieldType": "Label"
+  },
+  {
+    "name": "ilsp_livestock_grown_yes_sx_other",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [Yes]",
+    "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_livestock_grown_no_sx_other",
+    "dataType": "RadioButton",
+    "pageName": "ilsp_main3",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Livestock Grown [No]",
+    "fieldType": "Single Select"
   },
   {
     "name": "ilsp_curr_numb_animals_for_hh_sx_other",
@@ -4923,39 +5481,48 @@
     "fieldType": "Single Select"
   },
   {
-    "name": "ilsp_area_cultivated_fodder_acres",
+    "name": "ilsp_area_cultivated_fodder",
+    "dataType": "EditText",
+    "pageName": "ilsp_main4",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "Area under cultivation for fodder",
+    "fieldType": "Number"
+  },
+  {
+    "name": "ilsp_area_cultivated_fodder_uom_acres",
     "dataType": "RadioButton",
     "pageName": "ilsp_main4",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "Area under cultivation for fodder [Acres]",
+    "Label": "Area under cultivation for fodder UoM [Acres]",
     "fieldType": "Single Select"
   },
   {
-    "name": "ilsp_area_cultivated_fodder_hectares",
+    "name": "ilsp_area_cultivated_fodder_uom_hectares",
     "dataType": "RadioButton",
     "pageName": "ilsp_main4",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "Area under cultivation for fodder [Hectares]",
+    "Label": "Area under cultivation for fodder UoM [Hectares]",
     "fieldType": "Single Select"
   },
   {
-    "name": "ilsp_area_cultivated_fodder_lima",
+    "name": "ilsp_area_cultivated_fodder_uom_lima",
     "dataType": "RadioButton",
     "pageName": "ilsp_main4",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "Area under cultivation for fodder [Lima]",
+    "Label": "Area under cultivation for fodder UoM [Lima]",
     "fieldType": "Single Select"
   },
   {
-    "name": "ilsp_area_cultivated_fodder_sqmeter",
+    "name": "ilsp_area_cultivated_fodder_uom_sqmeter",
     "dataType": "RadioButton",
     "pageName": "ilsp_main4",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "Area under cultivation for fodder [Sq meter]",
+    "Label": "Area under cultivation for fodder UoM [Sq meter]",
     "fieldType": "Single Select"
   },
   {
@@ -5002,6 +5569,15 @@
     "IsRequired": false,
     "Label": "Does your Livestock have enough food throughout the year [No]",
     "fieldType": "Single Select"
+  },
+  {
+    "name": "ilsp_months_without_feed",
+    "dataType": "EditText",
+    "pageName": "ilsp_main4",
+    "IsIndexed": false,
+    "IsRequired": false,
+    "Label": "If no, How many months without feed",
+    "fieldType": "Number"
   },
   {
     "name": "ilsp_where_feed_is_bought_localmarket",
@@ -5630,7 +6206,7 @@
     "pageName": "ilsp_main5",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "Where Milk is sold, Other",
+    "Label": "Other, Where Milk is sold",
     "fieldType": "Text"
   },
   {
@@ -8303,7 +8879,7 @@
     "pageName": "ilsp_main9",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "If yes, how much money did you receive?",
+    "Label": "If Yes, how much money did you receive?",
     "fieldType": "Text"
   },
   {
@@ -8321,7 +8897,7 @@
     "pageName": "ilsp_main9",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "If YES, where did you access the loan from? [Loan Sharks-Kaloba]",
+    "Label": "If YES, where did you access the loan from? [Loan Sharks - Kaloba]",
     "fieldType": "MultiSelect"
   },
   {
@@ -8368,942 +8944,6 @@
     "IsRequired": false,
     "Label": "Other, specify",
     "fieldType": "Text"
-  },
-  {
-    "name": "ilsp_tool_name_sx_hoe",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_hoe",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_hoe",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_hoe",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_axe",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_axe",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_axe",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_axe",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_spade",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_spade",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_spade",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_spade",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_pangas",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_pangas",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_pangas",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_pangas",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_wheelbarrow",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_wheelbarrow",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_wheelbarrow",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_wheelbarrow",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_sprayer",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_sprayer",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_sprayer",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_sprayer",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_slasher",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_slasher",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_slasher",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_slasher",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_oxplough",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_oxplough",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_oxplough",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_oxplough",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_ridgeplough",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_ridgeplough",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_ridgeplough",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_ridgeplough",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_ripper",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_ripper",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_ripper",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_ripper",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_oilpress",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_oilpress",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_oilpress",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_oilpress",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_grainmill",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_grainmill",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_grainmill",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_grainmill",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_oxcarts",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_oxcarts",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_oxcarts",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_oxcarts",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_tractor",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_tractor",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_tractor",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_tractor",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_trailor",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_trailor",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_trailor",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_trailor",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_bicycle",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_bicycle",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_bicycle",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_bicycle",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_radio",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_radio",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_radio",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_radio",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_tv",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_tv",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_tv",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_tv",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_mobilecellphone",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_mobilecellphone",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_mobilecellphone",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_mobilecellphone",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_stove",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_stove",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_stove",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_stove",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_motorbike",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_motorbike",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_motorbike",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_motorbike",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_solarpanel",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_solarpanel",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_solarpanel",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_solarpanel",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_motorvehicle",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_motorvehicle",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_motorvehicle",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_motorvehicle",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_sofas",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_sofas",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_sofas",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_sofas",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_bed",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_bed",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_bed",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_bed",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
-  },
-  {
-    "name": "ilsp_tool_name_sx_mattress",
-    "dataType": "TextView",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Type",
-    "fieldType": "Label"
-  },
-  {
-    "name": "ilsp_owned_yes_sx_mattress",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [Yes]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_owned_no_sx_mattress",
-    "dataType": "RadioButton",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Owned? [No]",
-    "fieldType": "Single Select"
-  },
-  {
-    "name": "ilsp_number_owned_sx_mattress",
-    "dataType": "EditText",
-    "pageName": "ilsp_main10",
-    "IsIndexed": false,
-    "IsRequired": false,
-    "Label": "Number Owned",
-    "fieldType": "Integer"
   },
   {
     "name": "ilsp_tool_name_sx_hoe",
@@ -10332,12 +9972,12 @@
     "fieldType": "Single Select"
   },
   {
-    "name": "ilsp_soil_conservation_pract_stripcropping",
+    "name": "ilsp_soil_conservation_pract_intercropping",
     "dataType": "CheckBox",
     "pageName": "ilsp_main12",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "Types of soil conservation practices carried out [Strip cropping]",
+    "Label": "Types of soil conservation practices carried out [Intercropping]",
     "fieldType": "MultiSelect"
   },
   {
@@ -12362,7 +12002,7 @@
     "pageName": "ilsp_main15",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "POG contributes towards the proposperity of the community [Agree]",
+    "Label": "POG contributes towards the prosperity of the community [Agree]",
     "fieldType": "Single Select"
   },
   {
@@ -12371,7 +12011,7 @@
     "pageName": "ilsp_main15",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "POG contributes towards the proposperity of the community [Strongly Agree]",
+    "Label": "POG contributes towards the prosperity of the community [Strongly Agree]",
     "fieldType": "Single Select"
   },
   {
@@ -12380,7 +12020,7 @@
     "pageName": "ilsp_main15",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "POG contributes towards the proposperity of the community [Disagree]",
+    "Label": "POG contributes towards the prosperity of the community [Disagree]",
     "fieldType": "Single Select"
   },
   {
@@ -12389,7 +12029,7 @@
     "pageName": "ilsp_main15",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "POG contributes towards the proposperity of the community [Strongly Disagree]",
+    "Label": "POG contributes towards the prosperity of the community [Strongly Disagree]",
     "fieldType": "Single Select"
   },
   {
@@ -12398,7 +12038,7 @@
     "pageName": "ilsp_main15",
     "IsIndexed": false,
     "IsRequired": false,
-    "Label": "POG contributes towards the proposperity of the community [Neutral]",
+    "Label": "POG contributes towards the prosperity of the community [Neutral]",
     "fieldType": "Single Select"
   }
 ]

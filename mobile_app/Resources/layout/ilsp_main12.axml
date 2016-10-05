@@ -29,8 +29,8 @@ android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-             android:text="@string/ilsp_soil_conservation_pract_stripcropping"
-             android:id="@+id/ilsp_soil_conservation_pract_stripcropping" />
+             android:text="@string/ilsp_soil_conservation_pract_intercropping"
+             android:id="@+id/ilsp_soil_conservation_pract_intercropping" />
  <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

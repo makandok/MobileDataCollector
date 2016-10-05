@@ -2,572 +2,578 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:orientation="vertical"
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<include layout="@layout/nextandprevbuttons" />
+
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <include
-            layout="@layout/nextandprevbuttons" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_food" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_food"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_food" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_food" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_food" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_shelterhousingbuildingrenovations" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_shelterhousingbuildingrenovations"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_shelterhousingbuildingrenovations" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_shelterhousingbuildingrenovations" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_shelterhousingbuildingrenovations" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_educationschoolfeesuniformsbooks" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_educationschoolfeesuniformsbooks"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_educationschoolfeesuniformsbooks" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_educationschoolfeesuniformsbooks" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_educationschoolfeesuniformsbooks" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_clothing" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_clothing"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_clothing" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_clothing" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_clothing" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_healthmedicalbillsmedicine" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_healthmedicalbillsmedicine"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_healthmedicalbillsmedicine" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_healthmedicalbillsmedicine" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_healthmedicalbillsmedicine" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_utilitieselectricitymobile" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_utilitieselectricitymobile"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_utilitieselectricitymobile" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_utilitieselectricitymobile" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_utilitieselectricitymobile" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_transportation" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_transportation"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_transportation" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_transportation" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_transportation" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_productiveassetsfarmassets" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_productiveassetsfarmassets"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_productiveassetsfarmassets" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_productiveassetsfarmassets" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_productiveassetsfarmassets" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_householdassetsegfurnituresolar" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_householdassetsegfurnituresolar"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_householdassetsegfurnituresolar" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_householdassetsegfurnituresolar" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_householdassetsegfurnituresolar" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_otherinvestments" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_otherinvestments"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_otherinvestments" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_otherinvestments" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_otherinvestments" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_entertainmentegrecreationalcohol" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_entertainmentegrecreationalcohol"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_entertainmentegrecreationalcohol" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_entertainmentegrecreationalcohol" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_entertainmentegrecreationalcohol" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_socialmembershipfeeschurchofferingfunctions" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_socialmembershipfeeschurchofferingfunctions" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_socialmembershipfeeschurchofferingfunctions" />
-        <TextView
-            android:text="@string/ilsp_expenses_past_year"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_expenses_past_year_sx_savings" />
-        <TextView
-            android:text="@string/ilsp_expenses_sx_savings"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ilsp_expenses_sx_savings" />
-        <TextView
-            android:text="@string/ilsp_amount_of_expense"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:labelFor="@+id/ilsp_amount_of_expense_sx_savings" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="50dp"
-            android:inputType="number"
-            android:id="@+id/ilsp_amount_of_expense_sx_savings" />
-        <TextView
-            android:text="@string/ilsp_have_a_bank_account"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_have_a_bank_account" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_have_a_bank_account">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_have_a_bank_account_yes"
-                android:id="@+id/ilsp_have_a_bank_account_yes" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_have_a_bank_account_no"
-                android:id="@+id/ilsp_have_a_bank_account_no" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_received_loan_past_year"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_received_loan_past_year" />
-        <RadioGroup
-            android:orientation="horizontal"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rg_ilsp_received_loan_past_year">
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_received_loan_past_year_yes"
-                android:id="@+id/ilsp_received_loan_past_year_yes" />
-            <RadioButton
-                android:layout_marginStart="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="@string/ilsp_received_loan_past_year_no"
-                android:id="@+id/ilsp_received_loan_past_year_no" />
-        </RadioGroup>
-        <TextView
-            android:text="@string/ilsp_loan_amount_received"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:labelFor="@+id/ilsp_loan_amount_received" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:inputType="text"
-            android:id="@+id/ilsp_loan_amount_received"
-            android:hint="@string/ilsp_loan_amount_received" />
-        <TextView
-            android:text="@string/ilsp_source_of_loan"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:minWidth="25dp"
-            android:minHeight="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_ilsp_source_of_loan" />
-        <CheckBox
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_food" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_food"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_food" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_food" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_food"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_shelterhousingbuildingrenovations" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_shelterhousingbuildingrenovations"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_shelterhousingbuildingrenovations" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_shelterhousingbuildingrenovations" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_shelterhousingbuildingrenovations"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_educationschoolfeesuniformsbooks" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_educationschoolfeesuniformsbooks"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_educationschoolfeesuniformsbooks" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_educationschoolfeesuniformsbooks" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_educationschoolfeesuniformsbooks"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_clothing" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_clothing"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_clothing" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_clothing" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_clothing"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_healthmedicalbillsmedicine" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_healthmedicalbillsmedicine"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_healthmedicalbillsmedicine" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_healthmedicalbillsmedicine" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_healthmedicalbillsmedicine"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_utilitieselectricitymobile" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_utilitieselectricitymobile"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_utilitieselectricitymobile" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_utilitieselectricitymobile" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_utilitieselectricitymobile"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_transportation" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_transportation"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_transportation" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_transportation" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_transportation"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_farmexpensesinputslivestockstructuresvetcarefeed" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_farmexpensesinputslivestockstructuresvetcarefeed"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_productiveassetsfarmassets" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_productiveassetsfarmassets"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_productiveassetsfarmassets" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_productiveassetsfarmassets" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_productiveassetsfarmassets"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_householdassetsegfurnituresolar" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_householdassetsegfurnituresolar"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_householdassetsegfurnituresolar" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_householdassetsegfurnituresolar" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_householdassetsegfurnituresolar"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_otherinvestments" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_otherinvestments"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_otherinvestments" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_otherinvestments" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_otherinvestments"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_entertainmentegrecreationalcohol" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_entertainmentegrecreationalcohol"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_entertainmentegrecreationalcohol" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_entertainmentegrecreationalcohol" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_entertainmentegrecreationalcohol"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_socialmembershipfeeschurchofferingfunctions" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_socialmembershipfeeschurchofferingfunctions" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_socialmembershipfeeschurchofferingfunctions" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_socialmembershipfeeschurchofferingfunctions"/>
+    <TextView
+        android:text="@string/ilsp_expenses_past_year"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_expenses_past_year_sx_savings" />
+    <TextView
+        android:text="@string/ilsp_expenses_sx_savings"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_expenses_sx_savings" />
+    <TextView
+        android:text="@string/ilsp_amount_of_expense"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:labelFor="@+id/ilsp_amount_of_expense_sx_savings" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"
+        android:id="@+id/ilsp_amount_of_expense_sx_savings"/>
+
+    <TextView
+android:text="@string/ilsp_have_a_bank_account"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_have_a_bank_account" />
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_have_a_bank_account" >
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_source_of_loan_villagesavingsandcreditscheme"
-            android:id="@+id/ilsp_source_of_loan_villagesavingsandcreditscheme" />
-        <CheckBox
+            android:text="@string/ilsp_have_a_bank_account_yes"
+android:id="@+id/ilsp_have_a_bank_account_yes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_source_of_loan_loansharkskaloba"
-            android:id="@+id/ilsp_source_of_loan_loansharkskaloba" />
-        <CheckBox
+            android:text="@string/ilsp_have_a_bank_account_no"
+android:id="@+id/ilsp_have_a_bank_account_no" /></RadioGroup >
+
+    <TextView
+android:text="@string/ilsp_received_loan_past_year"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_received_loan_past_year" />
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_received_loan_past_year" >
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_source_of_loan_relativefriend"
-            android:id="@+id/ilsp_source_of_loan_relativefriend" />
-        <CheckBox
+            android:text="@string/ilsp_received_loan_past_year_yes"
+android:id="@+id/ilsp_received_loan_past_year_yes" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_source_of_loan_microfinanceinstitution"
-            android:id="@+id/ilsp_source_of_loan_microfinanceinstitution" />
-        <CheckBox
+            android:text="@string/ilsp_received_loan_past_year_no"
+android:id="@+id/ilsp_received_loan_past_year_no" /></RadioGroup >
+
+    <TextView
+        android:text="@string/ilsp_loan_amount_received"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_loan_amount_received" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_loan_amount_received"
+        android:hint="@string/ilsp_loan_amount_received" />
+
+    <TextView
+android:text="@string/ilsp_source_of_loan"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_ilsp_source_of_loan" /> <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_source_of_loan_commercialbank"
-            android:id="@+id/ilsp_source_of_loan_commercialbank" />
-        <CheckBox
+             android:text="@string/ilsp_source_of_loan_villagesavingsandcreditscheme"
+             android:id="@+id/ilsp_source_of_loan_villagesavingsandcreditscheme" />
+ <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/ilsp_source_of_loan_other"
-            android:id="@+id/ilsp_source_of_loan_other" />
-        <TextView
-            android:text="@string/ilsp_other_source_of_loan"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+             android:text="@string/ilsp_source_of_loan_loansharkskaloba"
+             android:id="@+id/ilsp_source_of_loan_loansharkskaloba" />
+ <CheckBox
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:labelFor="@+id/ilsp_other_source_of_loan" />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:inputType="text"
-            android:id="@+id/ilsp_other_source_of_loan"
-            android:hint="@string/ilsp_other_source_of_loan" />
-        <TextView
-            android:text="@string/ilsp_tools_owned_quant"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/white"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:checked="false"
+             android:text="@string/ilsp_source_of_loan_relativefriend"
+             android:id="@+id/ilsp_source_of_loan_relativefriend" />
+ <CheckBox
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ilsp_tools_owned_quant" />
-    </LinearLayout>
+            android:checked="false"
+             android:text="@string/ilsp_source_of_loan_microfinanceinstitution"
+             android:id="@+id/ilsp_source_of_loan_microfinanceinstitution" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_of_loan_commercialbank"
+             android:id="@+id/ilsp_source_of_loan_commercialbank" />
+ <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+             android:text="@string/ilsp_source_of_loan_other"
+             android:id="@+id/ilsp_source_of_loan_other" />
+
+    <TextView
+        android:text="@string/ilsp_other_source_of_loan"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ilsp_other_source_of_loan" />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/ilsp_other_source_of_loan"
+        android:hint="@string/ilsp_other_source_of_loan" />
+
+    <TextView
+        android:text="@string/ilsp_tools_owned_quant"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilsp_tools_owned_quant" />
+
+</LinearLayout>
 </ScrollView>

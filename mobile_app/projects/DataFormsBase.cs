@@ -9,6 +9,7 @@ using Android.Widget;
 using MobileCollector.model;
 using MobileCollector.store;
 using Newtonsoft.Json;
+using Android.Locations;
 
 namespace MobileCollector.projects
 {
@@ -388,7 +389,6 @@ namespace MobileCollector.projects
                 .Show();
         }
 
-
         protected virtual List<NameValuePair> getModuleClientSummaries(IEnumerable<NameValuePair> data)
         {
             return new List<NameValuePair>();
@@ -404,6 +404,14 @@ namespace MobileCollector.projects
                     return;
                 OnBackPressed();
             };
+
+            var buttonGPS = FindViewById<Button>(Resource.Id.buttonGetGPS);
+            buttonGPS.Click += (sender, e) =>
+            {
+                //InitializeLocationManager();
+            };
+            buttonGPS.Visibility = Android.Views.ViewStates.Invisible;
+
 
             if (myView == Resource.Layout.DataEntryEnd)
             {

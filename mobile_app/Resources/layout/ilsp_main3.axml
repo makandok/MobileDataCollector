@@ -25,6 +25,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_localchickens" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_localchickens" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_localchickens" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_localchickens" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -110,6 +140,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_broilerchickens" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_broilerchickens" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_broilerchickens" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_broilerchickens" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
@@ -197,6 +257,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_turkeys" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_turkeys" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_turkeys" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_turkeys" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -282,6 +372,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_ducks" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_ducks" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_ducks" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_ducks" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
@@ -369,6 +489,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_guineafowls" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_guineafowls" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_guineafowls" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_guineafowls" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -454,6 +604,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_pigeons" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_pigeons" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_pigeons" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_pigeons" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
@@ -541,6 +721,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_goats" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_goats" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_goats" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_goats" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -626,6 +836,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_pigs" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_pigs" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_pigs" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_pigs" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
@@ -713,6 +953,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_sheep" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_sheep" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_sheep" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_sheep" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -798,6 +1068,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_dairycattle" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_dairycattle" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_dairycattle" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_dairycattle" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
@@ -885,6 +1185,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_beefcattle" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_beefcattle" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_beefcattle" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_beefcattle" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -970,6 +1300,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_draftcattle" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_draftcattle" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_draftcattle" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_draftcattle" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
@@ -1057,6 +1417,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_quails" />
     <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_quails" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_quails" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_quails" /></RadioGroup >
+    <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -1142,6 +1532,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ilsp_livestock_name_sx_other" />
+    <TextView
+android:text="@string/ilsp_livestock_grown"
+android:textColor="@android:color/holo_blue_dark"
+android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RadioGroup
+android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_ilsp_livestock_grown_sx_other" >
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_yes"
+android:id="@+id/ilsp_livestock_grown_yes_sx_other" />
+
+<RadioButton
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/ilsp_livestock_grown_no"
+android:id="@+id/ilsp_livestock_grown_no_sx_other" /></RadioGroup >
     <TextView
         android:text="@string/ilsp_curr_numb_animals_for_hh"
         android:textColor="@android:color/holo_blue_dark"
