@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector.model;
 
-namespace JhpDataSystem
+namespace ServerCollector
 {
     public class ClientLookupProvider<T> where T : class, ILocalDbEntity, new()
     {

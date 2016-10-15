@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace JhpDataSystem.store
+namespace ServerCollector.store
 {
     public class ProcessLogger
     {

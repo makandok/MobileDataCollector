@@ -49,9 +49,9 @@ namespace ExcelToAndroidXML
                     IsIndexed = field.IsIndexed == "1",
                     IsRequired = field.IsIndexed == "1",
                     Label = field.DisplayLabel,
-                    pageName = ViewPageName
-                                        ,
-                    fieldType = field.ViewType
+                    pageName = ViewPageName,
+                    fieldType = field.ViewType,
+                    fieldName = field.ViewName
                 });
             metaDataProvider.AddStringResource(stringsEntryName, stringsEntryText);
             return fieldXml.Replace("'", "\"");
@@ -108,9 +108,9 @@ namespace ExcelToAndroidXML
         IsIndexed = field.IsIndexed == "1",
         IsRequired = field.IsIndexed == "1",
         Label = field.DisplayLabel,
-        pageName = ViewPageName
-                            ,
-        fieldType = field.ViewType
+        pageName = ViewPageName,
+        fieldType = field.ViewType,
+        fieldName = field.ViewName
     });
             }
 
@@ -205,8 +205,8 @@ android:orientation='" + (setVertical ? "vertical" : "horizontal") + @"'
                         IsRequired = field.IsIndexed == "1",
                         Label = field.DisplayLabel + " [" + option + "]",
                         pageName = ViewPageName,
-                        fieldType = field.ViewType
-
+                        fieldType = field.ViewType,
+                        fieldName = field.ViewName
                     });
                 metaDataProvider.AddStringResource(optionName, option);
 
@@ -244,21 +244,21 @@ android:textAppearance='?android:attr/textAppearanceMedium'
                 var optionName = field.ViewName + "_" + option.Clean();
                 var suffixedName = optionName + suffixSpacer + ItemName.Clean();
                 var fieldXml = string.Empty;
-//                if (field.GridColumn == 5)
-//                {
-//                    fieldXml = (@"
-//<RadioButton
-//    android:layout_marginStart='10dp'
-//    android:layout_width='100dp'
-//    android:layout_height='wrap_content'
-//    android:checked='false'
-//android:text=''
-//android:id='@+id/" + optionName + @"' />"
-//);
-//                }
-//                else
-//                {
-                    fieldXml = (@"
+                //                if (field.GridColumn == 5)
+                //                {
+                //                    fieldXml = (@"
+                //<RadioButton
+                //    android:layout_marginStart='10dp'
+                //    android:layout_width='100dp'
+                //    android:layout_height='wrap_content'
+                //    android:checked='false'
+                //android:text=''
+                //android:id='@+id/" + optionName + @"' />"
+                //);
+                //                }
+                //                else
+                //                {
+                fieldXml = (@"
 <RadioButton
             android:layout_marginStart='30dp'
             android:layout_width='wrap_content'
@@ -266,8 +266,8 @@ android:textAppearance='?android:attr/textAppearanceMedium'
             android:checked='false'
             android:text='@string/" + optionName + @"'
 android:id='@+id/" + suffixedName + "' />"
-    );
-                    metaDataProvider.AddStringResource(optionName, option);
+);
+                metaDataProvider.AddStringResource(optionName, option);
                 //}
 
                 metaDataProvider.ModelItems.Add(
@@ -279,8 +279,8 @@ android:id='@+id/" + suffixedName + "' />"
                         IsRequired = field.IsIndexed == "1",
                         Label = field.DisplayLabel + " [" + option + "]",
                         pageName = ViewPageName,
-                        fieldType = field.ViewType
-
+                        fieldType = field.ViewType,
+                        fieldName = field.ViewName
                     });
 
                 fieldOptionDefinitions.Add(fieldXml.Replace("'", "\""));

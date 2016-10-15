@@ -1,7 +1,7 @@
-﻿<Application x:Class="SyncManager.App"
+﻿<Application x:Class="ServerCollector.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:SyncManager"
+             xmlns:local="clr-namespace:ServerCollector"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

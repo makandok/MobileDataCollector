@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace SyncManager
+namespace ServerCollector
 {
     /// <summary>
     /// Interaction logic for App.xaml

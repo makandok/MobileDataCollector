@@ -8,13 +8,13 @@ using Google.Apis.Datastore.v1.Data;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Net;
 using Android.Widget;
-using SyncManager.store;
-using SyncManager.model;
+using MobileCollector;
+using ServerCollector.model;
 
-namespace JhpDataSystem.store
+namespace ServerCollector.store
 {
     public class CloudDb_graveyard
     {
@@ -167,7 +167,9 @@ namespace JhpDataSystem.store
                         entity.Properties["dateadded"].TimestampValue);
                     var editday = entityDate.toYMDInt();
                     cloudEntity.EditDay = editday;
-                    var editdate = entityDate.ToBinary();
+
+                    var local = entityDate.ToLocalTime();
+                    var editdate = local.ToBinary();
                     cloudEntity.EditDate = editdate;
                 }
 
@@ -259,7 +261,7 @@ namespace JhpDataSystem.store
             //System.IO.Stream mstream = null;
             //var googleCredential = Google.Apis.Auth.OAuth2.GoogleCredential.FromStream(mstream);
             var cert =
-                SyncManager.Properties.Resources.key;
+                ServerCollector.Properties.Resources.key;
                 //assetManager.Open(assets[Constants.ASSET_P12KEYFILE]).toByteArray();
             var serviceAccountEmail = assets[Constants.ASSET_NAME_SVC_ACCTEMAIL];
             var certificate = new X509Certificate2(cert, "notasecret", X509KeyStorageFlags.Exportable);

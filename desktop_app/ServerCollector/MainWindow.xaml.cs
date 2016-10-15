@@ -1,5 +1,5 @@
-﻿using JhpDataSystem;
-using JhpDataSystem.store;
+﻿using ServerCollector;
+using ServerCollector.store;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ServerSync
+namespace ServerCollector
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -37,7 +37,7 @@ namespace ServerSync
             AppInstance.Instance.InitialiseAppResources(null,null);
             //we have loaded the app
             this.menuServerSync.Click += MenuServerSync_Click;
-            this.menuServerSyncOldData.Click += MenuServerSync_Click;
+            //this.menuServerSyncOldData.Click += MenuServerSync_Click;
             this.menuConfigure.Click += MenuConfigure_Click;
             this.menuAllData.Click += MenuAllData_Click;
             this.menuSmmaries.Click += MenuSmmaries_Click;
@@ -79,11 +79,18 @@ namespace ServerSync
                 return;
             }
 
+            var dialog = 
+                MessageBox.Show("Do you want to start data download from the server", "Please confirm action", 
+                MessageBoxButton.OKCancel);
+
+            if (dialog != MessageBoxResult.OK)
+                return;
+            
             //we get list of files to download
             var syncOldData = this.menuServerSyncOldData == sender;
 
-            var res = await AppInstance.Instance.CloudDbInstance.EnsureServerSync(setProgressValue, syncOldData);
-
+            var res = await AppInstance.Instance.CloudDbInstance
+                .EnsureServerSync(setProgressValue, syncOldData);
 
             //for each file, we download
             AppInstance.Instance.CloudDbInstance.RefreshLocalEntities(setProgressValue);

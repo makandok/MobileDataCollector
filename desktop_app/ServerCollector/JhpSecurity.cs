@@ -1,7 +1,7 @@
 using System.Text;
 using System.Security.Cryptography;
 
-namespace JhpDataSystem
+namespace ServerCollector
 {
     public class JhpSecurity
     {

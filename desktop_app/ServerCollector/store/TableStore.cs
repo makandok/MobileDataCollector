@@ -1,10 +1,11 @@
 using System;
 //using Mono.Data.Sqlite;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Data.SqlClient;
+using MobileCollector;
 //using SqliteException = System.Data.SqlClient.SqlException;
 
-namespace JhpDataSystem.store
+namespace ServerCollector.store
 {
     public class TableStore: BaseTableStore
     {

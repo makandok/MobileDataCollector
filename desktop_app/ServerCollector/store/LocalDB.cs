@@ -1,7 +1,7 @@
 using System;
 using System.Data.SqlClient;
 
-namespace JhpDataSystem.store
+namespace ServerCollector.store
 {
     public class LocalDB
     {
@@ -9,7 +9,7 @@ namespace JhpDataSystem.store
         public string ConnectionString { get; set; }
         public LocalDB()
         {
-            var connString = SyncManager.Properties.
+            var connString = Properties.
                 Settings.Default.TestDbConnString;
             ConnectionString = connString;
         }

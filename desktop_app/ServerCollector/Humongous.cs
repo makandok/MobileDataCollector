@@ -1,14 +1,18 @@
 using Android.App;
 using Android.Content.Res;
-using JhpDataSystem.model;
-using JhpDataSystem.store;
+using MobileCollector;
+using MobileCollector.model;
+//using MobileCollector.store;
 using Newtonsoft.Json.Linq;
+using ServerCollector.projects;
+using ServerCollector.store;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 
-namespace JhpDataSystem
+namespace ServerCollector
 {
     public class AppInstance
     {
@@ -31,7 +35,6 @@ namespace JhpDataSystem
 
         AssetManager _assetManager { get; set; }
         Activity _mainContext;
-        public LocalEntityStore LocalEntityStoreInstance { get; private set; }
 
         public Dictionary<int, List<FieldValuePair>> TemporalViewData = null;
 
@@ -45,7 +48,7 @@ namespace JhpDataSystem
             TemporalViewData = new Dictionary<int, List<FieldValuePair>>();
             ApiAssets = new Dictionary<string, string>();
             //we read the api key file
-            var bytes = SyncManager.Properties.Resources.api_keys;
+            var bytes = Properties.Resources.api_keys;
             var inputStream = new MemoryStream(bytes).toText();
 
             //var keys = new Dictionary<string, string>();
@@ -64,9 +67,25 @@ namespace JhpDataSystem
                 }                
             }
 
-            //we need to have this class initialised
-            LocalEntityStoreInstance = new LocalEntityStore();
-            //LocalEntityStoreInstance.buildTables(false);
+            //initialise the data dictionary, if not yet
+            var currentContexts = new List<BaseContextManager>();
+            var allContexts = new List<BaseContextManager>() {
+                new LspContextManager(null,null), new VmmcContextManager(null,null),new PpxContextManager(null,null)
+            };
+
+            foreach (var projContext in allContexts)
+            {
+                if (projContext.FieldItems != null)
+                { currentContexts.Add(projContext); }
+            }
+
+            var fieldDictionaryStore = new FieldDictionaryStore();
+            foreach (var currCtxt in currentContexts)
+            {
+                fieldDictionaryStore.getFields(currCtxt.Name, currCtxt.FieldItems);
+            }
+            fieldDictionaryStore.saveToDb();
+
             CloudDbInstance = new CloudDb() { ApiAssets = ApiAssets };
             var allTables = CloudDb.getAllKindNames();
             foreach (var table in allTables)
@@ -74,8 +93,12 @@ namespace JhpDataSystem
                 new CloudLocalStore(table.toKind()).build();
 
                 //this creates a table used to store a decrypted set of similar data
-                new CloudLocalStore(CloudDb.getLocalTableName(table).toKind()).build();
-                //new CloudLocalStore(table.toKind()).build(dropAndRecreate: true);
+                var dropAndRecreate = false;
+
+                new CloudLocalStore(CloudDb.getLocalTableName(table).toKind())
+                    .build(dropAndRecreate);
+                new FieldValueStore(CloudDb.getTableFieldValueName(table))
+                    .build(dropAndRecreate);
             }
         }
 

@@ -1,5 +1,6 @@
 using System.Text;
 using System.IO;
+using MobileCollector;
 
 //https://forums.xamarin.com/discussion/16071/encryption-decryption-in-xamarin
 namespace System.Security.Cryptography
@@ -7,7 +8,7 @@ namespace System.Security.Cryptography
     static internal class Crypto
     {
         // Define the secret salt value for encrypting data
-        private static readonly byte[] salt = Encoding.ASCII.GetBytes(JhpDataSystem.Constants.EncryptionSALT);
+        private static readonly byte[] salt = Encoding.ASCII.GetBytes(Constants.EncryptionSALT);
 
         /// <summary>
         /// Takes the given text string and encrypts it using the given password.

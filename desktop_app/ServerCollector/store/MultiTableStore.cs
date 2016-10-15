@@ -1,13 +1,13 @@
 ﻿using System;
 //using Mono.Data.Sqlite;
 using System.Collections.Generic;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 //using SqliteException = System.Data.SqlClient.SqlException;
 
-namespace JhpDataSystem.store
+namespace ServerCollector.store
 {
     public class MultiTableStore
     {

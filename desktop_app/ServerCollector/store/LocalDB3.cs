@@ -1,7 +1,7 @@
 using System;
 using System.Data.SqlClient;
 
-namespace JhpDataSystem.store
+namespace ServerCollector.store
 {
     public class OutDb: LocalDB3
     {
@@ -12,7 +12,7 @@ namespace JhpDataSystem.store
 
     public class LocalDB3
     {
-        public string defaultConnectionString = @"data source=SUPER-LAP\SQL2014;initial catalog=ServerSyncDb;integrated security=true;";
+        public string defaultConnectionString = Properties.Settings.Default.TestDbConnString;
         public LocalDB3(string connString)
         {
             defaultConnectionString = connString;

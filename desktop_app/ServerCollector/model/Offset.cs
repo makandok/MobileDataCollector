@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SyncManager.model
+namespace ServerCollector.model
 {
     public class Offset : SimpleValue<int>
     {

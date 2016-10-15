@@ -1,6 +1,6 @@
-using JhpDataSystem.model;
+using MobileCollector.model;
 
-namespace JhpDataSystem.projects
+namespace ServerCollector.projects
 {
     public class DefaultLookupProvider<T> : ClientLookupProvider<T> where T : class, ILocalDbEntity, new()
     {

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Android.App;
-using JhpDataSystem.model;
+using MobileCollector.model;
 using Android.Content.Res;
+using MobileCollector;
 
-namespace JhpDataSystem.projects
+namespace ServerCollector.projects
 {
     public class BaseContextManager
     {
@@ -19,13 +20,26 @@ namespace JhpDataSystem.projects
             _fieldJsonFile = fieldJsonFile;
             _assetManager = assetManager;
             _mainContext = mainContext;
+            FieldItems = null;
             initialiseFieldDictionary();
         }
 
-        void initialiseFieldDictionary()
+        public string FieldsFile
         {
-            FieldItems =
-                readFields(_fieldJsonFile, _assetManager, _mainContext);
+            get { return _fieldJsonFile; }
+            set { _fieldJsonFile = value; }
+        }
+
+        bool initialiseFieldDictionary()
+        {
+            var path = System.IO.Path.Combine("Assets", FieldsFile);
+            if (!System.IO.File.Exists(path))
+                return false;
+
+            var fieldsText = System.IO.File.ReadAllText(path);
+            var fields = Newtonsoft.Json.JsonConvert.DeserializeObject<List<FieldItem>>(fieldsText);
+            FieldItems = fields;
+            return true;
         }
 
         public Dictionary<string, string> KindDisplayNames
@@ -34,6 +48,7 @@ namespace JhpDataSystem.projects
         }
 
         public ProjectContext ProjectCtxt { get; set; }
+        public string Name { get; set; }
         public List<FieldItem> FieldItems
         {
             get; private set;
@@ -43,34 +58,28 @@ namespace JhpDataSystem.projects
 
         public string FIELD_VISITDATE { get; protected set; }
 
-        List<FieldItem> readFields(string fieldsAssetName, AssetManager assetManager, Activity context)
-        {
-            //we load the fields
-            var fieldStream = assetManager.Open(fieldsAssetName);
+        //List<FieldItem> getFields(string fileContents)
+        //{
+        //    var fields = Newtonsoft.Json.JsonConvert.DeserializeObject<List<FieldItem>>(fileContents);
 
-            var asString = fieldStream.toText();
+        //    //var viewPages = fields.Select(t => t.pageName).Distinct().ToList();
+        //    //var dictionary = new Dictionary<string, int>();
+        //    //foreach (var page in viewPages)
+        //    //{
+        //    //    var id = context.Resources.GetIdentifier(page, "layout", context.PackageName);
+        //    //    if (id == 0) throw new ArgumentOutOfRangeException("Could not determine Id for layout " + page);
+        //    //    dictionary[page] = id;
+        //    //}
 
-            var fields = Newtonsoft.Json.JsonConvert.DeserializeObject<List<FieldItem>>(asString);
+        //    //ViewIdDictionary = dictionary;
 
-            var viewPages = fields.Select(t => t.pageName).Distinct().ToList();
+        //    //foreach (var field in fields)
+        //    //{
+        //    //    field.PageId = dictionary[field.pageName];
+        //    //}
 
-            var dictionary = new Dictionary<string, int>();
-            foreach (var page in viewPages)
-            {
-                var id = context.Resources.GetIdentifier(page, "layout", context.PackageName);
-                if (id == 0) throw new ArgumentOutOfRangeException("Could not determine Id for layout " + page);
-                dictionary[page] = id;
-            }
-
-            ViewIdDictionary = dictionary;
-
-            foreach (var field in fields)
-            {
-                field.PageId = dictionary[field.pageName];
-            }
-
-            return fields;
-        }
+        //    return fields;
+        //}
 
         //List<FieldItem> _vmmcFieldItems = null;
         //public List<FieldItem> VmmcFieldItems

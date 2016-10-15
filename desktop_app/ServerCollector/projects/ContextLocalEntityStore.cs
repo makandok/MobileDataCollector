@@ -1,10 +1,10 @@
-using JhpDataSystem.model;
+using MobileCollector.model;
 using System.Collections.Generic;
 using System;
 using System.Linq;
-using JhpDataSystem.store;
+using ServerCollector.store;
 
-namespace JhpDataSystem.projects
+namespace ServerCollector.projects
 {
     public class ContextLocalEntityStore : LocalEntityStore
     {

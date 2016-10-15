@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SyncManager.Properties {
+namespace ServerCollector.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,8 +26,8 @@ namespace SyncManager.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SUPER-LAP\\SQL2014;Initial Catalog=ServerSyncDb;Integrated Security=Tr" +
-            "ue")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SUPER-LAP\\SQL2014;Initial Catalog=ServerCollectorDb;Integrated Securi" +
+            "ty=True")]
         public string TestDbConnString {
             get {
                 return ((string)(this["TestDbConnString"]));

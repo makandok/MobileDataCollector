@@ -1,9 +1,10 @@
-using JhpDataSystem.model;
+using MobileCollector;
+using MobileCollector.model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace JhpDataSystem
+namespace ServerCollector
 {
     internal static class Extensions
     {        
