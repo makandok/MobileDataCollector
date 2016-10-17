@@ -79,12 +79,16 @@ namespace ServerCollector
                 { currentContexts.Add(projContext); }
             }
 
-            var fieldDictionaryStore = new FieldDictionaryStore();
-            foreach (var currCtxt in currentContexts)
+            var saveDictionaryToDb = false;
+            if (saveDictionaryToDb)
             {
-                fieldDictionaryStore.getFields(currCtxt.Name, currCtxt.FieldItems);
+                var fieldDictionaryStore = new FieldDictionaryStore();
+                foreach (var currCtxt in currentContexts)
+                {
+                    fieldDictionaryStore.getFields(currCtxt.Name, currCtxt.FieldItems);
+                }
+                fieldDictionaryStore.saveToDb();
             }
-            fieldDictionaryStore.saveToDb();
 
             CloudDbInstance = new CloudDb() { ApiAssets = ApiAssets };
             var allTables = CloudDb.getAllKindNames();

@@ -373,6 +373,12 @@ namespace ServerCollector.store
             }
             return true;
         }
+
+        public async Task<bool> addToProcessingQueue(string kindName, List<CloudEntity> cloudEntities)
+        {
+            //return await addToProcessingQueue(new KindName(kindName), cloudEntities);
+            return await addToProcessingQueue(new KindName(kindName), cloudEntities);
+        }
     }
 
     public class CloudDb

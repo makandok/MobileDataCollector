@@ -1,7 +1,9 @@
-﻿using ServerCollector;
+﻿using MobileCollector.model;
+using ServerCollector;
 using ServerCollector.store;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,6 +58,53 @@ namespace ServerCollector
 
         private void MenuSmmaries_Click(object sender, RoutedEventArgs e)
         {
+            var addRecordsFromTablet = false;
+            if (addRecordsFromTablet)
+            {
+                //we have records that couldn't be synced from the tablet
+                var toSave = new List<CloudEntity>();
+                var txt = File.ReadAllText("Assets\\unsyncd.txt");
+                var outEntities = txt.DecompressFromBase64String();
+
+                var now = DateTime.Now.AddDays(-8);
+                var asBinary = now.ToBinary();
+
+                var processors = new Dictionary<string, List<CloudEntity>>();
+                foreach (var outEntity in outEntities)
+                {
+                    var ppdataset = DbSaveableEntity.fromJson<GeneralEntityDataset>(new KindItem(outEntity.DataBlob));
+                    var saveable = new DbSaveableEntity(ppdataset)
+                    {
+                        kindName = new KindName(ppdataset.FormName)
+                    };
+                    if (!processors.ContainsKey(ppdataset.FormName))
+                    {
+                        processors[ppdataset.FormName] = new List<CloudEntity>();
+                    }
+                    var cloudEntity = new CloudEntity()
+                    {
+                        Id = saveable.Id.Value,
+                        EntityId = saveable.EntityId.Value,
+                        EditDay = now.toYMDInt(),
+                        EditDate = asBinary,
+                        DataBlob = saveable
+                        .getJson()
+                        .Encrypt()
+                        .Value,
+                        FormName = ppdataset.FormName,
+                        KindMetaData = saveable.Entity.KindMetaData ?? string.Empty
+                    };
+                    processors[ppdataset.FormName].Add(cloudEntity);
+                }
+                foreach (var item in processors)
+                {
+                    new KindDataProcessor()
+                        .addToProcessingQueue(item.Key, item.Value);
+                }
+                //we save them to local
+                AppInstance.Instance.CloudDbInstance.RefreshLocalEntities(setProgressValue);
+            }
+
             MessageBox.Show("Menu item clicked ");
         }
 

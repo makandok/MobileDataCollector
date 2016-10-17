@@ -2,6 +2,7 @@ using MobileCollector;
 using MobileCollector.model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace ServerCollector
@@ -27,6 +28,55 @@ namespace ServerCollector
         internal static List<KindName> toKinds(this List<string> kindNames)
         {
             return (from kind in kindNames select kind.toKind()).ToList();
+        }
+
+        public static int toYMDInt(this DateTime dateValue)
+        {
+            var timeofday = dateValue.ToString("yyyyMMdd");
+            return Convert.ToInt32(timeofday);
+        }
+
+        internal static List<OutEntity> DecompressFromBase64String(this string compressedString)
+        {
+            //var compressedString = File.ReadAllText("Assets\\unsyncd.txt");
+            var barray = System.Convert.FromBase64String(compressedString);
+
+            var toReturn = new MemoryStream();
+
+            var jsonString = string.Empty;
+            using (var outStream = new System.IO.MemoryStream(barray))
+            using (var deflateStream = new System.IO.Compression
+        .DeflateStream(outStream,
+        System.IO.Compression.CompressionMode.Decompress))
+            {
+                deflateStream.CopyTo(toReturn);
+                deflateStream.Close();
+                jsonString = System.Text.Encoding.UTF8.GetString(toReturn.ToArray());
+            }
+            var js = Newtonsoft.Json.JsonConvert
+                .DeserializeObject<List<MobileCollector.model.OutEntity>>(jsonString);
+            return js;
+        }
+
+        internal static string CompressToBase64String(this List<OutEntity> unsyncdRecs)
+        {
+            var js = Newtonsoft.Json.JsonConvert.SerializeObject(unsyncdRecs);
+            var bytes = System.Text.Encoding.UTF8.GetBytes(js);
+
+            var b64 = string.Empty;
+            using (var input = new System.IO.MemoryStream(bytes))
+            {
+                using (var outStream = new System.IO.MemoryStream())
+                using (var deflateStream = new System.IO.Compression
+            .DeflateStream(outStream,
+            System.IO.Compression.CompressionMode.Compress))
+                {
+                    input.CopyTo(deflateStream);
+                    deflateStream.Close();
+                    b64 = System.Convert.ToBase64String(outStream.ToArray());
+                }
+            }
+            return b64;
         }
 
         //internal static long toSafeDate(this DateTime dateValue)
