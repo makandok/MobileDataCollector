@@ -11,6 +11,8 @@ namespace MobileCollector.model
         public int PageId { get; set; }
         public string fieldType { get; set; }
         public string fieldName { get; set; }
+        //public string listName { get; set; }
+        //public string lookupValue { get; set; }
     }
 
     public class FieldValuePair

@@ -7,8 +7,8 @@
     <ProjectGuid>{499461AD-F794-4E34-9CE6-56252B62E10B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ServerCollector</RootNamespace>
-    <AssemblyName>ServerCollector</AssemblyName>
+    <RootNamespace>SyncManager</RootNamespace>
+    <AssemblyName>SyncManager</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -136,14 +136,7 @@
     </ApplicationDefinition>
     <Compile Include="ashared\Crypto.cs" />
     <Compile Include="ClientLookupProvider.cs" />
-    <Compile Include="MyFieldItem.cs" />
-    <Compile Include="projects\LspContextManager.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="store\Deidentifier.cs" />
+    <Compile Include="Deidentifier.cs" />
     <Compile Include="EncryptionHelper.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="GoogleCredentials\DefaultCredentialProvider.cs" />
@@ -152,6 +145,24 @@
     <Compile Include="GoogleCredentials\SHA256CryptoServiceProvider.cs" />
     <Compile Include="Humongous.cs" />
     <Compile Include="JhpSecurity.cs" />
+    <Compile Include="localdb\DB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="localdb\DB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="localdb\DB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="localdb\OutEntity.cs">
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
     <Compile Include="model\Offset.cs" />
     <Compile Include="model\ResultsLimit.cs" />
     <Compile Include="model\SimpleValue.cs" />
@@ -168,8 +179,6 @@
     <Compile Include="store\CloudEntity.cs" />
     <Compile Include="store\CloudLocalStore.cs" />
     <Compile Include="store\DbSaveableEntity.cs" />
-    <Compile Include="store\FieldDictionaryStore.cs" />
-    <Compile Include="store\FieldValueStore.cs" />
     <Compile Include="store\LocalDB.cs" />
     <Compile Include="store\LocalDB3.cs" />
     <Compile Include="store\LocalEntityStore.cs" />
@@ -193,14 +202,24 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EntityDeploy Include="localdb\DB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
     <None Include="Assets\dcoll.p12" />
-    <None Include="Assets\ilsp_fields.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <None Include="Assets\ilsp_fields.json" />
+    <None Include="localdb\DB.edmx.diagram">
+      <DependentUpon>DB.edmx</DependentUpon>
     </None>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -227,12 +246,17 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\FieldDictionary.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\unsyncd.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <Content Include="localdb\DB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DB.Context.cs</LastGenOutput>
+      <DependentUpon>DB.edmx</DependentUpon>
+    </Content>
+    <Content Include="localdb\DB.edmx.sql" />
+    <Content Include="localdb\DB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DB.cs</LastGenOutput>
+      <DependentUpon>DB.edmx</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

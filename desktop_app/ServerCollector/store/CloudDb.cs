@@ -341,7 +341,7 @@ namespace ServerCollector.store
             var entity = db.GetLatestEntity();
             if (entity == null || string.IsNullOrWhiteSpace(entity.Id))
             {
-                return new DateTime(2016, 07, 08, 0, 0, 0, 1, DateTimeKind.Local).ToBinary();
+                return new DateTime(1900, 01, 01, 0, 0, 0, 1, DateTimeKind.Local).ToBinary();
             }
             return entity.EditDate;
         }

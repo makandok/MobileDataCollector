@@ -37,7 +37,7 @@ namespace ServerCollector.projects
                 return false;
 
             var fieldsText = System.IO.File.ReadAllText(path);
-            var fields = Newtonsoft.Json.JsonConvert.DeserializeObject<List<FieldItem>>(fieldsText);
+            var fields = Newtonsoft.Json.JsonConvert.DeserializeObject<List<MyFieldItem>>(fieldsText);
             FieldItems = fields;
             return true;
         }
@@ -49,7 +49,7 @@ namespace ServerCollector.projects
 
         public ProjectContext ProjectCtxt { get; set; }
         public string Name { get; set; }
-        public List<FieldItem> FieldItems
+        public List<MyFieldItem> FieldItems
         {
             get; private set;
         }

@@ -555,7 +555,9 @@ android:orientation='" + (setVertical ? "vertical" : "horizontal") + @"'
                         Label = field.DisplayLabel + " [" + option + "]",
                         pageName = ViewPageName,
                         fieldType = field.ViewType,
-                        fieldName = field.ViewName
+                        fieldName = field.ViewName,
+                        listName = field.ListName,
+                        lookupValue = option
                     });
                 metaDataProvider.AddStringResource(optionName, option);
 
@@ -608,7 +610,9 @@ android:id='@+id/" + optionName + "' />"
                         Label = field.DisplayLabel + " [" + option + "]",
                         pageName = ViewPageName,
                         fieldType = field.ViewType,
-                        fieldName = field.ViewName
+                        fieldName = field.ViewName,
+                        listName = field.ListName,
+                        lookupValue = option
                     });
 
                 fieldOptionDefinitions.Add(fieldXml.Replace("'", "\""));
